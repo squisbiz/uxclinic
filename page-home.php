@@ -6,7 +6,7 @@ Template Name: HOME
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(http://nearsoft.com/stg.uxclinic/wp/wp-content/themes/uxclinic/img/orangebg.png) repeat-x center bottom;">
+  <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(http://nearsoft.com/stg.uxclinic/wp/wp-content/themes/uxclinic/img/hero-pattern.gif) repeat-x center bottom;">
     <h1><?php the_field('home_hero_title'); ?></h1>
     <?php the_field('home_hero_text'); ?>
     <p><a href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p>

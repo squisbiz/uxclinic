@@ -8,8 +8,6 @@ Version: 0.1
 
 /* FONTS */
 
-/* jamon */
-
 @font-face {
   font-family: lato;
   src: url(fonts/lato/Lato-Light.ttf);
@@ -70,7 +68,7 @@ a {
 .button {
   border-radius: 100px;
   background: #0ac10a;
-  font-weight: 300;
+  font-weight: 200;
   color: #FFF;
   display: inline-block;
   padding: 15px 20px;
@@ -106,10 +104,15 @@ a {
 /* SITE HEADER */
 
 header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   overflow: hidden;
-  padding: 0 calc(50% - 520px);
-  padding-top: 35px;
-  height: 125px;
+  padding: 0 calc(47% - 520px);
+  padding-top: 25px;
+  height: 79px;
+  background-color: #fff;
 }
 
 header .logo {
@@ -135,7 +138,7 @@ nav ul li a {
   color: #768389;
   font-size: 20px;
   margin-right: 35px;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 nav ul li:last-child a {
@@ -146,16 +149,17 @@ nav ul li:last-child a {
 /* HERO */
 
 .hero {
+  margin-top: 135px;
+  padding-top: 55px;
   width: 100%;
   height: 570px;
-  background: url(img/orangebg.png) no-repeat center bottom;
-  padding-top: 70px;
+  background: url(img/hero-pattern.gif) repeat-x center bottom;
 }
 
 .hero p {
   font-size: 21px;
   line-height: 30px;
-  font-weight: 200;
+  font-weight: 100;
   max-width: 680px;
   margin: 0 auto;
   color: #6c6c6c;
@@ -167,7 +171,7 @@ nav ul li:last-child a {
 
 .howitworks {
   padding: 0 calc(50% - 580px);
-  padding-top: 130px;
+  padding-top: 120px;
   padding-bottom: 110px;
   background: url(img/arrowbg.png) no-repeat center 360px;
 }
@@ -296,7 +300,7 @@ nav ul li:last-child a {
 }
 
 .submit {
-  background: url(img/patternsubmit.png);
+  background: url(img/patternsubmit.gif) repeat;
   padding: 0 calc(50% - 465px);
   padding-top: 100px;
   padding-bottom: 80px;
