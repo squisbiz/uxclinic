@@ -417,12 +417,12 @@ nav ul li:last-child a {
   padding: 0;
   overflow: auto;
   margin-top: 30px;
-  height: 527;
+  height: 527px;
 }
 
 .episodes li {
   list-style: none;
-  height: 511px;
+  height: 505px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -464,6 +464,10 @@ span.vid-flag {
 
 li a:hover span {
   color: #0ac10a;
+}
+
+.episodes li:hover span.vid-flag {
+background-color: #0ac10a;
 }
 
 .episodes li:nth-child(2) span.vid-flag::after,
