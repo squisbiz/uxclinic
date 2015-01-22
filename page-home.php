@@ -49,8 +49,10 @@ Template Name: HOME
     <ul>
       <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
       <li style="background: url(<?php the_sub_field('episode_image'); ?>) no-repeat; background-size: cover;">
-        <h3><?php the_sub_field('episode_title');?></h3>
-        <?php the_sub_field('episode_description');?>
+        <a href="#">
+          <h3><?php the_sub_field('episode_title');?></h3>
+          <?php the_sub_field('episode_description');?>
+        </a>
       </li>
       <?php endwhile; else : endif; ?>
     </ul>
