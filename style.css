@@ -440,6 +440,7 @@ span.vid-flag {
   left: 0;
   border-radius: 0 3px 3px 0;
   position: absolute;
+  transition: background .2s;
 }
 
 .vid-flag::before {
@@ -513,6 +514,7 @@ background-color: #0ac10a;
 
 .episodes h3 span {
   color: #ef5a21;
+  transition: color .2s;
 }
 
 .episodes p {
@@ -694,10 +696,23 @@ footer .copyright a{
 /* Media Queries */
 
 @media (max-width: 1180px) {
+  /*EPISODES*/
   .episodes {
     padding-right: 20px;
     padding-left: 20px;
   }
+
+  .episodes ul {
+
+  }
+
+.episodes li:first-child {
+  float: left;
+  width: auto;
+  height: auto;
+  border-right: none;
+}
+
 }
 
 @media (max-width: 1160px) {
