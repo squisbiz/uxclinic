@@ -48,7 +48,9 @@ Template Name: HOME
     <a class="button">See all episodes</a>
     <ul>
       <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
-      <li style="background: url(<?php the_sub_field('episode_image'); ?>) no-repeat; background-size: cover;">
+      <li>
+        <img src="<?php the_sub_field('episode_image'); ?>" alt="<?php the_sub_field('episode_title');?>">
+        <span class="vid-flag"></span>
         <a href="<?php the_sub_field('episode_url'); ?>">
           <h3><?php the_sub_field('episode_title');?><span><?php the_sub_field('episode_client');?></span></h3>
         </a>
