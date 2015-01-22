@@ -113,6 +113,7 @@ header {
   padding-top: 25px;
   height: 79px;
   background-color: #fff;
+  z-index: 999;
 }
 
 header .logo {
@@ -176,10 +177,39 @@ nav ul li:last-child a {
   background: url(img/arrowbg.png) no-repeat center 360px;
 }
 
+/*.howitworks li::after {
+  position: absolute;
+  top: 167px;
+  left: 21%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  background-image: url(img/nextarrow.png);
+  content: "";
+}*/
+
+/*.howitworks li:nth-child(+2):after {
+   left: 40%;
+}
+
+.howitworks li:nth-child(+3):after {
+   left: 59%;
+}
+
+.howitworks li:nth-child(+4):after {
+   left: 78%;
+}
+
+.howitworks li:nth-child(+5):after {
+   display: none;
+}*/
+
 .howitworks ol {
   padding-top: 100px;
   overflow: hidden;
   list-style: decimal;
+  /*position: relative;*/
 }
 
 .howitworks li {
@@ -251,7 +281,7 @@ nav ul li:last-child a {
 /* EXPERTS */
 
 .experts {
-  background: url(img/expertsbg.png);
+  background: url(img/experts-bgpattern.gif);
   padding: 0 calc(50% - 580px);
   padding-top: 100px;
   padding-bottom: 110px;
