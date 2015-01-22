@@ -12,8 +12,11 @@ Template Name: EPISODE
     <p><?php the_field('episode_hero_description'); ?>
     <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
     </p>
-    <img src=" <?php the_field('episode_hero_client_image'); ?>">
+    
+    <div class="sub-episode-hero">
+    <img src=" <?php the_field('episode_hero_client_image'); ?>" class="client-img">
     <p> <?php the_field('episode_hero_client_description'); ?></p>
+    </div>
   </section>
 
   <section class="episode-resources">
