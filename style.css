@@ -417,6 +417,7 @@ nav ul li:last-child a {
   padding: 0;
   overflow: auto;
   margin-top: 30px;
+  height: 527;
 }
 
 .episodes li {
@@ -426,17 +427,46 @@ nav ul li:last-child a {
   background-repeat: no-repeat;
 }
 
+.episodes li img {
+  width: 100%;
+}
+
+.vid-flag {
+  width: 48px;
+  height: 35px;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  border-radius: 0 3px 3px 0;
+  position: relative;
+}
+
+.vid-flag::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  background-image: url(img/flag-vid.png);
+}
+
+.episodes li:nth-child(2) span.vid-flag,
+.episodes li:nth-child(3) span.vid-flag {
+  bottom: 40px;
+}
+
 .episodes li:first-child {
-  border-right: 3px solid #404b50;
+  border-right: 4px solid #404b50;
   width: 60%;
   float: left;
 }
 
 .episodes li:nth-child(2),
 .episodes li:nth-child(3) {
-  height: 250px;
+  height: 252px;
   width: calc(40% - 3px);
-  background: aqua;
   float: right;
 }
 
@@ -449,7 +479,7 @@ nav ul li:last-child a {
   font-weight: 400;
   color: #FFF;
   position: relative;
-  top: 357px;
+  top: -14px;
   display: block;
 }
 
@@ -467,7 +497,7 @@ nav ul li:last-child a {
   max-height: 55px;
   color: #FFF;
   position: relative;
-  top: 357px;
+  top: -21px;
   line-height: 24px;
 }
 
@@ -481,7 +511,8 @@ nav ul li:last-child a {
   font-weight: 400;
   color: #FFF;
   position: relative;
-  top: 201px;
+  top: -11px;
+  z-index: 9;
 }
 
 .episodes h2{
