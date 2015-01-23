@@ -8,7 +8,11 @@ Template Name: EPISODE
 
   <section class="episode-hero">
     <h1><?php echo get_the_title(); ?></h1>
-    <?php the_field('episode_hero_video'); ?>
+    
+    <div class="video-wrapper">
+      <?php the_field('episode_hero_video'); ?>
+    </div>
+    
     <p><?php the_field('episode_hero_description'); ?>
     <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
     </p>

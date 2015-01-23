@@ -634,8 +634,21 @@ footer .copyright a{
   background-position-y: 10px;
 }
 
-.episode-hero iframe {
+.episode-hero .video-wrapper {
+  width: 800px;
   float: left;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.episode-hero iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .episode-hero p {
