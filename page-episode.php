@@ -8,7 +8,11 @@ Template Name: EPISODE
 
   <section class="episode-hero">
     <h1><?php echo get_the_title(); ?></h1>
-    <?php the_field('episode_hero_video'); ?>
+    
+    <div class="video-wrapper">
+      <?php the_field('episode_hero_video'); ?>
+    </div>
+    
     <p><?php the_field('episode_hero_description'); ?>
     <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
     </p>
@@ -20,7 +24,7 @@ Template Name: EPISODE
   </section>
 
   <section class="episode-resources">
-    <h2>You can download our resources (infographics, slideshows).</h2>
+    <h2>You can download our resources <span>(infographics, slideshows).</span></h2>
     <ol>
       <?php if( have_rows('episode_resource_item') ) : while ( have_rows('episode_resource_item') ) : the_row(); ?>
       <li>
