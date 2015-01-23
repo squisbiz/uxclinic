@@ -73,7 +73,7 @@ a {
   color: #FFF;
   display: inline-block;
   padding: 15px 20px;
-  font-size: 18px;
+  font-size: 15px;
   transition: background .3s;
 }
 
@@ -110,7 +110,7 @@ header {
   right: 0;
   left: 0;
   overflow: hidden;
-  padding: 0 calc(51% - 625px);
+  padding: 0 calc(47% - 520px);
   padding-top: 25px;
   height: 79px;
   background-color: #fff;
@@ -123,7 +123,7 @@ header .logo {
   height: 55px;
   background: url(img/uxclinic-logo.png) no-repeat;
   background-size: cover;
-  margin: 0 0 0 28px;
+  margin: 0;
 }
 
 nav {
@@ -143,7 +143,6 @@ nav ul li a {
   color: #768389;
   font-size: 20px;
   font-weight: 100;
-  transition: background .3s;
 }
 
 nav ul li a:hover::before {
@@ -417,12 +416,11 @@ nav ul li:last-child a {
   padding: 0;
   overflow: auto;
   margin-top: 30px;
-  height: 527px;
 }
 
 .episodes li {
   list-style: none;
-  height: 505px;
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -487,15 +485,16 @@ background-color: #0ac10a;
 }
 
 .episodes li:first-child {
-  border-right: 4px solid #404b50;
+  border-right: 3px solid #404b50;
   width: 60%;
   float: left;
 }
 
 .episodes li:nth-child(2),
 .episodes li:nth-child(3) {
-  height: 246px;
-  width: calc(40% - 4px);
+  height: 250px;
+  width: calc(40% - 3px);
+  background: aqua;
   float: right;
 }
 
@@ -527,7 +526,7 @@ background-color: #0ac10a;
   max-height: 55px;
   color: #FFF;
   position: relative;
-  top: -21px;
+  top: 357px;
   line-height: 24px;
 }
 
@@ -541,8 +540,7 @@ background-color: #0ac10a;
   font-weight: 400;
   color: #FFF;
   position: relative;
-  top: -11px;
-  z-index: 9;
+  top: 201px;
 }
 
 .episodes h2{
@@ -687,7 +685,32 @@ footer .copyright a{
   margin-top: 106px;
   overflow: hidden;
   color: #6c6c6c;
+  overflow: hidden;
+  padding-bottom: 55px;
 }
+
+.episode-resources h2 {
+  font-size: 29px;
+  font-weight: 100;
+  color: #6c6c6c;
+}
+
+.episode-resources ol {
+  margin: 0;
+  padding: 0;
+}
+
+.episode-resources li {
+  list-style: none;
+}
+
+.episode-resources img {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+
 
 
 
