@@ -473,13 +473,9 @@ background-color: #0ac10a;
   content: ' ';
 }
 
-.episodes li:nth-child(2) span.vid-flag {
-  top: 171px;
-  width: 48px;
-}
-
+.episodes li:nth-child(2) span.vid-flag,
 .episodes li:nth-child(3) span.vid-flag {
-  top: 175px;
+  top: 35px;
   width: 48px;
 }
 
@@ -698,9 +694,14 @@ footer .copyright a{
     padding-right: 20px;
     padding-left: 20px;
   }
-
   .episodes ul {
-
+    height: auto;
+    overflow: hidden;
+  }
+  .episodes li:nth-child(2),
+  .episodes li:nth-child(3) {
+    width: calc(50% - 0px);
+    height: auto;
   }
 
 .episodes li:first-child {
@@ -708,6 +709,7 @@ footer .copyright a{
   width: auto;
   height: auto;
   border-right: none;
+  margin-bottom: -21px;
 }
 
 }
@@ -719,4 +721,3 @@ footer .copyright a{
     background: none;
   }
 }
-/*culo*/
