@@ -748,6 +748,17 @@ footer .copyright a{
   margin-bottom: -21px;
 }
 
+  .episodes li:nth-child(2) img,
+  .episodes li:nth-child(3) img {
+    display: inline-block;
+    height: auto;
+    vertical-align: top;
+  }
+  .episodes li:nth-child(2) h3,
+  .episodes li:nth-child(3) h3 {
+    top: 0;
+  }
+
 }
 
 @media (max-width: 1160px) {
