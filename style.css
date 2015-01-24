@@ -370,8 +370,7 @@ nav ul li:last-child a {
 .experts p {
   color: #FFF;
   font-size: 18px;
-  font-weight: 24px;
-  font-weight: 200;
+  font-weight: 100;
   padding: 0 calc(50% - 185px);
 }
 
@@ -724,11 +723,14 @@ footer .copyright a{
 
 /* Media Queries */
 
+/*MAX 1180PX*/
+
 @media (max-width: 1180px) {
   /*EPISODES*/
   .episodes {
     padding-right: 20px;
     padding-left: 20px;
+    position: relative;
   }
   .episodes ul {
     height: auto;
@@ -738,6 +740,7 @@ footer .copyright a{
   .episodes li:nth-child(3) {
     width: calc(50% - 0px);
     height: auto;
+    display: block;
   }
 
 .episodes li:first-child {
@@ -759,6 +762,106 @@ footer .copyright a{
     top: 0;
   }
 
+  /*FOOTER*/
+  footer {
+    padding: 25px 35px;
+  }
+  footer .copyright {
+    margin-top: 40px;
+  }
+
+  /*SENDA CASE*/
+  .submit {
+    padding: 50px 35px;
+  }
+
+  /*EXPERTS*/
+  .experts {
+    padding: 0 20px;
+    padding-top: 73px;
+    padding-bottom: 110px;
+  }
+
+  .experts ul li h3 {
+    margin-top: 106px;
+  }
+
+  .experts p {
+    padding: 0 45px;
+  }
+}
+
+/*MAX 680PX*/
+
+@media (max-width: 680px) {
+  .episodes li:nth-child(2),
+  .episodes li:nth-child(3) {
+    display: none;
+  }
+  .episodes p {
+    height: auto;
+    max-height: inherit;
+  }
+  .episodes h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+  }
+  .episodes .button {
+    position: absolute;
+    bottom: 33px;
+    left: 19%;
+    right: 36%;
+    width: 50%;
+    text-align: center;
+  }
+  /*FOOTER*/
+  footer {
+    padding: 25px 35px;
+  }
+  footer .copyright {
+    margin-top: 40px;
+  }
+  footer .logo {
+    display: block;
+    margin: 10px auto;
+    float: none;
+  }
+  footer .social,
+  footer .contact {
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  footer .contact {
+    margin-left: 15px;
+  }
+
+  /*EXPERTS*/
+  .experts ul li {
+    width: 100%;
+  }
+
+  .experts ul li h3 {
+    margin-top: 170px;
+  }
+}
+
+/*MAX 350PX*/
+
+@media (max-width: 350px) {
+  /*FOOTER*/
+  footer .contact {
+    margin-left: 0;
+  }
+  footer .social {
+    margin-right: 15px;
+  }
+  footer .logo {
+    margin: 10px 0;
+  }
 }
 
 @media (max-width: 1160px) {
@@ -768,5 +871,3 @@ footer .copyright a{
     background: none;
   }
 }
-
-/*test*/

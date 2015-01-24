@@ -29,7 +29,7 @@ Template Name: HOME
     <h2><?php the_field('home_experts_title'); ?></h2>
     <ul>
       <?php if( have_rows('experts_experts') ) : while ( have_rows('experts_experts') ) : the_row(); ?>
-      <li style="background: url(<?php the_sub_field('expert_pic');?>);">
+      <li style="background: url(<?php the_sub_field('expert_pic');?>); background-position-x: center;">
         <h3><?php the_sub_field('expert_name');?></h3>
         <?php the_sub_field('expert_bio');?>
       </li>
@@ -50,6 +50,7 @@ Template Name: HOME
       <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
       <li>
         <a href="<?php the_sub_field('episode_url'); ?>">
+          <span class="vid-flag"></span>
           <img src="<?php the_sub_field('episode_image'); ?>" alt="<?php the_sub_field('episode_client');?>">
           <h3><?php the_sub_field('episode_title');?><span><?php the_sub_field('episode_client');?></span></h3>
           <?php the_sub_field('episode_description');?>
