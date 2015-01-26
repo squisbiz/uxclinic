@@ -725,7 +725,7 @@ footer .copyright a{
 
 @media (max-width: 1180px) {
   /*EPISODES*/
-  .episodes {
+  .episodes, .episode-hero {
     padding-right: 20px;
     padding-left: 20px;
     position: relative;
