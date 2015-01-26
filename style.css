@@ -176,7 +176,7 @@ nav ul li:last-child a {
 /* HERO */
 
 .hero {
-  margin-top: 135px;
+  margin-top: 105px;
   padding-top: 55px;
   width: 100%;
   height: 570px;
@@ -200,7 +200,7 @@ nav ul li:last-child a {
   padding: 0 calc(50% - 580px);
   padding-top: 120px;
   padding-bottom: 110px;
-  background: url(img/arrowbg.png) no-repeat center 360px;
+  /*background: url(img/arrowbg.png) no-repeat center 360px;*/
   position: relative;
   overflow: auto;
 }
@@ -250,9 +250,9 @@ nav ul li:last-child a {
 
 .howitworks ol {
   padding-top: 100px;
-/*  overflow: hidden;*/
   list-style: none;
   position: relative;
+  padding: 60px 0;
 }
 
 .howitworks li {
@@ -789,43 +789,57 @@ footer .copyright a{
   }
 }
 
-/*MAX 680PX*/
+/*MAX 955PX*/
+@media (max-width: 955px) {
+  /*HOW IT WORKS*/
 
-@media (max-width: 1160px) {
-  .howitworks {
-    padding-right: 20px;
-    padding-left: 20px;
-    background: none;
+  .howitworks{
+     padding-bottom: 20px;
+  }
+  .howitworks li {
+    display: inline-block;
+    float: none;
+    width: 25%;
+    vertical-align: top;
+  }
+  .howitworks li h3 {
+    height: auto;
+  }
+  .howitworks li:nth-child(4),
+  .howitworks li:nth-child(5){
+    margin-top: 45px;
   }
 }
 
+/*MAX 900PX*/
 @media (max-width: 900px) {
   .episode-hero .video-wrapper {
     width: 100%;
     padding-bottom: 56%;
   }
-  
+
   .episode-hero p {
     width: 100%;
     margin-top: 20px;
   }
-  
+
   .episode-hero p a {
     margin: 0 auto;
     margin-top: 20px;
   }
-  
+
   .sub-episode-hero img {
     display: block;
     margin: 0 auto;
   }
-  
-  .client-img { 
+
+  .client-img {
     float: none;
   }
 
 }
 
+/*MAX 710PX*/
 
 @media (max-width: 710px) {
   header {
@@ -833,27 +847,27 @@ footer .copyright a{
     height: auto;
     padding-bottom: 20px;
   }
-  
+
   header .logo,
   header nav {
     float: none;
     margin: 0 auto;
   }
-  
+
   header nav {
     width: 100%;
     text-align: center;
   }
-  
+
   header ul {
     text-align: center;
   }
-  
+
   header nav ul li {
     float: none;
     display: inline;
   }
-  
+
   header nav ul li a {
     display: inline-block;
     padding: 10px;
@@ -892,7 +906,7 @@ footer .copyright a{
   }
   footer .logo {
     display: block;
-    margin: 10px auto;
+    margin: 10px 0;
     float: none;
   }
   footer .social,
@@ -914,41 +928,79 @@ footer .copyright a{
   .experts ul li h3 {
     margin-top: 170px;
   }
+
+  /*HOW IT WORKS*/
+  .howitworks li {
+    width: 43%;
+  }
+  .howitworks li:nth-child(4) {
+    margin-top: 0;
+  }
 }
 
+  /*MAX 600px*/
+
 @media (max-width: 600px) {
+  /*EPISODES*/
   .episode-hero h1 {
     font-size: 40px;
   }
-  
+
   .episode-hero p {
     text-align: center;
   }
-  
+
   .sub-episode-hero,
   .episode-resources {
     text-align: center;
   }
-  
+
   .client-img,
   .episode-resources li {
     float: none;
     margin: 20px 0;
     display: block;
   }
+
+  .hero h1,
+  .howitworks h2,
+  .experts h2,
+  .submit h2 {
+    font-size: 38px;
+  }
 }
+
+  /*MAX 530*/
 
 @media (max-width: 530px) {
   header nav ul li a {
     font-size: 14px!important;
   }
+
+  .experts ul li h3 {
+    margin-top: 128px;
+  }
 }
+  /*MAX 400*/
 
 @media (max-width: 400px) {
   header nav ul li a {
     font-size: 14px!important;
   }
+    .experts ul li h3 {
+      margin-top: 80px;
+      font-size: 30px;
+  }
+  .experts ul li h3:after {
+    top: -15px;
+  }
+
+  .experts p {
+    margin-top: 0;
+  }
 }
+
+  /*MAX 350*/
 
 @media (max-width: 350px) {
   /*FOOTER*/
@@ -960,5 +1012,14 @@ footer .copyright a{
   }
   footer .logo {
     margin: 10px 0;
+  }
+}
+
+  /*MAX 1160*/
+@media (max-width: 1160px) {
+  .howitworks {
+    padding-right: 20px;
+    padding-left: 20px;
+    background: none;
   }
 }
