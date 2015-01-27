@@ -27,6 +27,7 @@ Template Name: HOME
 
   <section class="experts">
     <h2><?php the_field('home_experts_title'); ?></h2>
+    <a class="button">See Experts</a>
     <ul>
       <?php if( have_rows('experts_experts') ) : while ( have_rows('experts_experts') ) : the_row(); ?>
       <li style="background: url(<?php the_sub_field('expert_pic');?>); background-position-x: center;">

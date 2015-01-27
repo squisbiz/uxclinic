@@ -183,6 +183,11 @@ nav ul li:last-child a {
   background: url(img/hero-pattern.gif) repeat-x center bottom;
 }
 
+section.hero img {
+  max-width: 85%;
+  height: auto;
+}
+
 .hero p {
   font-size: 21px;
   line-height: 30px;
@@ -200,9 +205,12 @@ nav ul li:last-child a {
   padding: 0 calc(50% - 580px);
   padding-top: 120px;
   padding-bottom: 110px;
-  /*background: url(img/arrowbg.png) no-repeat center 360px;*/
   position: relative;
   overflow: auto;
+}
+
+.howitworks li img {
+  width: 100%;
 }
 
 .howitworks h2 {
@@ -389,7 +397,7 @@ nav ul li:last-child a {
   color: #f8f8f8;
   margin-top: 30px;
   font-size: 21px;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 30px;
 }
 
@@ -787,6 +795,10 @@ footer .copyright a{
   .experts p {
     padding: 0 45px;
   }
+
+  .experts .button {
+    display: none;
+  }
 }
 
 /*MAX 955PX*/
@@ -874,7 +886,10 @@ footer .copyright a{
   }
 }
 
+  /*MAX 680px*/
+
 @media (max-width: 680px) {
+  /*EPISODES*/
   .episodes li:nth-child(2),
   .episodes li:nth-child(3) {
     display: none;
@@ -897,6 +912,7 @@ footer .copyright a{
     width: 50%;
     text-align: center;
   }
+
   /*FOOTER*/
   footer {
     padding: 25px 35px;
@@ -929,6 +945,10 @@ footer .copyright a{
     margin-top: 170px;
   }
 
+  .experts {
+    padding: 73px 40px 110px 40px ;
+  }
+
   /*HOW IT WORKS*/
   .howitworks li {
     width: 43%;
@@ -936,7 +956,29 @@ footer .copyright a{
   .howitworks li:nth-child(4) {
     margin-top: 0;
   }
+
+  /*HERO*/
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    padding: 0 40px;
+    margin-top: 12px;
+  }
 }
+
+  /*MAX 620px*/
+
+@media (max-width: 620px) {
+  /*HOWITWORKS*/
+    .howitworks li {
+      width: 39%;
+    }
+    /*HERO*/
+    .hero {
+      margin-top: 160px;
+    }
+  }
 
   /*MAX 600px*/
 
@@ -968,6 +1010,15 @@ footer .copyright a{
   .submit h2 {
     font-size: 38px;
   }
+
+    /*HERO*/
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    padding: 0 40px;
+    margin-top: 12px;
+  }
 }
 
   /*MAX 530*/
@@ -981,6 +1032,23 @@ footer .copyright a{
     margin-top: 128px;
   }
 }
+  /*MAX 400*/
+
+@media (max-width: 416px) {
+  /*HOWITWORKS*/
+  .howitworks li {
+    width: 70%;
+  }
+  .experts ul {
+    display: none;
+  }
+  .experts .button {
+    display: block;
+    width: 60%;
+    margin: 45px auto 0 auto;
+  }
+}
+
   /*MAX 400*/
 
 @media (max-width: 400px) {
