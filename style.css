@@ -915,7 +915,7 @@ footer .copyright a{
   }
 
   .sub-episode-hero p {
-    margin: 20px 0 40px 0;
+    margin-top: 0;
   }
 
 }
@@ -968,6 +968,11 @@ footer .copyright a{
     float: none;
   }
 
+  /*EPISODE HERO*/
+
+  .sub-episode-hero p {
+   margin: 20px 0 40px 0;
+  }
 }
 
 /*MAX 710PX*/
