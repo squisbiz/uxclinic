@@ -8,14 +8,14 @@ Template Name: EPISODE
 
   <section class="episode-hero">
     <h1><?php echo get_the_title(); ?></h1>
-    
+
     <div class="video-wrapper">
       <?php the_field('episode_hero_video'); ?>
     </div>
     <p><?php the_field('episode_hero_description'); ?>
     <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
     </p>
-    
+
     <div class="sub-episode-hero">
     <img src=" <?php the_field('episode_hero_client_image'); ?>" class="client-img">
     <p> <?php the_field('episode_hero_client_description'); ?></p>
@@ -41,18 +41,7 @@ Template Name: EPISODE
     <?php the_field('home_submit_form_shortcode'); ?>
   </section>
 
-  <section class="episodes">
-    <h2><?php the_field('home_episodes_title'); ?></h2>
-    <a class="button">See all episodes</a>
-    <ul>
-      <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
-      <li style="background: url(<?php the_sub_field('episode_image'); ?>) no-repeat; background-size: cover;">
-        <h3><?php the_sub_field('episode_title');?></h3>
-        <?php the_sub_field('episode_description');?>
-      </li>
-      <?php endwhile; else : endif; ?>
-    </ul>
-  </section>
+  <?php include 'inc-episodes.php'; ?>
 
 <?php endwhile; ?><?php endif; ?>
 <?php get_footer(); ?>

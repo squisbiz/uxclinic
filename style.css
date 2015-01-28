@@ -928,7 +928,7 @@ footer .copyright a{
     display: inline;
   }
 
-  header nav ul li a {
+  header nav ul li a {
     display: inline-block;
     padding: 10px;
   }
@@ -1085,7 +1085,7 @@ footer .copyright a{
   /*MAX 530*/
 
 @media (max-width: 530px) {
-  header nav ul li a {
+  header nav ul li a {
     font-size: 14px!important;
   }
 
@@ -1113,7 +1113,7 @@ footer .copyright a{
   /*MAX 400*/
 
 @media (max-width: 400px) {
-  header nav ul li a {
+  header nav ul li a {
     font-size: 14px!important;
   }
     .experts ul li h3 {
