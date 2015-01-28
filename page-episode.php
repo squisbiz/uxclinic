@@ -7,18 +7,20 @@ Template Name: EPISODE
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   <section class="episode-hero">
-    <h1><?php echo get_the_title(); ?></h1>
-    
+    <div class="cont-h1">
+      <h1><?php echo get_the_title(); ?></h1>
+    </div>
+
     <div class="video-wrapper">
       <?php the_field('episode_hero_video'); ?>
     </div>
     <p><?php the_field('episode_hero_description'); ?>
     <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
     </p>
-    
+
     <div class="sub-episode-hero">
-    <img src=" <?php the_field('episode_hero_client_image'); ?>" class="client-img">
     <p> <?php the_field('episode_hero_client_description'); ?></p>
+    <img src=" <?php the_field('episode_hero_client_image'); ?>" class="client-img">
     </div>
   </section>
 
