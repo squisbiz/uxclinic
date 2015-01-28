@@ -10,7 +10,6 @@ Template Name: EPISODE
     <div class="cont-h1">
       <h1><?php echo get_the_title(); ?></h1>
     </div>
-
     <div class="video-wrapper">
       <?php the_field('episode_hero_video'); ?>
     </div>
@@ -43,18 +42,7 @@ Template Name: EPISODE
     <?php the_field('home_submit_form_shortcode'); ?>
   </section>
 
-  <section class="episodes">
-    <h2><?php the_field('home_episodes_title'); ?></h2>
-    <a class="button">See all episodes</a>
-    <ul>
-      <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
-      <li style="background: url(<?php the_sub_field('episode_image'); ?>) no-repeat; background-size: cover;">
-        <h3><?php the_sub_field('episode_title');?></h3>
-        <?php the_sub_field('episode_description');?>
-      </li>
-      <?php endwhile; else : endif; ?>
-    </ul>
-  </section>
+  <?php include 'inc-episodes.php'; ?>
 
 <?php endwhile; ?><?php endif; ?>
 <?php get_footer(); ?>
