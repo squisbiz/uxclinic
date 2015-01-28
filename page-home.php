@@ -41,7 +41,7 @@ Template Name: HOME
   <section class="submit">
     <h2><?php the_field('home_submit_title'); ?></h2>
     <?php the_field('home_submit_text'); ?>
-    <?php the_field('home_submit_form_shortcode'); ?>
+    <?php echo do_shortcode(get_post_meta(get_the_ID(), 'home_submit_form_shortcode', true)); ?>
   </section>
 
   <section class="episodes">
