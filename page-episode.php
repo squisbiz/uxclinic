@@ -35,13 +35,9 @@ Template Name: EPISODE
       <?php endwhile; else : endif; ?>
     </ol>
   </section>
-
-  <section class="submit">
-    <h2><?php the_field('home_submit_title'); ?></h2>
-    <?php the_field('home_submit_text'); ?>
-    <?php the_field('home_submit_form_shortcode'); ?>
-  </section>
-
+  
+  <?php include 'inc-signup.php'; ?>
+  
   <?php include 'inc-episodes.php'; ?>
 
 <?php endwhile; ?><?php endif; ?>
