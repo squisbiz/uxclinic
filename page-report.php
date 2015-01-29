@@ -6,43 +6,34 @@ Template Name: REPORT
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <section class="episode-hero">
-    <div class="cont-h1">
-      <h1><?php echo get_the_title(); ?></h1>
-    </div>
-    <div class="video-wrapper">
-      <?php the_field('episode_hero_video'); ?>
-    </div>
-    <p><?php the_field('episode_hero_description'); ?>
-    <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
-    </p>
-
-    <div class="sub-episode-hero">
-    <p> <?php the_field('episode_hero_client_description'); ?></p>
-    <img src=" <?php the_field('episode_hero_client_image'); ?>" class="client-img">
-    </div>
+  <section class="report-hero" style="url(<?php the_field('report_hero_background_image'); ?>) no-repeat;">
+    <?php the_field('report_hero_client_logo'); ?>
+    <p><?php the_field('report_hero_description'); ?></p>
+    <h3>-Design Method-</h3>
+    <span class="designmethod"><?php the_field('report_hero_design_method'); ?></span>
   </section>
 
-  <section class="episode-resources">
-    <h2>You can download our resources <span>(infographics, slideshows).</span></h2>
-    <ol>
-      <?php if( have_rows('episode_resource_item') ) : while ( have_rows('episode_resource_item') ) : the_row(); ?>
-      <li>
-        <a href="<?php the_sub_field('episode_resource_link');?>" >
-        <img src="<?php the_sub_field('episode_resource_image');?>">
-        </a>
-      </li>
-      <?php endwhile; else : endif; ?>
-    </ol>
+  <section class="report-casestudy">
+    <h3>Case Study <span> <?php the_field('report_case_study_client'); ?></span></h3>
+    <p><?php the_field('report_case_study_description'); ?></p>
+    <img src="<?php the_field('report_case_study_image'); ?>" />
   </section>
 
-  <section class="submit">
-    <h2><?php the_field('home_submit_title'); ?></h2>
-    <?php the_field('home_submit_text'); ?>
-    <?php the_field('home_submit_form_shortcode'); ?>
+  <section class="report-analysis">
+    <h3>Preliminary Analysis <?php the_field('report_analysis_method'); ?></h3>
+    <p><?php the_field('report_analysis_description'); ?></p>
+    <img src="<?php the_field('report_analysis_image'); ?>" />
   </section>
 
-  <?php include 'inc-episodes.php'; ?>
+  <section class="report-download">
+    <h2><?php the_field('report_download_label'); ?></h2>
+    <a class="button download-btn" href="<?php the_field('report_download_button_url'); ?>"><?php the_field('report_download_button_label'); ?></a>
+  </section>
+  
+  <section class="report-pagination">
+  </section>
+  
+  <?php include 'inc-submit.php'; ?>
 
 <?php endwhile; ?><?php endif; ?>
 <?php get_footer(); ?>
