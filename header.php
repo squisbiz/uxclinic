@@ -27,7 +27,9 @@
 <body <?php body_class(); ?> id="body">
 
 	<header>
-  <p class="logo"><a href="<?php bloginfo( 'url' ); ?>" title="Homepage"><!-- <?php bloginfo( 'name' ); ?> --></a></p>
+  <a href="<?php echo home_url(); ?>">
+    <p class="logo"><a href="<?php bloginfo( 'url' ); ?>" title="Homepage"></a></p>
+  </a>
   
   <div class="mobilenav-toggle"></div>
   
