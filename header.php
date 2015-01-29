@@ -28,7 +28,7 @@
 
 	<header>
   <a href="<?php echo home_url(); ?>">
-    <p class="logo"><a href="<?php bloginfo( 'url' ); ?>" title="Homepage"></a></p>
+    <p class="logo"></p>
   </a>
   
   <div class="mobilenav-toggle"></div>

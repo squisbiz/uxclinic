@@ -26,6 +26,11 @@ Template Name: REPORT
   </section>
 
   <section class="report-download">
+    <h2><?php the_field('report_download_label'); ?></h2>
+    <a class="button download-btn" href="<?php the_field('report_download_button_url'); ?>"><?php the_field('report_download_button_label'); ?></a>
+  </section>
+  
+  <section class="report-pagination">
   </section>
   
   <?php include 'inc-submit.php'; ?>
