@@ -4,9 +4,9 @@
     <div class="social">
       <h3>Follow us</h3>
         <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Google +</a></li>
+          <li><a href="https://www.facebook.com/uxclinic" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/uxclinic" target="_blank">Twitter</a></li>
+          <li><a href="https://plus.google.com/107441204042543795221/posts" target="_blank">Google +</a></li>
         </ul>
     </div>
     
@@ -19,7 +19,7 @@
     </div>
     
     <div class="copyright">
-      Copyright 2014 nearsoft.com | <a href="#">FAQ</a>
+      Copyright 2014 nearsoft.com | <a href="http://theuxclinic.com/FAQ">FAQ</a>
     </div>
   </footer>
   <?php wp_footer(); ?>

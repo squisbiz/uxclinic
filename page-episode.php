@@ -28,20 +28,16 @@ Template Name: EPISODE
     <ol>
       <?php if( have_rows('episode_resource_item') ) : while ( have_rows('episode_resource_item') ) : the_row(); ?>
       <li>
-        <a href="<?php the_sub_field('episode_resource_link');?>" >
-        <img src="<?php the_sub_field('episode_resource_image');?>">
+        <a href="<?php the_sub_field('episode_resource_link');?>" target="_blank" >
+          <img src="<?php the_sub_field('episode_resource_image');?>">
         </a>
       </li>
       <?php endwhile; else : endif; ?>
     </ol>
   </section>
-
-  <section class="submit">
-    <h2><?php the_field('home_submit_title'); ?></h2>
-    <?php the_field('home_submit_text'); ?>
-    <?php the_field('home_submit_form_shortcode'); ?>
-  </section>
-
+  
+  <?php include 'inc-signup.php'; ?>
+  
   <?php include 'inc-episodes.php'; ?>
 
 <?php endwhile; ?><?php endif; ?>
