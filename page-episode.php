@@ -28,8 +28,8 @@ Template Name: EPISODE
     <ol>
       <?php if( have_rows('episode_resource_item') ) : while ( have_rows('episode_resource_item') ) : the_row(); ?>
       <li>
-        <a href="<?php the_sub_field('episode_resource_link');?>" >
-        <img src="<?php the_sub_field('episode_resource_image');?>">
+        <a href="<?php the_sub_field('episode_resource_link');?>" target="_blank" >
+          <img src="<?php the_sub_field('episode_resource_image');?>">
         </a>
       </li>
       <?php endwhile; else : endif; ?>
