@@ -474,59 +474,16 @@ section.hero img {
   display: none;
 }
 
-#mc_embed_signup {
-  width: 100%;
-  overflow: hidden;
-  display: block;
-  margin-top: 40px;
+/* SIGNUP */
+
+.signup {
+  padding-top: 90px;
 }
 
-#mc_embed_signup_scroll {
-  width: 100%;
-}
-
-.signup input[type='text'],
-.signup input[type='email'] {
-  width: calc(100% - 20px);
-  height: 60px;
-  border: 0;
-  border-radius: 5px;
-  font-family: lato;
+.signup p {
+  font-size: 21px;
+  color: #FFF;
   font-weight: 100;
-  font-size: 18px;
-  padding-left: 20px;
-}
-
-.signup input[type='text'] {
-  margin-right: 20px;
-}
-
-.signup #mc-embedded-subscribe {
-  width: calc(20% - 40px);
-  border: 0;
-  display: inline;
-}
-
-.signup .signup-btn {
-  display: inline;
-  width: calc(20% - 20px);
-  height: 64px;
-}
-
-.signup .signup-btn input[type='submit'] {
-  display: inline;
-  width: calc(20% - 20px);
-  height: 64px;
-}
-
-.signup .mc-field-group {
-  display: inline;
-  width: calc(40% - 10px);
-  float: left;
-}
-
-.signup .mc-field-group:first-child {
-  margin-right: 20px;
 }
 
 .signup h1 {
@@ -538,14 +495,20 @@ section.hero img {
   padding: 0;
 }
 
-.signup p {
-  font-size: 21px;
-  color: #FFF;
-  font-weight: 100;
+#mc_embed_signup {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  margin-top: 40px;
 }
 
-.signup {
-  padding-top: 90px;
+#mc_embed_signup_scroll {
+  width: 100%;
+  position: relative;
+}
+
+.signup .contactform-submit {
+  padding: 14px 50px;
 }
 
 /* EPISODES */
@@ -1193,30 +1156,6 @@ div.wpcf7-validation-errors,
     width: 73%;
   }
 
-  /*SIGNUP*/
-
-  .signup .signup-btn {
-    display: block;
-    width: 100%;
-    float: none;
-  }
-
-  .signup .signup-btn input[type='submit'] {
-    display: block;
-    width: 100%;
-    float: none;
-  }
-
-  .signup #mc-embedded-subscribe {
-    width: 100%;
-  }
-
-  .signup .mc-field-group {
-    width: 100%;
-    float: none;
-    display: block;
-    margin-bottom: 20px;
-  }
 }
 
 /*MAX 722PX*/
