@@ -14,15 +14,21 @@ Template Name: REPORT
   </section>
 
   <section class="report-casestudy">
-    <h3>Case Study <span> <?php the_field('report_case_study_client'); ?></span></h3>
-    <p><?php the_field('report_case_study_description'); ?></p>
-    <img src="<?php the_field('report_case_study_image'); ?>" />
+    <div class="border-class">
+      <div class ="report-textcont">
+        <h3>Case Study <span> <?php the_field('report_case_study_client'); ?></span></h3>
+        <p><?php the_field('report_case_study_description'); ?></p>
+      </div>
+      <img src="<?php the_field('report_case_study_image'); ?>" />
+    </div>
   </section>
 
   <section class="report-analysis">
-    <h3>Preliminary Analysis <?php the_field('report_analysis_method'); ?></h3>
-    <p><?php the_field('report_analysis_description'); ?></p>
     <img src="<?php the_field('report_analysis_image'); ?>" />
+    <div class ="report-textcont">
+      <h3>Preliminary Analysis <span><?php the_field('report_analysis_method'); ?></span></h3>
+      <p><?php the_field('report_analysis_description'); ?></p>
+    </div>
   </section>
 
   <section class="report-download">
