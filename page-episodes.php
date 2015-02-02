@@ -15,20 +15,18 @@ Template Name: EPISODES INDEX
     <?php query_posts('cat=4'); while (have_posts()) : the_post(); ?>
     
       <div class="single">
-        <div class="thumb" style="background: url(<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'medium', true); echo $thumb_url[0]; ?>) no-repeat center center; background-size: cover;"></div>
+        <a href="<?php the_permalink(); ?>"><div class="thumb" style="background: url(<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'medium', true); echo $thumb_url[0]; ?>) no-repeat center center; background-size: cover;"></div></a>
         
         <div class="excerpt">
           <a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
           <?php the_excerpt(); ?>
         </div>
         
-      </div><!-- single -->
+      </div>
       <?php endwhile; ?>
 
-  </div><!-- content -->
-
-  <div class="sidebar"></div>
-</div><!-- episodesindex -->
+  </div>
+</div>
 
 
 <?php include 'inc-submit.php'; ?>
