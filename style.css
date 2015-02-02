@@ -1020,6 +1020,69 @@ div.wpcf7-validation-errors,
   font-weight: 300;
 }
 
+.contactform-url {
+  width: 97%!important;
+  margin-top: 20px;
+}
+
+
+/* Episodes index */
+
+.episodesindex {
+  overflow: hidden;
+  padding: 50% - calc(500px);
+  text-align: center;
+  margin-top: 130px;
+}
+
+.episodesindex h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #606a70;
+  width: auto;
+  margin: 20px 0 45px 0;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.episodesindex .content {
+  width: calc(100% - 320px);
+  float: left;
+}
+
+.episodesindex .sidebar {
+  float: right;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.episodesindex section {
+  width: 100%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.episodesindex section .thumb {
+  width: 250px;
+  height: 250px;
+  background: aqua;
+  float: left;
+}
+
+.episodesindex section .excerpt {
+  float: right;
+  width: calc(100% - 270px);
+}
+
+.episodesindex section .excerpt p {
+  font-size: 16px;
+  color: #595959;
+}
+
+.episodesindex section h2 {
+  font-size: 20px;
+}
 
 
 /* Media Queries */
@@ -1200,7 +1263,7 @@ div.wpcf7-validation-errors,
   }
 
   input.contactform-name,
-  input.contactform-email {
+  input.contactform-email, {
   width: 97%;
   }
 
