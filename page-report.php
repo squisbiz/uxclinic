@@ -24,11 +24,11 @@ Template Name: REPORT
   </section>
 
   <section class="report-analysis">
-    <img src="<?php the_field('report_analysis_image'); ?>" />
     <div class ="report-textcont">
       <h3>Preliminary Analysis <span><?php the_field('report_analysis_method'); ?></span></h3>
       <p><?php the_field('report_analysis_description'); ?></p>
     </div>
+    <img src="<?php the_field('report_analysis_image'); ?>" />
   </section>
 
   <section class="report-download">

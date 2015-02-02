@@ -291,6 +291,7 @@ section.hero img {
 
 .report-download h2 {
   font-weight: 100;
+  padding: 0 20px;
 }
 
 .report-casestudy p,
@@ -311,6 +312,7 @@ section.hero img {
 .report-analysis .report-textcont{
   padding-left: 25px;
   padding-right: 0;
+  float: right;
 }
 
 .report-casestudy img,
@@ -408,14 +410,14 @@ section.hero img {
 
 .howitworks li h3 {
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 300;
   color: #454d51;
   height: 105px;
 }
 
 .howitworks li p {
   font-size: 17px;
-  font-weight: 200;
+  font-weight: 300;
   color: #6c6c6c;
 }
 
@@ -513,9 +515,9 @@ section.hero img {
 }
 
 .submit {
-  background: url(img/patternsubmit.png) repeat;
+  background: url(img/hero-pattern.gif) repeat;
   padding: 0 calc(50% - 465px);
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
   overflow: auto;
 }
@@ -590,7 +592,7 @@ section.hero img {
 
 .episodes ul {
   padding: 0;
-  overflow: auto;
+  overflow: hidden;
   margin-top: 30px;
   height: 527px;
 }
@@ -932,7 +934,7 @@ textarea.contactform-description {
   font-size: 16px;
   font-weight: 300;
   float: left;
-  color: #C7C7C7;
+  color: #A1A1A1;
   font-family: lato;
 }
 
@@ -949,6 +951,22 @@ textarea.contactform-description {
   width: 97%;
   height: 110px;
   margin-top: 20px;
+}
+
+input::-webkit-input-placeholder {
+   color: #A1A1A1;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   color: #333;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;
+}
+
+input:-ms-input-placeholder {
+   color: #A1A1A1;
 }
 
 .contactform-submit {
@@ -1288,6 +1306,7 @@ div.wpcf7-validation-errors,
 
    .report-analysis img {
     margin-top: 0;
+    padding-top: 40px;
    }
 
   .report-textcont {
@@ -1301,13 +1320,17 @@ div.wpcf7-validation-errors,
     text-align: center;
   }
 
+  .report-analysis .report-textcont {
+    float: none;
+  }
+
   .report-casestudy,
   .report-analysis {
     padding: 45px 20px;
   }
 
     .report-casestudy {
-      padding-bottom: 74px;
+      padding-bottom: 40px;
     }
 
    .report-analysis {
@@ -1316,6 +1339,13 @@ div.wpcf7-validation-errors,
 
   .report-hero p {
     padding: 10px 7%;
+  }
+
+    /*FORM*/
+  input.contactform-name,
+  input.contactform-email,
+  textarea.contactform-description {
+    width: 94%;
   }
 
 }
@@ -1509,10 +1539,6 @@ div.wpcf7-validation-errors,
     font-size: 40px;
   }
 
-  .episode-hero p {
-    text-align: center;
-  }
-
   .sub-episode-hero,
   .episode-resources {
     text-align: center;
@@ -1603,7 +1629,7 @@ div.wpcf7-validation-errors,
     border-radius: 3px;
     overflow: hidden;
   }
-  
+
   .single .excerpt {
     float: right;
     width: calc(100% - 70px);
