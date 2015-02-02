@@ -1020,17 +1020,13 @@ div.wpcf7-validation-errors,
   font-weight: 300;
 }
 
-.contactform-url {
-  width: 97%!important;
-  margin-top: 20px;
-}
 
 
 /* Episodes index */
 
 .episodesindex {
   overflow: hidden;
-  padding: 50% - calc(500px);
+  padding: 0 calc(50% - 500px);
   text-align: center;
   margin-top: 130px;
 }
@@ -1044,44 +1040,50 @@ div.wpcf7-validation-errors,
   display: inline-block;
   background-color: #fff;
   padding: 0 20px;
+  display: block;
 }
 
-.episodesindex .content {
+.the_content {
   width: calc(100% - 320px);
   float: left;
+  display: block;
+  overflow: hidden;
 }
 
 .episodesindex .sidebar {
   float: right;
   width: 300px;
   margin-left: 20px;
+  height: 300px;
 }
 
-.episodesindex section {
+.single{
   width: 100%;
   margin-bottom: 30px;
   overflow: hidden;
+  height: 200px;
 }
 
-.episodesindex section .thumb {
+.single .thumb {
   width: 250px;
   height: 250px;
-  background: aqua;
   float: left;
 }
 
-.episodesindex section .excerpt {
+.single .excerpt {
   float: right;
   width: calc(100% - 270px);
+  text-align: left;
 }
 
-.episodesindex section .excerpt p {
+.single .excerpt p {
   font-size: 16px;
   color: #595959;
 }
 
-.episodesindex section h2 {
-  font-size: 20px;
+.excerpt h2 {
+  margin: 0;
+  font-weight: 400;
 }
 
 
