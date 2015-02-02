@@ -12,7 +12,7 @@ Template Name: EPISODES INDEX
   
   <div class="the_content">
     
-    <?php query_posts('cat=4'); while (have_posts()) : the_post(); ?>
+    <?php query_posts('cat=3'); while (have_posts()) : the_post(); ?>
     
       <div class="single">
         <a href="<?php the_permalink(); ?>"><div class="thumb" style="background: url(<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'medium', true); echo $thumb_url[0]; ?>) no-repeat center center; background-size: cover;"></div></a>
