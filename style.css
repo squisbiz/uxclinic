@@ -777,6 +777,11 @@ footer .contact a {
   color: #bcc1c3;
 }
 
+footer .social a:hover,
+footer .contact a:hover {
+  text-decoration: underline;
+}
+
 footer .social {
   margin-left: 50px;
 }
@@ -857,8 +862,7 @@ footer .copyright a{
 }
 
 .report-button {
-  background: #ef5a21;
-  font-weight: 300;
+  font-weight: 100;
   padding: 15px 40px;
   display: block;
   text-align: center;
@@ -867,7 +871,7 @@ footer .copyright a{
 }
 
 .report-button:hover {
-  background: #e34f15;
+  background: #09ae09;
 }
 
 .client-img {
@@ -1222,7 +1226,7 @@ div.wpcf7-validation-errors,
     width: auto;
   }
 
-  .button {
+  .report-button {
     margin: 30px auto;
   }
 

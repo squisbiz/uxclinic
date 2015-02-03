@@ -14,7 +14,7 @@ Template Name: EPISODE
       <?php the_field('episode_hero_video'); ?>
     </div>
     <p><?php the_field('episode_hero_description'); ?>
-    <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button">See the report</a>
+    <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
     </p>
 
     <div class="sub-episode-hero">
