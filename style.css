@@ -1119,6 +1119,10 @@ div.wpcf7-validation-errors,
   color: #4f585e;
 }
 
+.single .excerpt a:hover {
+  text-decoration: underline;
+}
+
 
 /* Media Queries */
 
