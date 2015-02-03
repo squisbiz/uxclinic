@@ -1148,7 +1148,8 @@ div.wpcf7-validation-errors,
 
 .episodes li:first-child {
   float: left;
-  width: auto;
+  /* width: auto; */
+  width: 100%;
   height: auto;
   border-right: none;
   margin-bottom: -21px;
