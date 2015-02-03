@@ -1082,8 +1082,8 @@ div.wpcf7-validation-errors,
 }
 
 .single .thumb {
-  width: 250px;
-  height: 200px;
+  width: 340px;
+  height: 180px;
   float: left;
   border-radius: 3px;
   overflow: hidden;
@@ -1091,7 +1091,7 @@ div.wpcf7-validation-errors,
 
 .single .excerpt {
   float: right;
-  width: calc(100% - 270px);
+  width: calc(100% - 360px);
   text-align: left;
 }
 
@@ -1529,6 +1529,20 @@ div.wpcf7-validation-errors,
     .hero h1 {
       font-size: 37px;
     }
+    
+    /* Episodes responsive */
+    .episodesindex .thumb {
+      float: none;
+      margin: 0 auto;
+    }
+    
+    .episodesindex .excerpt {
+      float: none;
+      margin: 10px auto;
+      width: 340px
+    }
+    
+    
   }
 
   /*MAX 600px*/
@@ -1618,26 +1632,6 @@ div.wpcf7-validation-errors,
   }
 }
 
-  /*MAX 500*/
-
-@media (max-width: 500px) {
-
-  .single .thumb {
-    width: 50px;
-    height: 50px;
-    float: left;
-    border-radius: 3px;
-    overflow: hidden;
-  }
-
-  .single .excerpt {
-    float: right;
-    width: calc(100% - 70px);
-    text-align: left;
-  }
-
-}
-
 
 
   /*MAX 416*/
@@ -1694,6 +1688,11 @@ div.wpcf7-validation-errors,
   .hero p {
     font-size: 17px;
     line-height: 24px;
+  }
+  
+  .episodesindex .thumb,
+  .episodesindex .excerpt {
+    width: 100%;
   }
 }
 
