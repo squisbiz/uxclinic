@@ -50,7 +50,7 @@ a {
 .button {
   border-radius: 100px;
   background: #0ac10a;
-  font-weight: 700;
+  font-weight: 100;
   color: #FFF;
   display: inline-block;
   padding: 15px 20px;
@@ -972,7 +972,8 @@ input:-ms-input-placeholder {
 .contactform-submit {
   border-radius: 100px;
   background: #0ac10a;
-  font-weight: 200;
+  font-family: lato;
+  font-weight: 100;
   color: #FFF;
   display: inline-block;
   padding: 15px 60px;
@@ -983,6 +984,11 @@ input:-ms-input-placeholder {
   z-index: 99;
   right: 1px;
   cursor: pointer;
+}
+
+.contactform-submit:hover {
+  background: #09ae09;
+  transition: background .3s;
 }
 
 
@@ -1216,7 +1222,7 @@ div.wpcf7-validation-errors,
     width: auto;
   }
 
-  .report-button {
+  .button {
     margin: 30px auto;
   }
 
