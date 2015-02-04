@@ -50,7 +50,7 @@ a {
 .button {
   border-radius: 100px;
   background: #0ac10a;
-  font-weight: 700;
+  font-weight: 300;
   color: #FFF;
   display: inline-block;
   padding: 15px 20px;
@@ -777,6 +777,11 @@ footer .contact a {
   color: #bcc1c3;
 }
 
+footer .social a:hover,
+footer .contact a:hover {
+  text-decoration: underline;
+}
+
 footer .social {
   margin-left: 50px;
 }
@@ -856,8 +861,7 @@ footer .copyright a{
 }
 
 .report-button {
-  background: #ef5a21;
-  font-weight: 300;
+  font-weight: 100;
   padding: 15px 40px;
   display: block;
   text-align: center;
@@ -866,7 +870,7 @@ footer .copyright a{
 }
 
 .report-button:hover {
-  background: #e34f15;
+  background: #09ae09;
 }
 
 .client-img {
@@ -971,7 +975,8 @@ input:-ms-input-placeholder {
 .contactform-submit {
   border-radius: 100px;
   background: #0ac10a;
-  font-weight: 200;
+  font-family: lato;
+  font-weight: 100;
   color: #FFF;
   display: inline-block;
   padding: 15px 60px;
@@ -982,6 +987,11 @@ input:-ms-input-placeholder {
   z-index: 99;
   right: 1px;
   cursor: pointer;
+}
+
+.contactform-submit:hover {
+  background: #09ae09;
+  transition: background .3s;
 }
 
 
@@ -1092,8 +1102,8 @@ div.wpcf7-validation-errors,
 }
 
 .single .thumb {
-  width: 250px;
-  height: 200px;
+  width: 340px;
+  height: 180px;
   float: left;
   border-radius: 3px;
   overflow: hidden;
@@ -1101,7 +1111,7 @@ div.wpcf7-validation-errors,
 
 .single .excerpt {
   float: right;
-  width: calc(100% - 270px);
+  width: calc(100% - 360px);
   text-align: left;
 }
 
@@ -1125,6 +1135,10 @@ div.wpcf7-validation-errors,
 .excerpt a:hover {
   color: #ec4d0a;
   text-decoration: none !important;
+}
+
+.single .excerpt a:hover {
+  text-decoration: underline;
 }
 
 
@@ -1152,7 +1166,8 @@ div.wpcf7-validation-errors,
 
 .episodes li:first-child {
   float: left;
-  width: auto;
+  /* width: auto; */
+  width: 100%;
   height: auto;
   border-right: none;
   margin-bottom: -21px;
@@ -1547,6 +1562,20 @@ div.wpcf7-validation-errors,
     .hero h1 {
       font-size: 37px;
     }
+    
+    /* Episodes responsive */
+    .episodesindex .thumb {
+      float: none;
+      margin: 0 auto;
+    }
+    
+    .episodesindex .excerpt {
+      float: none;
+      margin: 10px auto;
+      width: 340px
+    }
+    
+    
   }
 
   /*MAX 600px*/
@@ -1636,26 +1665,6 @@ div.wpcf7-validation-errors,
   }
 }
 
-  /*MAX 500*/
-
-@media (max-width: 500px) {
-
-  .single .thumb {
-    width: 50px;
-    height: 50px;
-    float: left;
-    border-radius: 3px;
-    overflow: hidden;
-  }
-
-  .single .excerpt {
-    float: right;
-    width: calc(100% - 70px);
-    text-align: left;
-  }
-
-}
-
 
 
   /*MAX 416*/
@@ -1712,6 +1721,11 @@ div.wpcf7-validation-errors,
   .hero p {
     font-size: 17px;
     line-height: 24px;
+  }
+  
+  .episodesindex .thumb,
+  .episodesindex .excerpt {
+    width: 100%;
   }
 }
 

@@ -50,7 +50,7 @@ Template Name: HOME
     <ul>
       <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
       <li>
-        <a href="<?php the_sub_field('episode_url'); ?>">
+        <a href="http://theuxclinic.com/<?php the_sub_field('episode_url'); ?>">
           <span class="vid-flag"></span>
           <img src="<?php the_sub_field('episode_image'); ?>" alt="<?php the_sub_field('episode_client');?>">
           <h3><?php the_sub_field('episode_title');?><span><?php the_sub_field('episode_client');?></span></h3>

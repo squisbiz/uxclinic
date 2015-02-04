@@ -24,7 +24,7 @@ Template Name: EPISODE
   </section>
 
   <section class="episode-resources">
-    <h2>You can download our resources <span>(infographics, slideshows).</span></h2>
+    <h2>Download some useful design resources:</h2>
     <ol>
       <?php if( have_rows('episode_resource_item') ) : while ( have_rows('episode_resource_item') ) : the_row(); ?>
       <li>
