@@ -243,6 +243,29 @@ section.hero img {
   margin-top: 20px;
 }
 
+/* Live video */
+
+/*
+.livevideo {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.livevideocontainer {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.livevideocontainer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+*/
+
 
 /*REPORT*/
 .report-hero {
@@ -1413,6 +1436,20 @@ div.wpcf7-validation-errors,
   .client-img {
     float: none;
   }
+  
+  /* Live video */
+  
+/*
+  .hero {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  
+  .livevideo {
+    width: 90%;
+    margin: 30px auto;
+  }
+*/
 
   /*EPISODE HERO*/
 
