@@ -1,6 +1,6 @@
   <footer>
     <p class="logo"></p>
-    
+
     <div class="social">
       <h3>Follow us</h3>
         <ul>
@@ -9,21 +9,21 @@
           <li><a href="https://plus.google.com/107441204042543795221/posts" target="_blank">Google +</a></li>
         </ul>
     </div>
-    
+
     <div class="contact">
       <h3>Contact us</h3>
       <ul>
-        <li>408 754 6075</li>
-        <li>contact@theuxclinic.com</li>
+        <li>(408) 754.6075</li>
+        <li><a href="mailto:contact@theuxclinic.com?Subject=Hello%20UX Clinic" target="_top">contact@theuxclinic.com</a></li>
       </ul>
     </div>
-    
+
     <div class="copyright">
-      Copyright 2014 nearsoft.com | <a href="http://theuxclinic.com/FAQ">FAQ</a>
+      <a href="http://nearsoft.com">Nearsoft, Inc.</a> © 2015 All Rights Reserved | Questions? Read our <a href="http://theuxclinic.com/FAQ">FAQ</a>
     </div>
   </footer>
   <?php wp_footer(); ?>
-  
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
