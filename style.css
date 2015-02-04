@@ -183,17 +183,14 @@ nav ul li:last-child a {
   padding: 0;
 }
 
-.mobilenav li {
+.mobilenav li a {
+  color: #fff;
   display: block;
   text-align: left;
   padding: 15px 33px;
   font-size: 25px;
   font-weight: 300;
   border-bottom: 1px solid #DB521E;
-}
-
-.mobilenav li a {
-  color: #fff;
 }
 
 .displaymobilemenu {
@@ -531,7 +528,7 @@ section.hero img {
   font-size: 21px;
   font-weight: 300;
   line-height: 30px;
-  margin: 20px 0 55px 0
+  margin: 20px 0 0 0;
 }
 
 .experts .button {
@@ -675,7 +672,7 @@ background-color: #0ac10a;
 
 .episodes h3 {
   background: #475054;
-  padding: 25px 20px 4px 20px;
+  padding: 19px 20px 10px 20px;
   text-align: left;
   margin: 0;
   font-size: 20px;
@@ -861,7 +858,7 @@ footer .copyright a{
 }
 
 .report-button {
-  font-weight: 100;
+  font-weight: 700;
   padding: 15px 40px;
   display: block;
   text-align: center;
@@ -1425,6 +1422,12 @@ div.wpcf7-validation-errors,
 
   .hero h1 {
     width: 73%;
+  }
+
+  .episodesindex .excerpt {
+    float: none;
+    margin: 10px auto;
+    width: 340px;
   }
 
 }
