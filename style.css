@@ -50,7 +50,7 @@ a {
 .button {
   border-radius: 100px;
   background: #0ac10a;
-  font-weight: 300;
+  font-weight: 700;
   color: #FFF;
   display: inline-block;
   padding: 15px 20px;
@@ -976,7 +976,7 @@ input:-ms-input-placeholder {
   border-radius: 100px;
   background: #0ac10a;
   font-family: lato;
-  font-weight: 100;
+  font-weight: 700;
   color: #FFF;
   display: inline-block;
   padding: 15px 60px;
@@ -1056,6 +1056,7 @@ div.wpcf7-validation-errors,
   padding: 0 calc(50% - 580px);
   text-align: center;
   margin-top: 130px;
+  padding-bottom: 65px;
 }
 
 .episodesindex h1 {
@@ -1067,7 +1068,7 @@ div.wpcf7-validation-errors,
   display: inline-block;
   background-color: #fff;
   padding: 0 20px;
-  display: block;
+  display: inline-block;
 }
 
 .episodesindex h1::before {
@@ -1099,6 +1100,13 @@ div.wpcf7-validation-errors,
   width: 100%;
   margin-bottom: 45px;
   overflow: hidden;
+  border-top: 1px solid #e4e4e4;
+  padding-top: 45px;
+}
+
+.single:first-child {
+  padding-top: 15px;
+  border: 0;
 }
 
 .single .thumb {
@@ -1562,20 +1570,20 @@ div.wpcf7-validation-errors,
     .hero h1 {
       font-size: 37px;
     }
-    
+
     /* Episodes responsive */
     .episodesindex .thumb {
       float: none;
       margin: 0 auto;
     }
-    
+
     .episodesindex .excerpt {
       float: none;
       margin: 10px auto;
       width: 340px
     }
-    
-    
+
+
   }
 
   /*MAX 600px*/
@@ -1722,7 +1730,7 @@ div.wpcf7-validation-errors,
     font-size: 17px;
     line-height: 24px;
   }
-  
+
   .episodesindex .thumb,
   .episodesindex .excerpt {
     width: 100%;
