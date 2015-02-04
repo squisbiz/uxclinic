@@ -1430,6 +1430,15 @@ div.wpcf7-validation-errors,
     width: 340px;
   }
 
+  .episodesindex .thumb {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .excerpt h2 {
+    margin-top: 30px;
+  }
+
 }
 
 /*MAX 722PX*/
