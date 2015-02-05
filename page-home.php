@@ -55,7 +55,7 @@ Template Name: HOME
 
   <section class="episodes">
     <h2><?php the_field('home_episodes_title'); ?></h2>
-    <a class="button">See all episodes</a>
+    <a class="button" href="http://theuxclinic.com/episodes">See all episodes</a>
     <ul>
       <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
       <li>
