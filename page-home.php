@@ -17,7 +17,7 @@ Template Name: HOME
     </div> -->
 
     <?php the_field('home_hero_text'); ?>
-    <p><a href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p>
+    <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p>
 
   </section>
 
@@ -45,6 +45,7 @@ Template Name: HOME
       </li>
       <?php endwhile; else : endif; ?>
     </ul>
+    <a name="link-anchor"></a>
   </section>
 
   <section class="submit">
@@ -73,3 +74,14 @@ Template Name: HOME
 <?php endwhile; ?><?php endif; ?>
 <?php get_footer(); ?>
 <!-- test -->
+
+<script>
+  function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#link-anchor").click(function() {
+   scrollToAnchor('link-anchor');
+});
+</script>
