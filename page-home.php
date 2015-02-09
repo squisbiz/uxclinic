@@ -72,3 +72,4 @@ Template Name: HOME
 
 <?php endwhile; ?><?php endif; ?>
 <?php get_footer(); ?>
+<!-- test -->
