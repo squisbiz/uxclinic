@@ -554,6 +554,10 @@ section.hero img {
   margin: 20px 0 0 0;
 }
 
+.submit > p {
+  margin-bottom: 50px;
+}
+
 .experts .button {
   display: none;
 }
@@ -1169,6 +1173,12 @@ div.wpcf7-validation-errors,
   text-decoration: underline;
 }
 
+/*REMOVING TEMPORALY REPORT BUTTONS*/
+
+.page-id-171 a.button.report-button,
+.page-id-390 a.button.report-button {
+  display: none;
+}
 
 /* Media Queries */
 
