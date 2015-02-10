@@ -1120,7 +1120,7 @@ div.wpcf7-validation-errors,
   margin-left: 20px;
 }
 
-.single{
+.loop-single{
   width: 100%;
   margin-bottom: 45px;
   overflow: hidden;
@@ -1128,12 +1128,12 @@ div.wpcf7-validation-errors,
   padding-top: 45px;
 }
 
-.single:first-child {
+.loop-single:first-child {
   padding-top: 15px;
   border: 0;
 }
 
-.single .thumb {
+.loop-single .thumb {
   width: 340px;
   height: 180px;
   float: left;
@@ -1141,13 +1141,13 @@ div.wpcf7-validation-errors,
   overflow: hidden;
 }
 
-.single .excerpt {
+.loop-single .excerpt {
   float: right;
   width: calc(100% - 360px);
   text-align: left;
 }
 
-.single .excerpt p {
+.loop-single .excerpt p {
   font-size: 19px;
   line-height: 28px;
   color: #595959;
@@ -1169,14 +1169,14 @@ div.wpcf7-validation-errors,
   text-decoration: none !important;
 }
 
-.single .excerpt a:hover {
+.loop-single .excerpt a:hover {
   text-decoration: underline;
 }
 
 /*REMOVING TEMPORALY REPORT BUTTONS*/
 
-.page-id-171 a.button.report-button,
-.page-id-390 a.button.report-button {
+.postid-417 a.button.report-button,
+.postid-418 a.button.report-button {
   display: none;
 }
 
