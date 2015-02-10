@@ -32,6 +32,14 @@
   </section>
 
   <section class="report-pagination">
+    <div class="previouspost">
+<?php if(get_adjacent_post(false, '', true)) { echo previous_post_link('%link'); }
+else { echo '<span style="display:none;">"'.get_the_title().'" is the oldest post, no further articles. </span>'; } ; ?>
+</div>
+<div class="nexpost">
+<?php if(get_adjacent_post(false, '', false)) { echo next_post_link('%link'); }
+else { echo '<span style="display:none;">"'.get_the_title().'" is the latest post: no newer articles. </span>'; } ; ?>
+</div>
   </section>
 
   <?php include 'inc-submit.php'; ?>
