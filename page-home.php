@@ -26,7 +26,7 @@ Template Name: HOME
     <ol>
       <?php if( have_rows('home_how_steps') ) : while ( have_rows('home_how_steps') ) : the_row(); ?>
       <li>
-        <img src="<?php the_sub_field('how_image');?>">
+        <img src="<?php the_sub_field('how_image');?>" alt="<?php the_sub_field('how_image_alt');?>" />
         <h3><?php the_sub_field('how_title');?></h3>
         <?php the_sub_field('how_description');?>
       </li>
