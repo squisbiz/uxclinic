@@ -222,7 +222,7 @@ nav ul li:last-child a {
 }
 
 .hero h1 {
-  width: 39%;
+  width: 40%;
   margin: 0 auto;
   font-size: 41px;
   margin-top: -13px;
@@ -1597,7 +1597,7 @@ div.wpcf7-validation-errors,
 
   /*HERO*/
   .hero h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
   .hero p {
     padding: 0 40px;
