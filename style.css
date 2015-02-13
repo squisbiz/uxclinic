@@ -1435,7 +1435,7 @@ div.wpcf7-validation-errors,
    }
 
   .report-textcont {
-    width: 94%;
+    width: 92%;
     padding: 0 20px;
   }
 
@@ -1789,6 +1789,11 @@ div.wpcf7-validation-errors,
   input.contactform-email,
   textarea.contactform-description {
   width: 94%;
+  }
+
+  .report-download h2 {
+    padding: 0 20px;
+    font-size: 30px;
   }
 }
 
