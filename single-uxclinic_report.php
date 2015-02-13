@@ -4,8 +4,7 @@
   <section class="report-hero" style="background: url(<?php the_field('report_hero_background_image'); ?>) no-repeat; background-size: cover;">
     <img src="<?php the_field('report_hero_client_logo'); ?>">
     <p><?php the_field('report_hero_description'); ?></p>
-    <h3>-Design Method-</h3>
-    <span class="designmethod"><?php the_field('report_hero_design_method'); ?></span>
+    <a class="button" href="<?php the_field('report_hero_button_url'); ?>" ><?php the_field('report_hero_button_label'); ?></a>
   </section>
 
   <section class="report-casestudy">
