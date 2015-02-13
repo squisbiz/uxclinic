@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <section class="report-hero" style="background: url(<?php the_field('report_hero_background_image'); ?>) repeat;">
+  <section class="report-hero" style="background: url(<?php the_field('report_hero_background_image'); ?>) no-repeat; background-size: cover;">
     <img src="<?php the_field('report_hero_client_logo'); ?>">
     <p><?php the_field('report_hero_description'); ?></p>
     <h3>-Design Method-</h3>
