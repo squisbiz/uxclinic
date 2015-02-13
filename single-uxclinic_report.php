@@ -11,7 +11,7 @@
   <section class="report-casestudy">
     <div class="border-class">
       <div class ="report-textcont">
-        <h3>Case Study <span> <?php the_field('report_case_study_client'); ?></span></h3>
+        <h3>Our Process: <span> <?php the_field('report_case_study_client'); ?></span></h3>
         <p><?php the_field('report_case_study_description'); ?></p>
       </div>
       <img src="<?php the_field('report_case_study_image'); ?>" />
@@ -20,7 +20,7 @@
 
   <section class="report-analysis">
     <div class ="report-textcont">
-      <h3>Preliminary Analysis <span><?php the_field('report_analysis_method'); ?></span></h3>
+      <h3>Outcomes and Recomendations: <span><?php the_field('report_analysis_method'); ?></span></h3>
       <p><?php the_field('report_analysis_description'); ?></p>
     </div>
     <img src="<?php the_field('report_analysis_image'); ?>" />

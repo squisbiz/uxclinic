@@ -351,6 +351,60 @@ section.hero img {
   color: #5e6a71;
 }
 
+.report-pagination {
+  overflow: auto;
+  padding: 60px calc(50% - 580px);
+}
+
+.previouspost {
+  float: left;
+  max-width: 40%;
+  margin-left: 90px;
+}
+
+.nexpost {
+  float: right;
+  max-width: 40%;
+  text-align: right;
+  margin-right: 90px;
+}
+
+.previouspost a span,
+.nexpost a span {
+  color: #ef5a21;
+  font-size: 25px;
+  font-weight: 400;
+}
+.previouspost a,
+.nexpost a {
+  color: #5e6b72;
+  font-size: 25px;
+  position: relative;
+}
+
+.previouspost a:before,
+.nexpost a:after {
+  content: '\2039';
+  position: absolute;
+  background-color: #ef5a21;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  left: -80px;
+  top: 4px;
+  font-size: 55px;
+  width: 55px;
+  font-weight: 900;
+  height: 55px;
+  line-height: 44px;
+}
+
+.nexpost a:after {
+  content: '\203A';
+  left: 144px;
+  top: 4px;
+}
+
 /* HOW IT WORKS */
 
 .howitworks {
@@ -1412,6 +1466,14 @@ div.wpcf7-validation-errors,
     padding: 10px 7%;
   }
 
+  .previouspost {
+    max-width: 35%;
+  }
+
+  .nexpost {
+    max-width: 35%;
+  }
+
     /*FORM*/
   input.contactform-name,
   input.contactform-email,
@@ -1642,6 +1704,47 @@ div.wpcf7-validation-errors,
       width: 340px
     }
 
+    .previouspost a,
+    .nexpost a {
+
+    }
+
+    .previouspost,
+    .nexpost {
+      display: block;
+      max-width: 80%;
+      float: none;
+      margin-bottom: 30px;
+      margin: 0 auto;
+      width: 80%;
+      padding-bottom: 35px;
+      text-align: center;
+    }
+    .nexpost {
+      padding-bottom: 0;
+    }
+
+    .previouspost a:before,
+    .nexpost a:after {
+    content: '\2039';
+    position: absolute;
+    background-color: #ef5a21;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    left: -35px;
+    top: 2px;
+    font-size: 26px;
+    width: 25px;
+    font-weight: 900;
+    height: 25px;
+    line-height: 21px;
+    }
+
+    .nexpost a:after {
+      left: 130px;
+      content: '\203A';
+    }
 
   }
 
