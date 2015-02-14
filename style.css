@@ -397,6 +397,12 @@ section.hero img {
   font-weight: 900;
   height: 55px;
   line-height: 44px;
+  transition: background .2s;
+}
+
+.previouspost a:hover:before,
+.nexpost a:hover:after {
+  background-color: #dc3d00;
 }
 
 .nexpost a:after {
