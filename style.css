@@ -1233,11 +1233,18 @@ div.wpcf7-validation-errors,
   text-decoration: underline;
 }
 
-/*REMOVING TEMPORALY REPORT BUTTONS*/
+/*REMOVING TEMPORALY REPORT BUTTONS and CALENDAR BTN*/
 
 .postid-417 a.button.report-button,
-.postid-418 a.button.report-button {
+.postid-418 a.button.report-button,
+.postid-461 a.button.report-button
+.postid-461 .episode-resources,
+.calendar-button {
   display: none;
+}
+
+.postid-461 .calendar-button {
+  display: block;
 }
 
 /* Media Queries */
