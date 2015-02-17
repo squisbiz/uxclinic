@@ -10,7 +10,7 @@
     </div>
     <p><?php the_field('episode_hero_description'); ?>
     <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
-    <a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target"_blank" class="button calendar-button">Add to calendar</a>
+    <a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target="_blank" class="button calendar-button">Add to calendar</a>
     </p>
 
     <div class="sub-episode-hero">
