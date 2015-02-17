@@ -1238,12 +1238,12 @@ div.wpcf7-validation-errors,
 .postid-417 a.button.report-button,
 .postid-418 a.button.report-button,
 .postid-461 a.button.report-button
-.postid-461 .episode-resources,
+.postid-461 section.episode-resources,
 .calendar-button {
   display: none;
 }
 
-.postid-461 .calendar-button {
+.postid-461 a.button.calendar-button {
   display: block;
 }
 
