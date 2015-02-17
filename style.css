@@ -1238,8 +1238,11 @@ div.wpcf7-validation-errors,
 .postid-417 a.button.report-button,
 .postid-418 a.button.report-button,
 .postid-461 a.button.report-button
-.postid-461 section.episode-resources,
 .calendar-button {
+  display: none;
+}
+
+.postid-461 section.episode-resources {
   display: none;
 }
 
@@ -1247,6 +1250,18 @@ div.wpcf7-validation-errors,
   display: block;
 }
 
+.postid-461 .sub-episode-hero {
+  margin-bottom: 45px;
+}
+
+.calendar-button {
+  font-weight: 700;
+  padding: 15px 40px;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  max-width: 160px;
+}
 /* Media Queries */
 
 /*MAX 1180PX*/
