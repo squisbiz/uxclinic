@@ -702,6 +702,7 @@ span.vid-flag {
   border-radius: 0 3px 3px 0;
   position: absolute;
   transition: background .2s;
+  z-index: 9;
 }
 
 .vid-flag::before {
@@ -727,6 +728,10 @@ span.vid-flag {
 
 li a:hover span {
   color: #0ac10a;
+}
+
+li a img:hover {
+  opacity: .9;
 }
 
 .episodes li:hover span.vid-flag {
@@ -1238,7 +1243,10 @@ div.wpcf7-validation-errors,
 .postid-417 a.button.report-button,
 .postid-418 a.button.report-button,
 .postid-461 a.button.report-button,
-.calendar-button {
+ {
+  display: none;
+}
+a.button.calendar-button {
   display: none;
 }
 
