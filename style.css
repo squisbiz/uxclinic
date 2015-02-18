@@ -103,7 +103,7 @@ header .logo {
   float: left;
   width: 160px;
   height: 55px;
-  background: url(img/uxclinic-logo.png) no-repeat;
+  background: url(img/ux-clinic-design-logo.png) no-repeat;
   background-size: cover;
   margin: 0 0 0 28px;
 }
@@ -595,7 +595,7 @@ section.hero img {
 }
 
 .submit {
-  background: url(img/hero-pattern.gif) repeat;
+  background: url(img/ux-lab-background.gif) repeat;
   padding: 0 calc(50% - 465px);
   padding-top: 80px;
   padding-bottom: 80px;
@@ -829,7 +829,7 @@ footer {
 }
 
 footer .logo {
-  background: url(img/footerlogo.png) no-repeat;
+  background: url(img/uxclinic-logo.png) no-repeat;
   background-size: cover;
   width: 160px;
   height: 56px;
