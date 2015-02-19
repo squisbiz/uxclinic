@@ -29,7 +29,8 @@ a {
 .experts,
 .submit,
 .episode-hero,
-.report-hero {
+.report-hero,
+.faq {
   text-align: center;
 }
 
@@ -889,14 +890,16 @@ footer .copyright a{
 
 /* Episode hero */
 
-.episode-hero {
+.episode-hero,
+.aboutus {
   padding: 0 calc(50% - 580px);
   margin-top: 126px;
   overflow: hidden;
   color: #6c6c6c;
 }
 
-.episode-hero h1 {
+.episode-hero h1,
+.faq h1 {
   font-size: 40px;
   font-weight: 300;
   color: #606a70;
@@ -911,7 +914,8 @@ footer .copyright a{
   position: relative;
 }
 
-.episode-hero h1::before {
+.episode-hero h1::before,
+.faq h1:before {
   content: '';
   width: 100%;
   height: 1px;
@@ -1119,12 +1123,11 @@ div.wpcf7-validation-errors,
 }
 
 .faq {
-  padding: 0 calc(50% - 500px);
+  padding: 0 calc(44% - 500px);
   margin-top: 126px;
   overflow: hidden;
   color: #6c6c6c;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .faq h1{
@@ -1135,8 +1138,6 @@ div.wpcf7-validation-errors,
 .faq p {
   font-weight: 300;
 }
-
-
 
 /* Episodes index */
 
@@ -1169,6 +1170,15 @@ div.wpcf7-validation-errors,
   top: 40%;
   left: 0;
   z-index: -9;
+}
+
+.faq-content {
+  overflow: hidden;
+  padding: 0 calc(50% - 580px);
+  padding-bottom: 65px;
+  font-size: 19px;
+  line-height: 28px;
+  color: #595959;
 }
 
 .the_content {
@@ -1213,9 +1223,6 @@ div.wpcf7-validation-errors,
 }
 
 .loop-single .excerpt p {
-  font-size: 19px;
-  line-height: 28px;
-  color: #595959;
 }
 
 .excerpt h2 {
@@ -1391,8 +1398,8 @@ a.button.calendar-button {
 
   /*FAQ*/
 
-  .faq {
-    padding: 30px;
+  .faq-content {
+    padding: 0 30px 30px 30px;
   }
 
   /*REPORT*/
