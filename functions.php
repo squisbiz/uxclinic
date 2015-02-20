@@ -45,6 +45,7 @@ function create_posttype_report() {
 			'public' => true,
 			'has_archive' => true,
 			'rewrite' => array('slug' => 'reports'),
+			'supports' => array('title', 'editor', 'author', 'thumbnail'),
 		)
 	);
 }
