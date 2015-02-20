@@ -4,13 +4,17 @@ Template Name: ABOUT
 */
 ?>
 <?php get_header(); ?>
-<div class="aboutus">
-  <section class="about-hero">
-    <?php the_field('about_hero_title'); ?>
+<section class="about-hero">
+  <div>
+    <h1>
+      <?php the_field('about_hero_title'); ?>
+    </h1>
     <?php the_field('about_hero_description'); ?>
-    <div class="about-hero-icons"></div>
-  </section>
-  
+    <div class="about-hero-icons"><img src="wp-content/themes/uxclinic/img/ux-design-team-about-us.png" alt="UX Design team about us image"></div>
+  </div>
+</section>
+<div class="aboutus">
+
   <section class="about-content">
     <div class="left-column">
       <h2><?php the_field('about_content_title'); ?></h2>
@@ -28,7 +32,7 @@ Template Name: ABOUT
       </ol>
     </div>
   </section>
-  
+
 </div>
 <?php include 'inc-submit.php'; ?>
 
