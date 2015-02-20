@@ -27,8 +27,10 @@ Template Name: ABOUT
           <?php $image = get_sub_field('about_content_expert_image'); if( !empty($image) ): ?>
             <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
           <?php endif; ?>
-          <h3><?php the_sub_field('about_content_expert_name'); ?></h3>
-          <p><?php the_sub_field('about_content_expert_description'); ?></p>
+          <div>
+            <h3><?php the_sub_field('about_content_expert_name'); ?></h3>
+            <p><?php the_sub_field('about_content_expert_description'); ?></p>
+          </div>
         </li>
        <?php endwhile; else : endif; ?>
       </ol>

@@ -291,6 +291,7 @@ section.hero img {
 .report-casestudy,
 .report-analysis {
   padding: 75px calc(50% - 580px);
+  overflow: auto;
 }
 
 .report-casestudy {
@@ -1312,18 +1313,67 @@ a.button.calendar-button {
   padding: 0 calc(50% - 580px);
   overflow: hidden;
   color: #6c6c6c;
+  padding-bottom: 50px;
 }
 
-.left-column {
+.left-column,
+.right-column {
   display: inline-block;
   width: 45%;
   padding-right: 25px;
   margin-top: 30px;
+  vertical-align: top;
+}
+
+.right-column {
+  border-left: 1px solid #e4e4e4;
+  padding-left: 40px;
+  margin-top: 50px;
+}
+
+.left-column {
+  padding-right: 45px;
 }
 
 .left-column p {
   font-size: 18px;
   line-height: 26px;
+}
+
+.right-column ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.right-column ol li img {
+  border-radius: 100%;
+  max-width: 85px;
+  height: 85px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right-column ol li h3 {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.right-column ol li p {
+  margin-top: 0;
+}
+
+.right-column ol li {
+margin-bottom: 20px;
+}
+
+.right-column ol li div {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  margin-top: -15px;
+  margin-left: 15px;
 }
 
 /* Media Queries */
@@ -1474,6 +1524,20 @@ a.button.calendar-button {
     padding-left: 15px;
   }
 
+  /*ABOUT US*/
+  .aboutus {
+    padding: 0 30px 50px 30px;
+  }
+
+  .right-column ol li div {
+    width: 65%;
+  }
+
+  .right-column {
+    padding-right: 0;
+    width: 43%;
+  }
+
 }
 
 /*MAX 955PX*/
@@ -1573,6 +1637,10 @@ a.button.calendar-button {
     width: 94%;
   }
 
+  .about-hero div {
+    width: 75%;
+  }
+
 }
 
 /*MAX 900PX*/
@@ -1638,6 +1706,24 @@ a.button.calendar-button {
 
   .excerpt h2 {
     margin-top: 30px;
+  }
+
+  .right-column {
+    padding-right: 0;
+    width: 100%;
+    border: 0;
+    padding-left: 0;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 50px;
+  }
+
+  .left-column {
+    padding-right: 45px;
+    width: 100%;
+  }
+
+  .left-column h2 {
+    text-align: center;
   }
 
 }
@@ -1964,6 +2050,21 @@ a.button.calendar-button {
 
   .hero h1 {
     font-size: 25px;
+  }
+
+  .right-column ol li img {
+    display: block;
+    margin: 0 auto 5px auto;
+  }
+
+  .right-column ol li div {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .left-column h2 {
+    text-align: center;
   }
 }
 
