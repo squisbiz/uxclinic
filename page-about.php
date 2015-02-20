@@ -18,7 +18,7 @@ Template Name: ABOUT
     </div>
     <div class="right-column">
       <ol>
-      <?php if( have_rows('home_how_steps') ) : while ( have_rows('home_how_steps') ) : the_row(); ?>
+      <?php if( have_rows('about_content_experts') ) : while ( have_rows('about_content_experts') ) : the_row(); ?>
         <li>
           <?php the_field('about_content_expert_image'); ?>
           <h3><?php the_field('about_content_expert_name'); ?></h3>
