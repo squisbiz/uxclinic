@@ -20,9 +20,11 @@ Template Name: ABOUT
       <ol>
       <?php if( have_rows('about_content_experts') ) : while ( have_rows('about_content_experts') ) : the_row(); ?>
         <li>
-          <?php the_field('about_content_expert_image'); ?>
-          <h3><?php the_field('about_content_expert_name'); ?></h3>
-          <p><?php the_field('about_content_expert_description'); ?></p>
+          <?php $image = get_sub_field('about_content_expert_image'); if( !empty($image) ): ?>
+            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+          <?php endif; ?>
+          <h3><?php the_sub_field('about_content_expert_name'); ?></h3>
+          <p><?php the_sub_field('about_content_expert_description'); ?></p>
         </li>
        <?php endwhile; else : endif; ?>
       </ol>
