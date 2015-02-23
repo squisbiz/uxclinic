@@ -9,23 +9,46 @@
       <?php the_field('episode_hero_video'); ?>
     </div>
     <p><?php the_field('episode_hero_description'); ?>
-    <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
-    <a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target="_blank" class="button calendar-button">Add to calendar</a>
+    
+    <?php if( get_field('episode_hero_button_toogle') )
+        {
+            echo "<a href='" . get_field('episode_hero_report_button_url') . "' class='button report-button' target='_blank'>" . get_field('episode_hero_button_label') . "</a>";
+        }
+        else
+        {
+            echo " ";
+        }
+    ?>
     </p>
 
     <div class="sub-episode-hero">
     <p> <?php the_field('episode_hero_client_description'); ?></p>
-    <img src=" <?php the_field('episode_hero_client_image'); ?>" class="client-img">
+    <?php $image = get_field('episode_hero_client_image'); if( !empty($image) ): ?>
+      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="client-img"/>
+    <?php endif; ?>
     </div>
   </section>
-
-  <section class="episode-resources">
-    <h2>Download some useful design resources:</h2>
+  
+    <?php if( get_field('episode_resource_toogle') )
+        {
+            echo "<section class='episode-resources'>";
+        }
+        else
+        {
+            echo "<section class='episode-resources-hidden'>";
+        }
+    ?>
+          
+    <h2><?php the_field('episode_resource_title'); ?></h2>
     <ol>
       <?php if( have_rows('episode_resource_item') ) : while ( have_rows('episode_resource_item') ) : the_row(); ?>
       <li>
         <a href="<?php the_sub_field('episode_resource_link');?>" target="_blank" >
-          <img src="<?php the_sub_field('episode_resource_image');?>">
+          
+          <?php $image = get_sub_field('episode_resource_image'); if( !empty($image) ): ?>
+            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+          <?php endif; ?>
+          
         </a>
       </li>
       <?php endwhile; else : endif; ?>

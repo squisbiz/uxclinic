@@ -977,6 +977,7 @@ footer .copyright a{
   float: left;
   width: 100%;
   margin-top: 45px;
+  margin-bottom: 30px;
 }
 
 .sub-episode-hero p {
@@ -1247,6 +1248,7 @@ div.wpcf7-validation-errors,
 
 /*REMOVING TEMPORALY REPORT BUTTONS and CALENDAR BTN*/
 
+/*
 .postid-417 a.button.report-button,
 .postid-418 a.button.report-button,
 .postid-461 a.button.report-button {
@@ -1277,6 +1279,7 @@ a.button.calendar-button {
   margin-top: 30px;
   max-width: 160px;
 }
+*/
 
 /*ABOUT US*/
 
@@ -1376,7 +1379,6 @@ margin-bottom: 20px;
   margin-left: 15px;
 }
 
-
 /*404ERROR*/
 .error-404 {
   padding: 75px calc(61% - 580px);
@@ -1430,6 +1432,10 @@ margin-bottom: 20px;
   display: block;
   bottom: 0;
   top: 425px;
+}
+
+.episode-resources-hidden {
+  display: none;
 }
 
 /* Media Queries */
