@@ -1,8 +1,11 @@
 <?php get_header(); ?>
 
-  <section class="error404">
-  	 <p>404 copy here</p>
-  	 <a class="button" href="#">404 button label</a>
+  <section class="error-404">
+	<div>
+		 <h1>404</h1>
+		 <p>We didn’t find the page you were looking for...</p>
+		 <a class="button" href="#">Take me home</a>
+	</div>
 	</section>
 
 <?php get_footer(); ?>
