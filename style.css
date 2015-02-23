@@ -977,6 +977,7 @@ footer .copyright a{
   float: left;
   width: 100%;
   margin-top: 45px;
+  margin-bottom: 30px;
 }
 
 .sub-episode-hero p {
@@ -1375,6 +1376,11 @@ margin-bottom: 20px;
   margin-top: -15px;
   margin-left: 15px;
 }
+
+.episode-resources-hidden {
+  display: none;
+}
+
 
 /* Media Queries */
 

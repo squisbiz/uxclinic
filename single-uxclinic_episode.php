@@ -9,8 +9,16 @@
       <?php the_field('episode_hero_video'); ?>
     </div>
     <p><?php the_field('episode_hero_description'); ?>
-    <a href="<?php the_field('episode_hero_report_button_url'); ?>" class="button report-button">See the report</a>
-    <a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target="_blank" class="button calendar-button">Add to calendar</a>
+    
+    <?php if( get_field('episode_hero_button_toogle') )
+        {
+            echo "<a href='" . get_field('episode_hero_report_button_url') . "' class='button report-button' target='_blank'>" . get_field('episode_hero_button_label') . "</a>";
+        }
+        else
+        {
+            echo " ";
+        }
+    ?>
     </p>
 
     <div class="sub-episode-hero">
@@ -20,8 +28,17 @@
     <?php endif; ?>
     </div>
   </section>
-
-  <section class="episode-resources">
+  
+    <?php if( get_field('episode_resource_toogle') )
+        {
+            echo "<section class='episode-resources'>";
+        }
+        else
+        {
+            echo "<section class='episode-resources-hidden'>";
+        }
+    ?>
+          
     <h2><?php the_field('episode_resource_title'); ?></h2>
     <ol>
       <?php if( have_rows('episode_resource_item') ) : while ( have_rows('episode_resource_item') ) : the_row(); ?>
