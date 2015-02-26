@@ -10,14 +10,14 @@ Template Name: HOME
     <h1><?php the_field('home_hero_title'); ?></h1>
 
 
-<!-- <div class="livevideo">
+<div class="livevideo">
       <div class="livevideocontainer">
-        <iframe width="780" height="421" src="https://www.youtube.com/embed/KAtKlixxnTg" frameborder="0" allowfullscreen></iframe>
+        <iframe width="780" height="421" src="//www.youtube.com/embed/lUkTHZV122E" frameborder="0" allowfullscreen></iframe>
       </div>
-    </div> -->
+    </div>
 
-    <?php the_field('home_hero_text'); ?>
-    <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p>
+<!--     <?php the_field('home_hero_text'); ?> -->
+   <!--  <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p> -->
 
   </section>
 
