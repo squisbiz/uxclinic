@@ -7,7 +7,7 @@ Template Name: HOME
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(http://nearsoft.com/stg.uxclinic/wp/wp-content/themes/uxclinic/img/ux-lab-background.gif) repeat-x center bottom;">
-    <h1><?php the_field('home_hero_title'); ?><a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target="_blank"class="button big-button add-live">Add to calendar</a></h1>
+    <h1><?php the_field('home_hero_title'); ?><!-- <a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target="_blank"class="button big-button add-live">Add to calendar</a> --></h1>
 
 
 <div class="livevideo">
