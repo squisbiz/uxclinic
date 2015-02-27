@@ -12,7 +12,7 @@
     
     <?php if( get_field('episode_hero_button_toogle') )
         {
-            echo "<a href='" . get_field('episode_hero_report_button_url') . "' class='button report-button' target='_blank'>" . get_field('episode_hero_button_label') . "</a>";
+            echo "<a href='" . get_field('episode_hero_report_button_url') . "' class='button report-button'>" . get_field('episode_hero_button_label') . "</a>";
         }
         else
         {
