@@ -267,7 +267,8 @@ section.hero img {
 }
 
 .hero h1 {
-  margin-top: -29px;
+  /*margin-top: -29px;*/
+  margin-top: -15px;
   font-size: 30px;
   width: auto;
 }
