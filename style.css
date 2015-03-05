@@ -219,7 +219,7 @@ nav ul li:last-child a {
   margin-top: 130px;
   padding-top: 70px;
   width: 100%;
-  height: 571px;
+  height: 385px;
 }
 
 .hero h1 {
@@ -1003,7 +1003,7 @@ footer .copyright a{
 .episode-resources {
   padding: 0 calc(50% - 580px);
   padding-bottom: 80px;
-  margin-top: 35px;
+  margin-top: 15px;
   overflow: hidden;
   color: #6c6c6c;
 }
@@ -1012,6 +1012,7 @@ footer .copyright a{
   color: #909090;
   font-weight: 300;
   font-size: 30px;
+  margin-top: 0;
 }
 
 .episode-resources h2 span {
