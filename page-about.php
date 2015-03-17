@@ -14,7 +14,6 @@ Template Name: ABOUT
   </div>
 </section>
 <div class="aboutus">
-
   <section class="about-content">
     <div class="left-column">
       <h2><?php the_field('about_content_title'); ?></h2>
