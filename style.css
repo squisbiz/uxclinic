@@ -645,6 +645,9 @@ section.hero img {
 .signup {
   padding-top: 80px;
 }
+.signup-btn {
+  height: 55px;
+}
 
 .signup p {
   font-size: 21px;
@@ -1244,6 +1247,8 @@ div.wpcf7-validation-errors,
 }
 
 .loop-single .excerpt p {
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .excerpt h2 {
@@ -2256,4 +2261,11 @@ margin-bottom: 20px;
   .error-404 {
     background-position:25% 100px;
   }
+}
+
+/*// hide socials on other pages */
+
+.post-type-archive-uxclinic_episode .at4-share-outer,
+.post-type-archive-uxclinic_report .at4-share-outer {
+  display: none;
 }
