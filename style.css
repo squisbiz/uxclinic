@@ -251,7 +251,7 @@ section.hero img {
 /* Live video */
 
 
-/*.livevideo {
+.livevideo {
   width: 800px;
   margin: 30px auto;
 }
@@ -271,7 +271,7 @@ section.hero img {
 }
 
 .hero h1 {
-  /*margin-top: -29px;*/
+  margin-top: -29px;
   margin-top: -15px;
   font-size: 30px;
   width: auto;
@@ -279,7 +279,7 @@ section.hero img {
 
 .add-live {
   margin-left: 20px;
-}*/
+}
 
 /*---------*/
 
@@ -645,6 +645,9 @@ section.hero img {
 .signup {
   padding-top: 80px;
 }
+.signup-btn {
+  height: 55px;
+}
 
 .signup p {
   font-size: 21px;
@@ -835,6 +838,7 @@ background-color: #0ac10a;
   float: right;
 }
 
+<<<<<<< HEAD
 .episodes li .image-container {
   width: 100%;
   height: 383px
@@ -845,6 +849,11 @@ background-color: #0ac10a;
   max-height: 221px;
 }
 
+=======
+.cont-h1 h1 b {
+  color: #ef5a21;
+}
+>>>>>>> origin/master
 
 /* FOOTER */
 
@@ -1252,6 +1261,8 @@ div.wpcf7-validation-errors,
 }
 
 .loop-single .excerpt p {
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .excerpt h2 {
@@ -1559,13 +1570,13 @@ margin-bottom: 20px;
 
 /*LIVE VIDEO*/
 
-/*  .hero h1 {
+  .hero h1 {
     width: 100% !important;
   }
 
   .report-hero p {
     padding: 10px 15%;
-  }*/
+  }
 
   /*EPISODE HERO*/
 
@@ -1785,7 +1796,7 @@ margin-bottom: 20px;
   /* Live video */
 
 
-/*  .hero {
+  .hero {
     height: auto;
     padding-bottom: 30px;
   }
@@ -1797,7 +1808,7 @@ margin-bottom: 20px;
  .livevideo {
     width: 90%;
     margin: 30px auto;
-  }*/
+  }
 
 
   /*EPISODE HERO*/
@@ -2271,4 +2282,11 @@ margin-bottom: 20px;
   .error-404 {
     background-position:25% 100px;
   }
+}
+
+/*// hide socials on other pages */
+
+.post-type-archive-uxclinic_episode .at4-share-outer,
+.post-type-archive-uxclinic_report .at4-share-outer {
+  display: none;
 }
