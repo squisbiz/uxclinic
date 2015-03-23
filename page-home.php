@@ -4,6 +4,8 @@ Template Name: HOME
 */
 ?>
 <?php get_header(); ?>
+
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(http://nearsoft.com/stg.uxclinic/wp/wp-content/themes/uxclinic/img/ux-lab-background.gif) repeat-x center bottom;">
@@ -54,20 +56,25 @@ Template Name: HOME
     <?php echo do_shortcode(get_post_meta(get_the_ID(), 'home_submit_form_shortcode', true)); ?>
   </section>
 
+
   <section class="episodes">
     <h2><?php the_field('home_episodes_title'); ?></h2>
     <a class="button" href="http://theuxclinic.com/episodes">See all episodes</a>
     <ul>
-      <?php if( have_rows('episodes_episodes') ) : while ( have_rows('episodes_episodes') ) : the_row(); ?>
+      <?php query_posts( array( 'post_type' => 'uxclinic_episode', 'posts_per_page' => 3) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <li>
-        <a href="http://theuxclinic.com/<?php the_sub_field('episode_url'); ?>">
+        <a href="<?php the_permalink(); ?>">
           <span class="vid-flag"></span>
-          <img src="<?php the_sub_field('episode_image'); ?>" alt="<?php the_sub_field('episode_client');?>">
-          <h3><?php the_sub_field('episode_title');?><span><?php the_sub_field('episode_client');?></span></h3>
-          <?php the_sub_field('episode_description');?>
+          
+          <div class="image-container" style="background: url(<?php the_field('episode_featured_image'); ?>); background-size: cover;">
+            
+          </div>
+          
+          <h3><?php the_field('episode_featured_episode_number');?><span><?php the_field('episode_featured_episode_client');?></span></h3>
+          <p><?php the_field('episode_featured_episode_description');?></p>
         </a>
       </li>
-      <?php endwhile; else : endif; ?>
+      <?php endwhile; endif; wp_reset_query(); ?>
     </ul>
   </section>
 
