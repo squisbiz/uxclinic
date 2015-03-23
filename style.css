@@ -251,7 +251,7 @@ section.hero img {
 /* Live video */
 
 
-.livevideo {
+/*.livevideo {
   width: 800px;
   margin: 30px auto;
 }
@@ -279,7 +279,7 @@ section.hero img {
 
 .add-live {
   margin-left: 20px;
-}
+}*/
 
 /*---------*/
 
@@ -998,8 +998,8 @@ footer .copyright a{
 .sub-episode-hero {
   float: left;
   width: 100%;
-  margin-top: 45px;
-  margin-bottom: 30px;
+  padding: 55px 0;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .sub-episode-hero p {
@@ -1016,6 +1016,7 @@ footer .copyright a{
   margin-top: 15px;
   overflow: hidden;
   color: #6c6c6c;
+  padding-top: 50px;
 }
 
 .episode-resources h2 {
@@ -1549,13 +1550,13 @@ margin-bottom: 20px;
 
 /*LIVE VIDEO*/
 
-  .hero h1 {
+/*  .hero h1 {
     width: 100% !important;
   }
 
   .report-hero p {
     padding: 10px 15%;
-  }
+  }*/
 
   /*EPISODE HERO*/
 
@@ -1775,7 +1776,7 @@ margin-bottom: 20px;
   /* Live video */
 
 
-  .hero {
+/*  .hero {
     height: auto;
     padding-bottom: 30px;
   }
@@ -1787,7 +1788,7 @@ margin-bottom: 20px;
  .livevideo {
     width: 90%;
     margin: 30px auto;
-  }
+  }*/
 
 
   /*EPISODE HERO*/

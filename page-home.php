@@ -16,8 +16,8 @@ Template Name: HOME
       </div>
     </div>
 
-<!-- <?php the_field('home_hero_text'); ?> -->
- <!--  <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p> -->
+<?php the_field('home_hero_text'); ?>
+  <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p>
 
   </section>
 
