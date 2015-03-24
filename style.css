@@ -57,6 +57,7 @@ a {
   padding: 15px 20px;
   font-size: 18px;
   transition: background .3s;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -1431,6 +1432,14 @@ a.button.calendar-button {
   width: 80%;
   margin-top: -15px;
   margin-left: 15px;
+}
+
+.scnd-case-link {
+  color: rgb(239, 90, 33);
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 /*404ERROR*/
