@@ -10,7 +10,7 @@ Template Name: ABOUT
       <?php the_field('about_hero_title'); ?>
     </h1>
     <?php the_field('about_hero_description'); ?>
-    <div class="about-hero-icons"><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button">Submit your case study</a></div>
+    <div class="about-hero-icons"><a id="link-anchor" class="button big-button">Submit your case study</a></div>
   </div>
 </section>
 <div class="aboutus">
