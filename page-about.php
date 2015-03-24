@@ -15,28 +15,18 @@ Template Name: ABOUT
 </section>
 <div class="aboutus">
   <section class="about-content">
+    <div class="right-column2">
+      <h2>Learn the UX way</h2>
+      <p>Creating products people love is no easy feat. It’s not just about beautiful UI or fully functional features. UX Design thrives from a profound understanding of users and keeping their needs in mind during the product design process. A great way to start is diving head first into different design methods. And yes, we’ve created infographics for a better experience.</p>
+    </div>
     <div class="left-column">
       <h2><?php the_field('about_content_title'); ?></h2>
       <p><?php the_field('about_content_description'); ?></p>
     </div>
-    <div class="right-column">
-      <ol>
-      <?php if( have_rows('about_content_experts') ) : while ( have_rows('about_content_experts') ) : the_row(); ?>
-        <li>
-          <?php $image = get_sub_field('about_content_expert_image'); if( !empty($image) ): ?>
-            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-          <?php endif; ?>
-          <div>
-            <h3><?php the_sub_field('about_content_expert_name'); ?></h3>
-            <p><?php the_sub_field('about_content_expert_description'); ?></p>
-          </div>
-        </li>
-       <?php endwhile; else : endif; ?>
-      </ol>
-    </div>
   </section>
 
 </div>
+<?php include 'inc-experts.php'; ?>
 <?php include 'inc-submit.php'; ?>
 
 <?php get_footer(); ?>
