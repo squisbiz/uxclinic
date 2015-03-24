@@ -1357,12 +1357,24 @@ a.button.calendar-button {
 }
 
 .left-column,
-.right-column2  {
-  display: inline-block;
-  width: 45%;
-  padding-right: 100px;
-  margin-top: 30px;
-  vertical-align: top;
+.right-column2 {
+    display: inline-block;
+    width: 45%;
+    margin-top: 30px;
+    padding-right: 100px;
+    vertical-align: top;
+    background: url(img/ux-report-results-sureify-image.jpg) no-repeat;
+    background-size: 92%;
+}
+
+
+.left-column {
+  background-image: none;
+}
+
+.right-column2 {
+  height: 390px;
+  margin-top: 50px;
 }
 
 .left-column p,
@@ -1662,6 +1674,12 @@ a.button.calendar-button {
 
 }
 
+@media (max-width: 1180px) {
+  .left-column {
+    width: 42%;
+  }
+}
+
 /*MAX 955PX*/
 @media (max-width: 955px) {
   /*HOW IT WORKS*/
@@ -1796,6 +1814,12 @@ a.button.calendar-button {
     float: none;
   }
 
+  .right-column2 {
+    width: 95%;
+    background-size: 78%;
+    background-position: 35%;
+  }
+
   /* Live video */
 
 
@@ -1915,6 +1939,10 @@ a.button.calendar-button {
   header .mobilenav-toggle {
     display: block;
     margin-right: 30px;
+  }
+  .right-column2 {
+    background-position: 28%;
+    height: 300px;
   }
 }
 
@@ -2079,6 +2107,13 @@ a.button.calendar-button {
       content: '\203A';
     }
 
+  .right-column2 {
+    background-position: 0;
+    width: 100%;
+    background-size: 100%;
+    padding: 0;
+  }
+
   }
 
   /*MAX 600px*/
@@ -2173,7 +2208,16 @@ a.button.calendar-button {
   }
 }
 
+  /*MAX 460*/
 
+@media (max-width: 460px) {
+  .right-column2 {
+    height: 235px;
+  }
+  .left-column {
+      margin-top: 0;
+  }
+}
 
   /*MAX 416*/
 
@@ -2269,6 +2313,10 @@ a.button.calendar-button {
   /*REPORT*/
   .report-hero img {
     width: 70%;
+  }
+
+  .right-column2 {
+    height: 180px;
   }
 }
 
