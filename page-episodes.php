@@ -8,7 +8,7 @@ Template Name: EPISODES INDEX
 
 <div class="episodesindex">
   <div class="cont-h1">
-    <h1>Episodes</h1>
+    <h1>Case studies</h1>
   </div>
 
   <div class="the_content">
