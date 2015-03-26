@@ -18,15 +18,15 @@ add_theme_support( 'post-thumbnails' );
 
 add_action( 'init', 'create_posttype_episode' );
 function create_posttype_episode() {
-	register_post_type( 'uxclinic_casestudies',
+	register_post_type( 'uxclinic_episode',
 		array(
 			'labels' => array(
-				'name' => __( 'Case studies' ),
-				'singular_name' => __( 'Case study' )
+				'name' => __( 'Episodes' ),
+				'singular_name' => __( 'Episode' )
 			),
 			'public' => true,
 			'has_archive' => true,
-			'rewrite' => array('slug' => 'casestudies'),
+			'rewrite' => array('slug' => 'episodes'),
 			'supports' => array('title', 'editor', 'author', 'thumbnail'),
 		)
 	);
