@@ -61,7 +61,7 @@ Template Name: HOME
     <h2><?php the_field('home_episodes_title'); ?></h2>
     <a class="button" href="http://theuxclinic.com/episodes">See all Case studies</a>
     <ul>
-      <?php query_posts( array( 'post_type' => 'uxclinic_episode', 'posts_per_page' => 3) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+      <?php query_posts( array( 'post_type' => 'uxclinic_casestudy', 'posts_per_page' => 3) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <li>
         <a href="<?php the_permalink(); ?>">
           <span class="vid-flag"></span>

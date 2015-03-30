@@ -5,7 +5,7 @@
   <?php endwhile; ?><?php endif; WP_reset_query(); ?>
   
   <ul>
-    <?php query_posts( array( 'post_type' => 'uxclinic_episode', 'posts_per_page' => 3) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <?php query_posts( array( 'post_type' => 'uxclinic_casestudy', 'posts_per_page' => 3) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <li>
       <a href="<?php the_permalink(); ?>">
         <span class="vid-flag"></span>
