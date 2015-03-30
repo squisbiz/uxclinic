@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <div class="episodesindex">
-  
+
 <div class="cont-h1">
-  <h1>Episodes</h1>
+  <h1>Case Studies</h1>
 </div>
 
 <div class="the_content">
@@ -22,5 +22,5 @@
 </div>
 
 <?php include 'inc-submit.php'; ?>
-	
+
 <?php get_footer(); ?>
