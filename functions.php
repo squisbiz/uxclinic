@@ -16,17 +16,17 @@ add_theme_support( 'post-thumbnails' );
 
 // Add Custom Post "Episodes"
 
-add_action( 'init', 'create_posttype_episode' );
-function create_posttype_episode() {
-	register_post_type( 'uxclinic_episode',
+add_action( 'init', 'create_posttype_casestudy' );
+function create_posttype_casestudy() {
+	register_post_type( 'uxclinic_casestudy',
 		array(
 			'labels' => array(
-				'name' => __( 'Episodes' ),
-				'singular_name' => __( 'Episode' )
+				'name' => __( 'Case Studies' ),
+				'singular_name' => __( 'Case Study' )
 			),
 			'public' => true,
 			'has_archive' => true,
-			'rewrite' => array('slug' => 'episodes'),
+			'rewrite' => array('slug' => 'casestudies'),
 			'supports' => array('title', 'editor', 'author', 'thumbnail'),
 		)
 	);
