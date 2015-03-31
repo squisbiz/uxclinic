@@ -22,7 +22,7 @@ header a {
 }
 
 .method-cont {
-  width: 37%;
+  width: 50%;
   float: right;
 }
 
@@ -64,12 +64,12 @@ header a {
 .section-bg-takeaways {
   padding: 0 115px 70px 115px;
   overflow: auto;
-  background: url(img/bg-reports-info.jpg) no-repeat;
+  background: url(img/persona-profile-bg-img.jpg) no-repeat;
   background-size: cover;
 }
 
 .section-bg-takeaways {
-    background: url(img/bg-reports1.jpg) no-repeat;
+    background: url(img/takeaways-bg-persona-profiles.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -181,7 +181,7 @@ header a {
 }
 
 .takeaways-box {
-  width: 50%;
+  width: 57%;
   float: right;
   background-color: #5f6a6f;
   padding: 30px;
