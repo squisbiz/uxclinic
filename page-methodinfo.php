@@ -7,14 +7,14 @@ Template Name: TEMPLATE METHOD INFO
 <html lang="en">
 <head>
 <title>infographic</title>
-<link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp-content/themes/uxclinic/templatestyle.css">
+<link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/templatestyle.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<a href="#" class="downlaod-infographic"><img src="<?php echo home_url(); ?>/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
+	<a href="#" class="downlaod-infographic"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
 	<header>
 		<a href="http://theuxclinic.com/" target="_blank">
-			<img src="<?php echo home_url(); ?>/wp-content/themes/uxclinic/img/uxclinic-logo-small.png" alt="UXClinic">
+			<img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/uxclinic-logo-small.png" alt="UXClinic">
 		</a>
 		<div class="method-cont">
 			<h1>Persona <span>Profile</span></h1>
@@ -73,8 +73,8 @@ Template Name: TEMPLATE METHOD INFO
 	</section>
 	<footer class="orange">
 		<h1>
-			<a href="http://theuxclinic.com/" target="_blank"><img src="<?php echo home_url(); ?>/wp-content/themes/uxclinic/img/uxclinic-logo-small.png"></a>
-			<a href="http://nearsoft.com/" target="_blank" class="nearsof-logo"><img src="<?php echo home_url(); ?>/wp-content/themes/uxclinic/img/nearsoft-logo.png" alt="Nearsoft"></a>
+			<a href="http://theuxclinic.com/" target="_blank"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/uxclinic-logo-small.png"></a>
+			<a href="http://nearsoft.com/" target="_blank" class="nearsof-logo"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/nearsoft-logo.png" alt="Nearsoft"></a>
 		</h1>
 	</footer>
 </body>
