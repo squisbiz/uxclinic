@@ -59,7 +59,7 @@ Template Name: HOME
 
   <section class="episodes">
     <h2><?php the_field('home_episodes_title'); ?></h2>
-    <a class="button" href="http://theuxclinic.com/episodes">See all Case studies</a>
+    <a class="button" href="http://theuxclinic.com/casestudies">See all Case studies</a>
     <ul>
       <?php query_posts( array( 'post_type' => 'uxclinic_episode', 'posts_per_page' => 3) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <li>
