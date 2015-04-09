@@ -12,14 +12,14 @@ Template Name: HOME
     <h1><?php the_field('home_hero_title'); ?><!-- <a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target="_blank"class="button big-button add-live">Add to calendar</a> --></h1>
 
 
-<!-- <div class="livevideo">
+<div class="livevideo">
       <div class="livevideocontainer">
-        <iframe width="780" height="421" src="//www.youtube.com/embed/CHpExPNBbnY" frameborder="0" allowfullscreen></iframe>
+        <iframe width="780" height="421" src="//www.youtube.com/embed/uJNB8pg4ens" frameborder="0" allowfullscreen></iframe>
       </div>
-    </div> -->
+    </div>
 
-<?php the_field('home_hero_text'); ?>
-  <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p>
+<!-- <?php the_field('home_hero_text'); ?> -->
+  <!-- <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p> -->
 
   </section>
 
