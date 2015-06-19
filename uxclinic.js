@@ -18,8 +18,8 @@ $(document).ready(function(){
 
 $('input[type="checkbox"]').click(evaluate).each(evaluate);
 
-$('.previouspost a , .nexpost a').html(function (i, html) {
-    return html.replace(/(\w+\s\w+)/, '<span>$1</span><br/>')
-});
+// $('.previouspost a , .nexpost a').html(function (i, html) {
+//     return html.replace(/(\w+\s\w+)/, '<span>$1</span><br/>')
+// });
 
 })

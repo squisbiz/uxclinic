@@ -287,7 +287,7 @@ section.hero img {
 
 /*REPORT*/
 .report-hero {
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   height: auto;
 }
 
@@ -307,8 +307,12 @@ section.hero img {
 
 .report-casestudy,
 .report-analysis {
-  padding: 75px calc(50% - 580px);
+  padding: 140px calc(50% - 580px);
   overflow: auto;
+}
+
+.report-analysis {
+  padding: 70px calc(50% - 580px);
 }
 
 .report-casestudy {
@@ -316,8 +320,8 @@ section.hero img {
 }
 
 .border-class {
-    border-bottom: 1px solid #e4e4e4;
-    padding-bottom: 75px;
+    padding-bottom: 30px;
+    overflow: auto;
 }
 
 .report-download {
@@ -359,20 +363,23 @@ section.hero img {
   display: inline-block;
   vertical-align: top;
   border-radius: 5px;
+  width: 603px;
 }
 
-.report-textcont h3 span {
+.report-textcont h2 span {
   color: #ef5a21;
 }
 
-.report-textcont h3 {
+.report-textcont h2 {
   font-size: 25px;
   color: #5e6a71;
+  margin-top: 0;
 }
 
 .report-pagination {
   overflow: auto;
   padding: 60px calc(50% - 580px);
+  border-top: 1px solid #F3F3F3;
 }
 
 .previouspost {
@@ -409,7 +416,6 @@ section.hero img {
   border-radius: 100%;
   color: #fff;
   text-align: center;
-  left: -80px;
   top: 4px;
   font-size: 55px;
   width: 55px;
@@ -426,8 +432,16 @@ section.hero img {
 
 .nexpost a:after {
   content: '\203A';
-  left: 144px;
-  top: 4px;
+  right: -80px;
+}
+
+.previouspost a:before {
+  left: -80px;
+}
+
+section.report-pagination b {
+  font-weight: 300;
+  color: #5e6b72;
 }
 
 /* HOW IT WORKS */
@@ -740,7 +754,7 @@ span.vid-flag {
 
 .vid-flag::after {
   position: absolute;
-  content: 'Latest Episode';
+  content: 'Latest Case study';
   color: #fff;
   right: 0;
   top: 6px;
@@ -853,6 +867,100 @@ background-color: #0ac10a;
   color: #ef5a21;
 }
 
+.casestudy_outcome_img2 {
+  margin-top: 70px;
+}
+
+.casestudy-video-hero {
+  padding: 0 calc(50% - 580px);
+  margin-bottom: 126px !important;
+  margin-top: 0!important;
+  overflow: hidden;
+  color: #6c6c6c;
+}
+
+.cont-h1 h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #606a70;
+  width: auto;
+  margin: 20px 0 45px 0;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.cont-h1 h1:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #e8e8e8;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: -9;
+}
+
+.margin-top-diy {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.video-h3-title {
+  font-size: 25px;
+  float: right;
+  margin: 0 0 20px 0;
+  width: calc(100% - 830px);
+  text-align: left;
+  line-height: 30px;
+}
+
+.casestudy-video-hero h3 span {
+  color: #ef5a21;
+}
+
+
+.title-new-casestudy,
+.subtitle-new-casestudy  {
+  width: 1160px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 300;
+  padding-top: 35px;
+}
+
+.subtitle-new-casestudy {
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 0 0 40px 0;
+  line-height: 30px;
+}
+
+b {
+  color: #792200;
+}
+
+img.after-image {
+  width: auto;
+  margin-top: 10px;
+}
+
+.process-img-cont {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.process-img-cont h5 {
+  color: #8B8B8B;
+  font-size: 13px;
+  font-weight: 300;
+  border-top: 1px solid #e4e4e4;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
 /* FOOTER */
 
 footer {
@@ -946,6 +1054,8 @@ footer .copyright a{
 
 .cont-h1 {
   position: relative;
+  text-align: center;
+  margin: 60px 0 45px 0;
 }
 
 .episode-hero h1::before,
@@ -980,7 +1090,7 @@ footer .copyright a{
 .episode-hero p {
   float: right;
   margin: 0;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 300;
   width: calc(100% - 830px);
@@ -990,9 +1100,7 @@ footer .copyright a{
 .report-button {
   font-weight: 700;
   padding: 15px 40px;
-  display: block;
   text-align: center;
-  margin-top: 30px;
   max-width: 160px;
 }
 
@@ -1019,6 +1127,35 @@ footer .copyright a{
   padding-top: 5px;
 }
 
+section.display-our-work {
+  height: 500px;
+  background-color: #FAFAFA;
+  padding: 0 calc(50% - 580px);
+  overflow: inherit;
+}
+
+.display-work-cont {
+  position: relative;
+  top: -33px;
+}
+
+.report-textcont ul {
+  padding: 0;
+  margin: 20px;
+  list-style: url(img/bullet-list.gif);
+}
+
+.report-textcont li {
+  font-size: 17px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-weight: 400;
+  color: #656565;
+}
+
+.report-textcont b {
+  color: #EF5A21;
+}
 
 /* Episode resources */
 
@@ -1283,41 +1420,6 @@ div.wpcf7-validation-errors,
 .loop-single .excerpt a:hover {
   text-decoration: underline;
 }
-
-/*REMOVING TEMPORALY REPORT BUTTONS and CALENDAR BTN*/
-
-/*
-.postid-417 a.button.report-button,
-.postid-418 a.button.report-button,
-.postid-461 a.button.report-button {
-  display: none;
-}
-
-a.button.calendar-button {
-  display: none;
-}
-
-.postid-461 section.episode-resources {
-  display: none;
-}
-
-.postid-461 a.button.calendar-button {
-  display: block;
-}
-
-.postid-461 .sub-episode-hero {
-  margin-bottom: 45px;
-}
-
-.calendar-button {
-  font-weight: 700;
-  padding: 15px 40px;
-  display: block;
-  text-align: center;
-  margin-top: 30px;
-  max-width: 160px;
-}
-*/
 
 /*ABOUT US*/
 
@@ -1618,13 +1720,13 @@ a.button.calendar-button {
   }
 
   .episode-hero > p {
-    margin-top: 20px;
+    margin-top: 35px;
     width: auto;
   }
 
-  .report-button {
+/*  .report-button {
     margin: 30px auto;
-  }
+  }*/
 
   .sub-episode-hero {
     margin-top: 25px;
@@ -1632,6 +1734,22 @@ a.button.calendar-button {
 
   .sub-episode-hero p {
     margin-top: 0;
+  }
+
+  .process-img-cont {
+    width: 52%;
+  }
+
+  .process-img-cont img {
+    width: 100%;
+  }
+
+  .video-h3-title {
+    float: none;
+    width: auto;
+    margin: 0 0 40px;
+    text-align: center;
+    font-size: 40px;
   }
 
   /*FAQ*/
@@ -1643,24 +1761,36 @@ a.button.calendar-button {
   /*REPORT*/
   .report-casestudy,
   .report-analysis {
-    padding: 75px 20px;
+    padding: 160px 50px 0;
   }
 
   .report-analysis {
     padding-top: 0;
   }
 
-  .report-casestudy img,
-  .report-analysis img {
-    width: 52%;
+   .report-analysis .process-img-cont {
+    float: left;
   }
 
-  .report-textcont {
-    padding-right: 15px;
+    .report-casestudy .process-img-cont {
+    float: right;
   }
+
+  .report-casestudy img,
+  .report-analysis img {
+    /*width: 52%;*/
+  }
+
   .report-analysis .report-textcont {
-    padding-right: 0;
-    padding-left: 15px;
+    padding-left: 0;
+  }
+
+  .report-casestudy .report-textcont {
+    padding-right: 0 !important;
+  }
+
+  .breakpoint-width {
+      width: 100%;
   }
 
   /*ABOUT US*/
@@ -1682,13 +1812,33 @@ a.button.calendar-button {
     background-position: 25% 100px;
   }
 
-}
-
-@media (max-width: 1180px) {
   .left-column {
     width: 42%;
   }
+  .title-new-casestudy {
+    width: 91%;
+    padding: 35px 20px;
+  }
+  .subtitle-new-casestudy {
+    width: 91%;
+    padding: 0 20px 40px 20px;
+    margin-top: 0;
+  }
+  #at4-share {
+    display: none !important;
+  }
+  section.display-our-work {
+    height: auto;
+  }
+    section.display-our-work img {
+    height: auto;
+    width: 100%;
+  }
+
 }
+
+
+
 
 /*MAX 955PX*/
 @media (max-width: 955px) {
@@ -1730,7 +1880,7 @@ a.button.calendar-button {
   /*REPORT*/
   .report-casestudy img,
   .report-analysis img {
-    width: 78%;
+    width: 100%;
     margin: 40px auto 0 auto;
     display: block;
   }
@@ -1741,11 +1891,12 @@ a.button.calendar-button {
    }
 
   .report-textcont {
-    width: 92%;
-    padding: 0 20px;
+    width: 100%;
+    padding-right: 0;
+    /*padding: 0 20px;*/
   }
 
-  .report-textcont h3 {
+  .report-textcont h2 {
     font-size: 25px;
     color: #5e6a71;
     text-align: center;
@@ -1757,7 +1908,7 @@ a.button.calendar-button {
 
   .report-casestudy,
   .report-analysis {
-    padding: 45px 20px;
+    padding: 65px 35px;
   }
 
     .report-casestudy {
@@ -1765,7 +1916,8 @@ a.button.calendar-button {
     }
 
    .report-analysis {
-    padding-top: 0;
+     padding-top: 0;
+     padding-bottom: 40px;
    }
 
   .report-hero p {
@@ -1796,6 +1948,38 @@ a.button.calendar-button {
     background-position: 22% 100px;
   }
 
+  .video-h3-title {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  }
+
+  .cont-h1 {
+  margin: 75px 0 0 0;
+}
+
+.video-wrapper {
+  margin-top: 65px;
+}
+
+  .title-new-casestudy {
+    font-size: 50px;
+    text-align: center;
+    width: 86%;
+  }
+  .subtitle-new-casestudy {
+    font-size: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+    width: 86%;
+  }
+  .process-img-cont {
+    width: 100%;
+  }
+
+  .border-class {
+    padding-bottom: 0;
+  }
 }
 
 /*MAX 900PX*/
@@ -1807,7 +1991,7 @@ a.button.calendar-button {
 
   .episode-hero p {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 35px;
   }
 
   .episode-hero p a {
@@ -2043,6 +2227,10 @@ a.button.calendar-button {
   textarea.contactform-description {
     width: 94%;
   }
+
+  .title-new-casestudy {
+    font-size: 35px;
+  }
 }
 
   /*MAX 620px*/
@@ -2075,11 +2263,6 @@ a.button.calendar-button {
       width: 340px
     }
 
-    .previouspost a,
-    .nexpost a {
-
-    }
-
     .previouspost,
     .nexpost {
       display: block;
@@ -2097,24 +2280,23 @@ a.button.calendar-button {
 
     .previouspost a:before,
     .nexpost a:after {
-    content: '\2039';
+/*    content: '\2039';
     position: absolute;
     background-color: #ef5a21;
     border-radius: 100%;
     color: #fff;
     text-align: center;
-    left: -35px;
     top: 2px;
     font-size: 26px;
     width: 25px;
     font-weight: 900;
     height: 25px;
-    line-height: 21px;
+    line-height: 21px;*/
+    display: none;
     }
 
     .nexpost a:after {
-      left: 130px;
-      content: '\203A';
+      /*content: '\203A';*/
     }
 
   .right-column2 {
@@ -2216,6 +2398,15 @@ a.button.calendar-button {
    .report-analysis img{
     width: 100%;
   }
+
+  .video-h3-title {
+    width: 90%;
+    font-size: 25px;
+  }
+
+  .cont-h1 {
+      margin: 60px 0 0 0
+  }
 }
 
   /*MAX 460*/
@@ -2226,6 +2417,17 @@ a.button.calendar-button {
   }
   .left-column {
       margin-top: 0;
+  }
+
+  .cont-h1 h1 {
+      font-size: 28px;
+      padding: 0;
+      margin-bottom: 20px;
+  }
+
+  .subtitle-new-casestudy {
+    font-size: 16px;
+    line-height: 25px;
   }
 }
 
