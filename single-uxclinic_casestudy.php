@@ -37,7 +37,7 @@
         <h2>UX Findings for: <span><?php the_field('case_study_company_title'); ?></span></h2>
         <p><?php the_field('casestudy_outcome_description'); ?></p>
       </div>
-      <?php $image = get_field('casestudy_outcome_image'); if( !empty($image) ): ?>
+      <?php $image = get_field('casestudy_outcome_image2'); if( !empty($image) ): ?>
       <div class="process-img-cont">
         <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_outcome_img"/>
       <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
