@@ -18,7 +18,7 @@
   <section class="report-casestudy">
     <div class="border-class">
       <div class ="report-textcont">
-        <h2>Oportunity Areas: <span><?php the_field('casestudy_hero_method'); ?></span></h2>
+        <h2>UX Solution: <span><?php the_field('casestudy_hero_method'); ?></span></h2>
         <p><?php the_field('casestudy_hero_description'); ?></p>
         <p><?php the_field('diy_link'); ?></p>
       </div>
@@ -62,7 +62,7 @@
 
   <section class="report-download">
     <h2><?php the_field('report_download_label'); ?></h2>
-    <a class="button report-button" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a>
+    <a class="button report-button" Targer="_blank" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a>
   </section>
 
   <section class="report-pagination">
