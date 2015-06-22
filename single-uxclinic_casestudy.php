@@ -23,7 +23,15 @@
         <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
   </section>
 
-  <section class="report-casestudy">
+  <?php if( get_field('ux_solution_toggle') )
+      {
+        echo "<section class='report-casestudy'>";
+      }
+      else
+      {
+          echo "<section class='report-casestudy' style='display:none;'>";
+      }
+  ?>
     <div class="border-class">
       <div class ="report-textcont">
         <h2>UX Solution: <span><?php the_field('casestudy_hero_method'); ?></span></h2>
