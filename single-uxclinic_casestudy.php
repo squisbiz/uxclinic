@@ -46,7 +46,16 @@
       </div>
     </div>
   </section>
-
+  
+  <?php if( get_field('ux_findings_toggle') )
+      {
+        echo "<section class='report-analysis'>";
+      }
+      else
+      {
+          echo "<section class='report-analysis' style='display:none;'>";
+      }
+  ?>
   <section class="report-analysis">
     <div class="border-class">
       <div class ="report-textcont">
@@ -61,8 +70,16 @@
         </div>
     </div>
   </section>
-
-  <section class="episode-hero casestudy-video-hero">
+  
+  <?php if( get_field('video_toggle') )
+      {
+        echo "<section class='episode-hero casestudy-video-hero'>";
+      }
+      else
+      {
+          echo "<section class='episode-hero casestudy-video-hero' style='display:none;'>";
+      }
+  ?>
       <h2 class="video-h3-title">Watch Our <span><?php the_field('case_study_episode'); ?></span></h2>
     <div class="video-wrapper">
       <?php the_field('casestudy_video_video'); ?>
