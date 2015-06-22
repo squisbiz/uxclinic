@@ -8,7 +8,15 @@
     <h2 class="subtitle-new-casestudy"><?php the_field('case_study_subtitle'); ?></h2>
   </section>
 
-  <section class="display-our-work experts">
+  <?php if( get_field('cover_image_toggle') )
+      {
+        echo "<section class='display-our-work experts'>";
+      }
+      else
+      {
+          echo "<section class='display-our-work experts' style='display:none;'>";
+      }
+  ?>
    <?php $image = get_field('display_our_work'); if( !empty($image) ): ?>
       <div class="display-work-cont">
         <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_hero_img"/>
@@ -45,7 +53,6 @@
         </div>
     </div>
   </section>
-
 
   <section class="episode-hero casestudy-video-hero">
       <h2 class="video-h3-title">Watch Our <span><?php the_field('case_study_episode'); ?></span></h2>
