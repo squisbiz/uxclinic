@@ -56,7 +56,6 @@
           echo "<section class='report-analysis' style='display:none;'>";
       }
   ?>
-  <section class="report-analysis">
     <div class="border-class">
       <div class ="report-textcont">
         <h2>UX Findings for: <span><?php the_field('case_study_company_title'); ?></span></h2>
