@@ -59,8 +59,15 @@
 
   </section>
 
-
-  <section class="report-download">
+  <?php if( get_field('report_download_stuff_toogle') )
+      {
+        echo "<section class='report-download'>";
+      }
+      else
+      {
+          echo "<section class='report-download' style='display:none;'>";
+      }
+  ?>
     <h2><?php the_field('report_download_label'); ?></h2>
     <a class="button report-button" Targer="_blank" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a>
   </section>
