@@ -36,7 +36,7 @@
       <div class ="report-textcont">
         <h2>UX Solution: <span><?php the_field('casestudy_hero_method'); ?></span></h2>
         <p><?php the_field('casestudy_hero_description'); ?></p>
-        <p><?php the_field('diy_link'); ?></p>
+        <p><a href="<?php the_field('diy_link'); ?>"><?php the_field('diy_link_label'); ?></a></p>
       </div>
       <?php $image = get_field('casestudy_hero_image'); if( !empty($image) ): ?>
       <div class="process-img-cont">
