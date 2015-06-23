@@ -36,7 +36,7 @@
       <div class ="report-textcont">
         <h2>UX Solution: <span><?php the_field('casestudy_hero_method'); ?></span></h2>
         <p><?php the_field('casestudy_hero_description'); ?></p>
-        <p><a href="<?php the_field('diy_link'); ?>"><?php the_field('diy_link_label'); ?></a></p>
+        <p><a href="<?php the_field('diy_link'); ?>" target="_blank" class="scnd-case-link margin-top-diy"><?php the_field('diy_link_label'); ?></a></p>
       </div>
       <?php $image = get_field('casestudy_hero_image'); if( !empty($image) ): ?>
       <div class="process-img-cont">
@@ -100,7 +100,7 @@
       }
   ?>
     <h2><?php the_field('report_download_label'); ?></h2>
-    <a class="button report-button" Targer="_blank" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a>
+    <a class="button report-button" target="_blank" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a>
   </section>
 
   <section class="report-pagination">
