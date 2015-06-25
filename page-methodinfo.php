@@ -6,12 +6,12 @@ Template Name: TEMPLATE METHOD INFO
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>infographic</title>
+<title>Infographic - Persona Profile</title>
 <link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/templatestyle.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<a href="#" class="downlaod-infographic"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
+	<a href="http://theuxclinic.com/wp/wp-content/uploads/2015/03/persona-profile-infographic.pdf" class="downlaod-infographic" target="_blank"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
 	<header>
 		<a href="http://theuxclinic.com/" target="_blank">
 			<img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/uxclinic-logo-small.png" alt="UXClinic">

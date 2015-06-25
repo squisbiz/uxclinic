@@ -32,8 +32,9 @@ function create_posttype_casestudy() {
 	);
 }
 
-// Add Custom Post "Reports"
+// Add Custom Post "Reports" - Removed because it's no use for now, just uncomment the script to return them to the site.
 
+/*
 add_action( 'init', 'create_posttype_report' );
 function create_posttype_report() {
 	register_post_type( 'uxclinic_report',
@@ -49,5 +50,6 @@ function create_posttype_report() {
 		)
 	);
 }
+*/
 
 ?>
