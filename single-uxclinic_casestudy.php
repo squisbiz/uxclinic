@@ -62,7 +62,7 @@
 
   <section class="report-download">
     <h2><?php the_field('report_download_label'); ?></h2>
-    <a class="button report-button" Targer="_blank" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a>
+    <a class="button report-button" Target="_blank" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a>
   </section>
 
   <section class="report-pagination">
