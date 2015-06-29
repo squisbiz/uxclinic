@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   <section class="report-hero" style="background: url(<?php the_field('case_study_background'); ?>) no-repeat; background-size: cover;">
@@ -38,9 +39,14 @@
         <p><?php the_field('casestudy_hero_description'); ?></p>
         <p><a href="<?php the_field('diy_link'); ?>" target="_blank" class="scnd-case-link margin-top-diy"><?php the_field('diy_link_label'); ?></a></p>
       </div>
-      <?php $image = get_field('casestudy_hero_image'); if( !empty($image) ): ?>
+      
+      
+        <?php $image = get_field('casestudy_hero_image'); if( !empty($image) ): ?>
       <div class="process-img-cont">
-        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_hero_img"/>
+        <a class="gallery" href="<?php echo $image['url']; ?>">
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_hero_img"/>
+        </a>
+        
         <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
         <h5><?php the_field('footnote_process_img'); ?></h5>
       </div>
@@ -63,7 +69,9 @@
       </div>
       <?php $image = get_field('casestudy_outcome_image2'); if( !empty($image) ): ?>
       <div class="process-img-cont">
-        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_outcome_img"/>
+        <a class="gallery" href="<?php echo $image['url']; ?>">
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_outcome_img"/>
+        </a>
       <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
         <h5><?php the_field('footnote_img_outcomes'); ?></h5>
         </div>
