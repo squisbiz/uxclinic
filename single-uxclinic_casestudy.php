@@ -93,7 +93,23 @@
     </div>
     <p>
       <?php the_field('casestudy_video_description'); ?>
-    <!--   <a class="button report-button" href="<?php the_field('casestudy_video_report_button_url'); ?>"><?php the_field('casestudy_video_report_button_label'); ?></a> -->
+      
+      <?php if( get_field('calendar_button_toggle') )
+        {
+          echo "<div style='display: block;'>";
+        }
+        else
+        {
+            echo "<div style='display: none;'>";
+        }
+      ?>
+      
+      <a class="button report-button" href="<?php the_field('calendar_button_url'); ?>"><?php the_field('calendar_button_label'); ?></a>
+      
+    </div>
+      
+    
+    
     </p>
 
   </section>
