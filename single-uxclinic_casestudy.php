@@ -96,7 +96,7 @@
       
       <?php if( get_field('calendar_button_toggle') )
         {
-          echo "<div style='display: block;'>";
+          echo "<div style='display: block; position: relative; top: 20px;'>";
         }
         else
         {
@@ -104,7 +104,7 @@
         }
       ?>
       
-      <a class="button report-button" href="<?php the_field('calendar_button_url'); ?>"><?php the_field('calendar_button_label'); ?></a>
+      <a class="button report-button" href="<?php the_field('calendar_button_url'); ?>" target="_blank"><?php the_field('calendar_button_label'); ?></a>
       
     </div>
       
