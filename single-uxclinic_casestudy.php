@@ -43,7 +43,7 @@
       
         <?php $image = get_field('casestudy_hero_image'); if( !empty($image) ): ?>
       <div class="process-img-cont">
-        <a class="gallery" href="<?php echo $image['url']; ?>">
+        <a class="gallery" href="<?php echo $image['url']; ?>" title="<?php the_field('footnote_process_img'); ?>">
           <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_hero_img"/>
         </a>
         
@@ -69,7 +69,7 @@
       </div>
       <?php $image = get_field('casestudy_outcome_image2'); if( !empty($image) ): ?>
       <div class="process-img-cont">
-        <a class="gallery" href="<?php echo $image['url']; ?>">
+        <a class="gallery" href="<?php echo $image['url']; ?>" title="<?php the_field('footnote_img_outcomes'); ?>">
           <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_outcome_img"/>
         </a>
       <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
