@@ -307,12 +307,11 @@ section.hero img {
 
 .report-casestudy,
 .report-analysis {
-  padding: 140px calc(50% - 580px);
   overflow: auto;
 }
 
 .report-analysis {
-  padding: 70px calc(50% - 580px);
+  padding: 30px calc(50% - 580px);
 }
 
 .report-casestudy {
@@ -320,7 +319,7 @@ section.hero img {
 }
 
 .border-class {
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     overflow: auto;
 }
 
@@ -1775,11 +1774,6 @@ div.wpcf7-validation-errors,
 
     .report-casestudy .process-img-cont {
     float: right;
-  }
-
-  .report-casestudy img,
-  .report-analysis img {
-    /*width: 52%;*/
   }
 
   .report-analysis .report-textcont {
