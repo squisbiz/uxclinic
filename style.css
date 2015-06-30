@@ -313,10 +313,11 @@ section.hero img {
 
 .report-casestudy {
   padding-bottom: 0;
+  padding-top: 105px;
 }
 
 .border-class {
-    padding-bottom: 70px;
+    padding-bottom: 85px;
     overflow: auto;
 }
 
