@@ -34,22 +34,20 @@ function create_posttype_casestudy() {
 
 // Add Custom Post "Reports" - Removed because it's no use for now, just uncomment the script to return them to the site.
 
-/*
-add_action( 'init', 'create_posttype_report' );
-function create_posttype_report() {
-	register_post_type( 'uxclinic_report',
+add_action( 'init', 'create_posttype_diy' );
+function create_posttype_diy() {
+	register_post_type( 'uxclinic_diy',
 		array(
 			'labels' => array(
-				'name' => __( 'Reports' ),
-				'singular_name' => __( 'Report' )
+				'name' => __( 'DIYs' ),
+				'singular_name' => __( 'DIY' )
 			),
 			'public' => true,
 			'has_archive' => true,
-			'rewrite' => array('slug' => 'reports'),
+			'rewrite' => array('slug' => 'diy'),
 			'supports' => array('title', 'editor', 'author', 'thumbnail'),
 		)
 	);
 }
-*/
 
 ?>
