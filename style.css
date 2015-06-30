@@ -307,11 +307,12 @@ section.hero img {
 
 .report-casestudy,
 .report-analysis {
+  padding: 140px calc(50% - 580px);
   overflow: auto;
 }
 
 .report-analysis {
-  padding: 30px calc(50% - 580px);
+  padding: 70px calc(50% - 580px);
 }
 
 .report-casestudy {
@@ -1608,80 +1609,9 @@ div.wpcf7-validation-errors,
   display: none;
 }
 
-/* SITEMAP */
 
-.sitemap {
-  margin-top: 104px;
-  padding: 0 calc(50% - 625px);
-  overflow: hidden;
-  min-height: 500px;
-  padding-bottom: 30px;
-}
-
-.sitemap h1 {
-  font-size: 60px;
-  color: #5e6a71;
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.sitemap h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #cfcfcf;
-  display: block;
-  width: 100%;
-  float: left;
-  padding-bottom: 10px;
-  color: #808080;
-  font-weight: 400;
-}
-
-.margin-top {
-  margin-top: 80px;
-}
-
-.sitemap ul {
-  float: left;
-  width: calc(20% - 20px);
-  padding: 0;
-}
-
-.sitemap ul li {
-  list-style: none;
-  font-size: 18px;
-  color: #949494;
-}
-
-.sitemap ul li a {
-  font-size: 18px;
-  color: #949494;
-}
-
-.sitemap ul li a:hover {
-  color: #767676;
-}
-
-.sitemap ul li b {
-  font-size: 24px;
-  color: #808080;
-  font-weight: 400;
-}
-
-.sitemap ul li:first-child {
-  margin-bottom: 10px;
-}
 
 /* Media Queries */
-
-@media (max-width: 1330px) {
- 
- .sitemap {
-   padding: 0 20px;
- }
-  
-}
-
 
 /*MAX 1180PX*/
 
@@ -1764,10 +1694,6 @@ div.wpcf7-validation-errors,
   .hero h1 {
     width: 55%;
   }
-  
-  .sitemap ul {
-    width: 25%
-  }
 
 /*LIVE VIDEO*/
 
@@ -1849,6 +1775,11 @@ div.wpcf7-validation-errors,
 
     .report-casestudy .process-img-cont {
     float: right;
+  }
+
+  .report-casestudy img,
+  .report-analysis img {
+    /*width: 52%;*/
   }
 
   .report-analysis .report-textcont {
@@ -2613,7 +2544,7 @@ div.wpcf7-validation-errors,
 
 @media (max-width: 1281px) {
   .error-404 {
-    background-position: 25% 100px;
+    background-position:25% 100px;
   }
 }
 
@@ -2625,28 +2556,3 @@ div.wpcf7-validation-errors,
 }
 
 /*fdfdffd?*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
