@@ -307,12 +307,8 @@ section.hero img {
 
 .report-casestudy,
 .report-analysis {
-  padding: 140px calc(50% - 580px);
-  overflow: auto;
-}
-
-.report-analysis {
   padding: 70px calc(50% - 580px);
+  overflow: auto;
 }
 
 .report-casestudy {
