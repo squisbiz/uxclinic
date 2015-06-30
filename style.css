@@ -307,7 +307,7 @@ section.hero img {
 
 .report-casestudy,
 .report-analysis {
-  padding: 70px calc(50% - 580px);
+  padding: 0 calc(50% - 580px);
   overflow: auto;
 }
 
