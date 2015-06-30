@@ -871,7 +871,7 @@ background-color: #0ac10a;
 
 .casestudy-video-hero {
   padding: 0 calc(50% - 580px);
-  margin-bottom: 126px !important;
+  margin-bottom: 50px !important;
   margin-top: 0!important;
   overflow: hidden;
   color: #6c6c6c;
@@ -1134,7 +1134,7 @@ section.display-our-work {
 
 .display-work-cont {
   position: relative;
-  top: -33px;
+  top: -34px;
 }
 
 .report-textcont ul {
@@ -1946,8 +1946,12 @@ div.wpcf7-validation-errors,
     background-position: 22% 100px;
   }
 
+  .episode-hero {
+    padding-top: 50px;
+  }
+
   .video-h3-title {
-    width: 100%;
+    width: 93%;
     position: absolute;
     text-align: center;
   }
@@ -2475,6 +2479,13 @@ div.wpcf7-validation-errors,
   .left-column h2 {
     text-align: center;
   }
+    .episode-hero {
+    padding-top: 55px;
+  }
+  .video-h3-title {
+    top: -38px;
+    margin-top: 50px;
+  }
 }
 
   /*MAX 400*/
@@ -2551,5 +2562,3 @@ div.wpcf7-validation-errors,
 .post-type-archive-uxclinic_report .at4-share-outer {
   display: none;
 }
-
-/*fdfdffd?*/
