@@ -1954,6 +1954,8 @@ div.wpcf7-validation-errors,
     width: 93%;
     position: absolute;
     text-align: center;
+    top: 8px;
+    line-height: 40px;
   }
 
   .cont-h1 {
