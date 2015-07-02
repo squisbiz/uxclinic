@@ -32,15 +32,26 @@ Template Name: TEMPLATE METHOD INFO
 			<h1>How?</h1>
 			<div class="steps">
 				<ul>
-					<li id="persona-icon1">Conduct interviews and field observations, both are an invaluable source of insights and user stories.
-						<span>Focus on stories. Ask open questions. Keep asking why. Be empathic. Don't judge the responses.</span>
+  				<?php if( have_rows('diy_steps') ) : while ( have_rows('diy_steps') ) : the_row(); ?>
+					<li>
+					
+  					<div class="how-cont-icon">
+    					<?php $image = get_sub_field('casestudy_hero_image'); if( !empty($image) ): ?>
+                <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>"/>
+    					<?php endif; ?>
+  					</div>
+  					
+  					<div class="how-cont-description">
+    					<ul>
+    					<?php if( have_rows('diy_steps_list') ) : while ( have_rows('diy_steps_list') ) : the_row(); ?>
+    					  <li><?php the_sub_field('diy_steps_list_item');?></li>
+              <?php endwhile; else : endif; ?>
+    					</ul>
+    					
+  					</div>
 					</li>
-					<li id="persona-icon2">Break and analyze the data set seeking for patterns.</li>
-					<li id="persona-icon3">Synthesize the spotted patterns into the following general areas:
-						<span>Profile. Personality. Cultural background. Technology expertise. Key quotes. Experience goals. Wants and expectations.</span>
-					</li>
-					<li id="persona-icon4">Define how your persona relates to the product your are designing for.</li>
-					<li id="persona-icon5">Communicate and disseminate your findings with stakeholders. The real value of Personas resides when members of the team recognize them as representations of real persons.</li>
+
+					<?php endwhile; else : endif; ?>
 				</ul>
 			</div>
 		</div>
