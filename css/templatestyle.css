@@ -7,7 +7,7 @@ body {
 .orange,
 header,
 .gray  {
-	background: url(img/hero-pattern.gif) repeat;
+	background: url(../img/hero-pattern.gif) repeat;
 	padding: 70px 115px;
 	overflow: auto;
 }
@@ -18,7 +18,7 @@ header a {
 }
 
 .gray {
-    background: url(img/footerbg.png) repeat;
+    background: url(../img/footerbg.png) repeat;
 }
 
 .method-cont {
@@ -37,7 +37,7 @@ header a {
 .method-cont h1:after {
   content: " ";
   display: block;
-  background: url(img/infographic-ux-method-icon.png) no-repeat;
+  background: url(../img/infographic-ux-method-icon.png) no-repeat;
   position: absolute;
   top: 11px;
   left: -77px;
@@ -64,12 +64,12 @@ header a {
 .section-bg-takeaways {
   padding: 0 115px 70px 115px;
   overflow: auto;
-  background: url(img/persona-profile-bg-img.jpg) no-repeat;
+  background: url(../img/persona-profile-bg-img.jpg) no-repeat;
   background-size: cover;
 }
 
 .section-bg-takeaways {
-    background: url(img/takeaways-bg-persona-profiles.jpg) no-repeat;
+    background: url(../img/takeaways-bg-persona-profiles.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -139,27 +139,27 @@ header a {
 }
 
 .how-cont li#persona-icon1:after {
-    background: url(img/persona-profile-icon1.png) no-repeat;
+    background: url(../img/persona-profile-icon1.png) no-repeat;
     top: -10px;
 }
 
 .how-cont li#persona-icon2:after {
-    background: url(img/persona-profile-icon2.png) no-repeat;
+    background: url(../img/persona-profile-icon2.png) no-repeat;
     top: -20px;
 }
 
 .how-cont li#persona-icon3:after {
-    background: url(img/persona-profile-icon3.png) no-repeat;
+    background: url(../img/persona-profile-icon3.png) no-repeat;
     top: -10px;
 }
 
 .how-cont li#persona-icon4:after {
-    background: url(img/persona-profile-icon4.png) no-repeat;
+    background: url(../img/persona-profile-icon4.png) no-repeat;
     top: -20px;
 }
 
 .how-cont li#persona-icon5:after {
-    background: url(img/persona-profile-icon5.png) no-repeat;
+    background: url(../img/persona-profile-icon5.png) no-repeat;
     top: 1px;
 }
 
@@ -172,7 +172,7 @@ header a {
 .steps li span:after {
   content: " ";
   display: block;
-  background: url(img/arrow.png) no-repeat;
+  background: url(../img/arrow.png) no-repeat;
   position: absolute;
   top: 7px;
   left: -28px;
@@ -199,7 +199,7 @@ header a {
   font-size: 18px;
   margin: 0;
   padding: 0;
-  list-style-image: url(img/takeaways-icon.png);
+  list-style-image: url(../img/takeaways-icon.png);
 }
 
 .takeaways-box li {
@@ -209,7 +209,7 @@ header a {
 .takeaways-box:after{
   content: " ";
   display: block;
-  background: url(img/takeaways-img.png) no-repeat;
+  background: url(../img/takeaways-img.png) no-repeat;
   position: absolute;
   top: 45px;
   left: 35px;
