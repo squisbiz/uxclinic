@@ -1,5 +1,12 @@
-<?php get_header(); ?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Infographic - Persona Profile</title>
+<link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/css/templatestyle.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 <a href="<?php the_field('infographic_download_url'); ?>" class="downlaod-infographic" target="_blank"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
