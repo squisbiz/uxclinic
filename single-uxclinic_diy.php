@@ -1,32 +1,31 @@
-<?php
-/*
-Template Name: TEMPLATE METHOD INFO
-*/
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Infographic - Persona Profile</title>
-<link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/templatestyle.css">
+<link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/css/templatestyle.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<a href="http://theuxclinic.com/wp/wp-content/uploads/2015/03/persona-profile-infographic.pdf" class="downlaod-infographic" target="_blank"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
+  
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+<a href="<?php the_field('infographic_download_url'); ?>" class="downlaod-infographic" target="_blank"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
 	<header>
 		<a href="http://theuxclinic.com/" target="_blank">
 			<img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/uxclinic-logo-small.png" alt="UXClinic">
 		</a>
 		<div class="method-cont">
 			<h1>Persona <span>Profile</span></h1>
-			<p>A UX deliverable based on the interpretation of qualitative data and used to drive design and align team efforts by setting a common understanding of the target user of a product or system.</p>
+			<p><?php the_field('diy_hero_description'); ?></p>
 		</div>
 	</header>
 	<section class="section-bg">
 		<div class="why-cont">
 			<h1>Why?</h1>
-			<p>Personas are a great way make stakeholders feel empathy toward the users, these documents represent an archetype of the actual user’s profile, they contain the needs, wants, and expectations of real people in a synthesized and easy to digest language.</p>
+			<p><?php the_field('why_description'); ?></p>
 		</div>
 	</section>
+	
 	<section class="orange">
 		<div class="how-cont">
 			<h1>How?</h1>
@@ -56,6 +55,7 @@ Template Name: TEMPLATE METHOD INFO
 			</div>
 		</div>
 	</section>
+	
 	<section class="section-bg-takeaways">
 		<div class="takeaways-cont">
 			<h1>Takeaways</h1>
@@ -88,5 +88,7 @@ Template Name: TEMPLATE METHOD INFO
 			<a href="http://nearsoft.com/" target="_blank" class="nearsof-logo"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/nearsoft-logo.png" alt="Nearsoft"></a>
 		</h1>
 	</footer>
+
+<?php endwhile; ?><?php endif; ?>
 </body>
 </html>

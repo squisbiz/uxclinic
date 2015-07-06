@@ -21,7 +21,7 @@
    <?php $image = get_field('display_our_work'); if( !empty($image) ): ?>
       <div class="display-work-cont">
         <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_hero_img"/>
-        <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
+        <?php endif; ?>
   </section>
 
   <?php if( get_field('ux_solution_toggle') )
@@ -47,7 +47,7 @@
           <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_hero_img"/>
         </a>
         
-        <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
+        <?php endif; ?>
         <h5><?php the_field('footnote_process_img'); ?></h5>
       </div>
     </div>
@@ -72,7 +72,7 @@
         <a class="gallery" href="<?php echo $image['url']; ?>" title="<?php the_field('footnote_img_outcomes'); ?>">
           <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_outcome_img"/>
         </a>
-      <?php endif; ?> <!-- Tanto codigo es para que pueda desplegar el 'alt' de la imagen -->
+      <?php endif; ?>
         <h5><?php the_field('footnote_img_outcomes'); ?></h5>
         </div>
     </div>
@@ -105,10 +105,7 @@
       ?>
       
       <a class="button report-button" href="<?php the_field('calendar_button_url'); ?>" target="_blank"><?php the_field('calendar_button_label'); ?></a>
-      
     </div>
-      
-    
     
     </p>
 
