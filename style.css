@@ -437,8 +437,7 @@ section.hero img {
 }
 
 section.report-pagination b {
-  font-weight: 300;
-  color: #5e6b72;
+  color: #EF5A21;
 }
 
 /* HOW IT WORKS */
@@ -729,7 +728,7 @@ section.report-pagination b {
 }
 
 span.vid-flag {
-  width: 163px;
+  width: 189px;
   height: 35px;
   background-color: #ef5a21;
   top: 50px;
@@ -871,7 +870,7 @@ background-color: #0ac10a;
 
 .casestudy-video-hero {
   padding: 0 calc(50% - 580px);
-  margin-bottom: 50px !important;
+  margin-bottom: 120px !important;
   margin-top: 0!important;
   overflow: hidden;
   color: #6c6c6c;
@@ -1367,12 +1366,16 @@ div.wpcf7-validation-errors,
   margin-left: 20px;
 }
 
-.loop-single{
+.loop-single {
   width: 100%;
   margin-bottom: 45px;
   overflow: hidden;
   border-top: 1px solid #e4e4e4;
   padding-top: 45px;
+}
+
+.loop-single .excerpt b {
+  color: inherit;
 }
 
 .loop-single:first-child {
@@ -1984,6 +1987,11 @@ div.wpcf7-validation-errors,
   .border-class {
     padding-bottom: 0;
   }
+
+  .casestudy-video-hero {
+    margin-bottom: 75px !important;
+  }
+
 }
 
 /*MAX 900PX*/
