@@ -3,7 +3,6 @@
 Template Name: TEMPLATE LANDING PAGE CEO'S
 */
 ?>
-<!DOCTYPE html>
 <?php get_header(); ?>
 
 <section class="section lp-hero">
@@ -16,13 +15,15 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
   
 </section>
 
-<section class=" section lp-why">
+<section class="section lp-why">
   <h2>The UX Clinic promotes the best UX practices within the software development community.</h2>
   <p>We’ve worked with a diverse set of companies and hunted down their users to obtain amazing UX recommendations. Each case study has a tailor-picked design method to gather the needed facts from user research. This could be your company:</p>
   <a class="button" href="http://theuxclinic.com/about/">Learn More</a>
   
-  <a class="next" href="#"></a>
+  <a class="next" href="#our-participants"></a>
 </section>
+
+<div id="our-participants"></div>
 
 <section class="section lp-quotes">
   <h2>Our happy participants</h2>
@@ -46,9 +47,11 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
     
   </div>
   
-  <a class="next" href="#"></a>
+  <a class="next" href="#prev-case-studies"></a>
   
 </section>
+
+<div id="prev-case-studies"></div>
 
 <section class="section lp-previous">
   <h3>Previous Case studies</h3>
@@ -59,22 +62,43 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
     <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/06/ux-casestudy-skedio.jpg" />
     <p>Through our interviews with potential users, we gathered their first impressions using Skedio. We found out that although the app has a great precision and performance, users felt overwhelmed with the amount of buttons. They thought the app was outdated and they were intimidated by the complex examples</p>
     
-    <a class="button">Full Case Study</a>
+    <a class="button" href="http://theuxclinic.com/casestudies/episode-15-skedio-app/">Full Case Study</a>
   </div>
     <div class="previous-card">
     <h2>Experience Prototyping: Creating human centered processes for 1-on-1s</h2>
     <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/02/ux-case-study-7geese.jpg" />
     <p>We decided to investigate if the 1-on-1 process in 7Geese reflects the needs of managers and the expectations from employees.We took a divergent approach by asking participants to embody their mental models regarding 1-on-1 meetings as a way for team members to express issues, ideas, and frustrations that might not fit into other organizational mechanisms through the construction of their ideal 1-on-1 process. </p>
     
-    <a class="button">Full Case Study</a>
+    <a class="button" href="http://theuxclinic.com/casestudies/9-experience-prototyping-7geese/">Full Case Study</a>
       
   </div>
   </div>
-  <a class="next" href="#"></a>
+  <a class="next" href="#sendyourcase"></a>
 </section>
+
+<div id="sendyourcase"></div>
 
 <section class="section lp-submit">
   <h2>I want to be part of the UXClinic’s third season!</h2>
   <p>Submit your software product to our free initiative. We will contact you to see how we can bring a positive impact to your company’s objectives. Hopefully you’ll be featured in an upcoming episode</p>
 </section>
+
+<script>
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+
 <?php get_footer(); ?>
