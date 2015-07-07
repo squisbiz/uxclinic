@@ -9,6 +9,11 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
 <section class="section lp-hero">
   <h1>Get in your user’s head</h1>
   <p>Users have the answers you are looking for. Get a complete UX design research for your company. Apply to the third season of UX Clinic Case Studies!</p>
+  
+  <div class="apply-hero">
+    <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?>
+  </div>
+  
 </section>
 
 <section class=" section lp-why">

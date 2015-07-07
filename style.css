@@ -2573,6 +2573,7 @@ div.wpcf7-validation-errors,
   display: none;
 }
 
+
 /* Landing page CEO's */
 
 .section {
@@ -2587,7 +2588,7 @@ div.wpcf7-validation-errors,
 .lp-hero {
   background: url(img/hero-cover.jpg) no-repeat center center;
   background-size: cover;
-  padding-bottom: 318px;
+  padding-bottom: 218px;
   padding-top: 318px;
   color: #FFF;
   text-align: center;
@@ -2770,35 +2771,22 @@ a.next {
   padding: 0;
 }
 
+.apply-hero {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.apply-hero input {
+  display: block;
+  width: calc(100% - 10px);
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 10px;
+  padding: 4px 5px;
+}
 
 
 
