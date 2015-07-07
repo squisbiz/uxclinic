@@ -2586,7 +2586,7 @@ div.wpcf7-validation-errors,
 }
 
 .lp-hero {
-  background: url(img/hero-cover.jpg) no-repeat center center;
+  background: url(img/hero-cover.png) no-repeat center center;
   background-size: cover;
   padding-bottom: 218px;
   padding-top: 248px;
@@ -2718,7 +2718,33 @@ a.next {
   height: 30px;
   margin-top: 20px;
   text-align: right;
+  
 }
+
+.third .photo {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 100px;
+}
+
+.quote01 {
+  background: url(img/quote01.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.quote02 {
+  background: url(img/quote02.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.quote03 {
+  background: url(img/quote03.jpg) no-repeat center center;
+  background-size: cover;
+}
+
 
 .third b {
   font-weight: 400;
@@ -2780,12 +2806,16 @@ a.next {
 
 .apply-hero input {
   display: block;
-  width: calc(100% - 28px);
+  width: calc(100% - 30px);
   height: 35px;
   border-radius: 3px;
-  border: none;
+  border: 1px solid #b8b8b8;
   margin-bottom: 10px;
   padding: 4px 14px;
+}
+
+.apply-hero input[type='submit'] {
+  width: 100%;
 }
 
 .lp-form-submit {
@@ -2888,6 +2918,7 @@ a.next {
 .lp-hero .button {
   margin-top: 20px;
 }
+
 
 
 

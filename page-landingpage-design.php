@@ -19,7 +19,10 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   <h1>Help your design team get in your user’s head</h1>
   <p>Team up with the UXClinic to create products people love. Apply now to become our next case study and get a complete UX research to help your design team.</p>
   <a class="button" href="#modal-contact">Submit application</a>
+  <a class="next" href="#intro"></a>
 </section>
+
+<div id="intro"></div>
 
 <section class="section lp-why">
   <h2>The UX Clinic promotes the best UX practices within the software development community.</h2>
@@ -39,16 +42,19 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
     <div class="third">
       <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company.</p>
       <span class="client"><b>Dustin Yoder, CEO at Sureify</b></span>
+      <div class="photo quote01"></div>
     </div>
     
     <div class="third">
       <p>It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Clinic was extremely useful to get objective feedback on our product.</p>
       <span class="client"><b>Andrew Miller, Marketing Director at Olset</b></span>
+      <div class="photo quote02"></div>
     </div>
     
     <div class="third">
       <p>The UX Clinic was like having a big UX/UI team working for us, this was highly valuable for our company. It gave us great insights in a short amount of time.</p>
       <span class="client"><b>Alex G. Del Bosque, CEO at Staytuned App</b></span>
+      <div class="photo quote03"></div>
     </div>
     
   </div>
