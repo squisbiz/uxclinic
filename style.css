@@ -2780,13 +2780,27 @@ a.next {
 
 .apply-hero input {
   display: block;
-  width: calc(100% - 10px);
+  width: calc(100% - 28px);
   height: 35px;
   border-radius: 3px;
   border: none;
   margin-bottom: 10px;
-  padding: 4px 5px;
+  padding: 4px 14px;
 }
+
+.lp-form-submit {
+  border-radius: 100px!important;
+  background: #0ac10a;
+  font-weight: 700;
+  color: #FFF;
+  display: inline-block!important;
+  padding: 15px 20px!important;
+  font-size: 18px;
+  transition: background .3s;
+  cursor: pointer;
+  height: auto!important;
+}
+
 
 
 
