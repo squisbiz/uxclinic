@@ -5,14 +5,20 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
 ?>
 <?php get_header(); ?>
 
+<div class="modal" id="modal-contact" aria-hidden="true">
+  <div class="modal-dialog">
+    <h2>Send us your case study</h2>
+    <a href="#close" class="btn-close" aria-hidden="true">×</a>
+    <div class="apply-hero">
+      <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?>
+    </div>
+  </div>
+</div>
+
 <section class="section lp-hero">
   <h1>Help your design team get in your user’s head</h1>
   <p>Team up with the UXClinic to create products people love. Apply now to become our next case study and get a complete UX research to help your design team.</p>
-  
-  <div class="apply-hero">
-    <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?>
-  </div>
-  
+  <a class="button" href="#modal-contact">Submit application</a>
 </section>
 
 <section class="section lp-why">
@@ -31,13 +37,13 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   <div class="participants">
     
     <div class="third">
-      <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company. It was such a blessing to have sureify.com selected. Our company was so fortunate to receive 100+ of hours of work and a detailed report on our current UI/UX.</p>
+      <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company.</p>
       <span class="client"><b>Dustin Yoder, CEO at Sureify</b></span>
     </div>
     
     <div class="third">
       <p>It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Clinic was extremely useful to get objective feedback on our product.</p>
-      <span class="client"><b>Andrew Miller, C</b></span>
+      <span class="client"><b>Andrew Miller, Marketing Director at Olset</b></span>
     </div>
     
     <div class="third">
@@ -81,24 +87,10 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
 <section class="section lp-submit">
   <h2>I want to be part of the UXClinic’s third season!</h2>
   <p>Submit your software product to our free initiative. We will contact you to see how we can bring a positive impact to your company’s objectives. Hopefully you’ll be featured in an upcoming episode.</p>
+  <a class="button" href="#modal-contact">Submit application</a>
 </section>
 
-<div class="modal" id="modal-contact" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-header">
-      <h2>Modal in CSS?</h2>
-      <a href="#close" class="btn-close" aria-hidden="true">×</a> <!--CHANGED TO "#close"-->
-    </div>
-    <div class="modal-body">
-      <p>One modal example here! :D</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#close" class="btn">Nice!</a>  <!--CHANGED TO "#close"-->
-    </div>
-    </div>
-  </div>
-</div>
-
+<!--
 <script>
   $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -115,8 +107,7 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   });
 });
 </script>
-
-
+-->
 
 
 <?php get_footer(); ?>
