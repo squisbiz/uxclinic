@@ -83,6 +83,22 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   <p>Submit your software product to our free initiative. We will contact you to see how we can bring a positive impact to your company’s objectives. Hopefully you’ll be featured in an upcoming episode.</p>
 </section>
 
+<div class="modal" id="modal-contact" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <h2>Modal in CSS?</h2>
+      <a href="#close" class="btn-close" aria-hidden="true">×</a> <!--CHANGED TO "#close"-->
+    </div>
+    <div class="modal-body">
+      <p>One modal example here! :D</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#close" class="btn">Nice!</a>  <!--CHANGED TO "#close"-->
+    </div>
+    </div>
+  </div>
+</div>
+
 <script>
   $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -99,6 +115,8 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   });
 });
 </script>
+
+
 
 
 <?php get_footer(); ?>

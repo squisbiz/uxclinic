@@ -5,13 +5,22 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
 ?>
 <?php get_header(); ?>
 
+<div class="modal" id="modal-contact" aria-hidden="true">
+  <div class="modal-dialog">
+    <h2>Send us your case study</h2>
+    <a href="#close" class="btn-close" aria-hidden="true">×</a>
+    
+    <div class="apply-hero">
+      <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?>
+    </div>
+    
+  </div>
+</div>
+
 <section class="section lp-hero">
   <h1>Get in your user’s head</h1>
   <p>Users have the answers you are looking for. Get a complete UX design research for your company. Apply to the third season of UX Clinic Case Studies!</p>
-  
-  <div class="apply-hero">
-    <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?>
-  </div>
+  <a class="button" href="#modal-contact">Modal!</a>
   
 </section>
 
@@ -83,6 +92,7 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
   <p>Submit your software product to our free initiative. We will contact you to see how we can bring a positive impact to your company’s objectives. Hopefully you’ll be featured in an upcoming episode</p>
 </section>
 
+<!--
 <script>
   $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -99,6 +109,9 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
   });
 });
 </script>
+-->
+
+
 
 
 <?php get_footer(); ?>
