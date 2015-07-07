@@ -19,7 +19,7 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
   <h1>Get in your user’s head</h1>
   <p>Users have the answers you are looking for. Get a complete UX design research for your company. Apply to the third season of UX Clinic Case Studies!</p>
   <a class="button" href="#modal-contact">Submit application</a>
-  <a class="next" href="#intro"></a>
+  <a class="next" href="#intro"></a>
 </section>
 
 <div id="intro"></div>
@@ -29,7 +29,7 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
   <p>We’ve worked with a diverse set of companies and hunted down their users to obtain amazing UX recommendations. Each case study has a tailor-picked design method to gather the needed facts from user research. This could be your company:</p>
   <a class="button" href="http://theuxclinic.com/about/">Learn More</a>
   
-  <a class="next" href="#our-participants"></a>
+  <a class="next" href="#our-participants"></a>
 </section>
 
 <div id="our-participants"></div>
@@ -40,7 +40,7 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
   <div class="participants">
     
     <div class="third">
-      <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company.</p>
+      <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company. Our company was so fortunate to receive 100+ of hours of work and a detailed report on our current UI/UX.</p>
       <span class="client"><b>Dustin Yoder, CEO at Sureify</b></span>
       <div class="photo quote01"></div>
     </div>
@@ -59,7 +59,7 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
     
   </div>
   
-  <a class="next" href="#prev-case-studies"></a>
+  <a class="next" href="#prev-case-studies"></a>
   
 </section>
 
@@ -85,7 +85,7 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
       
   </div>
   </div>
-  <a class="next" href="#sendyourcase"></a>
+  <a class="next" href="#sendyourcase"></a>
 </section>
 
 <div id="sendyourcase"></div>

@@ -19,7 +19,7 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   <h1>Help your design team get in your user’s head</h1>
   <p>Team up with the UXClinic to create products people love. Apply now to become our next case study and get a complete UX research to help your design team.</p>
   <a class="button" href="#modal-contact">Submit application</a>
-  <a class="next" href="#intro"></a>
+  <a class="next" href="#intro"></a>
 </section>
 
 <div id="intro"></div>
@@ -29,7 +29,7 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   <p>We team up with design professionals to understand what users really want. The UXClinic Team applies design methods that will provide objective feedback to enhance your software product. You end up with a complete report of the UX research conducted and ready-to-implement recommendations for your next design iteration.</p>
   <a class="button" href="http://theuxclinic.com/about/">Learn More</a>
   
-  <a class="next" href="#our-participants"></a>
+  <a class="next" href="#our-participants"></a>
 </section>
 
 <div id="our-participants"></div>
@@ -40,7 +40,7 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   <div class="participants">
     
     <div class="third">
-      <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company.</p>
+      <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company. Our company was so fortunate to receive 100+ of hours of work and a detailed report on our current UI/UX.</p>
       <span class="client"><b>Dustin Yoder, CEO at Sureify</b></span>
       <div class="photo quote01"></div>
     </div>
@@ -59,7 +59,7 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
     
   </div>
   
-  <a class="next" href="#prev-case-studies"></a>
+  <a class="next" href="#prev-case-studies"></a>
   
 </section>
 
@@ -85,7 +85,7 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
       
   </div>
   </div>
-  <a class="next" href="#sendyourcase"></a>
+  <a class="next" href="#sendyourcase"></a>
 </section>
 
 <div id="sendyourcase"></div>

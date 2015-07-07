@@ -2643,6 +2643,7 @@ a.next {
   text-decoration: none;
   text-shadow: none;
   z-index: 4;
+  background: url(img/next-back.png) no-repeat center center;
 }
 
 .lp-quotes {
