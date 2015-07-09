@@ -2624,3 +2624,364 @@ div.wpcf7-validation-errors,
 .post-type-archive-uxclinic_report .at4-share-outer {
   display: none;
 }
+
+
+/* Landing page CEO's */
+
+.section {
+  overflow: visible;
+  box-sizing: border-box;
+  padding: 100px calc(50% - 500px);
+  position: relative;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.lp-hero {
+  background: url(img/hero-cover.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 218px;
+  padding-top: 248px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5),0 2px 50px #000;
+  background-attachment: fixed;
+}
+
+.lp-hero h1 {
+  font-size: 2.8em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.lp-hero p {
+  font-size: 1.2em;
+  margin: .5em 0;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.lp-why {
+  padding: 50px calc(50% - 350px);
+  text-align: center;
+}
+
+.lp-why h2 {
+  font-size: 1.562em;
+  color: #31363a;
+}
+
+.lp-why p {
+  margin: 1em 0;
+}
+
+a.next {
+  font-family: "FontAwesome";
+  vertical-align: middle;
+  font-size: 1.5em;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  line-height: 60px;
+  text-align: center;
+  color: #46535A;
+  background: #DFE2E4;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: -30px;
+  box-sizing: border-box;
+  z-index: 5;
+  text-decoration: none;
+  text-shadow: none;
+  z-index: 4;
+  background: url(img/next-back.png) no-repeat center center;
+}
+
+.lp-quotes {
+  background: url(img/quotes-bg-red.png) no-repeat center center;
+  background-size: cover;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5),0 2px 50px #000;
+  background-attachment: fixed;
+  padding: 0 calc(50% - 640px);
+  padding-top: 150px;
+  padding-bottom: 50px;
+  color: #FFF;
+}
+
+.participants {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  margin-top: 60px;
+}
+
+.third {
+  width: calc(30% - 80px);
+  padding: 20px 40px;
+  float: left;
+  margin-right: 4.5%;
+  background: #f9f9f9;
+  border-radius: 3px;
+  box-shadow: 1px 1px 8px 0px rgba(0,0,0,.5);
+  text-shadow: none;
+  color: #474747;
+  text-align: left;
+  font-size: .9em;
+  line-height: 1.5em;
+  min-height: 265px;
+  position: relative;
+  transition: all .3s;
+}
+
+.third:last-child {
+  margin-right: 0;
+}
+
+.third:hover {
+  top: -5px;
+  transition: all .3s;
+}
+
+.third p {
+  margin: 0;
+  position: relative;
+}
+
+.third p:before {
+  content: url(img/quote-start.png);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -30px;
+}
+
+.third p:after {
+  content: url(img/quote-end.png);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.third .client {
+  display: block;
+  float: right;
+  width: 90%;
+  height: 30px;
+  margin-top: 20px;
+  text-align: right;
+  
+}
+
+.third .photo {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 100px;
+}
+
+.quote01 {
+  background: url(img/quote01.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.quote02 {
+  background: url(img/quote02.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.quote03 {
+  background: url(img/quote03.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+.third b {
+  font-weight: 400;
+}
+
+.lp-previous h3 {
+  font-size: 1.25em;
+  color: #31363a;
+}
+
+.previous-card {
+  width: calc(50% - 62px);
+  float: left;
+  padding: 30px;
+  transition: all .3s;
+  border: 1px solid #FFF;
+}
+
+.previous-card:hover {
+  background: #f1f1f1;
+  transition: all .3s;
+  border: 1px solid #e1e1e1;
+}
+
+.previous-card p {
+  text-align: left;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.previous-card:first-child h2 {
+  margin-bottom: 60px;
+}
+
+.lp-submit {
+  background: #2e3235 url(img/submit-bg.png) no-repeat -220px center;
+  background-size: auto 100%;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5),0 2px 50px #000;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #FFF;
+  text-align: center;
+  padding-left: calc(50% - 70px);
+}
+
+.lp-submit p {
+  text-align: center;
+  padding: 0;
+}
+
+.apply-hero {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.apply-hero input {
+  display: block;
+  width: calc(100% - 30px);
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #b8b8b8;
+  margin-bottom: 10px;
+  padding: 4px 14px;
+}
+
+.apply-hero input[type='submit'] {
+  width: 100%;
+}
+
+.apply-hero textarea {
+  display: block;
+  width: calc(100% - 30px);
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #b8b8b8;
+  margin-bottom: 10px;
+  padding: 4px 14px;
+}
+
+.lp-form-submit {
+  border-radius: 100px!important;
+  background: #0ac10a;
+  font-weight: 700;
+  color: #FFF;
+  display: inline-block!important;
+  padding: 15px 20px!important;
+  font-size: 18px;
+  transition: background .3s;
+  cursor: pointer;
+  height: auto!important;
+}
+
+#participants {
+  margin-top: 105px;
+}
+
+.wrap {
+  padding: 40px;
+  text-align: center;
+}
+
+.modal:before {
+  content: "";
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.modal:target:before {
+  display: block;
+}
+.modal:target .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  top: 20%;
+}
+.modal-dialog {
+  background: #fefefe;
+  border: #333333 solid 1px;
+  border-radius: 5px;
+  margin-left: -200px;
+  position: fixed;
+  left: 50%;
+  top: -100%;
+  z-index: 11;
+  width: 360px;
+  -webkit-transform: translate(0, -500%);
+  -ms-transform: translate(0, -500%);
+  transform: translate(0, -500%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  padding: 15px 30px 30px 30px;
+}
+.modal-body {
+  padding: 20px;
+}
+.modal-header,
+.modal-footer {
+  padding: 10px 20px;
+}
+.modal-header {
+  border-bottom: #eeeeee solid 1px;
+}
+.modal-header h2 {
+  font-size: 20px;
+}
+.modal-footer {
+  border-top: #eeeeee solid 1px;
+  text-align: right;
+}
+/*ADDED TO STOP SCROLLING TO TOP*/
+#close {
+  display: none;
+}
+
+.btn-close {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.modal-dialog h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.lp-hero .button {
+  margin-top: 20px;
+}
+
+.wpcf7-mail-sent-ok {
+  color: #3b3b3b;
+}

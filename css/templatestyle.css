@@ -106,7 +106,7 @@ header a {
 }
 
 .steps {
-  width: 54%;
+  width: calc(54% + 100px);
   float: right;
 }
 
@@ -123,12 +123,14 @@ header a {
 .how-cont li {
   margin: 55px 0px;
   position: relative;
+  overflow: hidden;
 }
 
 #persona-icon3 {
   margin-top: 70px;
 }
 
+/*
 .how-cont li:after {
   content: " ";
   display: block;
@@ -137,7 +139,25 @@ header a {
   height: 66px;
   left: -95px;
 }
+*/
 
+.how-cont-icon {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.how-cont-icon img{
+  width: 100%;
+}
+
+.how-cont-description {
+  float: left;
+  width: calc(100% - 100px);
+  margin-left: 30px;
+}
+
+/*
 .how-cont li#persona-icon1:after {
     background: url(../img/persona-profile-icon1.png) no-repeat;
     top: -10px;
@@ -162,6 +182,7 @@ header a {
     background: url(../img/persona-profile-icon5.png) no-repeat;
     top: 1px;
 }
+*/
 
 .steps li span {
   display: block;
@@ -169,6 +190,7 @@ header a {
   position: relative;
 }
 
+/*
 .steps li span:after {
   content: " ";
   display: block;
@@ -179,6 +201,7 @@ header a {
   width: 21px;
   height: 13px;
 }
+*/
 
 .takeaways-box {
   width: 57%;
@@ -397,3 +420,40 @@ a.downlaod-infographic {
     display: block;
   }
 }
+
+.how-cont-description ul {
+  margin: 0;
+  padding: 0;
+}
+
+.steps ul li {
+  list-style: none;
+}
+
+.how-cont-description li {
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+.how-cont-description li:nth-child(2):after {
+  content: " ";
+  display: block;
+  background: url(../img/arrow.png) no-repeat;
+  position: absolute;
+  top: 7px;
+  left: -28px;
+  width: 21px;
+  height: 13px;
+}
+
+.how-cont li ul li {
+  overflow: visible;
+}
+
+
+
+
+
+
+
+

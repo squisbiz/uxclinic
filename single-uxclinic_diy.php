@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>Infographic - Persona Profile</title>
-<link rel="stylesheet" type="text/css" href="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/css/templatestyle.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/templatestyle.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -15,7 +15,7 @@
 			<img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/uxclinic-logo-small.png" alt="UXClinic">
 		</a>
 		<div class="method-cont">
-			<h1>Persona <span>Profile</span></h1>
+			<h1><?php echo get_the_title(); ?></h1>
 			<p><?php the_field('diy_hero_description'); ?></p>
 		</div>
 	</header>
@@ -35,7 +35,7 @@
 					<li>
 					
   					<div class="how-cont-icon">
-    					<?php $image = get_sub_field('casestudy_hero_image'); if( !empty($image) ): ?>
+    					<?php $image = get_sub_field('diy_steps_icon'); if( !empty($image) ): ?>
                 <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>"/>
     					<?php endif; ?>
   					</div>
