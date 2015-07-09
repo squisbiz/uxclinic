@@ -9,10 +9,11 @@
 <div class="the_content">
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-	<div class="loop-single">
+	<div class="loop-single" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<div class="bg-op"></div>
     <a href="<?php the_permalink(); ?>"><div class="thumb" style="background: url(<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true); echo $thumb_url[0]; ?>) no-repeat center center; background-size: cover;"></div></a>
     <div class="excerpt">
-      <a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+      <a href="<?php the_permalink(); ?>"><h1><?php the_title(); ?></h2></a>
       <?php the_excerpt(); ?>
     </div>
 
