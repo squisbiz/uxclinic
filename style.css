@@ -1505,6 +1505,25 @@ div.wpcf7-validation-errors,
   background-size: contain;
 }
 
+/*Staytuned*/
+#post-703 .bg-op {
+  background-color: #d32c36;
+}
+
+#post-703 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/staytuned-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*Salescaddy*/
+#post-669 .bg-op {
+  background-color: #2d2d2d;
+}
+
+#post-669 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/salescaddy-logo.png) no-repeat;
+  background-size: contain;
+}
 
 
 /*ABOUT US*/
