@@ -1479,7 +1479,7 @@ div.wpcf7-validation-errors,
   content: '';
   position: relative;
   top: 100px;
-  width: 80%;
+  width: 90%;
   height: 200px;
   display: inline-block;
 }
@@ -1570,6 +1570,7 @@ div.wpcf7-validation-errors,
 #post-417 .bg-op:before {
   background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/planing-poker-logo.png) no-repeat;
   background-size: contain;
+  width: 100%;
 }
 
 /*Sureify*/
@@ -1580,6 +1581,7 @@ div.wpcf7-validation-errors,
 #post-416 .bg-op:before {
   background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/sureify-logo.png) no-repeat;
   background-size: contain;
+  width: 100%;
 }
 
 /*Olset*/
@@ -1608,10 +1610,39 @@ div.wpcf7-validation-errors,
 }
 
 #post-412 .bg-op:before {
-  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/crowdswell.png) no-repeat;
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/bidaway-logo.png) no-repeat;
   background-size: contain;
 }
-bidaway-logo.png
+
+/*Spork*/
+#post-411 .bg-op {
+  background-color: #b7461b;
+}
+
+#post-411 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/spork-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*Daisy Wheel*/
+#post-410 .bg-op {
+  background-color: #e95472;
+}
+
+#post-410 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/daisy-wheel.png) no-repeat;
+  background-size: contain;
+}
+
+/*pijonbox & soundbetter*/
+#post-409 .bg-op {
+  background-color: #015968;
+}
+
+#post-409 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/soundbetter-logo.png) no-repeat;
+  background-size: contain;
+}
 
 /*ABOUT US*/
 
