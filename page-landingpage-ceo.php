@@ -46,12 +46,6 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
     </div>
     
     <div class="third">
-      <p>It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Clinic was extremely useful to get objective feedback on our product.</p>
-      <span class="client"><b>Andrew Miller, Marketing Director at Olset</b></span>
-      <div class="photo quote02"></div>
-    </div>
-    
-    <div class="third">
       <p>The UX Clinic was like having a big UX/UI team working for us, this was highly valuable for our company. It gave us great insights in a short amount of time.</p>
       <span class="client"><b>Alex G. Del Bosque, CEO at Staytuned App</b></span>
       <div class="photo quote03"></div>

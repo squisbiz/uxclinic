@@ -2734,11 +2734,14 @@ a.next {
 }
 
 .third {
+/*
   width: calc(30% - 80px);
+*/
   padding: 20px 40px;
   float: left;
   margin-right: 4.5%;
   background: #f9f9f9;
+  width: calc(47.5% - 80px);
   border-radius: 3px;
   box-shadow: 1px 1px 8px 0px rgba(0,0,0,.5);
   text-shadow: none;
@@ -2998,6 +3001,54 @@ a.next {
   margin-top: 20px;
 }
 
-.wpcf7-mail-sent-ok {
-  color: #3b3b3b;
+.apply-hero .wpcf7-response-output {
+  color: #616161!important;
 }
+
+@media (max-width: 1000px) {
+  .lp-hero,
+  .lp-why,
+  .lp-quotes,
+  .lp-previous,
+  .lp-submit {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .third {
+    width: calc(100% - 80px);
+    float: none;
+    margin-bottom: 30px;
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .previous-card {
+    width: calc(100% - 80px);
+    float: none;
+    margin-bottom: 30px;
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 550px) {
+  .previous-card {
+    width: calc(100% - 62px);
+    float: none;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .third {
+    width: calc(100% - 80px);
+    float: none;
+    margin-bottom: 30px;
+    min-height: 300px;
+  }
+}
+
+
