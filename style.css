@@ -2718,11 +2718,14 @@ a.next {
 }
 
 .third {
+/*
   width: calc(30% - 80px);
   padding: 20px 40px;
+*/
   float: left;
   margin-right: 4.5%;
   background: #f9f9f9;
+  width: calc(47.5% - 80px);
   border-radius: 3px;
   box-shadow: 1px 1px 8px 0px rgba(0,0,0,.5);
   text-shadow: none;
@@ -2983,5 +2986,5 @@ a.next {
 }
 
 .apply-hero .wpcf7-response-output {
-  color: #616161;
+  color: #616161!important;
 }

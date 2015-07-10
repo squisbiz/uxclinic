@@ -38,12 +38,7 @@ Template Name: TEMPLATE LANDING PAGE HEAD OF DESIGN
   <h2>Our happy participants</h2>
   
   <div class="participants">
-    
-    <div class="third">
-      <p>The UX Clinic consulting and free case study report was worth at least $15,000 USD for my company. Our company was so fortunate to receive 100+ of hours of work and a detailed report on our current UI/UX.</p>
-      <span class="client"><b>Dustin Yoder, CEO at Sureify</b></span>
-      <div class="photo quote01"></div>
-    </div>
+
     
     <div class="third">
       <p>It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Clinic was extremely useful to get objective feedback on our product.</p>
