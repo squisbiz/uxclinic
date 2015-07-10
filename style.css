@@ -1452,17 +1452,6 @@ div.wpcf7-validation-errors,
   color: #6179BC;
 }
 
-/*.cont-h1.casestudy-h1 h1 {
-  font-size: 40px;
-  font-weight: 300;
-  color: #606a70;
-  width: auto;
-  margin: 20px 0 15px 0;
-  background-color: #fff;
-  padding: 0 20px;
-  display: inline-block;
-}*/
-
 .excerpt h1 {
   font-size: 30px;
   margin: 0;
@@ -1479,10 +1468,44 @@ div.wpcf7-validation-errors,
 }
 
 .loop-single:hover .bg-op {
-  opacity: .8;
+  opacity: .9;
   cursor: pointer;
   transition: opacity .3s;
 }
+
+/*Hover logos for case studies*/
+
+.bg-op:before{
+  content: '';
+  position: relative;
+  top: 100px;
+  width: 80%;
+  height: 200px;
+  display: inline-block;
+}
+
+/*SocialCentiv*/
+#post-725 .bg-op {
+  background-color: #19a4dd;
+}
+
+#post-725 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/socialcentiv-logo.png) no-repeat;
+  background-size: contain;
+}
+
+
+/*skedio*/
+#post-725 .bg-op {
+  background-color: #687782;
+}
+
+#post-712 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/skedio-logo.png) no-repeat;
+  background-size: contain;
+}
+
+
 
 /*ABOUT US*/
 
@@ -1669,23 +1692,6 @@ div.wpcf7-validation-errors,
 .episodes li:nth-child(3) p,
 .episodes li:nth-child(2) p{
   display: none;
-}
-
-/*Hover logos for case studies*/
-
-#post-725 .bg-op:before {
-  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/socialcentiv-logo.png) no-repeat;
-  content: '';
-  position: relative;
-  top: 100px;
-  width: 80%;
-  height: 200px;
-  background-size: contain;
-  display: inline-block;
-}
-
-#post-725 .bg-op {
-  background-color: #19a4dd;
 }
 
 /* Media Queries */
