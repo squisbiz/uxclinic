@@ -1565,6 +1565,54 @@ div.wpcf7-validation-errors,
   background-size: contain;
 }
 
+/*Planning poker for hangouts*/
+
+#post-417 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/planing-poker-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*Sureify*/
+#post-416 .bg-op {
+  background-color: #bcd377;
+}
+
+#post-416 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/sureify-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*Olset*/
+#post-415 .bg-op {
+  background-color: #0099cc;
+}
+
+#post-415 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/oldset-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*Crowdswell*/
+#post-414 .bg-op {
+  background-color: #ff0946;
+}
+
+#post-414 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/crowdswell.png) no-repeat;
+  background-size: contain;
+}
+
+/*Bidaway*/
+#post-412 .bg-op {
+  background-color: #fbab1b;
+}
+
+#post-412 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/crowdswell.png) no-repeat;
+  background-size: contain;
+}
+bidaway-logo.png
+
 /*ABOUT US*/
 
 .about-hero {
