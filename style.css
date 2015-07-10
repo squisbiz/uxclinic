@@ -1525,6 +1525,45 @@ div.wpcf7-validation-errors,
   background-size: contain;
 }
 
+/*Cogia Intelligence*/
+#post-647 .bg-op {
+  background-color: #1e6aae;
+}
+
+#post-647 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/cogiaintelligence-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*Mapillary*/
+#post-605 .bg-op {
+  background-color: #35af6d;
+}
+
+#post-605 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/mapillary-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*Desma*/
+#post-461 .bg-op {
+  background-color: #8224e3;
+}
+
+#post-461 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/desma-logo.png) no-repeat;
+  background-size: contain;
+}
+
+/*7guesse*/
+#post-418 .bg-op {
+  background-color: #002f47;
+}
+
+#post-418 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/7geese.png) no-repeat;
+  background-size: contain;
+}
 
 /*ABOUT US*/
 
