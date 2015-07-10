@@ -1363,7 +1363,6 @@ div.wpcf7-validation-errors,
 }
 
 .loop-single:first-child {
-  /* padding-top: 15px; */
   border: 0;
 }
 
@@ -1670,6 +1669,23 @@ div.wpcf7-validation-errors,
 .episodes li:nth-child(3) p,
 .episodes li:nth-child(2) p{
   display: none;
+}
+
+/*Hover logos for case studies*/
+
+#post-725 .bg-op:before {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/socialcentiv-logo.png) no-repeat;
+  content: '';
+  position: relative;
+  top: 100px;
+  width: 80%;
+  height: 200px;
+  background-size: contain;
+  display: inline-block;
+}
+
+#post-725 .bg-op {
+  background-color: #19a4dd;
 }
 
 /* Media Queries */
@@ -2771,7 +2787,7 @@ a.next {
   height: 30px;
   margin-top: 20px;
   text-align: right;
-  
+
 }
 
 .third .photo {
