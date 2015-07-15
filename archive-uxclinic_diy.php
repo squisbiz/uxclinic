@@ -3,7 +3,7 @@
 <div class="episodesindex">
 
 <div class="cont-h1">
-  <h1>Case Studies</h1>
+  <h1>Do It Yourself</h1>
 </div>
 
 <div class="the_content">
