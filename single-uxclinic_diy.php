@@ -60,10 +60,14 @@
 		<div class="takeaways-cont">
 			<h1>Takeaways</h1>
 			<div class="takeaways-box">
-  			<?php if( have_rows('diy_takeaways') ) : while ( have_rows('diy_takeaways') ) : the_row(); ?>
 				<ul>
+  				
+  				<?php if( have_rows('diy_takeaways') ) : while ( have_rows('diy_takeaways') ) : the_row(); ?>
+  				
 					<li><?php the_sub_field('diy_takeaways_list_item');?></li>	
-				<?php endwhile; else : endif; ?>
+					
+          <?php endwhile; else : endif; ?>
+          
 				</ul>
 			</div>
 		</div>
