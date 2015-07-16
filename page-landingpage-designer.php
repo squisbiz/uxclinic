@@ -7,10 +7,49 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
 
 <div class="modal" id="modal-contact" aria-hidden="true">
   <div class="modal-dialog">
-    <h2>Send us your case study</h2>
+    <h2>Subscribe to our mailing list</h2>
     <a href="#close" class="btn-close" aria-hidden="true">×</a>
     <div class="apply-hero">
-      <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?>
+      
+      
+<!--       <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?> -->
+    <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//nearsoft.us4.list-manage.com/subscribe/post?u=639555ce3b92a7d8f227cf256&amp;id=2a8aceec16" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_639555ce3b92a7d8f227cf256_2a8aceec16" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+
     </div>
   </div>
 </div>
@@ -18,7 +57,7 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
 <section class="section lp-hero">
   <h1>We are all about UX</h1>
   <p>Becoming a UX designer is hard. There’s no magic way  to achieve truly insightful Team up with the UX Clinic to learn the best UX practices. We specialize in UX research for software products and want to share our experience.</p>
-  <a class="button" href="#modal-contact">Join the conversation</a>
+  <a class="button" href="#modal-contact">Subscribe</a>
   <a class="next" href="#intro"></a>
 </section>
 
