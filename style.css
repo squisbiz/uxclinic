@@ -2092,9 +2092,7 @@ div.wpcf7-validation-errors,
   }
 
   input.contactform-name,
-  input.contactform-email,
-  input.contactform-company,
-  input.contactform-job-title {
+  input.contactform-email {
   width: 97%;
   }
 
@@ -2160,7 +2158,9 @@ div.wpcf7-validation-errors,
     /*FORM*/
   input.contactform-name,
   input.contactform-email,
-  textarea.contactform-description {
+  textarea.contactform-description,
+  input.contactform-company,
+  input.contactform-job-title  {
     width: 94%;
   }
 
