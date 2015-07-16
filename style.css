@@ -1195,7 +1195,7 @@ input.contactform-email,
 input.contactform-url,
 textarea.contactform-description,
 input.contactform-job-title,
-input.contactform-company, {
+input.contactform-company {
   width: 40%;
   border-radius: 5px;
   border: 0;
