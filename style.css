@@ -1213,7 +1213,7 @@ input.contactform-email {
 }
 
 input.contactform-job-title,
-input.contactform-company, {
+input.contactform-company {
   width: 34%;
   margin-top: 20px;
 }
