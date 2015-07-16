@@ -3206,4 +3206,21 @@ a.next {
   }
 }
 
+.spork-bg {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/02/rapid-paper-prototyping-ux-method.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+.skedio-bg {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/06/backcasting-ux-method.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.lp-quotes .excerpt {
+  text-shadow: 0 1px 1px rgba(0,0,0,0);
+}
+
+
+
 
