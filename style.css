@@ -1218,7 +1218,8 @@ input.contactform-company {
   margin-top: 20px;
 }
 
-input.contactform-name {
+input.contactform-name,
+input.contactform-company  {
   margin-right: 25px;
 }
 
