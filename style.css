@@ -1193,7 +1193,9 @@ section.display-our-work {
 input.contactform-name,
 input.contactform-email,
 input.contactform-url,
-textarea.contactform-description {
+textarea.contactform-description,
+input.contactform-job-title,
+input.contactform-company, {
   width: 40%;
   border-radius: 5px;
   border: 0;
@@ -1208,6 +1210,12 @@ textarea.contactform-description {
 input.contactform-name,
 input.contactform-email {
   width: 34%
+}
+
+input.contactform-job-title,
+input.contactform-company, {
+  width: 34%;
+  margin-top: 20px;
 }
 
 input.contactform-name {
