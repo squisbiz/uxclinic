@@ -61,25 +61,28 @@
 			<h1>Takeaways</h1>
 			<div class="takeaways-box">
 				<ul>
-					<li>Personas are typically presented as a one-page document with shorter modules and a descriptive photograph (avoid stock photos, though)</li>
-					<li>Personas help to humanize team efforts and drive design communications when presenting to clients</li>
-					<li>They are ideal to define and test ideas in scenarios of use to aid in the decision making process</li>
+  				
+  				<?php if( have_rows('diy_takeaways') ) : while ( have_rows('diy_takeaways') ) : the_row(); ?>
+  				
+					<li><?php the_sub_field('diy_takeaways_list_item');?></li>	
+					
+          <?php endwhile; else : endif; ?>
+          
 				</ul>
 			</div>
 		</div>
 	</section>
+	
 	<section class="gray">
 		<div class="references-cont">
 			<h1>References</h1>
-			<p>Churruca, Silvana. DIY User Personas
-			<a href="http://www.ux-lady.com/diy-user-personas/" target="_blank">UX Lady.com, 28 June, 2013. Web link: http://www.ux-lady.com/diy-user-personas/</a>
+			<?php if( have_rows('diy_references') ) : while ( have_rows('diy_references') ) : the_row(); ?>
+			
+			<p><?php the_sub_field('diy_reference_author');?>
+			<a href="<?php the_sub_field('diy_reference_url');?>" target="_blank"><?php the_sub_field('diy_reference_displayed_text');?></a>
 			</p>
-			<p>Carter, Stephanie and Jill Christ. Avoiding Bullshit Personas
-			<a href="https://speakerdeck.com/boltpeters/avoiding-bullshit-personas" target="_blank">Bolt Peters. 12 March, 2012. Web link: https://speakerdeck.com/boltpeters/avoiding-bullshit-personas</a>
-			</p>
-			<p>Universal Methods of Design. Method #72, Scenario Description Swimlanes
-			<a>Bella,  Martin and Bruce Hanington. Rockport Publishers, Feb 1, 2012</a>
-			</p>
+			
+      <?php endwhile; else : endif; ?>
 		</div>
 	</section>
 	<footer class="orange">
