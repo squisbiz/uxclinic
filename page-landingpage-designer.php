@@ -40,17 +40,21 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
   <div class="participants">
     
     <div class="loop-single spork-bg">
+      <a href="http://theuxclinic.com/casestudies/episode-15-skedio-app/">
       <div class="thumb skedio-bg"></div>
       <div class="excerpt">
         <h1><b>Backcasting</b> The UX time travel machine.</h1>
       </div>
+      </a>
     </div>
     
     <div class="loop-single">
+      <a href="http://theuxclinic.com/casestudies/3-rapid-paper-prototyping-spork/">
       <div class="thumb spork-bg"></div>
       <div class="excerpt">
         <h1><b>Rapid Paper Prototyping</b> Make sure Your Users Achieve Tasks Effortlessly.</h1>
       </div>
+      </a>
     </div>
     
   </div>
@@ -62,22 +66,22 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
 <div id="prev-case-studies"></div>
 
 <section class="section lp-previous">
-  <h3>Previous Case studies</h3>
+  <h3>Do It Yourself</h3>
   
   <div class="overflow">
     <div class="previous-card">
-    <h2>Backcasting: The UX time travel machine</h2>
-    <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/06/ux-casestudy-skedio.jpg" />
-    <p>Through our interviews with potential users, we gathered their first impressions using Skedio. We found out that although the app has a great precision and performance, users felt overwhelmed with the amount of buttons. They thought the app was outdated and they were intimidated by the complex examples</p>
+    <h2 class="nomargin">Persona Profile Method</h2>
+    <img src="http://theuxclinic.com/wp/wp-content/themes/uxclinic/img/imgpersonas.png" />
+    <p>A UX deliverable based on the interpretation of qualitative data and used to drive design and align team efforts by setting a common understanding of the target user of a product or system.</p>
     
-    <a class="button" href="http://theuxclinic.com/casestudies/episode-15-skedio-app/">Full Case Study</a>
+    <a class="button" href="http://theuxclinic.com/diy/persona-profile/">See DIY</a>
   </div>
     <div class="previous-card">
-    <h2>Experience Prototyping: Creating human centered processes for 1-on-1s</h2>
-    <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/02/ux-case-study-7geese.jpg" />
-    <p>We decided to investigate if the 1-on-1 process in 7Geese reflects the needs of managers and the expectations from employees.We took a divergent approach by asking participants to embody their mental models regarding 1-on-1 meetings as a way for team members to express issues, ideas, and frustrations that might not fit into other organizational mechanisms through the construction of their ideal 1-on-1 process. </p>
+    <h2>Kano Analysis Method</h2>
+    <img src="http://theuxclinic.com/wp/wp-content/themes/uxclinic/img/imgkano.png" />
+    <p>Kano Analysis answer strategic questions regarding the features that have highest satisfaction potential among users.</p>
     
-    <a class="button" href="http://theuxclinic.com/casestudies/9-experience-prototyping-7geese/">Full Case Study</a>
+    <a class="button" href="http://theuxclinic.com/diy/kano-analysis-method/">See DIY</a>
       
   </div>
   </div>
@@ -87,9 +91,9 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
 <div id="sendyourcase"></div>
 
 <section class="section lp-submit">
-  <h2>I want to be part of the UXClinic’s third season!</h2>
-  <p>Submit your software product to our free initiative. We will contact you to see how we can bring a positive impact to your company’s objectives. Hopefully you’ll be featured in an upcoming episode</p>
-  <a class="button" href="#modal-contact">Submit application</a>
+  <h2>I want to know more about The UX Clinic</h2>
+  <p>Subscribe to our newsletter. Interesting articles and How-to UX essentials are heading your way.</p>
+  <a class="button" href="#modal-contact">Subscribe</a>
 </section>
 
 <!--
