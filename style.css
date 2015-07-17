@@ -1502,6 +1502,20 @@ div.wpcf7-validation-errors,
   display: inline-block;
 }
 
+.diy-loop:before {
+  content: 'View More';
+  position: relative;
+  top: 0;
+  width: 90%;
+  height: 200px;
+  display: inline-block;
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/07/view-more-icon.png) no-repeat center 96px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 178px;
+}
+
 /*SocialCentiv*/
 #post-725 .bg-op {
   background-color: #19a4dd;
