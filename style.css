@@ -2100,7 +2100,7 @@ div.wpcf7-validation-errors,
   }
 
   input.contactform-name,
-  input.contactform-email {
+  input.contactform-email, {
   width: 97%;
   }
 
@@ -2168,7 +2168,7 @@ div.wpcf7-validation-errors,
   input.contactform-email,
   textarea.contactform-description,
   input.contactform-company,
-  input.contactform-job-title  {
+  input.contactform-job-title {
     width: 94%;
   }
 
@@ -3214,4 +3214,38 @@ a.next {
   }
 }
 
+.spork-bg {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/02/rapid-paper-prototyping-ux-method.jpg) no-repeat center center;
+  background-size: cover;
+}
 
+
+.skedio-bg {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/06/backcasting-ux-method.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.exp-bg {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/02/experience-prototyping-ux-method.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+.lp-quotes .excerpt {
+  text-shadow: 0 1px 1px rgba(0,0,0,0);
+  font-weight: 300;
+}
+
+.lp-quotes .excerpt h1 {
+  text-shadow: 0 1px 1px rgba(0,0,0,0);
+  font-weight: 300;
+  color: #606a70;
+}
+
+.nomargin {
+  margin-bottom: 0.83em!important;
+}
+
+#mc_embed_signup {
+  margin-top: 0!important;
+}
