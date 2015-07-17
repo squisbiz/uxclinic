@@ -97,7 +97,7 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
     </div>
     
     <div class="loop-single">
-      <a href="http://theuxclinic.com/casestudies/3-rapid-paper-prototyping-spork/">
+      <a href="http://theuxclinic.com/casestudies/9-experience-prototyping-7geese/">
       <div class="thumb exp-bg"></div>
       <div class="excerpt">
         <h1><b>Experience Prototyping</b> Creating human centered processes for 1-on-1s</h1>
