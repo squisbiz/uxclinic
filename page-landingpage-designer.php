@@ -56,7 +56,7 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
 
 <section class="section lp-hero">
   <h1>We are all about UX</h1>
-  <p>Becoming a UX designer is hard. There’s no magic way  to achieve truly insightful Team up with the UX Clinic to learn the best UX practices. We specialize in UX research for software products and want to share our experience.</p>
+  <p>Team up with the UX Clinic to learn the best UX practices. Becoming a UX designer is hard. There’s no magic way to achieve truly insightful. We specialize in UX research for software products and want to share our experience.</p>
   <a class="button" href="#modal-contact">Subscribe</a>
   <a class="next" href="#intro"></a>
 </section>
@@ -92,6 +92,15 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
       <div class="thumb spork-bg"></div>
       <div class="excerpt">
         <h1><b>Rapid Paper Prototyping</b> Make sure Your Users Achieve Tasks Effortlessly.</h1>
+      </div>
+      </a>
+    </div>
+    
+    <div class="loop-single">
+      <a href="http://theuxclinic.com/casestudies/3-rapid-paper-prototyping-spork/">
+      <div class="thumb exp-bg"></div>
+      <div class="excerpt">
+        <h1><b>Experience Prototyping</b> Creating human centered processes for 1-on-1s</h1>
       </div>
       </a>
     </div>

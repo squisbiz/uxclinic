@@ -3217,8 +3217,21 @@ a.next {
   background-size: cover;
 }
 
+.exp-bg {
+  background: url(http://theuxclinic.com/wp/wp-content/uploads/2015/02/experience-prototyping-ux-method.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
 .lp-quotes .excerpt {
   text-shadow: 0 1px 1px rgba(0,0,0,0);
+  font-weight: 300;
+}
+
+.lp-quotes .excerpt h1 {
+  text-shadow: 0 1px 1px rgba(0,0,0,0);
+  font-weight: 300;
+  color: #606a70;
 }
 
 .nomargin {
