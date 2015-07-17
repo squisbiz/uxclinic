@@ -14,7 +14,12 @@
     		<div class="thumb" style="background: url(<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true); echo $thumb_url[0]; ?>) no-repeat center center; background-size: cover;"></div>
     	<div class="excerpt">
       		<h1><?php the_title(); ?></h2>
-      		<?php the_excerpt(); ?>
+          <div class="why-diy">
+            <?php
+                the_field('diy_hero_description')
+              ?>
+          </div>
+            <div class="when-diy"><span>When to use it: </span> <?php the_field('when_to_use')?></div>
     	</div>
   	</a>
 

@@ -1446,26 +1446,34 @@ div.wpcf7-validation-errors,
   text-decoration: underline;
 }
 
-.excerpt div {
-  font-weight: 700;
-  color: #A2A3A3;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
 .excerpt span {
-   padding: 20px 0 0;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 12px;
-  color: #6179BC;
+  font-size: 14px;
+  color: #EB4D0A;
+  font-style: normal;
 }
 
 .excerpt h1 {
   font-size: 30px;
   margin: 0;
   padding: 0;
+}
+
+.why-diy {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 15px;
+  text-transform: none ;
+  line-height: 26px;
+}
+
+.when-diy {
+  font-size: 17px;
+  color: rgb(96, 106, 112);
+  margin-top: 15px;
+  font-weight: 500;
 }
 
 .bg-op {
