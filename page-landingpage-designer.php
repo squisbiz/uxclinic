@@ -7,7 +7,7 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
 
 <div class="modal" id="modal-contact" aria-hidden="true">
   <div class="modal-dialog">
-    <h2>Subscribe to our mailing list</h2>
+    <h2>Subscribe to Our Newsletter</h2>
     <a href="#close" class="btn-close" aria-hidden="true">×</a>
     <div class="apply-hero">
       
