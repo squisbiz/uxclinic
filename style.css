@@ -2811,7 +2811,7 @@ div.wpcf7-validation-errors,
 }
 
 .lp-hero {
-  background: url(img/hero-cover.png) no-repeat center center;
+  background: url(img/hero-cover.jpg) no-repeat center center;
   background-size: cover;
   padding-bottom: 218px;
   padding-top: 248px;
@@ -3242,4 +3242,10 @@ a.next {
 
 #mc_embed_signup {
   margin-top: 0!important;
+}
+
+.login h1 a {
+  background-image: url(http://theuxclinic.com/wp/wp-content/themes/uxclinic/img/ux-clinic-design-logo.png)!important;
+  width: 224px!important;
+  background-size: 224px!important;
 }
