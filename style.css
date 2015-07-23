@@ -231,8 +231,12 @@ nav ul li:last-child a {
   width: 40%;
   margin: 0 auto;
   font-size: 41px;
-  margin-top: -13px;
+  margin-top: 3px;
 }
+
+  .hero h1 b {
+    color: #5F6A6F;
+  }
 
 section.hero img {
   max-width: 85%;
@@ -451,7 +455,7 @@ section.report-pagination b {
 }
 
 .howitworks li img {
-  width: 100%;
+  width: 90%;
 }
 
 .howitworks h2 {
@@ -472,31 +476,6 @@ section.report-pagination b {
   z-index: -9;
 }
 
-/*.howitworks li::after {
-  position: absolute;
-  top: 167px;
-  left: 21%;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-color: red;
-  background-image: url(img/nextarrow.png);
-  content: "";
-}*/
-
-/*.howitworks li:nth-child(+2):after {
-   left: 40%;
-}
-.howitworks li:nth-child(+3):after {
-   left: 59%;
-}
-.howitworks li:nth-child(+4):after {
-   left: 78%;
-}
-.howitworks li:nth-child(+5):after {
-   display: none;
-}*/
-
 .howitworks ol {
   padding-top: 100px;
   list-style: none;
@@ -507,8 +486,8 @@ section.report-pagination b {
 .howitworks li {
   display: block;
   float: left;
-  width: calc(18% - 20px);
-  padding: 0px 19px;
+  width: calc(27% - 20px);
+  padding: 0px 40px;
   list-style: decimal;
 }
 
@@ -519,9 +498,10 @@ section.report-pagination b {
 
 .howitworks li h3 {
   font-size: 24px;
-  font-weight: 300;
-  color: #454d51;
-  height: 105px;
+  font-weight: 500;
+  color: #606B70;
+/*  height: 105px;*/
+  margin: 43px 0 0 0;
 }
 
 .howitworks li p {
@@ -530,7 +510,7 @@ section.report-pagination b {
   color: #6c6c6c;
 }
 
-.howitworks li h3:before {
+/*.howitworks li h3:before {
   background: #0ac10a;
   display: block;
   width: 36px;
@@ -568,7 +548,7 @@ section.report-pagination b {
 .howitworks li:nth-child(5) h3:before {
   content: "5";
   display: block;
-}
+}*/
 
 
 /* EXPERTS */
