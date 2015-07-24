@@ -228,7 +228,7 @@ nav ul li:last-child a {
 }
 
 .hero h1 {
-  width: 40%;
+  width: 41%;
   margin: 0 auto;
   font-size: 41px;
   margin-top: 3px;
@@ -2062,7 +2062,11 @@ div.wpcf7-validation-errors,
   }
 }
 
-
+@media (max-width: 1002px) {
+  .howitworks li {
+    width: calc(26% - 20px);
+  }
+}
 
 
 /*MAX 955PX*/
@@ -2075,9 +2079,11 @@ div.wpcf7-validation-errors,
   .howitworks li {
     display: inline-block;
     float: none;
-    width: 25%;
+    width: 34%;
     vertical-align: top;
+    padding: 0px 15px;
   }
+
   .howitworks li h3 {
     height: auto;
   }
@@ -2364,6 +2370,11 @@ div.wpcf7-validation-errors,
   .loop-single {
   width: 93%;
 }
+
+  .howitworks li {
+    width: 40%;
+    padding: 0px 14px;
+  }
 }
 
   /*MAX 680px*/
@@ -2471,7 +2482,8 @@ div.wpcf7-validation-errors,
 @media (max-width: 620px) {
   /*HOWITWORKS*/
     .howitworks li {
-      width: 39%;
+      width: 60%;
+        margin-bottom: 40px;
     }
     .howitworks {
       padding-top: 70px;
@@ -2492,8 +2504,6 @@ div.wpcf7-validation-errors,
 
     .episodesindex .excerpt {
       float: none;
-/*      margin: 10px auto;
-      width: 340px*/
     }
 
     .previouspost,
@@ -2513,23 +2523,10 @@ div.wpcf7-validation-errors,
 
     .previouspost a:before,
     .nexpost a:after {
-/*    content: '\2039';
-    position: absolute;
-    background-color: #ef5a21;
-    border-radius: 100%;
-    color: #fff;
-    text-align: center;
-    top: 2px;
-    font-size: 26px;
-    width: 25px;
-    font-weight: 900;
-    height: 25px;
-    line-height: 21px;*/
     display: none;
     }
 
     .nexpost a:after {
-      /*content: '\203A';*/
     }
 
   .right-column2 {
@@ -2662,6 +2659,10 @@ div.wpcf7-validation-errors,
     font-size: 16px;
     line-height: 25px;
   }
+
+  .howitworks li {
+  width: 75%;
+}
 }
 
   /*MAX 416*/
@@ -2669,7 +2670,7 @@ div.wpcf7-validation-errors,
 @media (max-width: 416px) {
   /*HOWITWORKS*/
   .howitworks li {
-    width: 70%;
+    width: 85%;
   }
   .experts ul {
     display: none;
