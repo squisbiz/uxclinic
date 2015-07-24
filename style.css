@@ -573,12 +573,17 @@ section.report-pagination b {
   height: 360px;
   list-style: none;
 }
+section.experts h3 {
+  font-size: 22px;
+  color: rgb(95, 106, 111);
+  font-weight: 500;
+}
 
 .experts ul li h3 {
   font-size: 44px;
   font-weight: 300;
   color: #FFF;
-  margin-top: 170px;
+  margin-top: 130px;
   margin-bottom: 0px;
   padding: 0px;
   height: 70px;

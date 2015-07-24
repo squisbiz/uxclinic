@@ -9,14 +9,7 @@ Template Name: HOME
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(http://nearsoft.com/stg.uxclinic/wp/wp-content/themes/uxclinic/img/ux-lab-background.gif) repeat-x center bottom;">
-    <h1><?php the_field('home_hero_title'); ?><!-- <a href="https://plus.google.com/events/csro8sl4lhcu7prc1kho44dbbvk" target="_blank"class="button big-button add-live">Add to calendar</a> --></h1>
-
-
-<!-- <div class="livevideo">
-      <div class="livevideocontainer">
-        <iframe width="780" height="421" src="//www.youtube.com/embed/uJNB8pg4ens" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div> -->
+    <h1><?php the_field('home_hero_title'); ?></h1>
 
 <?php the_field('home_hero_text'); ?>
   <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="button big-button"><?php the_field('home_hero_button_text'); ?></a></p>
@@ -38,6 +31,7 @@ Template Name: HOME
 
   <section class="experts">
     <h2><?php the_field('home_experts_title'); ?></h2>
+    <h3>Our team is an expert in researching how user insights can make a product functional and delightful.</h3>
     <a class="button">See Experts</a>
     <ul>
       <?php if( have_rows('experts_experts') ) : while ( have_rows('experts_experts') ) : the_row(); ?>
