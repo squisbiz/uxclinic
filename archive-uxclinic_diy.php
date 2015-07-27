@@ -15,9 +15,7 @@
     	<div class="excerpt">
       		<h1><?php the_title(); ?></h2>
           <div class="why-diy">
-            <?php
-                the_field('diy_hero_description')
-              ?>
+            <?php the_field('diy_hero_description') ?>
           </div>
             <div class="when-diy"><span>When to use it: </span> <?php the_field('when_to_use')?></div>
     	</div>

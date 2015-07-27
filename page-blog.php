@@ -1,10 +1,11 @@
+<?php
+/*
+Template Name: TEMPLATE BLOG
+*/
+?>
+
 <?php get_header(); ?>
 <div class="episodesindex">
-  
-  <div class="cont-h1">
-    <h1><?php single_cat_title( '', true ); ?></h1>
-  </div>
-  
   <div class="blogposts">
 
   <?php $the_query = new WP_Query( 'posts_per_page=10' ); ?>
