@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title><?php echo get_the_title(); ?></title>
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/templatestyle.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-</head>
-<body>
+<?php get_header(); ?>
   
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 <a href="<?php the_field('infographic_download_url'); ?>" class="downlaod-infographic" target="_blank"><img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/download-icon-infographics.png"></a>
-	<header>
+	<div class="diy-header">
 		<a href="http://theuxclinic.com/" target="_blank">
 			<img src="<?php echo home_url(); ?>/wp/wp-content/themes/uxclinic/img/uxclinic-logo-small.png" alt="UXClinic">
 		</a>
@@ -18,7 +11,7 @@
 			<h1><?php echo get_the_title(); ?></h1>
 			<p><?php the_field('diy_hero_description'); ?></p>
 		</div>
-	</header>
+	</div>
 	<section class="section-bg">
 		<div class="why-cont">
 			<h1>Why?</h1>
