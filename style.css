@@ -3383,12 +3383,13 @@ body {
 }
 
 .diy-header {
-  margin-top: 120px;
+  margin-top: 104px;
 }
 
 .diy-header a {
   margin-left: 50px;
   float: left;
+  display: none;
 }
 
 .gray {
@@ -3594,7 +3595,8 @@ a.nearsof-logo {
 a.downlaod-infographic {
   position: fixed;
   right: 34px;
-  top: 68px;
+  top: 120px;
+  z-index: 999;
 }
 
 @media (max-width: 1230px) {
@@ -3611,7 +3613,8 @@ a.downlaod-infographic {
   .method-cont {
     width: auto;
     float: none;
-    margin-top: 145px;
+    margin-top: 100px;
+    text-align: center;
   }
   .method-cont h1 {
     text-align: center;
@@ -3773,6 +3776,9 @@ a.downlaod-infographic {
   overflow: visible;
 }
 
+.method-cont b {
+  color: #FFF;
+}
 
 
 
