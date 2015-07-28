@@ -2414,6 +2414,9 @@ div.wpcf7-validation-errors,
     padding: 25px 35px;
     margin-top: 45px;
   }
+  .orange {
+    margin-top: 0px!important;
+  }
   footer .copyright {
     margin-top: 40px;
   }
@@ -3596,7 +3599,7 @@ a.downlaod-infographic {
   position: fixed;
   right: 34px;
   top: 120px;
-  z-index: 999;
+  z-index: 998;
 }
 
 @media (max-width: 1230px) {
@@ -3676,7 +3679,7 @@ a.downlaod-infographic {
   }
 
   .orange,
-  header,
+  .diy-header,
   .gray {
     padding: 70px 45px;
   }
@@ -3706,6 +3709,10 @@ a.downlaod-infographic {
   .references-cont h1 {
     margin: 0;
   }
+  
+  a.downlaod-infographic {
+    top: 240px;
+  }
 }
 
 @media (max-width: 541px) {
@@ -3718,7 +3725,7 @@ a.downlaod-infographic {
   }
 
   .orange,
-  header,
+  .diy-header,
   .gray {
     padding: 70px 20px;
   }
@@ -3745,6 +3752,15 @@ a.downlaod-infographic {
     padding-top: 30px;
     display: block;
   }
+  
+  a.downlaod-infographic {
+    top: 187px;
+  }
+  
+  .diy-header {
+    padding: 70px 95px;
+  }
+  
 }
 
 .how-cont-description ul {
