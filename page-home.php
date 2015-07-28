@@ -31,7 +31,7 @@ Template Name: HOME
 
   <section class="experts">
     <h2><?php the_field('home_experts_title'); ?></h2>
-    <h3>Our team is an expert in researching how user insights can make a product functional and delightful.</h3>
+    <h3>Our team is an expert in researching how user feedback can make a product functional and delightful.</h3>
     <a class="button">See Experts</a>
     <ul>
       <?php if( have_rows('experts_experts') ) : while ( have_rows('experts_experts') ) : the_row(); ?>
