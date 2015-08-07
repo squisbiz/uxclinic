@@ -49,7 +49,7 @@ Template Name: HOME
     <?php the_field('home_submit_text'); ?>
 <div class="contact-overlay">
   <div class="form">
-    <form id="contactrequest" action="http://localhost/wordpress/wp-content/themes/uxclinic/send.php" method="post">
+    <form id="contactrequest" action="http://theuxclinic.com/wp/wp-content/themes/uxclinic/send.php" method="post">
       <p class="error"></p>
       <p><input type="text" id="name" class="contactform-name" name="name" placeholder="Name:"></p>
       <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
