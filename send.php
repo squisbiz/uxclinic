@@ -27,7 +27,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
     $email = $_POST['jobtitle'];         // required
 
 
-    validate email
+    // validate email
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
     if(!preg_match($email_exp,$email)) {
