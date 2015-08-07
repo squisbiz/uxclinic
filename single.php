@@ -1,14 +1,26 @@
 <?php get_header(); ?>
 
 
+
+
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div class="article" <?php post_class(); ?>>
-    <?php if ( is_sticky() ) : ?><div class="post-title"><?php _e( 'Featured', 'simplestyle' ); ?></div><?php endif; ?>
-	<h1><a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a></h1>
-	<div class="date"><?php the_date(); ?></div>
+<div class="post-header">
+  <div style="top: -10px; width: 100%; height: 270px; filter: blur(5px); -webkit-filter: blur(5px); position: absolute; background: url(<?php $thumb_id = get_post_thumbnail_id(); $thumb_url = wp_get_attachment_image_src($thumb_id,'full', true); echo $thumb_url[0]; ?>) no-repeat center center; background-size: cover;)"></div>
+  <div class="title-band">
+    <h1><?php the_title(); ?></h1>
+    <div class="date">Published on <?php the_date(); ?> by <?php the_author(); ?></div>
+  </div>
+</div>
+
+<div class="postcontainer">
+  
+<div class="post-body" <?php post_class(); ?>>
 	
-	<?php the_content( __( 'read more ...', 'simplestyle' ) ); ?>
+	<div class="post-content">
+	  <?php the_content( __( 'read more ...', 'simplestyle' ) ); ?>
+	</div>
 	
 	<div class="clear"></div>
 	
@@ -16,12 +28,14 @@
 	
 	<div id="comments"><?php comments_template('', true); ?> </div>
 			
-	</div>
-	<div id="border-bottom"></div>
+</div>
+
+<div class="post-sidebar"></div>
 	
 	
 	<?php endwhile; ?> 
 	<?php endif; ?>
+</div>
 	
 		
 	<?php get_footer(); ?>
