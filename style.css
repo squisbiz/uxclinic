@@ -1230,6 +1230,33 @@ input:-ms-input-placeholder {
    color: #A1A1A1;
 }
 
+.field-error::-webkit-input-placeholder {
+    color: #A83201 !important;
+    font-weight: 700;
+}
+
+.field-error:-moz-placeholder {
+    color: #A83201 !important;
+    font-weight: 700;
+}
+
+.field-error::-moz-placeholder {
+    color: #A83201 !important;
+    font-weight: 700;
+}
+
+.error-tags {
+    background-color: #A83201;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.error {
+  padding-bottom: 25px;
+}
 .contactform-submit {
   border-radius: 100px;
   background: #0ac10a;
@@ -1785,20 +1812,33 @@ div.wpcf7-validation-errors,
 }
 
 /*404ERROR*/
-.error-404 {
+.error-404,
+.thankyou-page {
   padding: 75px calc(61% - 580px);
   overflow: auto;
   margin-top: 75px;
   background: url(img/ux-team-404-image.jpg) no-repeat 35% 100px;
 }
-.error-404 div {
+
+.thankyou-page {
+  background: url(img/ux-team-thankyou-image.png) no-repeat 29% 100px;
+    padding: 75px calc(60% - 580px);
+}
+
+.error-404 div,
+.thankyou-page div {
   display: inline-block;
   margin-bottom: 50px;
   width: 48%;
   float: right;
 }
 
-.error-404 div h1 {
+.thankyou-page div {
+  width: 60%;
+}
+
+.error-404 div h1,
+.thankyou-page div h1 {
   font-size: 120px;
   color: #5f6a6f;
   font-weight: 700;
@@ -1817,7 +1857,8 @@ div.wpcf7-validation-errors,
   top: 20px;
 }
 
-.error-404 div p {
+.error-404 div p,
+.thankyou-page div p {
   font-size: 30px;
   font-weight: 300;
   color: #777777;
@@ -1825,11 +1866,16 @@ div.wpcf7-validation-errors,
   margin-top: 5px;
 }
 
+.thankyou-page div p {
+
+}
+
 .error-404 div a {
   margin-left: 70px;
 }
 
-.error-404:before {
+.error-404:before,
+.thankyou-page:before {
   content: '';
   width: auto;
   position: relative;
@@ -1837,6 +1883,10 @@ div.wpcf7-validation-errors,
   display: block;
   bottom: 0;
   top: 425px;
+}
+
+.thankyou-page:before {
+  border-bottom: none;
 }
 
 .episode-resources-hidden {
@@ -1895,9 +1945,9 @@ div.wpcf7-validation-errors,
   }
 
   /*FOOTER*/
-  footer {
+/*  footer {
     padding: 25px 35px;
-  }
+  }*/
   footer .copyright {
     margin-top: 40px;
   }

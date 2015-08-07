@@ -47,7 +47,19 @@ Template Name: HOME
   <section class="submit">
     <h2><?php the_field('home_submit_title'); ?></h2>
     <?php the_field('home_submit_text'); ?>
-    <?php echo do_shortcode(get_post_meta(get_the_ID(), 'home_submit_form_shortcode', true)); ?>
+<div class="contact-overlay">
+  <div class="form">
+    <form id="contactrequest" action="http://localhost/wordpress/wp-content/themes/uxclinic/send.php" method="post">
+      <p class="error"></p>
+      <p><input type="text" id="name" class="contactform-name" name="name" placeholder="Name:"></p>
+      <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
+      <p><input type="text" id="company" class="contactform-company" name="company" placeholder="Company Name:"></p>
+      <p><input type="text" id="jobtitle" class="contactform-job-title" name="jobtitle" placeholder="Job Title:"></p>
+      <textarea type="text" id="description" class="contactform-description" name="Description" placeholder="Description"></textarea>
+      <p class="center"><input type="button" value="Submit" onclick="requestSubmit()" class="contactform-submit"></p>
+    </form>
+  </div>
+</div>
   </section>
 
 
