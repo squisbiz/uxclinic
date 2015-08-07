@@ -27,12 +27,12 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
     $email = $_POST['jobtitle'];         // required
 
 
-    // validate email
-    // $error_message = "";
-    // $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-    // if(!preg_match($email_exp,$email)) {
-    // $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
-    // }
+    validate email
+    $error_message = "";
+    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+    if(!preg_match($email_exp,$email)) {
+    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    }
 
     if(strlen($error_message) > 0) {
     died($error_message);
@@ -56,7 +56,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     // redirect to thank you page
-     header( 'Location: http://localhost/wordpress/casestudies/gfgfgg/' ) ;?>
+     header( 'Location: http://theuxclinic.com/thank-you/' ) ;?>
 <?php
 }
 ?>
