@@ -2346,6 +2346,10 @@ div.wpcf7-validation-errors,
   .error-404:before {
     display: none;
   }
+
+  .recruitment-page h1 {
+    font-size: 65px !important;
+  }
 }
 
 /*MAX 722PX*/
@@ -2558,6 +2562,11 @@ div.wpcf7-validation-errors,
     padding: 0;
   }
 
+  .recruitment-company-logo img {
+      height: 40px !important;
+  }
+
+
   }
 
   /*MAX 600px*/
@@ -2659,6 +2668,27 @@ div.wpcf7-validation-errors,
   .cont-h1 {
       margin: 60px 0 0 0
   }
+
+  .recruitment-page h1 {
+    font-size: 45px !important;
+}
+.recruitment-page h2 {
+  padding: 0 20px;
+}
+
+.recruitment-company-logo {
+  text-align: center;
+}
+
+.uxlcinic-recruitment-logo {
+  float: none !important;
+  margin-top: 15px;
+}
+
+.recruitment-page h1 {
+  padding-top: 0 !important;
+}
+
 }
 
   /*MAX 460*/
@@ -2685,6 +2715,27 @@ div.wpcf7-validation-errors,
   .howitworks li {
   width: 75%;
 }
+
+.recruitment-company-logo {
+    text-align: center;
+    top: -40px;
+}
+
+.uxlcinic-recruitment-logo {
+  float: none !important;
+  margin-top: 15px;
+}
+
+.recruitment-company-logo img {
+  height: 40px !important;
+  display: inline-block;
+
+}
+
+.recruitment-page h1 {
+  padding: 0 !important;
+}
+
 }
 
   /*MAX 416*/
@@ -3298,18 +3349,6 @@ a.next {
   font-size: 38px;
 }
 
-/*
-.post-sidebar {
-  width: 30%;
-  float: right;
-  height: 300px;
-  box-sizing: border-box;
-  border: 1px solid #999999;
-  padding: 20px;
-  border-radius: 4px;
-}
-*/
-
 .date {
   font-size: 16px;
   font-weight: 400;
@@ -3810,3 +3849,86 @@ a.downlaod-infographic {
   color: #FFF;
 }
 
+/*user-recruitment page*/
+
+.page-template-recruitment-users header,
+.page-template-recruitment-users footer,
+.user-recruitment-thanks header,
+.user-recruitment-thanks footer {
+    display: none;
+}
+
+.uxlcinic-recruitment-logo {
+  background: url(img/uxclinic-logo.png) no-repeat;
+}
+
+.page-template-recruitment-users .howitworks li img {
+  width: 65%;
+}
+
+.page-template-recruitment-users .error-tags {
+  background-color: #DE2626;
+}
+
+.page-template-recruitment-users .contactform-submit {
+  background-color: #262626;
+}
+
+.page-template-recruitment-users .field-error::-webkit-input-placeholder {
+    color: #DE2626 !important;
+}
+
+.page-template-recruitment-users .field-error:-moz-placeholder {
+    color: #DE2626 !important;
+}
+
+.page-template-recruitment-users .field-error::-moz-placeholder {
+    color: #DE2626 !important;
+}
+.recruitment-page {
+      padding: 0 calc(50% - 580px);
+    padding-top: 120px;
+    padding-bottom: 110px;
+    position: relative;
+    overflow: auto;
+    background-color: #343434;
+}
+.recruitment-company-logo {
+    position: relative;
+    top: -80px;
+    padding: 0 55px;
+}
+
+.recruitment-page h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    margin: 30px;
+    padding-top: 46px;
+}
+
+.recruitment-page h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+}
+.recruitment-form {
+  background-color: #86bb3b;
+  background-image: none;
+}
+
+.recruitment-company-logo img {
+    top: -80px;
+    background-size: cover;
+    height: 56px;
+}
+
+.uxlcinic-recruitment-logo {
+    background: url(img/uxclinic-logo.png) no-repeat;
+    display: inline-block;
+    background-size: cover;
+    width: 160px;
+    height: 56px;
+    float: right;
+}
