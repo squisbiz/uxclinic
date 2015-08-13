@@ -24,10 +24,6 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
 
     $name = $_POST['name'];           // required
     $email = $_POST['email'];         // required
-    $company = $_POST['company'];           // required
-    $jobtitle = $_POST['jobtitle'];         // required
-    $desc = $_POST['Description'];         // required
-
 
 
     // validate email

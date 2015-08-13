@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Thank you page
+Template Name: Recruitment Thank you page
 */
 ?>
 <?php get_header(); ?>

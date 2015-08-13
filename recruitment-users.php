@@ -22,7 +22,7 @@ Template Name: USER RECRUITMENT
       </li>
             <li>
         <img src="<?php the_field('ux_session');?>" alt="UX Session" />
-        <h3>Attend A 20min UX Session </h3>
+        <h3>20min UX Session </h3>
         <p>A Hang Out will be scheduled with the UXClinic at your convenience between September 4th-8th.</p>
       </li>
             <li>
