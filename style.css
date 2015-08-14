@@ -2371,7 +2371,7 @@ div.wpcf7-validation-errors,
   }
 
   .thankyou-page {
-    background-image: none;
+    background-image: none !important;
     text-align: center;
   }
 
@@ -2595,6 +2595,16 @@ div.wpcf7-validation-errors,
       height: 40px !important;
   }
 
+  .thankyou-page div {
+    width: auto;
+  }
+
+.thankyou-page {
+  padding-top: 0 15px;
+}
+.thankyou-page div h1 {
+font-size: 70px;
+}
 
   }
 
