@@ -581,6 +581,10 @@ section.experts h3 {
   padding: 0 calc(50% - 185px);
 }
 
+.home .submit {
+  padding-bottom: 80px;
+}
+
 .submit {
   background: url(img/ux-lab-background.gif) repeat;
   padding: 0 calc(50% - 465px);
