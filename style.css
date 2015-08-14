@@ -13,12 +13,19 @@ Version: 0.1
 
 
 /* GENERAL FORMATING */
-
+html {
+  height: 100%;
+}
 body {
   font-family: lato;
   font-weight: 300;
   margin: 0;
-  position: relative;
+  height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
 }
 
 a {

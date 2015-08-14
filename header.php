@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-	
+
 	<title>
 		<?php
 		global $page, $paged;
@@ -18,19 +18,19 @@
 	</title>
 
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/style.css">
-	
+
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/font-awesome.min.css">
-	
+
 	<!-- Colorbox, to display a zoomed view of the images -->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorbox.css">
-	
-	
-	
+
+
+
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/uxclinic.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.colorbox-min.js"></script>
 	<?php wp_head() ?>
-	
+
 	<!-- Facebook Conversion Code for Conversion UX04 -->
     <script>(function() {
     var _fbq = window._fbq || (window._fbq = []);
@@ -47,30 +47,30 @@
     window._fbq.push(['track', '6015985729811', {'value':'0.00','currency':'USD'}]);
     </script>
     <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6015985729811&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
-    
+
     <script>
 			$(document).ready(function(){
 				$(".gallery").colorbox({rel:'Gallery'});
 			});
 		</script>
-        
+
 </head>
 
 <body <?php body_class(); ?> id="body">
-
+<div class="wrapper">
 	<header>
   <a href="<?php echo home_url(); ?>">
     <p class="logo"></p>
   </a>
-  
+
   <div class="mobilenav-toggle"></div>
-  
+
   <div class="mobilenav">
     <ul>
   		<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'items_wrap' => '%3$s', 'container' => false ) ); ?>
   		</ul>
   </div>
-  
+
   <nav>
     <ul>
       <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'items_wrap' => '%3$s', 'container' => false ) ); ?>
