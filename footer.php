@@ -1,4 +1,5 @@
 <footer>
+  <div class="footer-cont">
     <p class="logo"></p>
 
     <div class="social">
@@ -21,6 +22,7 @@
     <div class="copyright">
       <a href="http://nearsoft.com">Nearsoft, Inc.</a> © 2015 All Rights Reserved | Questions? Read our <a href="http://theuxclinic.com/FAQ">FAQ</a>
     </div>
+  </div>
   </footer>
   <?php wp_footer(); ?>
 

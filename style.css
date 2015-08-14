@@ -18,6 +18,7 @@ body {
   font-family: lato;
   font-weight: 300;
   margin: 0;
+  position: relative;
 }
 
 a {
@@ -646,7 +647,7 @@ section.experts h3 {
 .episodes {
   padding: 0 calc(50% - 580px);
   padding-top: 85px;
-  padding-bottom: 100px;
+  padding-bottom: 295px;
   overflow: hidden;
 }
 
@@ -911,11 +912,17 @@ img.after-image {
 
 footer {
   background: url(img/footerbg.png);
-  padding: 0 calc(50% - 524px);
   padding-top: 50px;
   padding-bottom: 30px;
   margin: 0;
   overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-cont {
+    padding: 0 calc(50% - 524px);
 }
 
 footer .logo {
@@ -1912,6 +1919,11 @@ div.wpcf7-validation-errors,
 /*  footer {
     padding: 25px 35px;
   }*/
+
+  .footer-cont {
+    padding: 0 50px;
+}
+
   footer .copyright {
     margin-top: 40px;
   }
@@ -2350,6 +2362,16 @@ div.wpcf7-validation-errors,
   .recruitment-page h1 {
     font-size: 65px !important;
   }
+
+  .thankyou-page {
+    background-image: none;
+    text-align: center;
+  }
+
+  .thankyou-page div {
+    float: none;
+    text-align: center;
+  }
 }
 
 /*MAX 722PX*/
@@ -2429,8 +2451,8 @@ div.wpcf7-validation-errors,
 
   /*FOOTER*/
   footer {
-    padding: 25px 35px;
     margin-top: 45px;
+    text-align: left !important;
   }
   .orange {
     margin-top: 0px!important;
@@ -2446,7 +2468,7 @@ div.wpcf7-validation-errors,
   footer .social,
   footer .contact {
     margin-left: 0;
-    float: none;
+    float: left;
     display: inline-block;
     vertical-align: top;
   }
@@ -2824,6 +2846,9 @@ div.wpcf7-validation-errors,
   .episodesindex .excerpt {
 /*    width: 100%;*/
   }
+  footer {
+    padding-top: 50px;
+  }
 }
 
   /*MAX 350*/
@@ -2857,11 +2882,18 @@ div.wpcf7-validation-errors,
     padding-left: 20px;
     background: none;
   }
+    .thankyou-page {
+    background: url(img/ux-team-thankyou-image.png) no-repeat 18% 100px;
+  }
 }
 
 @media (max-width: 1281px) {
   .error-404 {
     background-position:25% 100px;
+  }
+
+  .thankyou-page {
+    background: url(img/ux-team-thankyou-image.png) no-repeat 25% 100px;
   }
 }
 
