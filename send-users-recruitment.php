@@ -45,9 +45,6 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
 
     $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email)."\n";
-    $email_message .= "Company: ".clean_string($company)."\n";
-    $email_message .= "Job Title: ".clean_string($jobtitle)."\n\n";
-    $email_message .= "Description: \n\n".clean_string($desc);
 
 
     // create email

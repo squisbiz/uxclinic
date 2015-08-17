@@ -10,25 +10,25 @@ Template Name: USER RECRUITMENT
     <div class="uxlcinic-recruitment-logo"></div>
   </div>
 <h1>Help Us Improve Lotame’s User Experience</h1>
-<h2>Attend a feedback quick call and win the reward!</h2>
+<h2>Join a quick feedback call and win a reward!</h2>
 </section>
 <section class="howitworks">
-    <h2>How can I participate?</h2>
+    <h2>How Can I Participate?</h2>
     <ol>
             <li>
         <img src="<?php the_field('submit_email');?>" alt="Submit Your Email" />
         <h3>Submit Your Email</h3>
-        <p>Lotame users may register their email to participate in the UXClinic’s research.</p>
+        <p>Lotame users may register their email to participate in the research.</p>
       </li>
             <li>
         <img src="<?php the_field('ux_session');?>" alt="UX Session" />
-        <h3>20min UX Session </h3>
-        <p>A Hang Out will be scheduled with the UXClinic at your convenience between September 4th-8th.</p>
+        <h3>20min Session </h3>
+        <p>A Hang Out will be scheduled at your convenience between September 4th-8th.</p>
       </li>
             <li>
         <img src="<?php the_field('reward');?>" alt="User Reward" />
-        <h3>Get Your Reward!</h3>
-        <p>A Hang Out will be scheduled with the UXClinic at your convenience between September 4th-8th.</p>
+        <h3>Enjoy Your Reward!</h3>
+        <p>You will receive a free month trial access to Lotame. Thanks for your time!</p>
       </li>
           </ol>
   </section>
