@@ -96,7 +96,7 @@ a {
 
 /* SITE HEADER */
 
-/*header {
+header {
   position: fixed;
   top: 0;
   right: 0;
@@ -219,7 +219,7 @@ nav ul li:last-child a {
 
 .displaymobilemenu{
   height: 180px;
-}*/
+}
 
 /* HERO */
 
