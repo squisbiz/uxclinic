@@ -11,6 +11,7 @@ Template Name: USER RECRUITMENT
   </div>
 <h1>Help Us Improve Lotame’s User Experience</h1>
 <h2>Join a quick feedback call and win a reward!</h2>
+<a href="#" id="link-anchor" class="arrow-down"></a>
 </section>
 <section class="howitworks">
     <h2>How Can I Participate?</h2>
@@ -32,6 +33,7 @@ Template Name: USER RECRUITMENT
       </li>
           </ol>
   </section>
+  <a name="link-anchor"></a>
  <section class="submit recruitment-form">
     <h2>I Want to Participate</h2>
    <p>We will contact you to improve Lotame’s User Experience.</p>
@@ -49,3 +51,14 @@ Template Name: USER RECRUITMENT
 
 
 <?php get_footer(); ?>
+
+<script>
+  function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#link-anchor").click(function() {
+   scrollToAnchor('link-anchor');
+});
+</script>
