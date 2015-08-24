@@ -3919,6 +3919,11 @@ a.downlaod-infographic {
   width: 65%;
 }
 
+.page-template-recruitment-users .howitworks li {
+  float: none;
+  display: inline-block;
+}
+
 .page-template-recruitment-users .error-tags {
   background-color: #DE2626;
 }

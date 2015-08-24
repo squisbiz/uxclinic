@@ -10,7 +10,7 @@ Template Name: USER RECRUITMENT
     <div class="uxlcinic-recruitment-logo"></div>
   </div>
 <h1>Help Us Improve Lotame’s User Experience</h1>
-<h2>Join a quick feedback call and win a reward!</h2>
+<h2>Join a quick feedback call</h2>
 <a href="#" id="link-anchor" class="arrow-down"></a>
 </section>
 <section class="howitworks">
@@ -26,11 +26,11 @@ Template Name: USER RECRUITMENT
         <h3>20min Session </h3>
         <p>A Hang Out will be scheduled at your convenience between September 4th-8th.</p>
       </li>
-            <li>
+            <!-- <li>
         <img src="<?php the_field('reward');?>" alt="User Reward" />
         <h3>Enjoy Your Reward!</h3>
         <p>You will receive a free month trial access to Lotame. Thanks for your time!</p>
-      </li>
+      </li> -->
           </ol>
   </section>
   <a name="link-anchor"></a>
