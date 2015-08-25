@@ -4,8 +4,8 @@
 if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "darvayo@nearsoft.com, dgutierrez@nearsoft.com, mmedina@nearsoft.com";
-    $email_subject = "Contact request from ";
+    $email_to = "darvayo@nearsoft.com, dgutierrez@nearsoft.com, mmedina@nearsoft.com, Sandra@theuxclinic.com";
+    $email_subject = "User Recruitment ";
 
 
     function died($error) {
