@@ -10,7 +10,7 @@ Template Name: TEMPLATE LANDING PAGE MIXED
     <h2>Contact Request</h2>
     <a href="#close" class="btn-close" aria-hidden="true">×</a>
     <div class="apply-hero">
-      <?php echo do_shortcode( '[contact-form-7 id="1023" title="Contact Sandra"]' ); ?>
+      <?php echo do_shortcode( '[contact-form-7 id="991" title="Contact Sandra"]' ); ?>
     </div>
   </div>
 </div>
@@ -29,7 +29,7 @@ Template Name: TEMPLATE LANDING PAGE MIXED
   <div class="howitworks">
     <h2>Here Is How We Do It</h2>
     
-    <?php query_posts('page_id=54'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <?php query_posts('page_id=2'); if (have_posts()) : while (have_posts()) : the_post(); ?>
       <ol>
         <?php if( have_rows('home_how_steps') ) : while ( have_rows('home_how_steps') ) : the_row(); ?>
         <li>
