@@ -5,12 +5,12 @@ Template Name: TEMPLATE LANDING PAGE MIXED
 ?>
 <?php get_header(); ?>
 
-<div class="modal" id="modal-contact" aria-hidden="true">
+<div class="modal lp-mixed" id="modal-contact" aria-hidden="true">
   <div class="modal-dialog">
-    <h2>Send us your case study</h2>
+    <h2>Contact Request</h2>
     <a href="#close" class="btn-close" aria-hidden="true">×</a>
     <div class="apply-hero">
-      <?php echo do_shortcode( '[contact-form-7 id="878" title="landingpage"]' ); ?>
+      <?php echo do_shortcode( '[contact-form-7 id="1023" title="Contact Sandra"]' ); ?>
     </div>
   </div>
 </div>
@@ -24,21 +24,24 @@ Template Name: TEMPLATE LANDING PAGE MIXED
 
 <div id="intro"></div>
 
-<section class="section lp-why">
-  <h2>Here Is How We Do It</h2>
+<section class="section lp-why2">
   
-  <?php query_posts('page_id=2'); if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <ol>
-      <?php if( have_rows('home_how_steps') ) : while ( have_rows('home_how_steps') ) : the_row(); ?>
-      <li>
-        <img src="<?php the_sub_field('how_image');?>" alt="<?php the_sub_field('how_image_alt');?>" />
-        <h3><?php the_sub_field('how_title');?></h3>
-        <?php the_sub_field('how_description');?>
-      </li>
-      <?php endwhile; else : endif; ?>
-    </ol>
+  <div class="howitworks">
+    <h2>Here Is How We Do It</h2>
     
-  <?php endwhile; ?><?php endif; WP_reset_query(); ?>
+    <?php query_posts('page_id=54'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+      <ol>
+        <?php if( have_rows('home_how_steps') ) : while ( have_rows('home_how_steps') ) : the_row(); ?>
+        <li>
+          <img src="<?php the_sub_field('how_image');?>" alt="<?php the_sub_field('how_image_alt');?>" />
+          <h3><?php the_sub_field('how_title');?></h3>
+          <?php the_sub_field('how_description');?>
+        </li>
+        <?php endwhile; else : endif; ?>
+      </ol>
+      
+    <?php endwhile; ?><?php endif; WP_reset_query(); ?>
+  </div>
   
   <a class="next" href="#our-participants"></a>
 </section>
@@ -71,7 +74,7 @@ Template Name: TEMPLATE LANDING PAGE MIXED
 <div id="prev-case-studies"></div>
 
 <section class="section lp-previous">
-  <h3>Case Studies</h3>
+  <h2>Case Studies</h2>
   
   <div class="overflow">
     <div class="previous-card">

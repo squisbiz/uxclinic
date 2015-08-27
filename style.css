@@ -3004,8 +3004,8 @@ a.next {
   text-shadow: 0 1px 1px rgba(0,0,0,.5),0 2px 50px #000;
   background-attachment: fixed;
   padding: 0 calc(50% - 640px);
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
   color: #FFF;
 }
 
@@ -3142,7 +3142,7 @@ a.next {
   background-size: auto 100%;
   text-shadow: 0 1px 1px rgba(0,0,0,.5),0 2px 50px #000;
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 280px;
   color: #FFF;
   text-align: center;
   padding-left: calc(50% - 70px);
@@ -4040,4 +4040,59 @@ a.arrow-down:before {
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
-  }
+}
+
+.lp-why2 {
+  text-align: center;
+}
+
+.lp-why2 h2 {
+  font-size: 1.562em;
+  color: #31363a;
+}
+
+.lp-why2 p {
+  margin: 1em 0;
+}
+
+.lp-why2 .howitworks {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.lp-quotes h2 {
+  font-weight: 500;
+  font-size: 1.562em;
+}
+
+.lp-previous h2 {
+  font-weight: 500;
+  font-size: 1.562em;
+}
+
+.lp-mixed input[type='submit'] {
+  border-radius: 100px;
+  background: #0ac10a;
+  font-weight: 700;
+  color: #FFF;
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 18px;
+  transition: background .3s;
+  cursor: pointer;
+  height: auto;
+}
+
+.lp-mixed input[type='submit'] {
+  background: #09ae09;
+  transition: background .3s;
+}
+
+.lp-mixed input[type='submit'] {
+  background: #0b9b0b;
+  transition: background .2s;
+}
+
+
+
+
