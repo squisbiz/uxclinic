@@ -1162,7 +1162,8 @@ input.contactform-email,
 input.contactform-url,
 textarea.contactform-description,
 input.contactform-job-title,
-input.contactform-company {
+input.contactform-company,
+input.contactform-tel {
   width: 40%;
   border-radius: 5px;
   border: 0;
@@ -3156,8 +3157,9 @@ a.next {
 .apply-hero {
   width: 100%;
   margin: 0 auto;
-  margin-top: 40px;
+/*   margin-top: 40px; */
   overflow: hidden;
+  min-height: 300px;
 }
 
 .apply-hero input {
@@ -3172,6 +3174,15 @@ a.next {
 
 .apply-hero input[type='submit'] {
   width: 100%;
+}
+
+.apply-hero input[type='button'] {
+  width: 100%;
+}
+
+.apply-hero .error-tags {
+  background: #b22525;
+  color: #FFF;
 }
 
 .apply-hero textarea {
@@ -4091,6 +4102,10 @@ a.arrow-down:before {
 .lp-mixed input[type='submit'] {
   background: #0b9b0b;
   transition: background .2s;
+}
+
+.clear {
+  clear: both;
 }
 
 

@@ -10,7 +10,16 @@ Template Name: TEMPLATE LANDING PAGE MIXED
     <h2>Contact Request</h2>
     <a href="#close" class="btn-close" aria-hidden="true">×</a>
     <div class="apply-hero">
-      <?php echo do_shortcode( '[contact-form-7 id="991" title="Contact Sandra"]' ); ?>
+      <div class="form">
+        <form id="contactrequest" action="http://theuxclinic.com/wp/wp-content/themes/uxclinic/send-sandra.php" method="post">
+          <p class="error"></p>
+          <input type="text" id="name" class="contactform-name" name="name" placeholder="Name:">
+          <input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:">
+          <input type="text" id="tel" class="contactform-tel" name="tel" placeholder="Telephone">
+          <div class="clear"></div>
+          <p class="center"><input type="button" value="Submit" onclick="requestSubmit()" class="contactform-submit"></p>
+        </form>
+      </div>
     </div>
   </div>
 </div>
