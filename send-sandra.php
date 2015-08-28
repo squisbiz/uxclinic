@@ -62,7 +62,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     // redirect to thank you page
-    header( 'Location: http://theuxclinic.com/thank-you/' ) ;?>
+    header( 'Location: http://theuxclinic.com/thank-you-request/' ) ;?>
 <?php
 }
 ?>
