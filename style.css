@@ -2958,9 +2958,10 @@ font-size: 70px;
 
 .lp-hero p {
   font-size: 1.2em;
-  margin: .5em 0;
   line-height: 1.2;
   font-weight: 400;
+  margin: .5em auto;
+  width: 650px;
 }
 
 .lp-why {
