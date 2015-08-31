@@ -112,7 +112,7 @@ Template Name: TEMPLATE LANDING PAGE PRODUCT OWNER
 <section class="section lp-submit">
   <h2>I want to be part of the UXClinic’s third season!</h2>
   <p>Submit your software product to our free initiative. We will contact you to see how we can bring a positive impact to your company’s objectives. Hopefully you’ll be featured in an upcoming episode</p>
-  <a class="button" href="#modal-contact">Submit application</a>
+  <a class="button" href="#modal-contact">Contact Request</a>
 </section>
 
 <!--
