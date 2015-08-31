@@ -1,0 +1,134 @@
+.home {
+  .submit {
+    padding-bottom: 80px;
+  }
+}
+
+.submit {
+  background: url(../img/ux-lab-background.gif) repeat;
+  padding: 0 calc(50% - 465px);
+  padding-top: 80px;
+  padding-bottom: 300px;
+  overflow: auto;
+
+  h2 {
+    color: #f8f8f8;
+  }
+
+  p {
+  color: #f8f8f8;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 20px 0 0 0;
+  }
+}
+
+.submit > p {
+  margin-bottom: 50px;
+}
+
+input.contactform-name,
+input.contactform-email,
+input.contactform-url,
+textarea.contactform-description,
+input.contactform-job-title,
+input.contactform-company {
+  width: 40%;
+  border-radius: 5px;
+  border: 0;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  float: left;
+  color: #A1A1A1;
+  font-family: lato;
+}
+
+input.contactform-name,
+input.contactform-email {
+  width: 34%
+}
+
+input.contactform-job-title,
+input.contactform-company {
+  width: 34%;
+  margin-top: 20px;
+}
+
+input.contactform-name,
+input.contactform-company  {
+  margin-right: 25px;
+}
+
+textarea.contactform-description {
+  width: 97%;
+  height: 110px;
+  margin-top: 20px;
+}
+
+input::-webkit-input-placeholder {
+   color: #A1A1A1;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   color: #333;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;
+}
+
+input:-ms-input-placeholder {
+   color: #A1A1A1;
+}
+
+.field-error::-webkit-input-placeholder {
+    color: #A83201 !important;
+    font-weight: 700;
+}
+
+.field-error:-moz-placeholder {
+    color: #A83201 !important;
+    font-weight: 700;
+}
+
+.field-error::-moz-placeholder {
+    color: #A83201 !important;
+    font-weight: 700;
+}
+
+.error-tags {
+    background-color: #A83201;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.error {
+  padding-bottom: 25px;
+}
+
+.contactform-submit {
+  border-radius: 100px;
+  background: #0ac10a;
+  font-family: lato;
+  font-weight: 700;
+  color: #FFF;
+  display: inline-block;
+  padding: 15px 60px;
+  font-size: 18px;
+  transition: background .3s;
+  border: 0;
+  position: absolute;
+  z-index: 99;
+  right: 1px;
+  cursor: pointer;
+}
+
+.contactform-submit:hover {
+  background: #09ae09;
+  transition: background .3s;
+}

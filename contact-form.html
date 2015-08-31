@@ -1,0 +1,14 @@
+<div class="contact-overlay">
+  <div class="form">
+    <h2 class="center">Contact Request</h2>
+    <form id="contactrequest" action="/admin/wp-content/themes/Nearsoftv1/email/send.php" method="post">
+      <p class="error"></p>
+      <p><input type="text" id="name" name="name" placeholder="Your name"></p>
+      <p><input type="text" id="email" name="email" placeholder="E-mail"></p>
+      <p><input type="text" id="telephone" name="telephone" placeholder="Phone (optional) [xxx-xxx-xxxx]"></p>
+      <p class="center"><input type="button" value="Send request" class="smallbutton primary" onclick="requestSubmit()"><a href="#" class="close"><i class="icon-remove"></i></a></p>
+      <p class="center small">All information is kept private</p>
+      <input type="hidden" id="company" name="company" value="nearsoft">
+    </form>
+  </div>
+</div>

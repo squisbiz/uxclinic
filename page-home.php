@@ -53,7 +53,7 @@ Template Name: HOME
       <p><input type="text" id="name" class="contactform-name" name="name" placeholder="Name:"></p>
       <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
       <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Website URL:"></textarea>
-      <p class="center"><input type="button" value="Submit" onclick="requestSubmit()" class="contactform-submit"></p>
+      <p class="center"><input type="button" value="Send" onclick="requestSubmit()" class="contactform-submit"></p>
     </form>
   </div>
 </div>
