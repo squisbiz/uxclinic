@@ -52,9 +52,7 @@ Template Name: HOME
       <p class="error"></p>
       <p><input type="text" id="name" class="contactform-name" name="name" placeholder="Name:"></p>
       <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
-      <p><input type="text" id="company" class="contactform-company" name="company" placeholder="Company Name:"></p>
-      <p><input type="text" id="jobtitle" class="contactform-job-title" name="jobtitle" placeholder="Job Title:"></p>
-      <textarea type="text" id="description" class="contactform-description" name="Description" placeholder="Description"></textarea>
+      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Website URL:"></textarea>
       <p class="center"><input type="button" value="Submit" onclick="requestSubmit()" class="contactform-submit"></p>
     </form>
   </div>
