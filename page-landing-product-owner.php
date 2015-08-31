@@ -16,6 +16,7 @@ Template Name: TEMPLATE LANDING PAGE PRODUCT OWNER
           <input type="text" id="name" class="contactform-name" name="name" placeholder="Name:">
           <input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:">
           <input type="text" id="tel" class="contactform-tel" name="tel" placeholder="Telephone">
+          <input type="text" id="url" class="contactform-url" name="url" placeholder="Company URL">
           <div class="clear"></div>
           <p class="center"><input type="button" value="Submit" onclick="requestSubmit()" class="contactform-submit"></p>
         </form>
@@ -26,7 +27,7 @@ Template Name: TEMPLATE LANDING PAGE PRODUCT OWNER
 
 <section class="section lp-hero">
   <h1>Build The Best Product</h1>
-  <p>Translate user feedback to functional features. We can help you build products people actually want.</p>
+  <p>Translate user feedback to functional features. We can help you build products people actually want</p>
   <a class="button" href="#modal-contact">Contact Request</a>
   <a class="next" href="#intro"></a>
 </section>
@@ -110,8 +111,8 @@ Template Name: TEMPLATE LANDING PAGE PRODUCT OWNER
 <div id="sendyourcase"></div>
 
 <section class="section lp-submit">
-  <h2>I want to be part of the UXClinic’s third season!</h2>
-  <p>Submit your software product to our free initiative. We will contact you to see how we can bring a positive impact to your company’s objectives. Hopefully you’ll be featured in an upcoming episode</p>
+  <h2>I want to talk to an expert</h2>
+  <p>We will contact you to see how we can bring a positive impact to your product’s objectives.</p>
   <a class="button" href="#modal-contact">Contact Request</a>
 </section>
 

@@ -1163,7 +1163,8 @@ input.contactform-url,
 textarea.contactform-description,
 input.contactform-job-title,
 input.contactform-company,
-input.contactform-tel {
+input.contactform-tel,
+input.contactform-url {
   width: 40%;
   border-radius: 5px;
   border: 0;
