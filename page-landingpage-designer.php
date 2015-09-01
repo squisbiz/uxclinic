@@ -56,7 +56,7 @@ Template Name: TEMPLATE LANDING PAGE DESIGNERS
 
 <section class="section lp-hero">
   <h1>We are all about UX</h1>
-  <p>Team up with the UX Clinic to learn the best UX practices. Becoming a UX designer is hard. There’s no magic way to achieve truly insightful. We specialize in UX research for software products and want to share our experience.</p>
+  <p>Team up with the UX Clinic to learn the best UX practices. Becoming a UX designer is hard. There’s no magic way to achieve meaningful insights. We specialize in UX research for software products and want to share our experience.</p>
   <a class="button" href="#modal-contact">Subscribe</a>
   <a class="next" href="#intro"></a>
 </section>
