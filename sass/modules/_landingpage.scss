@@ -360,6 +360,13 @@ a.next {
   color: #616161!important;
 }
 
+.apply-hero input[type='button'] {
+  position: relative;
+  float: none;
+  margin-top: 30px;
+  width: 100%;
+}
+
 @media (max-width: 1000px) {
   .lp-hero,
   .lp-why,

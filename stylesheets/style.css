@@ -5231,8 +5231,16 @@ a.next {
   color: #616161 !important;
 }
 
+/* line 363, ../sass/modules/_landingpage.scss */
+.apply-hero input[type='button'] {
+  position: relative;
+  float: none;
+  margin-top: 30px;
+  width: 100%;
+}
+
 @media (max-width: 1000px) {
-  /* line 368, ../sass/modules/_landingpage.scss */
+  /* line 375, ../sass/modules/_landingpage.scss */
   .lp-hero,
   .lp-why,
   .lp-quotes,
@@ -5243,7 +5251,7 @@ a.next {
   }
 }
 @media (max-width: 850px) {
-  /* line 375, ../sass/modules/_landingpage.scss */
+  /* line 382, ../sass/modules/_landingpage.scss */
   .third {
     width: calc(100% - 80px);
     float: none;
@@ -5252,7 +5260,7 @@ a.next {
   }
 }
 @media (max-width: 800px) {
-  /* line 384, ../sass/modules/_landingpage.scss */
+  /* line 391, ../sass/modules/_landingpage.scss */
   .previous-card {
     width: calc(100% - 80px);
     float: none;
@@ -5261,7 +5269,7 @@ a.next {
   }
 }
 @media (max-width: 550px) {
-  /* line 393, ../sass/modules/_landingpage.scss */
+  /* line 400, ../sass/modules/_landingpage.scss */
   .previous-card {
     width: calc(100% - 62px);
     float: none;
@@ -5269,7 +5277,7 @@ a.next {
   }
 }
 @media (max-width: 450px) {
-  /* line 401, ../sass/modules/_landingpage.scss */
+  /* line 408, ../sass/modules/_landingpage.scss */
   .third {
     width: calc(100% - 80px);
     float: none;
