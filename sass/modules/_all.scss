@@ -2928,6 +2928,7 @@ font-size: 70px;
 
 /* Landing page CEO's */
 
+/*
 .section {
   overflow: visible;
   box-sizing: border-box;
@@ -3019,9 +3020,6 @@ a.next {
 }
 
 .third {
-/*
-  width: calc(30% - 80px);
-*/
   padding: 20px 40px;
   float: left;
   margin-right: 4.5%;
@@ -3263,7 +3261,6 @@ a.next {
   border-top: #eeeeee solid 1px;
   text-align: right;
 }
-/*ADDED TO STOP SCROLLING TO TOP*/
 #close {
   display: none;
 }
@@ -3289,6 +3286,7 @@ a.next {
 .apply-hero .wpcf7-response-output {
   color: #616161!important;
 }
+*/
 
 @media (max-width: 1000px) {
   .lp-hero,
