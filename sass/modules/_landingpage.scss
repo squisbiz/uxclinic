@@ -370,7 +370,7 @@ a.next {
 .lp-hero2 {
   background: url(../img/hero-pattern.gif) repeat;
   padding-bottom: 218px;
-  padding-top: 200px!important;
+  padding-top: 100px!important;
   padding-bottom: 0;
   color: #FFF;
   text-align: center;
@@ -389,13 +389,22 @@ a.next {
 
 .lp-hero2 .textcont h1 {
   font-size: 36px;
+  margin-top: 50px;
+}
+
+.lp-hero2 .textcont .button {
+  margin-top: 20px;
+}
+
+.lp-hero2 .textcont p {
+  width: 90%;
 }
 
 .lp-hero2 .image {
   width: 600px;
-  height: 400px;
+  height: 500px;
   float: right;
-  background: url(../img/image02.png) no-repeat center top;
+  background: url(../img/image04.png) no-repeat center top;
   background-size: contain;
   margin-top: 35px;
 }
