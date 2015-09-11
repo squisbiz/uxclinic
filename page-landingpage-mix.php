@@ -25,10 +25,18 @@ Template Name: TEMPLATE LANDING PAGE MIXED
   </div>
 </div>
 
-<section class="section lp-hero">
-  <h1>Boost Your Conversion Rate, with UX Research</h1>
-  <p>Translate user feedback to functional features. We can help you build products people actually want</p>
-  <a class="button" href="#modal-contact">Contact Request</a>
+<section class="section lp-hero2">
+  
+  <div style="overflow: hidden; width: 100%;">
+  <div class="textcont">
+    <h1>Boost Your Conversion Rate, with UX Research</h1>
+    <p>Translate user feedback to functional features. We can help you build products people actually want</p>
+    <a class="button" href="#modal-contact">Contact Request</a>
+  </div>
+  
+  <div class="image"></div>
+  </div>
+  
   <a class="next" href="#intro"></a>
 </section>
 
