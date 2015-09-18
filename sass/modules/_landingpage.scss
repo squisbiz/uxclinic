@@ -367,15 +367,68 @@ a.next {
   width: 100%;
 }
 
+.lp-hero2 {
+  background: url(../img/hero-pattern.gif) repeat;
+  padding-bottom: 218px;
+  padding-top: 100px!important;
+  padding-bottom: 0;
+  color: #FFF;
+  text-align: center;
+/*   text-shadow: 0 1px 1px rgba(0,0,0,0.5),0 2px 50px #000; */
+  background-attachment: fixed;
+  height: 60%;
+}
+
+.lp-hero2 .textcont {
+  float: left;
+  text-align: left;
+  width: 350px;
+}
+
+
+
+.lp-hero2 .textcont h1 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.lp-hero2 .textcont .button {
+  margin-top: 20px;
+}
+
+.lp-hero2 .textcont p {
+  width: 90%;
+}
+
+.lp-hero2 .image {
+  width: 600px;
+  height: 500px;
+  float: right;
+  background: url(../img/image04.png) no-repeat center top;
+  background-size: contain;
+  margin-top: 35px;
+}
+
 @media (max-width: 1000px) {
   .lp-hero,
   .lp-why,
   .lp-quotes,
   .lp-previous,
-  .lp-submit {
+  .lp-submit,
+  .lp-hero2 {
     padding-right: 30px;
     padding-left: 30px;
   }
+  
+  .lp-hero2 .image {
+    width: 60%;
+  }
+  
+  .lp-hero2 .textcont {
+    width: 35%;
+    margin-right: 5%;
+  }
+  
 }
 
 @media (max-width: 850px) {
@@ -396,11 +449,43 @@ a.next {
   }
 }
 
+@media (max-width: 800px) {
+  .lp-hero2 .image {
+    width: 100%;
+    display: block;
+  }
+  
+  .lp-hero2 .textcont {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  
+  .lp-hero2 {
+    padding-bottom: 40px;
+  }
+}
+
+
+
+
+
+
+
+
 @media (max-width: 550px) {
   .previous-card {
     width: calc(100% - 62px);
     float: none;
     margin-bottom: 30px;
+  }
+  
+  .lp-hero2 .image {
+    height: 350px;
+  }
+  
+  .lp-hero2 {
+    padding-bottom: 80px;
   }
 }
 
@@ -410,6 +495,14 @@ a.next {
     float: none;
     margin-bottom: 30px;
     min-height: 300px;
+  }
+  
+  .lp-hero2 .image {
+    height: 250px;
+  }
+  
+  .lp-hero2 {
+    padding-bottom: 80px;
   }
 }
 

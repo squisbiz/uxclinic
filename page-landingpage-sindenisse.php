@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: TEMPLATE LANDING PAGE PRODUCT OWNER
+Template Name: TEMPLATE LANDING PAGE SIN DENISSE
 */
 ?>
 <?php get_header(); ?>
@@ -27,9 +27,10 @@ Template Name: TEMPLATE LANDING PAGE PRODUCT OWNER
 
 <section class="section lp-hero2">
   
+  
   <div style="overflow: hidden; width: 100%;">
   <div class="textcont">
-    <h1>Build The Best Product</h1>
+    <h1>Boost Your Conversion Rate, with UX Research</h1>
     <p>Translate user feedback to functional features. We can help you build products people actually want</p>
     <a class="button" href="#modal-contact">Contact Request</a>
   </div>
@@ -60,8 +61,6 @@ Template Name: TEMPLATE LANDING PAGE PRODUCT OWNER
       
     <?php endwhile; ?><?php endif; WP_reset_query(); ?>
   </div>
-  
-  <a class="button" href="http://theuxclinic.com/about">Learn More</a>
   
   <a class="next" href="#our-participants"></a>
 </section>

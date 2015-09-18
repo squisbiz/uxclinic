@@ -15,10 +15,21 @@ Template Name: TEMPLATE LANDING PAGE CEO'S
   </div>
 </div>
 
-<section class="section lp-hero">
-  <h1>Get in your user’s head</h1>
-  <p>Users have the answers you are looking for. Get a complete UX design research for your company. Apply to the third season of UX Clinic Case Studies!</p>
-  <a class="button" href="#modal-contact">Submit application</a>
+
+
+
+<section class="section lp-hero2">
+  
+  <div style="overflow: hidden; width: 100%;">
+  <div class="textcont">
+    <h1>Get in your user’s head</h1>
+    <p>Users have the answers you are looking for. Get a complete UX design research for your company. Apply to the third season of UX Clinic Case Studies!</p>
+    <a class="button" href="#modal-contact">Contact Request</a>
+  </div>
+  
+  <div class="image"></div>
+  </div>
+  
   <a class="next" href="#intro"></a>
 </section>
 
