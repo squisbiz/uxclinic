@@ -10,7 +10,6 @@
 
 .gray {
     background: url(../img/footerbg.png) repeat;
-    padding-bottom: 315px;
 
     .references-cont {
       padding: 0 115px;
@@ -124,20 +123,23 @@
     float: right;
   }
 
-  .how-cont ul {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 24px;
-    list-style: none;
-  }
 
-  .how-cont li {
-    margin: 55px 0px;
-    position: relative;
-    overflow: hidden;
+  .how-cont {
+    ul {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 24px;
+      list-style: none;
+
+      li {
+        margin: 55px 0px;
+        position: relative;
+        overflow: hidden;
+      }
+    }
   }
 
   #persona-icon3 {
@@ -189,31 +191,31 @@ footer.orange {
   font-weight: 300;
   margin-top: 50px;
   position: relative;
+
+   ul {
+    width: 78%;
+    float: right;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    list-style-image: url(../img/takeaways-icon.png);
+
+  li {
+      margin: 15px 0;
+    }
+  }
+    &:after{
+    content: " ";
+    display: block;
+    background: url(../img/takeaways-img.png) no-repeat;
+    position: absolute;
+    top: 45px;
+    left: 35px;
+    width: 79px;
+    height: 79px;
+  }
 }
 
-.takeaways-box ul {
-  width: 78%;
-  float: right;
-  font-size: 18px;
-  margin: 0;
-  padding: 0;
-  list-style-image: url(../img/takeaways-icon.png);
-}
-
-.takeaways-box li {
-  margin: 15px 0;
-}
-
-.takeaways-box:after{
-  content: " ";
-  display: block;
-  background: url(../img/takeaways-img.png) no-repeat;
-  position: absolute;
-  top: 45px;
-  left: 35px;
-  width: 79px;
-  height: 79px;
-}
 
 .references-cont h1 {
   font-size: 78px;
