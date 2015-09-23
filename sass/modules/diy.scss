@@ -244,3 +244,35 @@ a.downlaod-infographic {
   z-index: 998;
 }
 
+.how-cont-description ul {
+  margin: 0;
+  padding: 0;
+}
+
+.steps ul li {
+  list-style: none;
+}
+
+.how-cont-description li {
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+.how-cont-description li:nth-child(2):after {
+  content: " ";
+  display: block;
+  background: url(../img/arrow.png) no-repeat;
+  position: absolute;
+  top: 7px;
+  left: -28px;
+  width: 21px;
+  height: 13px;
+}
+
+.how-cont li ul li {
+  overflow: visible;
+}
+
+.method-cont b {
+  color: #FFF;
+}
