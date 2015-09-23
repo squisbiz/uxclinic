@@ -27,8 +27,7 @@
   }
 
   .method-cont {
-    padding: 0 calc(62% - 580px);
-    text-align: center;
+    padding: 0 calc(65% - 580px);
 
      p {
       margin: 20px 0 0 0;
@@ -224,10 +223,14 @@ footer.orange {
   padding: 60px 0;
 }
 
-.steps li span {
-  display: block;
-  margin-top: 10px;
-  position: relative;
+.steps {
+    padding-left: 45px;
+
+    li span {
+      display: block;
+      margin-top: 10px;
+      position: relative;
+    }
 }
 
 a.nearsof-logo {
