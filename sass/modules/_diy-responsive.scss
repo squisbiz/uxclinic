@@ -1,0 +1,123 @@
+@media (max-width: 915px) {
+  .section-bg,
+  .section-bg-takeaways {
+    padding: 0 45px 70px 45px;
+  }
+
+  .orange,
+  .diy-header,
+  .gray {
+    padding: 70px 45px;
+  }
+
+  .takeaways-box:after {
+    display: none;
+  }
+
+  .takeaways-box ul {
+    width: auto;
+    padding-left: 15px;
+  }
+
+  .takeaways-box {
+    padding: 30px;
+    width: auto;
+  }
+
+  .how-cont h1 {
+    margin: 0;
+  }
+
+  .references-cont p {
+    padding-left: 0;
+  }
+
+  .references-cont h1 {
+    margin: 0;
+  }
+
+  a.downlaod-infographic {
+    top: 120px;
+  }
+}
+
+@media (max-width: 541px) {
+  .takeaways-cont h1,
+  .how-cont h1,
+  .why-cont h1,
+  .method-cont h1,
+  .references-cont h1 {
+    font-size: 45px;
+  }
+
+  .orange,
+  .diy-header,
+  .gray {
+    padding: 70px 20px;
+  }
+
+  .section-bg,
+  .section-bg-takeaways {
+    padding: 0 20px 50px 20px;
+  }
+
+  .references-cont p {
+    padding-left: 0;
+    word-break: break-all;
+  }
+
+  .why-cont {
+    padding: 50px 30px;
+  }
+
+  a.nearsof-logo {
+    margin-left: 0;
+  }
+
+  a.nearsof-logo {
+    padding-top: 30px;
+    display: block;
+  }
+
+  a.downlaod-infographic {
+    top: 120px;
+  }
+
+  .diy-header {
+    padding: 70px 95px;
+  }
+
+}
+
+.how-cont-description ul {
+  margin: 0;
+  padding: 0;
+}
+
+.steps ul li {
+  list-style: none;
+}
+
+.how-cont-description li {
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+.how-cont-description li:nth-child(2):after {
+  content: " ";
+  display: block;
+  background: url(../img/arrow.png) no-repeat;
+  position: absolute;
+  top: 7px;
+  left: -28px;
+  width: 21px;
+  height: 13px;
+}
+
+.how-cont li ul li {
+  overflow: visible;
+}
+
+.method-cont b {
+  color: #FFF;
+}
