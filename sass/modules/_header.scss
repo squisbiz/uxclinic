@@ -5,10 +5,11 @@ header {
   left: 0;
   overflow: hidden;
   padding: 0 calc(51% - 625px);
-  padding-top: 25px;
-  height: 79px;
+  padding-top: 35px;
+  height: 90px;
   background-color: #fff;
   z-index: 999;
+  box-shadow: 0px 0px 8px rgba(0,0,0, 0.1);
 }
 
 header .logo {
@@ -20,50 +21,68 @@ header .logo {
   margin: 0 0 0 28px;
 }
 
+.home {
+  header {
+    background-color: transparent;
+    position: absolute;
+    .logo {
+      background: url(../img/uxclinic-logo.png) no-repeat;
+      background-size: cover;
+    }
+    a {
+      color: #fff;
+    }
+    .mobilenav-toggle {
+      background: url(../img/menuicon-white.png) no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
 nav {
   overflow: hidden;
   float: right;
-}
 
-nav ul li {
-  display: inline;
-  float: left;
-  position: relative;
-  margin-right: 30px;
-  padding-bottom: 15px;
-}
+  ul {
+      li {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    padding-bottom: 15px;
 
-nav ul li a {
-  color: #768389;
-  font-size: 20px;
-  font-weight: 300;
-  transition: background .3s;
-}
+    &:last-child a {
+      margin-right: 0;
+    }
+      a {
+        color: #768389;;
+        font-size: 20px;
+        font-weight: 300;
+        transition: background .3s;
 
-nav ul li a:hover::before {
-  width: 78%;
-  content: '';
-  height: 6px;
-  background-color: #ea4b0a;
-  position: absolute;
-  top: 32px;
-  border-radius: 5px;
-  right: 0;
-}
-
-nav ul li a:hover::after {
-  width: 15%;
-  content: '';
-  height: 6px;
-  background-color: #ea4b0a;
-  position: absolute;
-  top: 32px;
-  border-radius: 5px;
-  left: 0;
-}
-
-nav ul li:last-child a {
-  margin-right: 0;
+        &:hover::before {
+          width: 78%;
+          content: '';
+          height: 6px;
+          background-color: #ea4b0a;
+          position: absolute;
+          top: 32px;
+          border-radius: 5px;
+          right: 0;
+        }
+        &:hover::after {
+          width: 15%;
+          content: '';
+          height: 6px;
+          background-color: #ea4b0a;
+          position: absolute;
+          top: 32px;
+          border-radius: 5px;
+          left: 0;
+        }
+      }
+    }
+  }
 }
 
 .mobilenav-toggle {
@@ -75,6 +94,11 @@ nav ul li:last-child a {
   margin-top: 15px;
   display: none;
   cursor: pointer;
+}
+
+.past-main .mobilenav-toggle {
+  background: url(../img/menuicon.png) no-repeat !important;
+  background-size: cover !important;
 }
 
 .mobilenav {
@@ -121,4 +145,39 @@ nav ul li:last-child a {
 
 .displaymobilemenu{
   height: 180px;
+}
+
+/*MAX 722PX*/
+
+@media (max-width: 722px) {
+  header {
+    text-align: center;
+    height: auto;
+  }
+  header .logo {
+   margin-bottom: 15px;
+  }
+
+  header ul {
+    text-align: center;
+  }
+
+  header nav ul li {
+    float: none;
+    display: inline;
+  }
+
+  header nav ul li a {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header .mobilenav-toggle {
+    display: block;
+    margin-right: 30px;
+  }
 }

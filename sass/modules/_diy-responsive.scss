@@ -59,17 +59,19 @@
     padding-left: 0;
   }
 
-  h1 {
-    font-size: 45px !important;
+  .method-cont {
+    h1 {
+      font-size: 45px !important;
+    }
+    p {
+      font-size: 18px !important;
+    }
   }
 
   .section-bg-takeaways .takeaways-box:after {
     display: none;
   }
 
-  p {
-    font-size: 18px !important;
-  }
 
   .section-bg-takeaways .takeaways-box ul {
     width: 95%;
