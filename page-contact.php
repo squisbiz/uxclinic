@@ -7,7 +7,7 @@ Template Name: CONTACT PAGE
 <section class="section-contact">
   <h1>Talk With An Expert</h1>
   <h2>Contact</h2>
-  <span><img src="http://theuxclinic.com/wp/wp-content/themes/uxclinic/img/phone-icon-contact-page.png">(408) 754.6075</span>
+  <span><img src="http://theuxclinic.com/wp/wp-content/themes/uxclinic/img/phone-icon-contact-page.png">(408) 890-2115</span>
   <div>
   <a href="#">sandra@theuxclinic.com</a>
   </div>

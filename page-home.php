@@ -35,8 +35,7 @@ Template Name: HOME
   </div>
 
 </div>
-  <p><a id="link-anchor" href="<?php the_field('home_hero_button_url'); ?>" class="contactform-submit"><?php the_field('home_hero_button_text'); ?></a></p>
-
+  <p><a id="link-anchor" href="#myAnchor" class="contactform-submit"><?php the_field('home_hero_button_text'); ?></a></p>
   </section>
 
   <section class="episodes">
@@ -58,6 +57,7 @@ Template Name: HOME
   </section>
 
   <section class="submit">
+    <a name="myAnchor" id="myAnchor"></a>
     <h2><?php the_field('home_submit_title'); ?></h2>
     <?php the_field('home_submit_text'); ?>
 <div class="contact-overlay">
@@ -79,13 +79,11 @@ Template Name: HOME
 <?php get_footer(); ?>
 
 <script>
-  function scrollToAnchor(aid){
-    var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-}
-
-$("#link-anchor").click(function() {
-   scrollToAnchor('link-anchor');
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
 });
 </script>
 <script>

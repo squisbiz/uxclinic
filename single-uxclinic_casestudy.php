@@ -39,14 +39,14 @@
         <p><?php the_field('casestudy_hero_description'); ?></p>
         <p><a href="<?php the_field('diy_link'); ?>" target="_blank" class="scnd-case-link margin-top-diy"><?php the_field('diy_link_label'); ?></a></p>
       </div>
-      
-      
+
+
         <?php $image = get_field('casestudy_hero_image'); if( !empty($image) ): ?>
       <div class="process-img-cont">
         <a class="gallery" href="<?php echo $image['url']; ?>" title="<?php the_field('footnote_process_img'); ?>">
           <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="casestudy_hero_img"/>
         </a>
-        
+
         <?php endif; ?>
         <h5><?php the_field('footnote_process_img'); ?></h5>
       </div>
@@ -93,7 +93,7 @@
     </div>
     <p>
       <?php the_field('casestudy_video_description'); ?>
-      
+
       <?php if( get_field('calendar_button_toggle') )
         {
           echo "<div style='display: block; position: relative; top: 20px;'>";
@@ -103,10 +103,10 @@
             echo "<div style='display: none;'>";
         }
       ?>
-      
+
       <a class="button report-button" href="<?php the_field('calendar_button_url'); ?>" target="_blank"><?php the_field('calendar_button_label'); ?></a>
     </div>
-    
+
     </p>
 
   </section>
@@ -134,7 +134,20 @@
     else { echo '<span style="display:none;">"'.get_the_title().'" is the latest post: no newer articles. </span>'; } ; ?>
     </div>
   </section>
+<script type="text/javascript">
+$(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
 
+        if (scroll >= 100) {
+           $('header').addClass("box-shadow");
+        } else {
+            $("header").removeClass('box-shadow');
+        }
+    });
+});
+
+</script>
 
 <?php endwhile; ?><?php endif; ?>
 <?php get_footer(); ?>

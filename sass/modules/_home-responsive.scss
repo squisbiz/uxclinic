@@ -16,10 +16,6 @@
 	.blocks {
 		width: 32%;
 	}
-
-	.contactform-submit {
-		margin-top: 0;
-	}
 }
 
 @media (max-width: 850px) {
@@ -67,6 +63,15 @@
 		p {
 			padding: 0;
 		}
+	}
+}
+
+@media (max-width: 775px) {
+	.episodes {
+		padding-bottom: 97px;
+	}
+	.home .submit {
+		padding-bottom: 395px;
 	}
 }
 

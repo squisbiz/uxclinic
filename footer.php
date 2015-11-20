@@ -14,7 +14,7 @@
     <div class="contact">
       <h3>Contact us</h3>
       <ul>
-        <li>(408) 754.6075</li>
+        <li>(408) 890-2115</li>
         <li><a href="mailto:contact@theuxclinic.com?Subject=Hello%20UX Clinic" target="_top">contact@theuxclinic.com</a></li>
       </ul>
     </div>
