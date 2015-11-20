@@ -50,9 +50,9 @@ function requestSubmit(){
     var error = "Please enter the required fields:<br>",
         send = true;
 
-    if ( $('#name').val() == '' ){
-        error += '<div class="error-tags">Name</div>';
-        $('#name').addClass("field-error");
+    if ( $('#telephone').val() == '' ){
+        error += '<div class="error-tags">Phone Number</div>';
+        $('#telephone').addClass("field-error");
         send = false;
     }
     if ( $('#email').val() == '' || !validateEmail($('#email').val()) ){

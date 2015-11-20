@@ -25,7 +25,13 @@
 }
 
 .submit > p {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.submit p img {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px 10px;
 }
 
 input.contactform-name,

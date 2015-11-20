@@ -59,14 +59,16 @@ Template Name: HOME
   <section class="submit">
     <a name="myAnchor" id="myAnchor"></a>
     <h2><?php the_field('home_submit_title'); ?></h2>
-    <?php the_field('home_submit_text'); ?>
+    <p>
+      <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/11/sandra-img.png"> Sandra Will Call You <strong> (408) 890-2115</strong>
+    </p>
 <div class="contact-overlay">
   <div class="form">
     <form id="contactrequest" action="http://theuxclinic.com/wp/wp-content/themes/uxclinic/send.php" method="post">
       <p class="error"></p>
-      <p><input type="text" id="name" class="contactform-name" name="name" placeholder="Name:"></p>
+      <p><input type="text" id="telephone" class="contactform-name" name="phone" placeholder="Phone [xxx-xxx-xxxx]"></p>
       <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
-      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Website URL:"></textarea>
+      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Company Site:"></textarea>
       <p class="center"><input type="button" value="Send" onclick="requestSubmit()" class="contactform-submit"></p>
     </form>
   </div>

@@ -17,12 +17,12 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
     }
 
     // check if name and email are received
-    if(!isset($_POST['name']) ||
+    if(!isset($_POST['telephone']) ||
         !isset($_POST['email'])) {
         died('We are sorry, there appears to be a problem with the form you submitted.');
     }
 
-    $name = $_POST['name'];           // required
+    $name = $_POST['telephone'];           // required
     $email = $_POST['email'];         // required
     $desc = $_POST['Description'];         // required
 
@@ -45,7 +45,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
       return str_replace($bad,"",$string);
     }
 
-    $email_message .= "Name: ".clean_string($name)."\n";
+    $email_message .= "Phone: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email)."\n";
     $email_message .= "Description: \n\n".clean_string($desc);
 
