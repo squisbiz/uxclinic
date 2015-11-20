@@ -23,5 +23,17 @@
 </div>
 
 <?php include 'inc-submit.php'; ?>
+<script type="text/javascript">
+$(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
 
+        if (scroll >= 100) {
+           $('header').addClass("box-shadow");
+        } else {
+            $("header").removeClass('box-shadow');
+        }
+    });
+});
+</script>
 <?php get_footer(); ?>

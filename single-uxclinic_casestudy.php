@@ -146,7 +146,6 @@ $(function() {
         }
     });
 });
-
 </script>
 
 <?php endwhile; ?><?php endif; ?>
