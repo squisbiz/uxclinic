@@ -24,7 +24,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
 
     $phone = $_POST['telephone'];           // required
     $email = $_POST['email'];         // required
-    $desc = $_POST['Description'];         // required
+    $desc = $_POST['site'];         // required
 
 
 

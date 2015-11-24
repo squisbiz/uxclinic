@@ -66,7 +66,7 @@ Template Name: HOME
   <div class="form">
     <form id="contactrequest" action="http://theuxclinic.com/wp/wp-content/themes/uxclinic/send.php" method="post">
       <p class="error"></p>
-      <p><input type="text" id="telephone" class="contactform-name" name="phone" placeholder="Phone [xxx-xxx-xxxx]"></p>
+      <p><input type="text" id="telephone" class="contactform-name" name="telephone" placeholder="Phone [xxx-xxx-xxxx]"></p>
       <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
       <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Company Site:"></textarea>
       <p class="center"><input type="button" value="Send" onclick="requestSubmit()" class="contactform-submit"></p>
