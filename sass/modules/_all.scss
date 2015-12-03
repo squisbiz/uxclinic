@@ -1885,10 +1885,10 @@ div.wpcf7-validation-errors,
   display: none;
 }
 
-.episodes li:nth-child(3) p,
-.episodes li:nth-child(2) p{
-  display: none;
-}
+// .episodes li:nth-child(3) p,
+// .episodes li:nth-child(2) p{
+//   display: none;
+// }
 
 /* Media Queries */
 
@@ -1896,45 +1896,45 @@ div.wpcf7-validation-errors,
 
 @media (max-width: 1180px) {
   /*EPISODES*/
-  .episodes, .episode-hero, .episodesindex {
-    padding-right: 20px;
-    padding-left: 20px;
-    position: relative;
-  }
-  .episodes ul {
-    height: auto;
-    overflow: hidden;
-  }
-  .episodes li:nth-child(2),
-  .episodes li:nth-child(3) {
-    width: calc(50% - 0px);
-    height: auto;
-    display: block;
-  }
+//   .episodes, .episode-hero, .episodesindex {
+//     padding-right: 20px;
+//     padding-left: 20px;
+//     position: relative;
+//   }
+//   .episodes ul {
+//     height: auto;
+//     overflow: hidden;
+//   }
+//   .episodes li:nth-child(2),
+//   .episodes li:nth-child(3) {
+//     width: calc(50% - 0px);
+//     height: auto;
+//     display: block;
+//   }
 
-  .loop-single {
-    width: 44%;
-  }
+//   .loop-single {
+//     width: 44%;
+//   }
 
-.episodes li:first-child {
-  float: left;
-  /* width: auto; */
-  width: 100%;
-  height: auto;
-  border-right: none;
-  margin-bottom: -21px;
-}
+// .episodes li:first-child {
+//   float: left;
+//   /* width: auto; */
+//   width: 100%;
+//   height: auto;
+//   border-right: none;
+//   margin-bottom: -21px;
+// }
 
-  .episodes li:nth-child(2) img,
-  .episodes li:nth-child(3) img {
-    display: inline-block;
-    height: auto;
-    vertical-align: top;
-  }
-  .episodes li:nth-child(2) h3,
-  .episodes li:nth-child(3) h3 {
-    top: 0;
-  }
+//   .episodes li:nth-child(2) img,
+//   .episodes li:nth-child(3) img {
+//     display: inline-block;
+//     height: auto;
+//     vertical-align: top;
+//   }
+//   .episodes li:nth-child(2) h3,
+//   .episodes li:nth-child(3) h3 {
+//     top: 0;
+//   }
 
   /*FOOTER*/
 /*  footer {

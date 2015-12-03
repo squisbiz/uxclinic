@@ -71,7 +71,19 @@
 		padding-bottom: 97px;
 	}
 	.home .submit {
-		padding-bottom: 395px;
+		padding-bottom: 345px;
+	}
+}
+
+@media (max-width: 685px) {
+	.home .submit {
+		padding-bottom: 345px;
+	}
+}
+
+@media (max-width: 685px) {
+	.home .submit {
+		padding-bottom: 385px;
 	}
 }
 
@@ -80,6 +92,10 @@
 	.hero {
 		height: 865px;
 	}
+
+	// .home .submit {
+	// 	padding-bottom: 445px;
+	// }
 
 	.blocks {
 		width: 100%;
@@ -98,6 +114,14 @@
 		}
 	}
 }
+
+@media (max-width: 371px) {
+	.home .submit {
+	    padding-bottom: 540px;
+	}
+}
+
+
 
 @media (max-width: 354px) {
 	.hero {
