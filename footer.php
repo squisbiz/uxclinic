@@ -18,6 +18,13 @@
         <li><a href="mailto:contact@theuxclinic.com?Subject=Hello%20UX Clinic" target="_top">contact@theuxclinic.com</a></li>
       </ul>
     </div>
+    
+    <div class="contact">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="http://theuxclinic.com/diy/" target="_blank">DIY</a></li>
+      </ul>
+    </div>
 
     <div class="copyright">
       <a href="http://nearsoft.com">Nearsoft, Inc.</a> © 2015 All Rights Reserved | Questions? Read our <a href="http://theuxclinic.com/FAQ">FAQ</a>
