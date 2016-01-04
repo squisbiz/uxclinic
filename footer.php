@@ -19,7 +19,7 @@
       </ul>
     </div>
     
-    <div class="contact">
+    <div class="footerresources">
       <h3>Resources</h3>
       <ul>
         <li><a href="http://theuxclinic.com/diy/" target="_blank">DIY</a></li>
