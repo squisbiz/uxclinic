@@ -68,12 +68,12 @@ footer .copyright {
   text-align: center;
   color: #bcc1c3;
   float: left;
+  margin-top: 20px;
 }
 
 footer .copyright a{
   color: #0ac10a;
 }
-
 
 
 // -------media queries
@@ -108,9 +108,11 @@ footer .copyright a{
     display: inline-block;
     vertical-align: top;
   }
+/*
   footer .contact {
     margin-left: 15px;
   }
+*/
 }
 
 

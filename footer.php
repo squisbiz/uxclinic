@@ -2,6 +2,14 @@
   <div class="footer-cont">
     <p class="logo"></p>
 
+    <div class="contact">
+      <h3>Contact us</h3>
+      <ul>
+        <li>(408) 890-2115</li>
+        <li><a href="mailto:contact@theuxclinic.com?Subject=Hello%20UX Clinic" target="_top">contact@theuxclinic.com</a></li>
+      </ul>
+    </div>
+    
     <div class="social">
       <h3>Follow us</h3>
         <ul>
@@ -9,14 +17,6 @@
           <li><a href="https://twitter.com/uxclinic" target="_blank">Twitter</a></li>
           <li><a href="https://plus.google.com/107441204042543795221/posts" target="_blank">Google +</a></li>
         </ul>
-    </div>
-
-    <div class="contact">
-      <h3>Contact us</h3>
-      <ul>
-        <li>(408) 890-2115</li>
-        <li><a href="mailto:contact@theuxclinic.com?Subject=Hello%20UX Clinic" target="_top">contact@theuxclinic.com</a></li>
-      </ul>
     </div>
     
     <div class="social">
