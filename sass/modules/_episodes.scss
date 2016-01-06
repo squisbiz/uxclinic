@@ -42,7 +42,7 @@ li a img:hover {
     top: 158px;
     width: 64px;
     content: '';
-    height: 4px;
+    height: 3px;
     background-color: #63615F;
     position: absolute;
     border-radius: 5px;
@@ -82,11 +82,13 @@ li a img:hover {
     font-size: 18px;
     margin-top: 5px;
     line-height: 26px;
+    width: 50%;
 
     a {
-      display: block;
+      display: inline-block;
       color: #E76417;
       text-decoration: underline;
+      font-weight: 400;
     }
 }
 

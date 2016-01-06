@@ -39,8 +39,9 @@ Template Name: HOME
   </section>
 
   <section class="episodes">
-    <h2><?php the_field('home_episodes_title'); ?></h2>
-    <div class="our-client-text">We have helped several software companies improve their products. <a href="http://theuxclinic.com/casestudies">See all Case studies</a></div>
+<!--     <h2><?php the_field('home_episodes_title'); ?></h2> -->
+    <h2>Our Work With Clients</h2>
+    <div class="our-client-text">We have worked with different brands to enhance their software products. Each of them has a fairly common problems: login issues, user retentions or general usability mishaps. <a href="http://theuxclinic.com/casestudies">See All of Our Clients</a></div>
     <ul>
       <?php query_posts( array( 'post_type' => 'uxclinic_casestudy', 'posts_per_page' => 2) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <li>
@@ -57,6 +58,8 @@ Template Name: HOME
     </ul>
   </section>
 
+  <?php include 'inc-quotes.php'; ?>
+  
   <section class="submit">
     <a name="myAnchor" id="myAnchor"></a>
     <h2><?php the_field('home_submit_title'); ?></h2>
