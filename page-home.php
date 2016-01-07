@@ -42,20 +42,53 @@ Template Name: HOME
 <!--     <h2><?php the_field('home_episodes_title'); ?></h2> -->
     <h2>Our Work With Clients</h2>
     <div class="our-client-text">We have worked with different brands to enhance their software products. Each of them has a fairly common problems: login issues, user retentions or general usability mishaps. <a href="http://theuxclinic.com/casestudies">See All of Our Clients</a></div>
-    <ul>
-      <?php query_posts( array( 'post_type' => 'uxclinic_casestudy', 'posts_per_page' => 2) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    
+    <ul class="bxslider">
+      
       <li>
-        <a href="<?php the_permalink(); ?>">
-          <div class="image-container" style="background: url(<?php the_field('episode_featured_image'); ?>); background-size: cover;">
-          <h3><?php the_field('episode_featured_episode_number');?></h3>
-          <p>
-            <span><?php the_field('episode_featured_episode_client');?></span>
-            <?php the_field('episode_featured_episode_description');?></p>
-          </div>
-        </a>
+        <ul>
+          <?php query_posts( array( 'post_type' => 'uxclinic_casestudy', 'posts_per_page' => 2) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <li>
+            <a href="<?php the_permalink(); ?>">
+              <div class="image-container" style="background: url(<?php the_field('episode_featured_image'); ?>); background-size: cover;">
+              <h3><?php the_field('episode_featured_episode_number');?></h3>
+              <p>
+                <span><?php the_field('episode_featured_episode_client');?></span>
+                <?php the_field('episode_featured_episode_description');?></p>
+              </div>
+            </a>
+          </li>
+          <?php endwhile; endif; wp_reset_query(); ?>
+        </ul>
       </li>
-      <?php endwhile; endif; wp_reset_query(); ?>
+      
+      
+      <li>
+        <ul>
+          <?php query_posts( array( 'post_type' => 'uxclinic_casestudy', 'posts_per_page' => 2, 'offset' => 2) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <li>
+            <a href="<?php the_permalink(); ?>">
+              <div class="image-container" style="background: url(<?php the_field('episode_featured_image'); ?>); background-size: cover;">
+              <h3><?php the_field('episode_featured_episode_number');?></h3>
+              <p>
+                <span><?php the_field('episode_featured_episode_client');?></span>
+                <?php the_field('episode_featured_episode_description');?></p>
+              </div>
+            </a>
+          </li>
+          <?php endwhile; endif; wp_reset_query(); ?>
+        </ul>
+      </li>
+      
     </ul>
+
+
+    <script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider();
+    });
+    </script>
+    
   </section>
 
 <!--   <?php include 'inc-quotes.php'; ?> -->

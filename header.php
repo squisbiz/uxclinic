@@ -26,9 +26,13 @@
 
 
 
-	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.js"></script>
+<!-- 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.js"></script> -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/uxclinic.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.colorbox-min.js"></script>
+	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bxslider/jquery.bxslider.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/jquery.bxslider.css" />
+	
 	<?php wp_head() ?>
 
 	<!-- Facebook Conversion Code for Conversion UX04 -->
