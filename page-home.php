@@ -112,7 +112,7 @@ Template Name: HOME
 
   <section class="quotes">
       <h2>Our Happy Clients</h2>
-      <ul>
+      <ul class="quoteslider">
         <li>
           <div class="quote">
           I can tell you really took the time to understand who we are, what we're trying to do, what we're trying to accomplish.
@@ -122,6 +122,22 @@ Template Name: HOME
           <h4>Oleksandra Schturma<span> CEO of scturmsoft.</span></h4>
           <a href="http://skedio.shturmsoft.com/" target="_blank">http://skedio.shturmsoft.com/</a>
         </li>
+        
+        
+        <!--
+<li>
+          <div class="quote">
+          It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Team was extremely useful to get objective feedback on our product.
+          </div>
+          
+          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/oleksandra-pic.png" /></div>
+          <h4>Dustin Yoder<span> CEO at Sureify.</span></h4>
+          <a href="http://www.sureify.com/" target="_blank">http://www.sureify.com/</a>
+        </li>
+-->
+        
+        
+        
       </ul>
     </section>
   </section>
@@ -136,9 +152,9 @@ Template Name: HOME
   <div class="form">
     <form id="contactrequest" action="http://theuxclinic.com/wp/wp-content/themes/uxclinic/send.php" method="post">
       <p class="error"></p>
-      <p><input type="text" id="telephone" class="contactform-name" name="telephone" placeholder="Phone [xxx-xxx-xxxx]"></p>
-      <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
-      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Company Site:"></textarea>
+      <p><input type="text" id="telephone" class="contactform-name" name="telephone" placeholder="Name"></p>
+      <p><input type="text" id="email" class="contactform-email" name="email" placeholder="Phone [xxx-xxx-xxxx]:"></p>
+      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Email:"></textarea>
       <p class="center"><input type="button" value="Send" onclick="requestSubmit()" class="contactform-submit"></p>
     </form>
   </div>
