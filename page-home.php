@@ -80,6 +80,23 @@ Template Name: HOME
         </ul>
       </li>
       
+      <li>
+        <ul>
+          <?php query_posts( array( 'post_type' => 'uxclinic_casestudy', 'posts_per_page' => 2, 'offset' => 4) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <li>
+            <a href="<?php the_permalink(); ?>">
+              <div class="image-container" style="background: url(<?php the_field('episode_featured_image'); ?>); background-size: cover;">
+              <h3><?php the_field('episode_featured_episode_number');?></h3>
+              <p>
+                <span><?php the_field('episode_featured_episode_client');?></span>
+                <?php the_field('episode_featured_episode_description');?></p>
+              </div>
+            </a>
+          </li>
+          <?php endwhile; endif; wp_reset_query(); ?>
+        </ul>
+      </li>
+      
     </ul>
 
 
