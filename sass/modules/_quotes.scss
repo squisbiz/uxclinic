@@ -27,6 +27,7 @@
 
 .quotes ul {
   margin-top: 80px;
+  padding-left: 0;
 }
 
 .quotes ul li {
@@ -91,6 +92,71 @@
   font-weight: 400;
   font-size: 16px;
 }
+
+@media (max-width: 990px) {
+
+.quotes h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:3px;
+
+    &:before {
+      display:none;
+    }
+}
+
+.our-client-text {
+    float: none;
+    margin: 15px 0 55px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .quotes ul li {
+    width: 60%;
+  }
+
+}
+
+
+@media (max-width: 680px) {
+  
+  .bxslider li ul li:nth-child(2) {
+    display: none;
+  }
+  
+  .bxslider li ul li {
+    width: 100%;
+  }
+  
+}
+
+
+
+@media (max-width: 640px) {
+  
+  .quote:before,
+  .quote:after {
+    width: 32px;
+    height: 32px;  
+  }
+  
+  .quote:before,{
+    left: -64px;
+    top: 0;
+  }
+  
+  .quote:after,{
+    right: -64px;
+    bottom: 150px;
+  }
+  
+}
+
+
+
 
 
 

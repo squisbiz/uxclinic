@@ -40,8 +40,8 @@ Template Name: HOME
 
   <section class="episodes">
 <!--     <h2><?php the_field('home_episodes_title'); ?></h2> -->
-    <h2>Our Work With Clients</h2>
-    <div class="our-client-text">We have worked with different brands to enhance their software products. Each of them has a fairly common problems: login issues, user retentions or general usability mishaps. <a href="http://theuxclinic.com/casestudies">See All of Our Clients</a></div>
+    <h2>Our Amazing Clients</h2>
+    <div class="our-client-text">We have helped several companies reconnect with their users. <a href="http://theuxclinic.com/casestudies">See All of Our Clients</a></div>
     
     <ul class="bxslider">
       
@@ -155,7 +155,7 @@ Template Name: HOME
       <p><input type="text" id="telephone" class="contactform-name" name="telephone" placeholder="Name"></p>
       <p><input type="text" id="email" class="contactform-email" name="email" placeholder="Phone [xxx-xxx-xxxx]:"></p>
       <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Email:"></textarea>
-      <p class="center"><input type="button" value="Send" onclick="requestSubmit()" class="contactform-submit"></p>
+      <p class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></p>
     </form>
   </div>
 </div>
