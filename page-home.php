@@ -123,7 +123,6 @@ Template Name: HOME
           <a href="http://skedio.shturmsoft.com/" target="_blank">http://skedio.shturmsoft.com/</a>
         </li>
         
-        
         <!--
 <li>
           <div class="quote">
