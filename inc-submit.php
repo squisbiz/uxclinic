@@ -1,20 +1,18 @@
-<?php
-query_posts('page_id=2');
-if (have_posts()) : while (have_posts()) : the_post();
-?>
 <section class="submit">
-    <h2><?php the_field('home_submit_title'); ?></h2>
-    <?php the_field('home_submit_text'); ?>
-<div class="contact-overlay">
+  <a name="myAnchor" id="myAnchor"></a>
+  <h2><?php the_field('home_submit_title'); ?></h2>
+  <p>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Sandra Will Call You <strong> (408) 890-2115</strong>
+  </p>
+  <div class="contact-overlay">
   <div class="form">
-    <form id="contactrequest" action="http://theuxclinic.com/wp/wp-content/themes/uxclinic/send.php" method="post">
+    <form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send.php" method="post">
       <p class="error"></p>
-      <p><input type="text" id="name" class="contactform-name" name="name" placeholder="Name:"></p>
-      <p><input type="text" id="email" class="contactform-email" name="email" placeholder="E-mail:"></p>
-      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Website URL:"></textarea>
-      <p class="center"><input type="button" value="Send" onclick="requestSubmit()" class="contactform-submit"></p>
+      <p><input type="text" id="telephone" class="contactform-name" name="telephone" placeholder="Name"></p>
+      <p><input type="text" id="email" class="contactform-email" name="email" placeholder="Phone [xxx-xxx-xxxx]:"></p>
+      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Email:"></textarea>
+      <p class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></p>
     </form>
   </div>
-</div>
-  </section>
-<?php endwhile; ?><?php endif; WP_reset_query(); ?>
+  </div>
+</section>

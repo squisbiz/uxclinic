@@ -7,27 +7,27 @@ Template Name: HOME
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(http://theuxclinic.com/wp/wp-content/uploads/2015/11/ux-research-designers-home.jpg) no-repeat center bottom; background-size: cover;">
+  <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(<?php echo get_stylesheet_directory_uri(); ?>/img/ux-research-designers-home.jpg) no-repeat center bottom; background-size: cover;">
     <h1><?php the_field('home_hero_title'); ?></h1>
 
 <?php the_field('home_hero_text'); ?>
 <div class="services-cont">
   <div class="blocks">
-     <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/11/user-research-uxteam.jpg">
+     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-research-uxteam.jpg">
      <div class="block-text-cont">
         <h2>User Research</h2>
         <p>Listening to your users is key to understand their needs and wants.</p>
      </div>
   </div>
     <div class="blocks">
-      <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/11/data-interpretation-uxteam.jpg">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/data-interpretation-uxteam.jpg">
      <div class="block-text-cont">
         <h2>Data Interpretation</h2>
         <p>User insights are translated into design features for your products.</p>
      </div>
   </div>
     <div class="blocks">
-       <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/11/ux-solutions-uxteam.jpg">
+       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-solutions-uxteam.jpg">
      <div class="block-text-cont">
         <h2>UX Solutions</h2>
         <p>We create visual solutions ready to be implemented in your next design iteration.</p>
@@ -141,24 +141,7 @@ Template Name: HOME
     </section>
   </section>
   
-  <section class="submit">
-    <a name="myAnchor" id="myAnchor"></a>
-    <h2><?php the_field('home_submit_title'); ?></h2>
-    <p>
-      <img src="http://theuxclinic.com/wp/wp-content/uploads/2015/11/sandra-img.png"> Sandra Will Call You <strong> (408) 890-2115</strong>
-    </p>
-<div class="contact-overlay">
-  <div class="form">
-    <form id="contactrequest" action="http://theuxclinic.com/wp/wp-content/themes/uxclinic/send.php" method="post">
-      <p class="error"></p>
-      <p><input type="text" id="telephone" class="contactform-name" name="telephone" placeholder="Name"></p>
-      <p><input type="text" id="email" class="contactform-email" name="email" placeholder="Phone [xxx-xxx-xxxx]:"></p>
-      <textarea type="text" id="site" class="contactform-description" name="site" placeholder="Email:"></textarea>
-      <p class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></p>
-    </form>
-  </div>
-</div>
-  </section>
+  <?php include 'inc-submit.php'; ?>
 
 
 
