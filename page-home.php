@@ -111,7 +111,7 @@ Template Name: HOME
 <!--   <?php include 'inc-quotes.php'; ?> -->
 
   <section class="quotes">
-      <h2>Our Happy Clients</h2>
+      <!-- <h2>Our Happy Clients</h2> -->
       <ul class="quoteslider">
         <li>
           <div class="quote">
