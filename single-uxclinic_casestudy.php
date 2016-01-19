@@ -2,13 +2,125 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
+  <!-- Toggles the new format info -->
+  
+  <?php if( get_field('new_format_toggle') )
+      {
+        echo "<div>";
+      }
+      else
+      {
+        echo "<div style='display:none;'>";
+      }
+  ?>
+  
+  <section class="ncs-hero" style="background: url(<?php the_field('new_format_background_picture'); ?>)no-repeat center center; background-size: cover;">
+    <h1><?php the_field('new_format_challenge'); ?></h1>
+    <h3><?php the_field('new_format_client'); ?></h3>
+  </section>
+  
+  
+  <section class="ncs-struggles">
+    
+    <h2>They were struggling with:</h2>
+    
+    <img src="<?php the_field('new_format_struggle_image'); ?>" />
+    
+    <ul>
+      <?php if( have_rows('new_format_struggle') ) : while ( have_rows('new_format_struggle') ) : the_row(); ?>
+      <li><?php the_sub_field('struggle_single');?></li>
+      <?php endwhile; else : endif; ?>
+    </ul>
+    
+  </section>
+  
+  
+  
+  <section class="ncs-how" style="background: url(<?php the_field('new_format_how_background'); ?>)no-repeat center center; background-size: cover;">
+    <h2>How we did it?</h2>
+    
+    <ul>
+      <?php if( have_rows('new_format_how_steps') ) : while ( have_rows('new_format_how_steps') ) : the_row(); ?>
+      <li><?php the_sub_field('new_format_how_step');?></li>
+      <?php endwhile; else : endif; ?>
+    </ul>
+    
+<!--     <a href="<?php the_field('new_format_how_gallery_link'); ?>">See Full Gallery of images</a> -->
+  </section>
+  
+  
+  
+  
+  
+  <section class="ncs-findings">
+    <h2>UX Findings & Solutions</h2>
+    <p><?php the_field('new_format_findings_description'); ?></p>
+    <ol>
+      <?php if( have_rows('new_format_findings') ) : while ( have_rows('new_format_findings') ) : the_row(); ?>
+      <li><?php the_sub_field('finding');?></li>
+      <?php endwhile; else : endif; ?>
+    </ol>
+    
+    <div class="findingsslider">
+    <ul class="bxslider">
+      <?php if( have_rows('new_format_findings_slider') ) : while ( have_rows('new_format_findings_slider') ) : the_row(); ?>
+      <li><img src="<?php the_sub_field('finding_slider');?>" /><div class="slider-description"><?php the_sub_field('finding_description');?></div></li>
+      <?php endwhile; else : endif; ?>
+    </ul>
+    </div>
+    
+    <script>
+      $(document).ready(function(){
+        $('.bxslider').bxSlider();
+      });
+    </script>
+  </section>
+  
+  <section class="ncs-takeaways">
+    <h2>Takeaways</h2>
+    <ul>
+      <?php if( have_rows('new_format_takeaways') ) : while ( have_rows('new_format_takeaways') ) : the_row(); ?>
+      <li><?php the_sub_field('new_takeaway');?></li>
+      <?php endwhile; else : endif; ?>
+    </ul>
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <!-- Case studies new format ends here -->
+        
+        
+  
+  
+  
+  
+  <!-- Toggles the new format info -->
+  
+  <?php if( get_field('new_format_toggle') )
+      {
+        echo "<div style='display:none;'>";
+      }
+      else
+      {
+        echo "<div>";
+      }
+  ?>
+  
   <section class="report-hero" style="background: url(<?php the_field('case_study_background'); ?>) no-repeat; background-size: cover;">
     <div>
       <h1 class="title-new-casestudy"><?php echo get_the_title(); ?></h1>
     </div>
     <h2 class="subtitle-new-casestudy"><?php the_field('case_study_subtitle'); ?></h2>
   </section>
-
+        
   <?php if( get_field('cover_image_toggle') )
       {
         echo "<section class='display-our-work experts'>";
@@ -134,6 +246,11 @@
     else { echo '<span style="display:none;">"'.get_the_title().'" is the latest post: no newer articles. </span>'; } ; ?>
     </div>
   </section>
+  
+  </div>
+  
+  <!-- old post format ends here -->
+  
 <script type="text/javascript">
 $(function() {
     $(window).scroll(function() {

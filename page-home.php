@@ -7,7 +7,7 @@ Template Name: HOME
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-  <section class="hero" style="background: url(<?php the_field('home_hero_image_bg'); ?>) no-repeat center top, url(<?php echo get_stylesheet_directory_uri(); ?>/img/ux-research-designers-home.jpg) no-repeat center bottom; background-size: cover;">
+  <section class="hero" style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/img/ux-research-designers-home.jpg) no-repeat center bottom; background-size: cover;">
     <h1><?php the_field('home_hero_title'); ?></h1>
 
 <?php the_field('home_hero_text'); ?>
