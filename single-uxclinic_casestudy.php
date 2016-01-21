@@ -63,6 +63,7 @@
     
     <div class="findingsslider">
     <ul class="bxslider">
+      
       <?php if( have_rows('new_format_findings_slider') ) : while ( have_rows('new_format_findings_slider') ) : the_row(); ?>
       <li><img src="<?php the_sub_field('finding_slider');?>" /><div class="slider-description"><?php the_sub_field('finding_description');?></div></li>
       <?php endwhile; else : endif; ?>
