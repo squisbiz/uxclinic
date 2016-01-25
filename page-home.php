@@ -16,14 +16,14 @@ Template Name: HOME
      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-research-uxteam.jpg">
      <div class="block-text-cont">
         <h2>User Research</h2>
-        <p>Listening to your users is key to understand their needs and wants.</p>
+        <p>1-on-1 feedback sessions give us an idea of what your product is telling your users.</p>
      </div>
   </div>
     <div class="blocks">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/data-interpretation-uxteam.jpg">
      <div class="block-text-cont">
-        <h2>Data Interpretation</h2>
-        <p>User insights are translated into design features for your products.</p>
+        <h2>Data Analysis</h2>
+        <p>We work with you to analyze user feedback and turn it into actionable insights.</p>
      </div>
   </div>
     <div class="blocks">

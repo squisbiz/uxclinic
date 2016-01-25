@@ -1,7 +1,7 @@
 <?php
 
 //only send if hosted in production site
-if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "theuxclinic.com") {
+if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "svazquez@nearsoft.com";

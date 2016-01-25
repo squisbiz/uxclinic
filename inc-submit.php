@@ -2,7 +2,7 @@
   <a name="myAnchor" id="myAnchor"></a>
   <h2><?php the_field('home_submit_title'); ?></h2>
   <p>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Sandra Will Call You <strong> (408) 890-2115</strong>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>
   <div class="contact-overlay">
   <div class="form">
