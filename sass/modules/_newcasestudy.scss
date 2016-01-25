@@ -61,8 +61,7 @@
   font-size: 18px;
   margin-bottom: 10px;
   font-weight: 300;
-  padding-left: 1em; 
-
+  padding-left: 1em;
   position: relative;
 }
 
@@ -119,9 +118,27 @@
   margin-bottom: 10px;
 }
 
+.ncs-findings p{
+  font-weight: 400;
+}
+
 .ncs-findings .findingsslider {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+.ncs-findings .findingsslider .slider-item {
+  width: 49.5%;
+  float: left;
+  height: auto;
+  margin-right: .5%;
+}
+
+.ncs-findings .findingsslider .bxslider li:nth-child(2) .slider-item {
+  width: 50%;
+  margin: 0 auto;
+  float: none;
 }
 
 .slider-description {
@@ -132,8 +149,9 @@
   margin: 0 auto;
   height: 30px;
   text-align: center;
-  background: #FFF;;
+  background: #FFF;
   z-index: 10000;
+  padding: 20px;
 }
 
 .ncs-takeaways {
@@ -185,7 +203,76 @@
 }
 
 
+@media (max-width: 1100px) {
+	.ncs-hero,
+	.ncs-struggles,
+	.ncs-how,
+	.ncs-findings,
+	.ncs-takeaways {
+  	padding-left: 40px;
+  	padding-right: 40px;
+	}
+}
 
+@media (max-width: 1100px) {
+	.ncs-findings .findingsslider {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 750px) {
+	.ncs-findings .findingsslider .slider-item {
+    width: 100%;
+    float: left;
+    height: auto;
+  }
+  
+  .ncs-findings .bx-viewport {
+    width: 100%!important;
+    height: auto!important;
+  }
+  
+  .ncs-findings .bxslider {
+    width: 100%!important;
+    height: auto!important;
+  }
+  
+  .ncs-findings .findingsslider .bxslider li:nth-child(2) .slider-item {
+    width: 100%;
+  }
+  
+  .bx-controls.bx-has-pager {
+    display: none;
+  }
+  
+  .ncs-hero h3 {
+    width: 100%;
+  }
+  
+  .ncs-hero h3:after {
+    top: 80px;
+  }
+  
+  .ncs-findings .findingsslider .slider-item {
+    margin-bottom: 40px;
+  }
+  
+  .ncs-findings {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+	.ncs-struggles img {
+  	display: none;
+	}
+	
+	.ncs-struggles ul {
+  	float: none;
+  	width: 100%;
+	}
+}
 
 
 

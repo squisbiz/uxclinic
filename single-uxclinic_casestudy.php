@@ -64,9 +64,29 @@
     <div class="findingsslider">
     <ul class="bxslider">
       
+      <?php $c = 0; ?>
       <?php if( have_rows('new_format_findings_slider') ) : while ( have_rows('new_format_findings_slider') ) : the_row(); ?>
-      <li><img src="<?php the_sub_field('finding_slider');?>" /><div class="slider-description"><?php the_sub_field('finding_description');?></div></li>
+      
+      <?php if($c == 0){
+        echo "<li>";
+      }
+      ?>
+      
+        <div class="slider-item">
+          <img src="<?php the_sub_field('finding_slider');?>" /><div class="slider-description"><?php the_sub_field('finding_description');?></div>
+        </div>
+        
+      <?php
+        $c++;
+        if($c >1){
+          echo "</li>";
+          $c = 0;
+        }
+      ?>
       <?php endwhile; else : endif; ?>
+      
+      
+      
     </ul>
     </div>
     
