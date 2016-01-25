@@ -27,7 +27,6 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     $desc = $_POST['site'];         // required
 
 
-
     // validate email
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -58,7 +57,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     // redirect to thank you page
-    header( 'Location: http://theuxclinic.com/thank-you/' ) ;?>
+    header( 'Location: http://ux.nearsoft.com/thank-you/' ) ;?>
 <?php
 }
 ?>
