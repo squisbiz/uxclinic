@@ -6,7 +6,7 @@
       <h3>Contact us</h3>
       <ul>
         <li>(408) 890-2115</li>
-        <li><a href="mailto:contact@theuxclinic.com?Subject=Hello%20UX Clinic" target="_top">contact@theuxclinic.com</a></li>
+        <li><a href="mailto:svazquez@nearsoft.com?Subject=Hello%20UX Clinic" target="_top">svazquez@nearsoft.com</a></li>
       </ul>
     </div>
     

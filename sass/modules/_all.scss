@@ -2146,19 +2146,23 @@ div.wpcf7-validation-errors,
 
   /*FORM*/
 
+/*
   .contactform-submit {
     position: inherit;
     margin-top: 20px;
   }
+*/
 
   input.contactform-name,
   input.contactform-email, {
   width: 97%;
   }
 
+/*
   input.contactform-name {
     margin-bottom: 20px;
   }
+*/
 
   /*REPORT*/
   .report-casestudy img,
@@ -2216,6 +2220,7 @@ div.wpcf7-validation-errors,
   }
 
     /*FORM*/
+/*
   input.contactform-name,
   input.contactform-email,
   textarea.contactform-description,
@@ -2223,6 +2228,7 @@ div.wpcf7-validation-errors,
   input.contactform-job-title {
     width: 94%;
   }
+*/
 
   .about-hero div {
     width: 75%;
@@ -2281,6 +2287,10 @@ div.wpcf7-validation-errors,
   }
 
 }
+
+
+
+
 
 /*MAX 900PX*/
 @media (max-width: 900px) {
@@ -2525,11 +2535,13 @@ div.wpcf7-validation-errors,
   }
 
   /*FORM*/
+/*
   input.contactform-name,
   input.contactform-email,
   textarea.contactform-description {
     width: 94%;
   }
+*/
 
   .title-new-casestudy {
     font-size: 35px;
@@ -2542,6 +2554,9 @@ div.wpcf7-validation-errors,
   padding:0;
 }
 }
+
+
+
 
   /*MAX 620px*/
 
@@ -2656,17 +2671,20 @@ font-size: 70px;
   }
 
   /*FORM*/
+/*
   input.contactform-name,
   input.contactform-email,
   textarea.contactform-description {
   width: 94%;
   }
+*/
 
   .report-download h2 {
     padding: 0 20px;
     font-size: 30px;
   }
 }
+
 
   /*MAX 530*/
 
@@ -2680,11 +2698,13 @@ font-size: 70px;
   }
 
   /*FORM*/
+/*
   input.contactform-name,
   input.contactform-email,
   textarea.contactform-description {
   width: 92%;
   }
+*/
 
   .hero p {
     font-size: 17px;

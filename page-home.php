@@ -35,7 +35,7 @@ Template Name: HOME
   </div>
 
 </div>
-  <p><a id="link-anchor" href="#myAnchor" class="contactform-submit"><?php the_field('home_hero_button_text'); ?></a></p>
+  <p><a id="link-anchor" href="#myAnchor" class="sendus-button"><?php the_field('home_hero_button_text'); ?></a></p>
   </section>
 
   <section class="episodes">
@@ -113,7 +113,20 @@ Template Name: HOME
   <section class="quotes">
       <!-- <h2>Our Happy Clients</h2> -->
       <ul class="quoteslider">
+        
         <li>
+          <div class="quote">
+          The UX team was so helpful for us because a lot of times you need a fresh, 3rd party eyes to really get valuable feedback. It's very easy to get too used to your UX and start making bad decisions based on your own feelings, so working with the UX Team was extremely useful for us
+          </div>
+          
+          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/andrew-pic.png" /></div>
+          <h4>Andrew Miller<span> CEO of Olset.</span></h4>
+          <a href="http://www.olset.com/" target="_blank">http://www.olset.com/</a>
+        </li>
+        
+        
+        <!--
+<li>
           <div class="quote">
           I can tell you really took the time to understand who we are, what we're trying to do, what we're trying to accomplish.
           </div>
@@ -122,6 +135,7 @@ Template Name: HOME
           <h4>Oleksandra Schturma<span> CEO of scturmsoft.</span></h4>
           <a href="http://skedio.shturmsoft.com/" target="_blank">http://skedio.shturmsoft.com/</a>
         </li>
+-->
         
         <!--
 <li>
