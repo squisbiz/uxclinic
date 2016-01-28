@@ -2,6 +2,7 @@
   <div class="footer-cont">
     <p class="logo"></p>
 
+
     <div class="contact">
       <h3>Contact us</h3>
       <ul>
