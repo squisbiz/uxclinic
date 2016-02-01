@@ -529,7 +529,7 @@ section.report-pagination b {
   background: url(../img/experts-bgpattern.gif);
   padding: 0 calc(50% - 580px);
   padding-top: 73px;
-  padding-bottom: 110px;
+  padding-bottom: 280px;
   overflow: hidden;
 }
 
@@ -2053,6 +2053,9 @@ div.wpcf7-validation-errors,
 
 /*MAX 1180PX*/
 
+
+
+
 @media (max-width: 1180px) {
   /*EPISODES*/
 //   .episodes, .episode-hero, .episodesindex {
@@ -2118,7 +2121,7 @@ div.wpcf7-validation-errors,
   .experts {
     padding: 0 20px;
     padding-top: 73px;
-    padding-bottom: 110px;
+    padding-bottom: 280px;
   }
 
   .experts ul li h3 {
@@ -2272,6 +2275,13 @@ div.wpcf7-validation-errors,
     display: none;
   }
 }
+
+@media (max-width: 732px) {
+   .experts {
+     padding-bottom: 560px;
+   }
+}
+
 
 @media (max-width: 1002px) {
   .howitworks li {
