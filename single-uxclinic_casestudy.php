@@ -55,11 +55,13 @@
   <section class="ncs-findings">
     <h2>UX Findings & Solutions</h2>
     <p><?php the_field('new_format_findings_description'); ?></p>
+<!--
     <ol>
       <?php if( have_rows('new_format_findings') ) : while ( have_rows('new_format_findings') ) : the_row(); ?>
       <li><?php the_sub_field('finding');?></li>
       <?php endwhile; else : endif; ?>
     </ol>
+-->
     
     <div class="findingsslider">
     <ul class="bxslider">
