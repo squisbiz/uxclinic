@@ -146,12 +146,19 @@ input:-ms-input-placeholder {
 
 .form {
   overflow: hidden;
+  width: 600px;
+  margin: 0 auto;
 }
 
 .form div {
-  width: 49%;
+  width: 100%;
+/*
   float: left;
   margin-right: 2%
+*/
+  display: block;
+  margin-bottom: 20px;
+  height: 45px;
 }
 
 .form div:nth-child(1),
@@ -166,11 +173,13 @@ input:-ms-input-placeholder {
 }
 
 .form div:nth-child(4) {
-  width: 68%;
+//   width: 68%;
 }
 
 .form div:nth-child(5) {
   width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .sendus-button {
@@ -200,6 +209,7 @@ input:-ms-input-placeholder {
 
 /*MAX 920PX*/
 @media (max-width: 955px) {
+/*
   .form div:nth-child(2),
   .form div:nth-child(3) {
     width: 48%;
@@ -207,7 +217,8 @@ input:-ms-input-placeholder {
   
   .form div:nth-child(2) {
     margin-right: 4%;
-  } 
+  }
+*/
 }
 
 /*MAX 775PX*/
@@ -220,18 +231,31 @@ input:-ms-input-placeholder {
 
 /*MAX 660PX*/
 @media (max-width: 660px) {
+/*
   .form div:nth-child(4) {
     width: 66%;
   }
   
   .form div:nth-child(4) {
     margin-right: 4%;
-  } 
+  }
+*/ 
+
+  .form {
+    width: 90%;
+    width: calc(100% - 30px);
+  }
+  
+  .form div:nth-child(5) {
+    width: 200px;
+  }
+
 }
 
 
 /*MAX 600PX*/
 @media (max-width: 600px) {
+/*
   .form div:nth-child(2),
   .form div:nth-child(3),
   .form div:nth-child(4),
@@ -249,6 +273,7 @@ input:-ms-input-placeholder {
   .form div:nth-child(5) input {
     width: calc(100% - 30px);
   } 
+*/
 }
 
 /*MAX 440PX*/
