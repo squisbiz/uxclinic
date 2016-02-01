@@ -27,7 +27,7 @@ Template Name: ABOUT
 </div>
 
 <?php include 'inc-experts.php'; ?>
-<?php include 'inc-submit.php'; ?>
+<!-- <?php include 'inc-submit.php'; ?> -->
 <?php get_footer(); ?>
 <script>
   function scrollToAnchor(aid){

@@ -66,7 +66,7 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-researcher-denisse.jpg" />
     </div>
       <div class="content-container">
-        <h2>Denisse Gutierrez</h2>
+        <h2>Denisse Gutiérrez</h2>
         <h3>UX Researcher</h3>
         
         <div class="social-box">

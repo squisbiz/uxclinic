@@ -35,7 +35,7 @@ Template Name: HOME
   </div>
 
 </div>
-  <p><a id="link-anchor" href="#myAnchor" class="sendus-button"><?php the_field('home_hero_button_text'); ?></a></p>
+<!--   <p><a id="link-anchor" href="#myAnchor" class="sendus-button"><?php the_field('home_hero_button_text'); ?></a></p> -->
   </section>
 
   <section class="episodes">
