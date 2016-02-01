@@ -13,6 +13,7 @@ Template Name: ABOUT
     <div class="about-hero-icons"><a id="link-anchor" class="button big-button">Contact Request</a></div>
   </div>
 </section>
+
 <div class="aboutus">
   <section class="about-content">
     <div class="right-column2">
@@ -23,8 +24,8 @@ Template Name: ABOUT
       <!-- <a id="link-anchor2" class="scnd-case-link">Submit your case study</a> -->
     </div>
   </section>
-
 </div>
+
 <?php include 'inc-experts.php'; ?>
 <?php include 'inc-submit.php'; ?>
 <?php get_footer(); ?>
