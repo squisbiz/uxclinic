@@ -6,10 +6,10 @@ Template Name: ABOUT
 <?php get_header(); ?>
 <section class="about-hero">
   <div>
-    <h1>
-      <?php the_field('about_hero_title'); ?>
+    <h2>
+      About Us
     </h1>
-    <?php the_field('about_hero_description'); ?>
+    <h1>We help software companies accelerate their business by powering up their user experience.</h1>
 <!--     <div class="about-hero-icons"><a id="link-anchor" class="button big-button">Contact Request</a></div> -->
   </div>
 </section>

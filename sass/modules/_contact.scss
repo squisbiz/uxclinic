@@ -10,11 +10,12 @@
 
 		h1 {
 			font-size: 50px;
+			font-weight: 300;
 		}
 
 		h2 {
-			font-size: 20px;
-			font-weight: 400;
+			font-size: 36px;
+			font-weight: 300;
 		}
 		span {
 			font-size: 24px;
@@ -38,16 +39,22 @@
 	}
 
 	.section-contact-form {
-		 padding: 70px calc(50% - 580px);
+		 padding: 70px calc(50% - 580px) 100px calc(50% - 580px);
+		 
 
 		.form {
 			width: 100%;
+			padding: 40px;
+			position: relative;
+			top: -200px;
+			background: #FFF;
 
 			h1 {
 				color: #5F6A6F;
 				font-size: 35px;
 				font-weight: 400;
 				margin-bottom: 0;
+				margin-top: 0;
 			}
 
 			p {
