@@ -106,13 +106,17 @@ Template Name: HOME
     });
     </script>
     
+    
+    
+    
   </section>
 
 <!--   <?php include 'inc-quotes.php'; ?> -->
 
   <section class="quotes">
+      <div style="width: 660px; margin: 0 auto;">
       <!-- <h2>Our Happy Clients</h2> -->
-      <ul class="quoteslider">
+      <ul class="bxsliderfade quoteslider">
         
         <li>
           <div class="quote">
@@ -125,8 +129,8 @@ Template Name: HOME
         </li>
         
         
-        <!--
-<li>
+<!--
+        <li>
           <div class="quote">
           I can tell you really took the time to understand who we are, what we're trying to do, what we're trying to accomplish.
           </div>
@@ -137,8 +141,7 @@ Template Name: HOME
         </li>
 -->
         
-        <!--
-<li>
+        <li>
           <div class="quote">
           It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Team was extremely useful to get objective feedback on our product.
           </div>
@@ -147,13 +150,21 @@ Template Name: HOME
           <h4>Dustin Yoder<span> CEO at Sureify.</span></h4>
           <a href="http://www.sureify.com/" target="_blank">http://www.sureify.com/</a>
         </li>
--->
         
         
         
       </ul>
+      </div>
     </section>
   </section>
+  
+  <script>
+  $(document).ready(function(){
+    $('.bxsliderfade').bxSlider({
+      mode: 'fade'
+    });
+  });
+  </script>
   
   <?php include 'inc-submit.php'; ?>
 
