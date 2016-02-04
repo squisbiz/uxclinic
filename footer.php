@@ -23,7 +23,7 @@
     <div class="social">
       <h3>Resources</h3>
       <ul>
-        <li><a href="http://theuxclinic.com/diy/" target="_blank">DIY</a></li>
+        <li><a href="http://ux.nearsoft.com/diy/" target="_blank">DIY</a></li>
       </ul>
     </div>
 
