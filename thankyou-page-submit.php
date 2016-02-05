@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Thank you page
+Template Name: Thank you page submit
 */
 ?>
 <?php get_header(); ?>
@@ -9,14 +9,9 @@ Template Name: Thank you page
   <div>
      <h1>Thanks!</h1>
      <p>Thanks for your contact request. We’ll contact you shortly.</p>
-     <a class="button" href="<?php echo home_url(); ?>">Take me home</a>
+     <a class="button" href="http://ux.nearsoft.com/casestudies/reduce-lack-of-engagement-and-lower-abandonment-rate/">Take me home</a>
   </div>
   </section>
-
-
-
-
-
 
 <?php get_footer(); ?>
 

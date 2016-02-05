@@ -55,7 +55,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     // redirect to thank you page
-    header( 'Location: http://ux.nearsoft.com/thank-you/' ) ;?>
+    header( 'Location: http://ux.nearsoft.com/contact-thank-you/' ) ;?>
 <?php
 }
 ?>

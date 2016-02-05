@@ -150,7 +150,9 @@ Template Name: HOME
   $(document).ready(function(){
     $('.bxsliderfade').bxSlider({
       mode: 'fade',
-      speed: '100',
+      auto: true,,
+      infiniteLoop: true,
+      speed: '10',
       randomStart: true,
       autoStart: true
     });
