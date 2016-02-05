@@ -17,8 +17,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     }
 
     // check if name and email are received
-    if(!isset($_POST['telephone']) ||
-        !isset($_POST['email'])) {
+    if(!isset($_POST['email'])) {
         died('We are sorry, there appears to be a problem with the form you submitted.');
     }
 

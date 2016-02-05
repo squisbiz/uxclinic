@@ -24,7 +24,7 @@ Template Name: CONTACT PAGE
   <div class="form">
       <h1>Are We a Match?</h1>
       <p>We will contact you to see how we can bring a positive impact to your product’s objectives.</p>
-      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send.php" method="post">
+      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-contact.php" method="post">
         <p class="error"></p>
         <input type="text" class="name" id="name" name="name" placeholder="Name">
         <input type="text" class="email" id="email" name="email" placeholder="E-mail">
