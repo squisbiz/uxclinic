@@ -114,7 +114,7 @@ Template Name: HOME
 <!--   <?php include 'inc-quotes.php'; ?> -->
 
   <section class="quotes">
-      <div style="width: 660px; margin: 0 auto;">
+
       <!-- <h2>Our Happy Clients</h2> -->
       <ul class="bxsliderfade quoteslider">
         
@@ -123,7 +123,7 @@ Template Name: HOME
           The UX team was so helpful for us because a lot of times you need a fresh, 3rd party eyes to really get valuable feedback. It's very easy to get too used to your UX and start making bad decisions based on your own feelings, so working with the UX Team was extremely useful for us
           </div>
           
-          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/andrew-pic.png" /></div>
+          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/andrew-pic.jpg" /></div>
           <h4>Andrew Miller<span> CEO of Olset.</span></h4>
           <a href="http://www.olset.com/" target="_blank">http://www.olset.com/</a>
         </li>
@@ -134,7 +134,18 @@ Template Name: HOME
           It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Team was extremely useful to get objective feedback on our product.
           </div>
           
-          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/oleksandra-pic.png" /></div>
+          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dustin-pic.jpg" /></div>
+          <h4>Dustin Yoder<span> CEO at Sureify.</span></h4>
+          <a href="http://www.sureify.com/" target="_blank">http://www.sureify.com/</a>
+        </li>
+        
+        
+        <li>
+          <div class="quote">
+          It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Team was extremely useful to get objective feedback on our product.
+          </div>
+          
+          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dustin-pic.jpg" /></div>
           <h4>Dustin Yoder<span> CEO at Sureify.</span></h4>
           <a href="http://www.sureify.com/" target="_blank">http://www.sureify.com/</a>
         </li>
@@ -142,7 +153,6 @@ Template Name: HOME
         
         
       </ul>
-      </div>
     </section>
   </section>
   
@@ -150,11 +160,13 @@ Template Name: HOME
   $(document).ready(function(){
     $('.bxsliderfade').bxSlider({
       mode: 'fade',
-      auto: true,,
+      auto: true,
       infiniteLoop: true,
-      speed: '10',
+      speed: 500,
       randomStart: true,
-      autoStart: true
+      autoStart: true,
+      pager: false,
+      pause: 6000
     });
   });
   </script>

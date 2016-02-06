@@ -1,7 +1,7 @@
 /* FOOTER */
 
 .quotes {
-  padding: 0 calc(53% - 580px);
+  padding: 0 calc(53% - 400px);
 //   padding-top: 50px;
   overflow: hidden;
   position: relative;
@@ -41,21 +41,26 @@
 .quote {
   font-size: 24px;
   color: #656565;
-  padding-bottom: 35px;
+  padding: 0 104px 35px 104px;
 }
 
 .quote-pic {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin: 0 auto;
   border-radius: 40px;
+  overflow: hidden;
+}
+
+.quote-pic img {
+  width: 100%;
 }
 
 .quote:before {
   position: absolute;
   display: block;
-  top: -34px;
-  left: -104px;
+  top: -24px;
+  left: 20px;
   width: 64px;
   height: 61px;
   content: '';
@@ -66,8 +71,8 @@
 .quote:after {
   position: absolute;
   display: block;
-  bottom: 120px;
-  right: -104px;
+  bottom: 160px;
+  right: 20px;
   width: 64px;
   height: 61px;
   content: '';
@@ -90,6 +95,14 @@
   font-weight: 400;
   font-size: 16px;
 }
+
+.quotes .bx-viewport {
+  height: 430px!important;
+  min-height: 430px!important;
+}
+
+
+
 
 @media (max-width: 990px) {
 
@@ -119,6 +132,15 @@
 }
 
 
+@media (max-width: 700px) {
+  .quotes .bx-viewport {
+    height: 500px!important;
+    min-height: 500px!important;
+  }
+}
+
+
+
 @media (max-width: 680px) {
   
 /*
@@ -143,6 +165,7 @@
     height: 32px;  
   }
   
+/*
   .quote:before,{
     left: -64px;
     top: 0;
@@ -152,9 +175,30 @@
     right: -64px;
     bottom: 150px;
   }
+*/
   
 }
 
+@media (max-width: 580px) {
+  .quotes .bx-viewport {
+    height: 570px!important;
+    min-height: 570px!important;
+  }
+}
+
+@media (max-width: 470px) {
+  .quotes .bx-viewport {
+    height: 630px!important;
+    min-height: 630px!important;
+  }
+}
+
+@media (max-width: 440px) {
+  .quotes .bx-viewport {
+    height: 750px!important;
+    min-height: 750px!important;
+  }
+}
 
 
 

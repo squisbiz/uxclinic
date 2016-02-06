@@ -25,7 +25,7 @@
     </div>
       <div class="content-container">
         <h2>Diana Arvayo</h2>
-        <h3>UX Designer</h3>
+        <h3>UX Researcher</h3>
         
         <div class="social-box">
           <a href="https://mx.linkedin.com/in/darvayo/en" target="_blank"><div class="social-link linkedin"></div></a>
