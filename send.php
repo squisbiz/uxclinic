@@ -22,7 +22,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     }
 
     $email = $_POST['email'];         // required
-    $desc = $_POST['site'];         // required
+
 
 
     // validate email
@@ -43,7 +43,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     }
 
     $email_message .= "Email: ".clean_string($email)."\n";
-    $email_message .= "Description: \n\n".clean_string($desc);
+
 
 
     // create email

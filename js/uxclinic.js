@@ -37,6 +37,7 @@ function validateEmail(addr) {
     }
 }
 
+/*
 function validatePhone(inputphone)  {
     var phoneno = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/;
     if(phoneno.test(inputphone)) {
@@ -45,16 +46,13 @@ function validatePhone(inputphone)  {
         return false;
     }
 }
+*/
 
 function requestSubmit(){
     var error = "Please enter the required fields:<br>",
         send = true;
 
-    if ( $('#telephone').val() == '' ){
-        error += '<div class="error-tags">Phone Number</div>';
-        $('#telephone').addClass("field-error");
-        send = false;
-    }
+    
     if ( $('#email').val() == '' || !validateEmail($('#email').val()) ){
         error += '<div class="error-tags">Valid Email Address</div>';
         $('#email').addClass("field-error").val('');;
