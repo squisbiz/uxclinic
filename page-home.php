@@ -111,8 +111,6 @@ Template Name: HOME
     
   </section>
 
-<!--   <?php include 'inc-quotes.php'; ?> -->
-
   <section class="quotes">
 
       <!-- <h2>Our Happy Clients</h2> -->
@@ -126,17 +124,6 @@ Template Name: HOME
           <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/andrew-pic.jpg" /></div>
           <h4>Andrew Miller<span> CEO of Olset.</span></h4>
           <a href="http://www.olset.com/" target="_blank">http://www.olset.com/</a>
-        </li>
-        
-        
-        <li>
-          <div class="quote">
-          It is very easy to get too used to your own UX and UI. You start making bad decisions based on your own feelings. Working with the UX Team was extremely useful to get objective feedback on our product.
-          </div>
-          
-          <div class="quote-pic"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dustin-pic.jpg" /></div>
-          <h4>Dustin Yoder<span> CEO at Sureify.</span></h4>
-          <a href="http://www.sureify.com/" target="_blank">http://www.sureify.com/</a>
         </li>
         
         
