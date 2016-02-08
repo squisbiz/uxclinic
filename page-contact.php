@@ -18,12 +18,22 @@ Template Name: CONTACT PAGE
   </div>
 -->
 
+  <p style="margin-bottom: 30px; color: #f8f8f8;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 20px 0 0 0;">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
+  </p>
+
 </section>
 
 <div class="section-contact-form">
   <div class="form">
+<!--
       <h1>Are We a Match?</h1>
       <p>We will contact you to see how we can bring a positive impact to your product’s objectives.</p>
+-->
       <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-contact.php" method="post">
         <p class="error"></p>
         <input type="text" class="name" id="name" name="name" placeholder="Name">

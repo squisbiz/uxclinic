@@ -7,6 +7,14 @@
 		background: url(http://ux.nearsoft.com/wp/wp-content/uploads/2015/10/contact-page-ux-team1.jpg) no-repeat;
 		background-size: cover;
 		color: #fff;
+		text-align: center;
+		
+		p img {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 4px 10px;
+      width: 90px;
+		}
 
 		h1 {
 			font-size: 50px;
