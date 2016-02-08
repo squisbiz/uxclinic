@@ -1,7 +1,7 @@
 .page-template-page-contact {
 
 	.section-contact {
-		padding: 70px calc(50% - 580px);
+		padding: 70px calc(50% - 580px) 80px calc(50% - 580px);
 		margin-top: 115px;
 		height: auto;
 		background: url(http://ux.nearsoft.com/wp/wp-content/uploads/2015/10/contact-page-ux-team1.jpg) no-repeat;
@@ -9,22 +9,35 @@
 		color: #fff;
 		text-align: center;
 		
+		p {
+  		margin-bottom: 30px; color: #f8f8f8;
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 30px;
+      margin: 20px 0 0 0;
+      z-index: 99999;
+		}
+		
 		p img {
+      padding: 4px 10px;
+      width: 80px;
+
+      z-index: 999;
       display: inline-block;
       vertical-align: middle;
-      padding: 4px 10px;
-      width: 90px;
 		}
 
 		h1 {
 			font-size: 50px;
 			font-weight: 300;
+			margin-bottom: 0;
 		}
 
 		h2 {
 			font-size: 30px;
 			font-weight: 300;
 		}
+		
 		span {
 			font-size: 24px;
 

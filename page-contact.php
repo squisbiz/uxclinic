@@ -7,23 +7,10 @@ Template Name: CONTACT PAGE
 
 <section class="section-contact">
   <h1>If you want us to call you</h1>
-  <h2>Submit this quick form and Sandra will call you right away. All information is kept private.</h2>
-<!--
-  <h2>Contact</h2>
-  <span><img src="http://theuxclinic.com/wp/wp-content/themes/uxclinic/img/phone-icon-contact-page.png">(408) 890-2115</span>
--->
-<!--
-  <div>
-  <a href="#">svazquez@nearsoft.com</a>
-  </div>
--->
+  <h2>Submit this quick form. All information is kept private.</h2>
 
-  <p style="margin-bottom: 30px; color: #f8f8f8;
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 30px;
-    margin: 20px 0 0 0;">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
+  <p>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png">Sandra will call you right away.
   </p>
 
 </section>
