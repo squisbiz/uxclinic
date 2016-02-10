@@ -21,14 +21,14 @@
     </div>
     
     <div class="social">
-      <h3>Resources</h3>
+      <h3>UX Resources</h3>
       <ul>
-        <li><a href="http://ux.nearsoft.com/diy/" target="_blank">DIY</a></li>
+        <li><a href="http://ux.nearsoft.com/diy/" target="_blank">UX Methods</a></li>
       </ul>
     </div>
 
     <div class="copyright">
-      <a href="http://nearsoft.com">Nearsoft, Inc.</a> © 2015 All Rights Reserved | Questions? Read our <a href="http://ux.nearsoft.com/FAQ">FAQ</a>
+      <a href="http://nearsoft.com">Nearsoft, Inc.</a> © 2015 All Rights Reserved<!--  | Questions? Read our <a href="http://ux.nearsoft.com/FAQ">FAQ</a> -->
     </div>
   </div>
   </footer>
