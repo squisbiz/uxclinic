@@ -1,3 +1,12 @@
+<?php
+		if(isset($_COOKIE['pathcookie'])){
+			$pathcookie = $_COOKIE['pathcookie'] . $_SERVER['REQUEST_URI'] . "\n";
+		}
+		else{
+			$pathcookie = $_SERVER['REQUEST_URI'] . "\n";
+		}
+		setcookie("pathcookie", $pathcookie, time()+600, "/", "ux.nearsoft.com");
+?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -32,7 +41,7 @@
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.colorbox-min.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bxslider/jquery.bxslider.js"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/jquery.bxslider.css" />
-	
+
 	<?php wp_head() ?>
 
 	<!-- Facebook Conversion Code for Conversion UX04 -->

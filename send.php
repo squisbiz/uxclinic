@@ -42,7 +42,11 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
       return str_replace($bad,"",$string);
     }
 
+    $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email)."\n";
+    $email_message .= "Telephone: ".clean_string($telephone)."\n";
+    $email_message .= "\n\nPath:\n".$path."\n";
+    $email_message .= "\nSent from:\n".$_SERVER['HTTP_REFERER']."\n";
 
 
 
