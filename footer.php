@@ -28,7 +28,7 @@
     </div>
 
     <div class="copyright">
-      <a href="http://nearsoft.com">Nearsoft, Inc.</a> © 2015 All Rights Reserved<!--  | Questions? Read our <a href="http://ux.nearsoft.com/FAQ">FAQ</a> -->
+      <a href="http://nearsoft.com">Nearsoft, Inc.</a> © 2016 All Rights Reserved<!--  | Questions? Read our <a href="http://ux.nearsoft.com/FAQ">FAQ</a> -->
     </div>
   </div>
   </footer>
