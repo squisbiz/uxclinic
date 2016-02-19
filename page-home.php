@@ -41,7 +41,7 @@ Template Name: HOME
   <section class="episodes">
 <!--     <h2><?php the_field('home_episodes_title'); ?></h2> -->
     <h2>Our Amazing Clients</h2>
-    <div class="our-client-text">We have helped several companies reconnect with their users. <a href="http:/ux.nearsoft.com/casestudies">See All of Our Clients</a></div>
+    <div class="our-client-text">We have helped several companies reconnect with their users. <a href="http://ux.nearsoft.com/casestudies">See All of Our Clients</a></div>
     
     <ul class="bxslider">
       
