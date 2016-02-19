@@ -529,7 +529,7 @@ section.report-pagination b {
   background: url(../img/experts-bgpattern.gif);
   padding: 0 calc(50% - 580px);
   padding-top: 73px;
-  padding-bottom: 280px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 
@@ -2141,7 +2141,7 @@ div.wpcf7-validation-errors,
   .experts {
     padding: 0 20px;
     padding-top: 73px;
-    padding-bottom: 280px;
+    padding-bottom: 50px;
   }
 
   .experts ul li h3 {
@@ -2298,7 +2298,7 @@ div.wpcf7-validation-errors,
 
 @media (max-width: 732px) {
    .experts {
-     padding-bottom: 560px;
+     padding-bottom: 50px;
    }
 }
 
@@ -2708,7 +2708,7 @@ div.wpcf7-validation-errors,
   }
 
   .experts {
-    padding: 73px 40px 560px 40px ;
+    padding: 73px 40px 50px 40px ;
   }
 
   /*HOW IT WORKS*/

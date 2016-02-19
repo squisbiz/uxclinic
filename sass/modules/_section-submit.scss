@@ -199,6 +199,17 @@ input:-ms-input-placeholder {
   cursor: pointer;
 }
 
+.submit-about .submit {
+  padding-bottom: 260px;
+}
+
+/*MAX 1180PX*/
+@media (max-width: 1180px) {
+  .submit-about .submit {
+    padding-bottom: 280px;
+  }
+}
+
 /*MAX 1045PX*/
 @media (max-width: 1045px) {
   .sendus-button {
@@ -229,6 +240,20 @@ input:-ms-input-placeholder {
   }
 }
 
+
+/*MAX 754PX*/
+@media (max-width: 754px) {
+  .submit-about .submit {
+    padding-bottom: 320px;
+  }
+}
+
+/*MAX 732PX*/
+@media (max-width: 732px) {
+  .submit-about .submit {
+    padding-bottom: 560px;
+  }
+}
 
 /*MAX 660PX*/
 @media (max-width: 660px) {
@@ -283,7 +308,6 @@ input:-ms-input-placeholder {
     top: -60px;
   }
 }
-
 
 
 

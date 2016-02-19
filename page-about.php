@@ -28,7 +28,9 @@ Template Name: ABOUT
 
 <?php include 'inc-experts.php'; ?>
 
-<?php include 'inc-submit.php'; ?>
+<div class="submit-about">
+  <?php include 'inc-submit.php'; ?>
+</div>
 
 <?php get_footer(); ?>
 <script>
