@@ -72,23 +72,23 @@
   
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/content-creator-jorge.jpg" />
-    </div>
-      <div class="content-container">
-        <h2>Jorge Symonds</h2>
-        <h3>Content Creator</h3>
-        <p>Jorge is a professional storyteller for brand and products. He finds the best medium to generate content and distribute it.</p>
-      </div>
-  </div>
-  
-  <div class="ux-expert-card">
-    <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/business-developer-sandra.jpg" />
     </div>
       <div class="content-container">
         <h2>Sandra Vazquez</h2>
         <h3>Business Developer</h3>
         <p>Sandra has created business since she first entered the Startup scene in 2009. Her main strength is company growth with a focus on product development.</p>
+      </div>
+  </div>
+  
+  <div class="ux-expert-card">
+    <div class="ux-expert-card-picture">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/content-creator-jorge.jpg" />
+    </div>
+      <div class="content-container">
+        <h2>Jorge Symonds</h2>
+        <h3>Content Creator</h3>
+        <p>Jorge is a professional storyteller for brand and products. He finds the best medium to generate content and distribute it.</p>
       </div>
   </div>
   
