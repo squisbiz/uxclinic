@@ -1,7 +1,6 @@
 
 <section class="experts" id="experts">
   <h2>Our Team</h2>
-  <a class="button">See Experts</a>
 
   <div class="card-container">
     
