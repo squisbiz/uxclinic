@@ -4295,3 +4295,88 @@ a.at-share-btn.at-svc-compact {
 a.at-share-btn.at-svc-tumblr {
   display: none!important;
 }
+
+.social-share {
+  position: fixed;
+  left: 0;
+  top: 350px;
+  color: #FFF;
+  width: 50px;
+  z-index: 9999;
+}
+
+.facebook-share-button {
+  background-color: #385591;
+  background-image: url(../img/fb-share-icon.png);
+  background-size: contain;
+  background-position: right center;
+  width: 50px;
+  height: 45px;
+  position: relative;
+  left: -5px;
+  transition: all .3s;
+}
+
+.twitter-share-button {
+  background-color: #55acee;
+  background-image: url(../img/twitter-share-icon.png);
+  background-size: contain;
+  background-position: right center;
+  display: block;
+  width: 50px;
+  height: 45px;
+  position: relative;
+  left: -5px;
+  transition: all .2s;
+}
+
+.twitter-share-button:hover,
+.fb-share-button:hover {
+  left: 0;
+  transition: all .2s;
+}
+
+.facebook-share-button span {
+  width: 50px!important;
+  height: 45px!important;
+  display: block;
+}
+
+.facebook-share-button iframe {
+  width: 50px!important;
+  height: 45px!important;
+  display: block;
+}
+
+/*
+._3vtu {
+  width: 45px!important;
+  height: 45px!important;
+}
+
+._3vtv {
+  width: 45px!important;
+  height: 45px!important;
+}
+
+._2vmz {
+  display: block!important;
+  width: 45px!important;
+  height: 45px!important;
+}
+*/
+
+iframe {
+  transform: scale(4);
+  -ms-transform: scale(4); 
+  -webkit-transform: scale(4); 
+  -o-transform: scale(4); 
+  -moz-transform: scale(4); 
+  transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  opacity: 0;
+}
+
