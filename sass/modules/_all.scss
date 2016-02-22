@@ -585,7 +585,7 @@ section.experts h3 {
 
 .card-container {
   display: block;
-  width: 1400px;
+//   width: 1400px;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -593,17 +593,17 @@ section.experts h3 {
 .experts .ux-expert-card {
 //   width: calc(47% - 50px);
   width: 330px;
+  width: calc(50% - 15px);
   float: left;
-  padding: 25px;
+/*
   background: #FFF;
   box-shadow: 1px 1px 15px #e0e0e0;
+*/
   margin-right: 30px;
   margin-bottom: 30px;
-  border-radius: 2px;
-  position: relative;
-  transition: all .3s;
 }
 
+/*
 .experts .ux-expert-card:nth-child(7) {
   margin-left: 200px;
 }
@@ -616,20 +616,24 @@ section.experts h3 {
 .experts .ux-expert-card:nth-child(6) {
   margin-right: 0;
 }
+*/
 
-.experts .ux-expert-card:hover {
-  top: -2px;
-  transition: all .3s;
+.experts .ux-expert-card:nth-child(even) {
+  margin-right: 0;
+}
+
+.experts .ux-expert-card p {
+  padding: 0;
+  color: #a5a5a5;
 }
 
 .ux-expert-card-picture {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   float: left;
   margin-right: 20px;
   border-radius: 3px;
   overflow: hidden;
-  border-radius: 100px;
 }
 
 .ux-expert-card-picture img {
@@ -638,7 +642,7 @@ section.experts h3 {
 }
 
 .content-container {
-  width: calc(100% - 120px);
+  width: calc(100% - 140px);
   float: left;
   text-align: left;
 }
