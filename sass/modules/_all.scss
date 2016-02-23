@@ -598,23 +598,8 @@ section.experts h3 {
   box-shadow: 1px 1px 15px #e0e0e0;
 */
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
-
-/*
-.experts .ux-expert-card:nth-child(7) {
-  margin-left: 200px;
-}
-
-.experts .ux-expert-card:nth-child(8) {
-  margin-right: 200px;
-}
-
-.experts .ux-expert-card:nth-child(3),
-.experts .ux-expert-card:nth-child(6) {
-  margin-right: 0;
-}
-*/
 
 .experts .ux-expert-card:nth-child(even) {
   margin-right: 0;
@@ -623,6 +608,7 @@ section.experts h3 {
 .experts .ux-expert-card p {
   padding: 0;
   color: #a5a5a5;
+  margin-bottom: 8px;
 }
 
 .ux-expert-card-picture {
@@ -672,10 +658,17 @@ section.experts h3 {
   height: 24px;
   margin-right: 10px;
   float: left;
+  overflow: hidden;
+  border-radius: 2px;
 }
 
 .linkedin {
   background: url(../img/linkedin.png) no-repeat center center;
+  background-size: cover;
+}
+
+.twitter {
+  background: url(../img/twitter-share-icon.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -692,6 +685,7 @@ section.experts h3 {
   
   .experts .ux-expert-card p {
     padding-right: 20px;
+    margin-bottom: 5px;
   }
   
   
@@ -741,6 +735,10 @@ section.experts h3 {
     padding: 0;
     width: 100%;
   }
+  
+  .experts .ux-expert-card p {
+    margin-bottom: 10px;
+  }
     
   .ux-expert-card-picture {
     float: none;
@@ -756,6 +754,11 @@ section.experts h3 {
     float: none;
     margin-top: 10px;
   }
+  
+  .social-share {
+    display: none;
+  }
+  
 }
 
 
