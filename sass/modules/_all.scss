@@ -13,9 +13,7 @@ Version: 0.1
 
 
 /* GENERAL FORMATING */
-/*html {
-  height: 100%;
-}
+/*
 body {
   font-family: lato;
   font-weight: 300;
@@ -4334,6 +4332,7 @@ a.at-share-btn.at-svc-tumblr {
 .fb-share-button:hover {
   left: 0;
   transition: all .2s;
+  position: relative;
 }
 
 .facebook-share-button span {
@@ -4348,24 +4347,6 @@ a.at-share-btn.at-svc-tumblr {
   display: block;
 }
 
-/*
-._3vtu {
-  width: 45px!important;
-  height: 45px!important;
-}
-
-._3vtv {
-  width: 45px!important;
-  height: 45px!important;
-}
-
-._2vmz {
-  display: block!important;
-  width: 45px!important;
-  height: 45px!important;
-}
-*/
-
 iframe {
   transform: scale(4);
   -ms-transform: scale(4); 
@@ -4379,4 +4360,6 @@ iframe {
   -webkit-transform-origin: top left;
   opacity: 0;
 }
+
+
 
