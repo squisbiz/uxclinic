@@ -24,6 +24,7 @@
       <h3>UX Resources</h3>
       <ul>
         <li><a href="http://ux.nearsoft.com/diy/" target="_blank">UX Methods</a></li>
+        <li><a href="http://ux.nearsoft.com/uxresearch-for-mobileapps/">Mobile Development</a></li>
       </ul>
     </div>
 
