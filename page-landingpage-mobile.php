@@ -92,8 +92,8 @@ Template Name: LANDING PAGE MOBILE
     
     <div class="phoneframe">
       <div class="shopwellslider">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/shopwell-before.png" />
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/shopwell-after.png" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/shopwell-ux-improvement-before.png" alt="ShopWell iOS app before ux research"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/shopwell-ux-improvement-after.png" alt="ShopWell iOS app after ux research improvements"/>
       </div>
   
 <script>
@@ -123,14 +123,16 @@ Template Name: LANDING PAGE MOBILE
         <li>Simplify and organize tools.</li>
         <li>Use everyday examples.</li>
       </ul>
+      
+      <a class="button" href="http://ux.nearsoft.com/casestudies/episode-15-skedio-app/" target="_blank">See Full Case Study</a>
     
       
     </div>
     
     <div class="phoneframe">
       <div class="shopwellslider">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/skedio-before.png" />
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/skedio-after.png" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile-ux-casestudy-skedio-before.png" alt="Skedio android app before ux research"/>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile-ux-casestudy-skedio-after.png" alt="Skedio android app after ux research improvements"/>
       </div>
   
 <script>
