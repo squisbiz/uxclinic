@@ -17,6 +17,7 @@ Template Name: LANDING PAGE MOBILE
       <div class="onboarding-text"></div>
     </div>
     <div class="description">
+      <h3>Users Not Converting</h3>
       Designing the onboarding process for your app is a tough call. First impressions are everything!
     </div>
   </div>
@@ -25,6 +26,7 @@ Template Name: LANDING PAGE MOBILE
     <div class="illustration">
     </div>
     <div class="description">
+      <h3>Users Quitting</h3>
       If your UX planning doesn’t include a simple and straightforward path, users will quit. 
     </div>
   </div>
@@ -115,7 +117,7 @@ Template Name: LANDING PAGE MOBILE
         <li>Use everyday examples.</li>
       </ul>
       
-      <a class="button" href="#">See Full Case Study</a>
+      <a class="button" href="http://ux.nearsoft.com/casestudies/episode-15-skedio-app/">See Full Case Study</a>
       
     </div>
     
@@ -138,12 +140,27 @@ Template Name: LANDING PAGE MOBILE
 </section>
 
 
-<?php include 'inc-submit.php'; ?>
+<section class="submit submit-mobile">
+  <h2>Ready to Meet Your UX Team?</h2>
+  <p style="margin-bottom: 0;">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
+  </p>
+  <div class="contact-overlay">
+  <div class="form">
+    <form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send.php" method="post">
+
+      <p class="error"></p>
+      <div><input type="text" id="site" class="contactform-name" name="site" placeholder="Name"></div>
+      <div><input type="text" id="email" class="contactform-description" name="email" placeholder="Email:"></input></div>
+      <div><input type="text" id="telephone" class="contactform-email" name="telephone" placeholder="Phone [xxx-xxx-xxxx]:"></div>
+      <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
+      <div class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></div>
 
 
-
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.event.move.js"></script>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.twentytwenty.js"></script>
+    </form>
+  </div>
+  </div>
+</section>
 
 
 <?php get_footer(); ?>

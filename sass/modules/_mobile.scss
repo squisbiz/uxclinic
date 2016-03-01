@@ -58,6 +58,11 @@
   margin-top: 20px;
 }
 
+.mobile-problems .half .description h3 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
 
 
 /* MOBILE PROCESS */
@@ -109,7 +114,6 @@
   width: calc(100% - 440px);
   float: left;
   padding: 20px 20px 20px 20px;
-  height: 300px;
   text-align: left;
 }
 
@@ -200,6 +204,8 @@
 .onboarding-back:hover {
   -webkit-animation: rotate 6s infinite;
   -webkit-animation-timing-function: linear;
+  animation: rotate 6s infinite;
+  animation-timing-function: linear;
 }
 
 .onboarding-text {
@@ -221,56 +227,154 @@
   100% {transform: rotate(360deg);}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer-footer {
-  height: 1000px;
+@keyframes rotate {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(360deg);}
 }
+
+@media (max-width: 1180px) {
+	.submit-mobile {
+  	padding-bottom: 300px;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.mobile-cs {
+  	padding-left: 30px;
+  	padding-right: 30px;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.mobile-hero {
+  	padding-top: 200px;
+  	height: auto;
+  	padding-bottom: 100px;
+  	padding-left: 30px;
+  	padding-right: 30px;
+	}
+	
+	.mobile-hero h1 {
+  	font-size: 40px;
+	}
+}
+
+@media (max-width: 754px) {
+	.submit-mobile {
+  	padding-bottom: 350px;
+	}
+}
+
+@media (max-width: 732px) {
+	.submit-mobile {
+  	padding-bottom: 600px;
+	}
+}
+
+@media (max-width: 720px) {
+	.mobile-cs .single-casestudy .details {
+  	width: 100%;
+  	box-sizing: border-box;
+	}
+	
+	.mobile-cs .single-casestudy .phoneframe {
+    padding: 0 calc(50% - 160px);
+	}
+}
+
+
+
+@media (max-width: 700px) {
+  
+  .mobile-problems {
+  	padding-left: 30px;
+  	padding-right: 30px;
+	}
+  
+	.mobile-problems h2 {
+  	font-size: 28px;
+	}
+	
+	.mobile-problems .half {
+  	width: 100%;
+  	margin-left: 0;
+  	margin-right: 0;
+	}
+	
+	.mobile-problems .half:last-child {
+  	width: 100%;
+  	margin-left: 0;
+  	margin-right: 0;
+  	margin-top: 30px;
+	}
+	
+	.mobile-problems .half .description {
+  	width: 80%;
+  	margin: 0 auto;
+	}
+	
+	.mobile-process {
+  	padding-left: 30px;
+  	padding-right: 30px;
+	}
+	
+	.mobile-process h2 {
+  	font-size: 28px;
+	}
+	
+	.mobile-cs h2 {
+  	font-size: 28px;
+	}
+	
+	.mobile-submit h2 {
+  	font-size: 28px!important;
+	}
+	
+}
+
+
+@media (max-width: 400px) {
+	.mobile-cs .single-casestudy .details .button {
+  	margin: 0 auto;
+  	display: block;
+  	text-align: center;
+	}
+	
+	.mobile-cs {
+  	padding-bottom: 40px;
+	}
+	
+	.mobile-process {
+  	padding-bottom: 50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
