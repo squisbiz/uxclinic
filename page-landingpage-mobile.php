@@ -24,6 +24,13 @@ Template Name: LANDING PAGE MOBILE
   
   <div class="half">
     <div class="illustration">
+      <div class="illustration-frame">
+        <div class="backhand-bg"></div>
+        <div class="phone-phoneframe"></div>
+        <div class="phone-homescreen"></div>
+        <div class="phone-app"></div>
+        <div class="fronthand-bg"></div>
+      </div>
     </div>
     <div class="description">
       <h3>Users Quitting</h3>
@@ -116,8 +123,7 @@ Template Name: LANDING PAGE MOBILE
         <li>Simplify and organize tools.</li>
         <li>Use everyday examples.</li>
       </ul>
-      
-      <a class="button" href="http://ux.nearsoft.com/casestudies/episode-15-skedio-app/">See Full Case Study</a>
+    
       
     </div>
     
@@ -141,7 +147,7 @@ Template Name: LANDING PAGE MOBILE
 
 
 <section class="submit submit-mobile">
-  <h2>Ready to Meet Your UX Team?</h2>
+  <h2>Ready to Improve Your User Engagement?</h2>
   <p style="margin-bottom: 0;">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>
