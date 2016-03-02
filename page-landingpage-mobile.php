@@ -46,21 +46,21 @@ Template Name: LANDING PAGE MOBILE
   
   <div class="services-cont">
   <div class="blocks">
-     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-research-uxteam.jpg">
+     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-research-uxteam.jpg" alt="User Research UX Team">
      <div class="block-text-cont">
         <h2>User Research</h2>
         <p>1-on-1 feedback sessions give us an idea of what your product is telling your users.</p>
      </div>
   </div>
     <div class="blocks">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/data-interpretation-uxteam.jpg">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/data-interpretation-uxteam.jpg" alt="User Research data interpretation">
      <div class="block-text-cont">
         <h2>Data Analysis</h2>
         <p>We work with you to analyze user feedback and turn it into actionable insights.</p>
      </div>
   </div>
     <div class="blocks">
-       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-solutions-uxteam.jpg">
+       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-solutions-uxteam.jpg" alt="UX solutions to be implemented">
      <div class="block-text-cont">
         <h2>UX Solutions</h2>
         <p>We create visual solutions ready to be implemented in your next design iteration.</p>
@@ -151,7 +151,7 @@ Template Name: LANDING PAGE MOBILE
 <section class="submit submit-mobile">
   <h2>Ready to Improve Your User Engagement?</h2>
   <p style="margin-bottom: 0;">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png" alt="Sandra UX business developer"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>
   <div class="contact-overlay">
   <div class="form">
