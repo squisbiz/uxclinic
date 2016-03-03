@@ -6,7 +6,7 @@ Template Name: LANDING PAGE MOBILE
 <?php get_header(); ?>
 
 <section class="mobile-hero">
-  <h1>Developing Mobile Apps is Not an Easy Process</h1>
+  <h1>Power up Your Mobile App with UX Research</h1>
 </section>
 
 <section class="mobile-problems">
