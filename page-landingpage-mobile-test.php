@@ -101,14 +101,14 @@ Template Name: LANDING PAGE MOBILE TEST
 
   
 <div class="wrapper">
-<!--
 	<header>
   <a href="<?php echo home_url(); ?>">
     <p class="logo"></p>
   </a>
 
-  <div class="mobilenav-toggle"></div>
+<!--   <div class="mobilenav-toggle"></div> -->
 
+<!--
   <div class="mobilenav">
     <ul>
   		<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'items_wrap' => '%3$s', 'container' => false ) ); ?>
@@ -120,8 +120,8 @@ Template Name: LANDING PAGE MOBILE TEST
       <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'items_wrap' => '%3$s', 'container' => false ) ); ?>
     </ul>
   </nav>
-	</header>
 -->
+	</header>
 
 
 <section class="mobile-hero">
@@ -279,7 +279,6 @@ Template Name: LANDING PAGE MOBILE TEST
       <p class="error"></p>
       <div><input type="text" id="site" class="contactform-name" name="site" placeholder="Name"></div>
       <div><input type="text" id="email" class="contactform-description" name="email" placeholder="Email:"></input></div>
-      <div><input type="text" id="telephone" class="contactform-email" name="telephone" placeholder="Phone [xxx-xxx-xxxx]:"></div>
       <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
       <div class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></div>
 
