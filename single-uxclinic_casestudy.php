@@ -123,9 +123,6 @@
   </div>
   <!-- Case studies new format ends here -->
         
-        
-  
-  
   
   
   <!-- Toggles the new format info -->
