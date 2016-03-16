@@ -466,7 +466,6 @@ a.next {
 .e-can-image {
   width: 100%;
   height: 200px;
-  background: blue;
 }
 
 .e-can-text {
@@ -474,6 +473,7 @@ a.next {
   font-size: 19px;
   color: #646464;
   margin-top: 20px;
+  font-weight: 400;
 }
 
 .e-submit {
@@ -482,9 +482,10 @@ a.next {
 
 .e-showcase {
   padding: 60px calc(50% - 500px) 160px calc(50% - 500px);
-  text-align: center;
+  text-align: left;
   color: #646464;
   overflow: hidden;
+  padding-bottom: 300px;
 }
 
 .e-showcase h2 {
@@ -499,7 +500,7 @@ a.next {
   background-size: contain;
   width: 300px;
   height: 120px;
-  margin: 0 auto;
+  
 }
 
 .e-showcase .findingsslider {
@@ -526,15 +527,13 @@ a.next {
   float: none;
 }
 
-
-
-
-
-
-.e-p {
-  height: 300px; 
-}  
-
+.e-showcase .single-casestudy .challenge-title b {
+  color: #0ac10a;
+  text-transform: uppercase;
+  margin-top: 40px;
+  display: block;
+  font-size: 20px;
+}
 
 
 @media (max-width: 1000px) {
@@ -555,6 +554,50 @@ a.next {
   .lp-hero2 .textcont {
     width: 35%;
     margin-right: 5%;
+  }
+  
+  .e-showcase,
+  .e-hero,
+  .e-can {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .findingsslider {
+    width: 100%;
+  }
+  
+  .e-showcase .findingsslider .slider-item {
+    width: 50%;
+    float: none;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .e-showcase {
+    text-align: center;
+  }
+  
+  .e-showcase .social-centiv-logo{
+    margin: 0 auto;
+  }
+  
+  .e-showcase .findingsslider li {
+    display: block!important;
+    float: none!important;
+  }
+  
+  .e-showcase .bxslider {
+    height: auto !important;
+  }
+  
+  .e-showcase .bx-viewport {
+    height: auto!important;
+    width: 100%!important;
+  }
+  
+  .e-showcase ul {
+    padding-left: 0;
   }
   
 }
@@ -595,8 +638,11 @@ a.next {
 }
 
 
-
-
+@media (max-width: 700px) {
+  .e-showcase {
+    padding-bottom: 400px;
+  }
+}
 
 
 

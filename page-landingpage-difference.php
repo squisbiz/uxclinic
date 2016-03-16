@@ -14,17 +14,23 @@ Template Name: UX MAKES THE DIFFERENCE
   <h3>Our UX Team Can Help You To:</h3>
   <div class="e-can-container">
     <div class="e-can-item">
-      <div class="e-can-image"></div>
+      <div class="e-can-image">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/intuitive-design.png" />
+      </div>
       <div class="e-can-text">Make Your Products More Intuitive</div>
     </div>
     
     <div class="e-can-item">
-      <div class="e-can-image"></div>
+      <div class="e-can-image">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-satisfaction.png" />
+      </div>
       <div class="e-can-text">Increase Customer Satisfactions</div>
     </div>
     
     <div class="e-can-item">
-      <div class="e-can-image"></div>
+      <div class="e-can-image">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-engagement.png" />
+      </div>
       <div class="e-can-text">Boost Your Engagement</div>
     </div>
     
@@ -59,25 +65,32 @@ Template Name: UX MAKES THE DIFFERENCE
   <div class="single-casestudy">
     <div class="details">
       <div class="case-logo social-centiv-logo"></div>
-      <span class="subtitle">DESKTOP APP</span>
-      <p>Marketing tool that helps small businesses find new customers on Twitter.</p>
+<!--       <span class="subtitle">DESKTOP APP</span> -->
+      <p>Marketing tool that helps small businesses find new customers on Twitter. - <b>DESKTOP APP</b></p>
       <p class="challenge-title"><b>Challenge</b></p>
       <p class="challenge-text">Discover users value perception while interacting with ShopWell to improve User Engagement through User Experience Research.</p>
+      
+      <p class="challenge-title"><b>UX Findings & Solutions</b></p>
+      <p class="challenge-text">After our research we figured we had to: </p>
+      
+      
       
       <div class="findingsslider">
     <ul class="bxslider">
       
         <li><div class="slider-item">
-          <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2015/06/img01-1.png" /><div class="slider-description">1. Reduced the steps in the signup process from nine to three easy steps</div>
-        </div></li>
+          <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2015/06/img01-1.png" /><div class="slider-description">1. Improve users first impressions by reducing the steps in the sign up process.</div>
+        </div>
         
-        <li><div class="slider-item">
-          <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2015/06/img03.png" /><div class="slider-description">2. Changed the concept to show the value of Social Centiv: Find potential customers through Twitter who happen to be nearby.
+            <div class="slider-item">
+          <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2015/06/img03.png" /><div class="slider-description">2. Guide users through the system by displaying key features right when they needed them.
 </div>
-        </div></li>
+        </div>
+        </li>
+        
         
         <li><div class="slider-item">
-          <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2015/06/img04.png" /><div class="slider-description">3.We allowed the users to easily complete the process by displaying the key features right when they need them.</div>
+          <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2015/06/img04.png" /><div class="slider-description">3. Make the system more intuitive by displaying features where the user is expecting them.</div>
         </div></li>
       
     </ul>
@@ -94,15 +107,6 @@ Template Name: UX MAKES THE DIFFERENCE
 
   </div>
 </section>  
-  
-
-
-
-
-
-
-
-<div class="e-p"></div>
 
 
 
