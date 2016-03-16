@@ -582,22 +582,50 @@ a.next {
     margin: 0 auto;
   }
   
-  .e-showcase .findingsslider li {
+  .e-showcase .bx-wrapper {
+    width: 600px!important;
+  }
+  
+  .e-showcase .bx-slider {
+    width: 600px!important;
+  }
+  
+  ul.bx-slider li {
+    width: 100%!important;
+    margin-bottom: 100px;
+    float: none!important;
     display: block!important;
+  }
+  
+  .e-showcase .findingsslider {
+    width: 600px!important;
+    margin: 0 auto;
+  }
+  
+  .e-showcase .findingsslider .slider-item {
+    width: 100%;
+  }
+  
+  .e-showcase .findingsslider .bxslider li:nth-child(2) .slider-item {
+    width: 100%;
+  }
+  
+  .e-showcase .findingsslider .bxslider li:nth-child(2) {
+    width: 600px!important;
     float: none!important;
   }
   
-  .e-showcase .bxslider {
-    height: auto !important;
+  .bx-wrapper .bx-pager {
+    display: none;
   }
   
-  .e-showcase .bx-viewport {
-    height: auto!important;
-    width: 100%!important;
+  .e-can .e-can-image {
+    height: auto;
   }
   
-  .e-showcase ul {
-    padding-left: 0;
+  .e-can .e-can-image img {
+    width: 100%;
+    height: auto;
   }
   
 }
@@ -637,10 +665,19 @@ a.next {
   }
 }
 
+@media (max-width: 732px) {
+  .e-showcase {
+    padding-bottom: 600px;
+  }
+}
 
 @media (max-width: 700px) {
   .e-showcase {
-    padding-bottom: 400px;
+    padding-bottom: 700px;
+  }
+  
+  .e-hero h1 {
+    font-size: 36px;
   }
 }
 
@@ -661,6 +698,51 @@ a.next {
   .lp-hero2 {
     padding-bottom: 80px;
   }
+  
+  .e-can-item {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .e-can-image {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .e-can-image img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .e-showcase .findingsslider {
+    width: 100%!important;
+  }
+  
+  .e-showcase .findingsslider .slider-item {
+    width: 100%;
+  }
+  
+  .e-showcase .findingsslider .bxslider li:nth-child(2) {
+    width: 100%!important;
+  }
+  
+  .e-showcase .findingsslider .bxslider li:nth-child(2) .slider-item {
+    width: 100%!important;
+  }
+  
+  ul.bx-slider {
+    width: 100%!important;
+  }
+  
+  ul.bx-slider li {
+    width: 100%!important;
+  }
+  
+  .bx-wrapper .bx-pager {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
@@ -677,6 +759,11 @@ a.next {
   
   .lp-hero2 {
     padding-bottom: 80px;
+  }
+  
+  .e-hero {
+    padding-top: 250px;
+    padding-bottom: 190px;
   }
 }
 
