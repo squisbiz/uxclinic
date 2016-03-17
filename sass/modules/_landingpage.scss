@@ -414,7 +414,7 @@ a.next {
 .e-hero {
   background: url(../img/e-02.png) no-repeat center bottom;
   background-size: cover;
-  padding-bottom: 220px;
+  padding-bottom: 150px;
   padding-top: 320px;
   color: #FFF;
   text-align: center;
@@ -423,7 +423,7 @@ a.next {
 
 .e-hero h1 {
   margin: 0 auto;
-  font-size: 55px;
+  font-size: 45px;
   color: #FFF;
   font-weight: 300;
   width: 50%;
@@ -500,7 +500,6 @@ a.next {
   background-size: contain;
   width: 300px;
   height: 120px;
-  
 }
 
 .e-showcase .findingsslider {
@@ -539,6 +538,53 @@ a.next {
   height: 300px;
 }
 
+.e-can-image {
+  position: relative;
+  transition: all .3s;
+  top: 0;
+}
+
+.e-can-image:hover {
+  top: -5px;
+  transition: all .3s;
+}
+
+.remodal form div {
+  margin-bottom: 10px;
+  display: block;
+  width: 30.33%;
+  float: left;
+  margin-right: 3%;
+}
+
+.remodal form input[type='button'] {
+  border-radius: 3px;
+  background: #0ac10a;
+  font-family: lato;
+  font-weight: 700;
+  color: #FFF;
+  display: inline-block;
+  padding: 15px 0px;
+  font-size: 18px;
+  transition: background .3s;
+  border: 0;
+  z-index: 99;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  float: right;
+}
+
+.remodal form input {
+  border: 1px solid #c9c9c9;
+}
+
+.remodal p img {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 4px 10px;
+  width: 80px;
+}
 
 
 
@@ -771,6 +817,15 @@ a.next {
     padding-top: 250px;
     padding-bottom: 190px;
   }
+  
+  .footer-padding-div {
+    height: 500px;
+  }
+  
+  .e-can-image img {
+    bottom: 0;
+  }
+  
 }
 
 
