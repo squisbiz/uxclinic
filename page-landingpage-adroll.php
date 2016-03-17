@@ -42,7 +42,7 @@ Template Name: LANDING PAGE AD ROLL
 <div class="remodal" data-remodal-id="int-des" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
   <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
   
-  <h2>Let's have a call to talk about how we can make your products more intuitive.</h2>
+<!--   <h2>Let's have a call to talk about how we can make your products more intuitive.</h2> -->
   <p style="margin-bottom: 0;">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>
@@ -62,7 +62,7 @@ Template Name: LANDING PAGE AD ROLL
 <div class="remodal" data-remodal-id="incr-cust" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
   <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
   
-  <h2>Let's have a call to talk about how we can increase your customer satisfaction.</h2>
+<!--   <h2>Let's have a call to talk about how we can increase your customer satisfaction.</h2> -->
   <p style="margin-bottom: 0;">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>
@@ -82,7 +82,7 @@ Template Name: LANDING PAGE AD ROLL
 <div class="remodal" data-remodal-id="user-eng" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
   <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
   
-  <h2>Let's have a call to talk about how we can boost your engagement.</h2>
+<!--   <h2>Let's have a call to talk about how we can boost your engagement.</h2> -->
   <p style="margin-bottom: 0;">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>

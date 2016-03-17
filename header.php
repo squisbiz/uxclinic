@@ -50,24 +50,7 @@
   
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal.css">
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal-default-theme.css">
-  
-  <style>
-    .remodal-bg.with-red-theme.remodal-is-opening,
-    .remodal-bg.with-red-theme.remodal-is-opened {
-      filter: none;
-    }
-
-    .remodal-overlay.with-red-theme {
-      background-color: #f44336;
-    }
-
-    .remodal.with-red-theme {
-      background: #fff;
-    }
-  </style>
-  
-	
-	
+  	
 
 	<?php wp_head() ?>
 
