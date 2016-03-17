@@ -414,8 +414,8 @@ a.next {
 .e-hero {
   background: url(../img/e-02.png) no-repeat center bottom;
   background-size: cover;
-  padding-bottom: 150px;
-  padding-top: 320px;
+  padding-bottom: 120px;
+  padding-top: 270px;
   color: #FFF;
   text-align: center;
   text-shadow: 0 1px 1px rgba(0,0,0,.5),0 2px 50px #000;
@@ -423,7 +423,7 @@ a.next {
 
 .e-hero h1 {
   margin: 0 auto;
-  font-size: 45px;
+  font-size: 55px;
   color: #FFF;
   font-weight: 300;
   width: 50%;
@@ -470,7 +470,7 @@ a.next {
 
 .e-can-text {
   margin-top: 10px;
-  font-size: 19px;
+  font-size: 22px;
   color: #646464;
   margin-top: 20px;
   font-weight: 400;
@@ -597,6 +597,10 @@ a.next {
   border-radius: 4px;
   border-bottom: 4px solid #b5451d;
   font-size: 18px;
+}
+
+.page-id-1224 .social-share {
+  display: none;
 }
 
 
