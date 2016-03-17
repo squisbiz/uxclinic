@@ -603,7 +603,10 @@ a.next {
   display: none;
 }
 
-
+.menuless .logo {
+    float: none;
+    margin: 0 auto;
+}
 
 @media (max-width: 1000px) {
   .lp-hero,
@@ -737,6 +740,12 @@ a.next {
 @media (max-width: 732px) {
   .e-showcase {
     padding-bottom: 600px;
+  }
+}
+
+@media (max-width: 722px) {
+  .menuless {
+      height: 90px;
   }
 }
 
