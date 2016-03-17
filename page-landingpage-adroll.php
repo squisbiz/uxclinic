@@ -11,25 +11,25 @@ Template Name: LANDING PAGE AD ROLL
 
 <section class="e-can">
   <h2>UX Can Have a Lasting Impact in Your Company</h2>
-  <h3>Our UX Team Can Help You To:</h3>
+  <h3>Where Do You Want to Start?</h3>
   <div class="e-can-container">
     <div class="e-can-item">
       <div class="e-can-image">
-        <a href="#modal" class="intuitive-design"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/intuitive-design-btn.png" /></a>
+        <a href="#int-des" class="intuitive-design"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/intuitive-design-btn.png" /></a>
       </div>
       <div class="e-can-text">Make Your Products More Intuitive</div>
     </div>
     
     <div class="e-can-item">
       <div class="e-can-image">
-        <a href="#modal" class="user-satisfaction"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-satisfaction-btn.png" /></a>
+        <a href="#incr-cust" class="user-satisfaction"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-satisfaction-btn.png" /></a>
       </div>
       <div class="e-can-text">Increase Customer Satisfactions</div>
     </div>
     
     <div class="e-can-item">
       <div class="e-can-image">
-        <a href="#modal" class="user-engagement"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-engagement-btn.png" /></a>
+        <a href="#user-eng" class="user-engagement"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/user-engagement-btn.png" /></a>
       </div>
       <div class="e-can-text">Boost Your Engagement</div>
     </div>
@@ -39,10 +39,10 @@ Template Name: LANDING PAGE AD ROLL
 
 <div class="footer-padding-div"></div>
 
-<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+<div class="remodal" data-remodal-id="int-des" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
   <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
   
-  <h2>Are You Ready to Power-up Your Product?</h2>
+  <h2>Let's have a call to talk about how we can make your products more intuitive.</h2>
   <p style="margin-bottom: 0;">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>
@@ -55,7 +55,46 @@ Template Name: LANDING PAGE AD ROLL
       <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
       <div class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></div>
     </form>
+</div>
+
+
+
+<div class="remodal" data-remodal-id="incr-cust" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
   
+  <h2>Let's have a call to talk about how we can increase your customer satisfaction.</h2>
+  <p style="margin-bottom: 0;">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
+  </p>
+  
+  <form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send.php" method="post">
+
+      <p class="error"></p>
+      <div><input type="text" id="site" class="contactform-name" name="site" placeholder="Name"></div>
+      <div><input type="text" id="email" class="contactform-description" name="email" placeholder="Email:"></input></div>
+      <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
+      <div class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></div>
+    </form>
+</div>
+
+
+
+<div class="remodal" data-remodal-id="user-eng" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+  
+  <h2>Let's have a call to talk about how we can boost your engagement.</h2>
+  <p style="margin-bottom: 0;">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
+  </p>
+  
+  <form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send.php" method="post">
+
+      <p class="error"></p>
+      <div><input type="text" id="site" class="contactform-name" name="site" placeholder="Name"></div>
+      <div><input type="text" id="email" class="contactform-description" name="email" placeholder="Email:"></input></div>
+      <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
+      <div class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></div>
+    </form>
 </div>
 
 
