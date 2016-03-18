@@ -414,8 +414,8 @@ a.next {
 .e-hero {
   background: url(../img/e-02.png) no-repeat center bottom;
   background-size: cover;
-  padding-bottom: 220px;
-  padding-top: 320px;
+  padding-bottom: 120px;
+  padding-top: 270px;
   color: #FFF;
   text-align: center;
   text-shadow: 0 1px 1px rgba(0,0,0,.5),0 2px 50px #000;
@@ -470,7 +470,7 @@ a.next {
 
 .e-can-text {
   margin-top: 10px;
-  font-size: 19px;
+  font-size: 22px;
   color: #646464;
   margin-top: 20px;
   font-weight: 400;
@@ -500,7 +500,6 @@ a.next {
   background-size: contain;
   width: 300px;
   height: 120px;
-  
 }
 
 .e-showcase .findingsslider {
@@ -539,8 +538,75 @@ a.next {
   height: 300px;
 }
 
+.e-can-image {
+  position: relative;
+  transition: all .3s;
+  top: 0;
+}
 
+.e-can-image:hover {
+  top: -5px;
+  transition: all .3s;
+}
 
+.remodal form div {
+  margin-bottom: 10px;
+  display: block;
+  width: 30.33%;
+  float: left;
+  margin-right: 3%;
+}
+
+.remodal form input[type='button'] {
+  border-radius: 3px;
+  background: #0ac10a;
+  font-family: lato;
+  font-weight: 700;
+  color: #FFF;
+  display: inline-block;
+  padding: 15px 0px;
+  font-size: 18px;
+  transition: background .3s;
+  border: 0;
+  z-index: 99;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  float: right;
+}
+
+.remodal form input {
+  border: 1px solid #c9c9c9;
+}
+
+.remodal p img {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 4px 10px;
+  width: 80px;
+}
+
+.ar-button {
+  width: 100%;
+  background: #f15922;
+  color: #FFF;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  border-radius: 4px;
+  border-bottom: 4px solid #b5451d;
+  font-size: 18px;
+}
+
+.page-id-1224 .social-share {
+  display: none;
+}
+
+.menuless .logo {
+    float: none;
+    margin: 0 auto;
+}
 
 @media (max-width: 1000px) {
   .lp-hero,
@@ -677,6 +743,12 @@ a.next {
   }
 }
 
+@media (max-width: 722px) {
+  .menuless {
+      height: 90px;
+  }
+}
+
 @media (max-width: 700px) {
   .e-showcase {
     padding-bottom: 700px;
@@ -771,6 +843,15 @@ a.next {
     padding-top: 250px;
     padding-bottom: 190px;
   }
+  
+  .footer-padding-div {
+    height: 500px;
+  }
+  
+  .e-can-image img {
+    bottom: 0;
+  }
+  
 }
 
 
