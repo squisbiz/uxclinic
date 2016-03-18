@@ -3,7 +3,7 @@
   <h2>Our Team</h2>
 
   <div class="card-container">
-    
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-researcher-misael.jpg" />
@@ -18,7 +18,7 @@
         </div>
       </div>
   </div>
-  
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-designer-diana.jpg" />
@@ -33,7 +33,7 @@
         </div>
       </div>
   </div>
-  
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ui-designer-miguel.jpg" />
@@ -48,7 +48,7 @@
         </div>
       </div>
   </div>
-  
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ui-designer-arturo.jpg" />
@@ -63,7 +63,7 @@
         </div>
       </div>
   </div>
-  
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-researcher-denisse.jpg" />
@@ -78,7 +78,7 @@
         </div>
       </div>
   </div>
-  
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ui-designer-axel.jpg" />
@@ -93,7 +93,7 @@
         </div>
       </div>
   </div>
-  
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/business-developer-sandra.jpg" />
@@ -108,7 +108,7 @@
         </div>
       </div>
   </div>
-  
+
   <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/content-creator-jorge.jpg" />
@@ -123,12 +123,12 @@
         </div>
       </div>
   </div>
-  
-  
+
+
   </div><!-- card-container -->
-  
-  
-  
+
+
+
   <a name="link-anchor"></a>
 </section>
 

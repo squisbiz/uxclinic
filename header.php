@@ -31,6 +31,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
 	<!-- Colorbox, to display a zoomed view of the images -->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorbox.css">
@@ -43,13 +44,13 @@
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.colorbox-min.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bxslider/jquery.bxslider.js"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/jquery.bxslider.css" />
-	
+
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.event.move.js"></script>
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.twentytwenty.js"></script>
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/twentytwenty.css" />
-  
-	
-	
+
+
+
 
 	<?php wp_head() ?>
 
@@ -79,7 +80,7 @@
 </head>
 
 <body <?php body_class(); ?> id="body">
-  
+
 <div class="social-share">
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -94,7 +95,7 @@
   <a class="buttons twitter-share-button" href="https://twitter.com/intent/tweet?text=We%20help%20software%20companies%20accelerate%20their%20business%20by%20powering%20up%20their%20user%20experience http://ux.nearsoft.com" target="_blank"></a>
 </div>
 
-  
+
 <div class="wrapper">
 	<header>
   <a href="<?php echo home_url(); ?>">
