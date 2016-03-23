@@ -22,6 +22,33 @@ Template Name: PORTFOLIO
   <div class="hero-image"></div>
 </section>
 
+<section class="p-uxteam">
+	<h2>UX Team</h2>
+	
+	<div class="team-container">
+		<div class="ux-team-member">
+			<img src="#" />
+			<a href="#">Diana Arvayo</a>
+			<h4>UX Researcher</h4>
+		</div>
+		<div class="ux-team-member"></div>
+		<div class="ux-team-member"></div>
+		
+		<div class="ux-team-member"></div>
+		<div class="ux-team-member"></div>
+		<div class="ux-team-member"></div>
+		
+		<div class="ux-team-member"></div>
+		<div class="ux-team-member"></div>
+		<div class="ux-team-member"></div>
+	</div>
+	
+</section>
+
+
+
+
+
 <section class="p-cs p-cs-hero shopwell">
   <h1>ShopWell</h1>
   <div class="hero-image">
