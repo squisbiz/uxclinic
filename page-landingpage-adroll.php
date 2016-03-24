@@ -56,8 +56,6 @@ Template Name: LANDING PAGE AD ROLL
   
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal.css">
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal-default-theme.css">
-  
-	
 	
 
 	<?php wp_head() ?>
