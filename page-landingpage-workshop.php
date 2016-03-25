@@ -12,8 +12,9 @@ Template Name: LANDING PAGE WORKSHOP
   <div class="date"><span>Fecha:</span>Jueves 28 de Abril  -  6 pm a 9 pm  <span>Lugar:</span> Nearsoft  CDMX</div>
 </section>
 <section class="catapulta">
+  <h1>En colaboración con:</h1>
   <div class="logos">
-    <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ns-logo.png">
+<!--     <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ns-logo.png"> -->
     <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ebc-logo.png">
     <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/catapulta-logo.png">
   </div>
