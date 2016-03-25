@@ -11,7 +11,13 @@ Template Name: LANDING PAGE WORKSHOP
   <a href="https://mapea-tus-servicios.boletia.com/" class="boleto-submit">Comprar Boleto</a>
   <div class="date"><span>Fecha:</span>Jueves 28 de Abril  -  6 pm a 9 pm  <span>Lugar:</span> Nearsoft  CDMX</div>
 </section>
-
+<section class="catapulta">
+  <div class="logos">
+    <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ns-logo.png">
+    <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ebc-logo.png">
+    <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/catapulta-logo.png">
+  </div>
+</section>
 
 <section class="e-can uxcontent">
   <h2>¿Porqué asistir al Taller?</h2>
