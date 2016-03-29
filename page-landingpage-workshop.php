@@ -21,11 +21,11 @@ Template Name: LANDING PAGE WORKSHOP
 </section>
 
 <section class="e-can uxcontent">
-  <h2>¿Porqué asistir al Taller?</h2>
+  <h2>¿Por qué asistir al Taller?</h2>
 <ul>
 <li>Crearas una experiencia de usuario positiva, que te ayudara a mantener activo el crecimiento y lealtad de tus clientes.</li>
 <li>Análizaras tu compañía y aprenderás a detectar los puntos claves de tus procesos y cómo éstos afectan la experiencia tus clientes.</li>
-<li>Tendrán las herramientas necesarias para diseñar nuevos procesos enfocados en alcanzar tus objetivos de negocio y mejorar la experiencia de usuario.
+<li>Tendrás las herramientas necesarias para diseñar nuevos procesos enfocados en alcanzar tus objetivos de negocio y mejorar la experiencia de usuario.
 </li>
 </ul>
 </section>
@@ -34,10 +34,10 @@ Template Name: LANDING PAGE WORKSHOP
   <h2>Objetivos del programa</h2>
 <ul>
 <li>A hacer visibles los puntos de interacción de tus clientes con tu producto.</li>
-<li>Detectar oportunidades de mejora en su proceso.</li>
-<li>Hacer brainstorming en equipo e iterar antes de implementar cambios.</li>
+<li>Detectar oportunidades de mejora en tu proceso.</li>
+<li>Hacer <i>brainstorming<i> en equipo e iterar antes de implementar cambios.</li>
 <li>Interpretar resultados de investigación con argumentos de diseño.</li>
-<li>Alinear tus objetivos de negocio a la experiencia de tus usuarios.</li>
+<li>Alinear tus objetivos de negocio con la experiencia de tus usuarios.</li>
 </ul>
 </section>
 
