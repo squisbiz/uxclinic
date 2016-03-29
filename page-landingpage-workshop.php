@@ -35,7 +35,7 @@ Template Name: LANDING PAGE WORKSHOP
 <ul>
 <li>A hacer visibles los puntos de interacción de tus clientes con tu producto.</li>
 <li>Detectar oportunidades de mejora en tu proceso.</li>
-<li>Hacer <i>brainstorming<i> en equipo e iterar antes de implementar cambios.</li>
+<li>Hacer <i>brainstorming</i> en equipo e iterar antes de implementar cambios.</li>
 <li>Interpretar resultados de investigación con argumentos de diseño.</li>
 <li>Alinear tus objetivos de negocio con la experiencia de tus usuarios.</li>
 </ul>
