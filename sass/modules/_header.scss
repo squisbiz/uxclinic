@@ -24,7 +24,7 @@ header .logo {
 .home {
   header {
     background-color: transparent;
-    position: absolute;
+    position: fixed;
     .logo {
       background: url(../img/uxclinic-logo.png) no-repeat;
       background-size: cover;
