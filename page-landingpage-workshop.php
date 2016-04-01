@@ -27,7 +27,7 @@ Template Name: LANDING PAGE WORKSHOP
 	<meta property="og:type"               content="website" />
 	<meta property="og:title"              content="Mapea tus servicios, haz felices a tus clientes" />
 	<meta property="og:description"        content="Descubre oportunidades para empatar tu modelo de negocios con la experiencia de tus usuarios." />
-	<meta property="og:image"              content="http://ux.nearsoft.com/wp-content/themes/uxclinic/img/uxteam-share.png" />
+	<meta property="og:image"              content="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/img/uxteam-share.png" />
 	
 
 	<title>
