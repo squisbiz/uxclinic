@@ -127,12 +127,21 @@ Template Name: PORTFOLIO
 	
 	<div class="p-cs-bfaf">
 		<h2>Before & After</h2>
-		
+		<div class="p-shopwellslider">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile-ux-casestudy-skedio-before.png" alt="Skedio android app before ux research"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile-ux-casestudy-skedio-after.png" alt="Skedio android app after ux research improvements"/>
+    </div>
 	</div>
 	
 	<div class="p-cs-improvements">
-		
+		<h2>Our UX Improvement:</h2>
 	</div>
+	
+	<script>
+	  $(window).load(function() {
+	    $(".p-shopwellslider").twentytwenty();
+	  });
+	</script>
 	
 </section>
 
