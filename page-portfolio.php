@@ -9,6 +9,7 @@ Template Name: PORTFOLIO
 
 
 <section class="p-hero">
+	<div class="p-ns-bug"></div>
   <h1>UX Team Portfolio</h1>
 </section>
 
@@ -93,68 +94,46 @@ Template Name: PORTFOLIO
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<section class="p-cs p-cs-hero shopwell">
-  <h1>ShopWell</h1>
-  <div class="hero-image"></div>
-  <p class="p-hero-description">ShopWell is a free website and iPhone/Android app that scores foods on how well they meet your unique needs.</p>
-  
-	<div class="p-challenge">
-		
-		<div class="p-challenge-description">
+<section class="p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>ShopWell</h2>
+			<div class="p-test-desc">
+			ShopWell is a free website and iPhone/Android app that scores foods on how well they meet your unique needs.
+			</div>
+		</div>
+		<div class="p-test-challenge">
 			<h3>Challenge:</h3>
 			Increase user retention and engagement.
 		</div>
-		
-		<div class="p-challenge-before">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/shopwell-before.png" />
-			<h3>Before Our Research</h3>
-		</div>
-		
 	</div>
 	
-	<div class="p-research">
+	<div class="p-cs-research">
 		<h2>Research Process</h2>
-		<div class="p-research-description">
-			<h3>Remote Moderated Research</h3>
-			We conducted a Remote Moderated Research asking users a set of questions regarding how they feel and interact with the app.
+		
+		<div class="p-cs-method">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_002.jpg" />
+			<h2>Remote Moderated Research</h2>
+			<p>We conducted a Remote Moderated Research asking users a set of questions regarding how they feel and interact with the app.</p>
 		</div>
 		
-		<div class="p-research-image"></div>
-		
-		<div class="p-research2-image"></div>
-		
-		<div class="p-research2-description">
-			<h3>Card sorting</h3>
-			And also, we did an activity called Card Sorting where users choose what features are most valuable for them.
+		<div class="p-cs-method">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_004.jpg" />
+			<h2>Card Sorting</h2>
+			<p>And also, we did an activity called Card Sorting where users choose what features are most valuable for them.</p>
 		</div>
 	</div>
 	
-	<div class="p-after">
-		<div class="p-after-image">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/shopwell-after.png" />
-		</div>
-		<h3>After Research Process</h3>
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
 		
 	</div>
 	
-	<div class="p-improvement">
-		<h3>Our UX Improvement</h3>
-		<ul>
-			<li>Personalized content for users</li>
-			<li>Social validation</li>
-		</ul>
+	<div class="p-cs-improvements">
+		
 	</div>
+	
 </section>
 
 
@@ -169,58 +148,14 @@ Template Name: PORTFOLIO
 
 
 
-<section class="p-cs p-cs-hero cloudfinder">
-  <h1>CloudFinder</h1>
-  <div class="hero-image"></div>
-  <p class="p-hero-description">Cloudfinder is a simple, secure, and future-proof seamless solu on for cloud-to-cloud backup needs of MSPs, and VARs. Currently the service allows to back up major SaaS services, including Office 365, Salesforce, Google Apps, and Box.</p>
-  
-	<div class="p-challenge">
-		
-		<div class="p-challenge-description">
-			<h3>Challenge:</h3>
-			Redesign the old-looking interface and turn it into a more intui ve experience based on actual habits of use of channel partners.
-		</div>
-		
-		<div class="p-challenge-before">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/shopwell-before.png" />
-			<h3>Before Our Research</h3>
-		</div>
-		
-	</div>
-	
-	<div class="p-research">
-		<h2>Research Process</h2>
-		<div class="p-research-description">
-			<h3>Remote Moderated Research</h3>
-			We conducted a Remote Moderated Research asking users a set of questions regarding how they feel and interact with the app.
-		</div>
-		
-		<div class="p-research-image"></div>
-		
-		<div class="p-research2-image"></div>
-		
-		<div class="p-research2-description">
-			<h3>Card sorting</h3>
-			And also, we did an activity called Card Sorting where users choose what features are most valuable for them.
-		</div>
-	</div>
-	
-	<div class="p-after">
-		<div class="p-after-image">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/shopwell-after.png" />
-		</div>
-		<h3>After Research Process</h3>
-		
-	</div>
-	
-	<div class="p-improvement">
-		<h3>Our UX Improvement</h3>
-		<ul>
-			<li>Personalized content for users</li>
-			<li>Social validation</li>
-		</ul>
-	</div>
-</section>
+
+
+
+
+
+
+
+
 
 
 </div><!-- portfolio-main -->

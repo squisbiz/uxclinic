@@ -4,11 +4,14 @@
   background: #e0e0e0;
   margin-top: 125px;
   padding-bottom: 260px;
+  height: 100%;
 }
 
+/*
 .porfolio-main section {
   padding: 40px calc(50% - 400px);
 }
+*/
 
 .p-cs h1 {
   color: #565f61;
@@ -23,11 +26,20 @@
 	font-weight: 400;
 }
 
+.p-ns-bug {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	background: url(../img/ns-logo-unanimated.png) no-repeat center center;
+	background-size: cover;
+}
+
 .p-hero,
 .p-about,
 .p-uxteam,
-.p-ux-process {
-  padding: 50px calc(50% - 400px) 50px calc(50% - 400px);
+.p-ux-process,
+section.p-cs {
+  padding: 50px calc(50% - 500px) 50px calc(50% - 500px);
   background: #FFF;
   margin-bottom: 30px;
   text-align: center;
@@ -37,6 +49,7 @@
 
 .p-hero {
 	border-bottom: 10px solid #d54a32;
+	padding-bottom: 30px;
 }
 
 .p-hero h1 {
@@ -45,6 +58,7 @@
   color: #6c7779;
   text-align: center;
   font-weight: 400;
+  margin-top: 15px;
 }
 
 .p-cs {
@@ -57,13 +71,7 @@
   position: relative;
 }
 
-.shopwell .hero-image {
-  width: 100%;
-  height: 550px;
-  background: url(../img/shopwell-hero-image.png) no-repeat center center;
-  background-size: cover;
-  border-top: 10px solid #d54a32;
-}
+
 
 // ABOUT
 
@@ -75,7 +83,7 @@
 .p-about .hero-image {
   width: 100%;
   height: 550px;
-  background: url(../img/ns-ux-team.png) no-repeat center center;
+  background: url(../img/ns-ux-team.jpg) no-repeat center center;
   background-size: cover;
   border-top: 10px solid #d54a32;
   margin-top: 40px;
@@ -138,7 +146,7 @@ h3.orange-title:before {
 
 .p-uxteam .ux-team-member {
 	float: left;
-	width: 244px;
+	width: 300px;
 	margin-right: 33px;
 	height: 300px;
 	margin-bottom: 40px;
@@ -166,7 +174,7 @@ h3.orange-title:before {
 
 .p-uxteam .ux-team-member h4 {
 	margin-top: 4px;
-	color: #595f61;
+	color: #8c9c9f;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -220,7 +228,7 @@ h3.orange-title:before {
 	float: left;
 	color: #FFF;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 18px;
 	width: calc(50% - 70px);
 }
 
@@ -265,7 +273,8 @@ h3.orange-title:before {
 	padding: 30px 30px 40px 40px;
 	float: left;
 	width: calc(40% - 70px);
-	font-size: 22px;
+// 	font-size: 22px;
+	font-size: 18px;
 	font-weight: 400;
 	height: calc(300px - 70px);
 	margin-bottom: 30px;
@@ -296,7 +305,8 @@ h3.orange-title:before {
 	padding: 30px 30px 40px 40px;
 	float: right;
 	width: calc(40% - 70px);
-	font-size: 22px;
+// 	font-size: 22px;
+	font-size: 18px;
 	font-weight: 400;
 	height: calc(300px - 70px);
 }
@@ -331,6 +341,7 @@ h3.orange-title:before {
 	background: #3aa84c;
 	padding: 30px;
 	color: #FFF;
+	margin-top: 40px;
 }
 
 .p-improvement h3 {
@@ -366,6 +377,14 @@ h3.orange-title:before {
 
 // SHOPWELL
 
+.shopwell .hero-image {
+  width: 100%;
+  height: 550px;
+  background: url(../img/shopwell-hero-image.jpg) no-repeat center center;
+  background-size: cover;
+  border-top: 10px solid #d54a32;
+}
+
 .shopwell .p-research-image {
 	background: url(../img/ShopWellAnalyzed_002.jpg) no-repeat center center;
 	background-size: cover;
@@ -377,11 +396,143 @@ h3.orange-title:before {
 }
 
 
+// CLOUDFINDER
+
+.cloudfinder .hero-image {
+  width: 100%;
+  height: 550px;
+  background: url(../img/cloudfinder_cover.jpg) no-repeat center center;
+  background-size: cover;
+  border-top: 10px solid #d54a32;
+}
+
+.cloudfinder .p-research-image {
+	background: url(../img/cloudfinder_research1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.cloudfinder .p-research2-image {
+	background: url(../img/cloudfinder_research2.jpg) no-repeat center center;
+	background-size: cover;
+}
 
 
 
 
 
+
+
+
+
+
+section.p-cs-block {
+	padding: 0 0 50px 0;
+  background: #FFF;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0px 3px 14px 1px rgba(0,0,0,.2);
+  text-align: left;
+}
+
+.p-cs-hero {
+	padding: 50px calc(50% - 500px) 50px calc(50% - 500px);
+	background: url(../img/test-bg2.png) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+	color: #FFF;
+	display: block;
+}
+
+.p-test-hero-content {
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.p-test-hero-bg {
+	background-image: url(../img/pattern.png);
+	opacity: .1;
+	background-repeat: repeat; 
+	height: 600px;
+	width: 100%;
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	z-index: 8;
+	display: block;
+}
+
+.p-cs-block h2 {
+	font-size: 54px;
+	margin: 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+.p-test-desc {
+	font-size: 32px;
+	text-shadow: 1px 1px 2px 1px rgba(0,0,0,.3);
+	width: 70%;
+	margin-top: 10px;
+}
+
+.p-test-challenge {
+	padding: 20px;
+	background: #f15922;
+	width: 400px;
+	text-align: right;
+	z-index: 11;
+	position: absolute;
+	bottom: 50px;
+	right: 0;
+	margin-right: calc(50% - 500px);
+	font-size: 22px;
+	box-shadow: 4px 4px 16px 1px rgba(0,0,0,.2);
+}
+
+.p-test-challenge h3 {
+	font-size: 30px;
+	margin: 0;
+}
+
+.p-cs-research,
+.p-cs-bfaf {
+	padding: 40px calc(50% - 500px) 40px calc(50% - 500px);
+}
+
+.p-cs-research h2,
+.p-cs-bfaf h2 {
+	font-size: 36px;
+	text-shadow: none;
+	color: #f15922;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.p-cs-method {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 40px;
+	color: #6c7779;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.p-cs-method h2 {
+	color: #6c7779;
+	font-size: 28px;
+	margin-bottom: 0;
+}
+
+.p-cs-method img {
+	display: block;
+	float: left;
+	width: 250px;
+	height: auto;
+	margin-right: 30px;
+	border-radius: 2px;
+}
 
 
 
