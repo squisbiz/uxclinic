@@ -87,14 +87,7 @@ Template Name: PORTFOLIO
 
 
 
-
-
-
-
-
-
-
-<section class="p-cs-block">
+<section class="shopwell p-cs-block">
 	<div class="p-cs-hero">
 		<div class="p-test-hero-bg"></div>
 		<div class="p-test-hero-content">
@@ -112,29 +105,148 @@ Template Name: PORTFOLIO
 	<div class="p-cs-research">
 		<h2>Research Process</h2>
 		
-		<div class="p-cs-method">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_002.jpg" />
-			<h2>Remote Moderated Research</h2>
-			<p>We conducted a Remote Moderated Research asking users a set of questions regarding how they feel and interact with the app.</p>
-		</div>
+		<div class="p-cs-method-container">
+			<div class="p-cs-method-half">
+				<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_002.jpg" />
+				<h2>Remote Moderated Research</h2>
+				<p>We conducted a Remote Moderated Research asking users a set of questions regarding how they feel and interact with the app.</p>
+			</div>
 		
-		<div class="p-cs-method">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_004.jpg" />
-			<h2>Card Sorting</h2>
-			<p>And also, we did an activity called Card Sorting where users choose what features are most valuable for them.</p>
+			<div class="p-cs-method-half">
+				<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_004.jpg" />
+				<h2>Card Sorting</h2>
+				<p>And also, we did an activity called Card Sorting where users choose what features are most valuable for them.</p>
+			</div>
 		</div>
 	</div>
 	
 	<div class="p-cs-bfaf">
 		<h2>Before & After</h2>
-		<div class="p-shopwellslider">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile-ux-casestudy-skedio-before.png" alt="Skedio android app before ux research"/>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile-ux-casestudy-skedio-after.png" alt="Skedio android app after ux research improvements"/>
-    </div>
+		<div class="p-showcase-container">
+			<div class="p-shopwellslider">
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before1.png" alt="Skedio android app before ux research"/>
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_after1.png" alt="Skedio android app after ux research improvements"/>
+	    </div>
+    
+	    <div class="p-shopwellslider">
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before2.png" alt="Skedio android app before ux research"/>
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_after2.png" alt="Skedio android app after ux research improvements"/>
+	    </div>
+		</div>
 	</div>
 	
 	<div class="p-cs-improvements">
 		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>Personalized content for users</li>
+			<li>Social valida on</li>
+		</ul>
+	</div>
+	
+</section>
+
+<section class="cloudfinder p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>Cloudfinder</h2>
+			<div class="p-test-desc">
+			Cloudfinder is a simple, secure, and future-proof seamless solution for cloud-to-cloud backup needs of MSPs, and VARs. Currently the service allows to back up major SaaS services, including Office 365, Salesforce, Google Apps, and Box.
+			</div>
+		</div>
+		<div class="p-test-challenge">
+			<h3>Challenge:</h3>
+			Redesign the old-looking interface and turn it into a more intuitive experience based on actual habits of use of channel partners.
+		</div>
+	</div>
+	
+	<div class="p-cs-research">
+		<h2>Research Process</h2>
+		
+		<div class="p-cs-method-container">
+			<div class="p-cs-method-half">
+				<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/cloudfinder_research1.jpg" />
+				<h2>Interviews + Usability Testing</h2>
+				<p>We conducted a series of interviews and Usability Testings to understand habits of use and validate initial ideas.</p>
+			</div>
+		
+			<div class="p-cs-method-half">
+				<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/cloudfinder_research2.jpg" />
+				<h2>Affinity Diagram</h2>
+				<p>We organized our findings by clustering similar ideas in order to find common patterns of use.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-showcaseslider">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-cloudfinder-before.png" alt="Skedio android app before ux research"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-cloudfinder-after.png" alt="Skedio android app after ux research improvements"/>
+    </div>
+    <span>Cloudfinder desktop app before and after conducting User Research</span>
+	</div>
+	
+	<div class="p-cs-improvements">
+		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>Simplification of navigation adding a sense of multitenancy</li>
+			<li>Focus on error reporting by giving options to resolve issues</li>
+			<li>Dashboard was turned into a very clear system health indicator</li>
+			<li>Standarization of data management across the system</li>
+		</ul>
+	</div>
+	
+</section>
+
+<section class="breaktrough p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>BreakThrough</h2>
+			<div class="p-test-desc">
+			BreakThrough is a mobile app for iOS and Android that helps users to find licensed therapist or psychiatrists, schedule appointments and talk to them via video conference when users find it convenient.
+			</div>
+		</div>
+		<div class="p-test-challenge">
+			<h3>Challenge:</h3>
+			Discover how patients interact with the app and improve usability.
+		</div>
+	</div>
+	
+	<div class="p-cs-research">
+		<h2>Research Process</h2>
+		
+		<div class="p-cs-method">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/BreakThroughHeuristic_016.jpg" />
+			<h2>Heuristic Evaluation</h2>
+			<p>We identified usability problems at the User Interface Level conducting a Heuristic Evaluation</p>
+		</div>
+	</div>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-showcase-container">
+			<div class="p-shopwellslider">
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-before1.png" alt="Skedio android app before ux research"/>
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-after-1.jpg" alt="Skedio android app after ux research improvements"/>
+	      <span>holis</span>
+	    </div>
+    
+	    <div class="p-shopwellslider">
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-before2.jpg" alt="Skedio android app before ux research"/>
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-after-2.png" alt="Skedio android app after ux research improvements"/>
+	      <span>holis</span>
+	    </div>
+		</div>
+	</div>
+	
+	<div class="p-cs-improvements">
+		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>Reducing the amount of information the user has to fill out as an entry point</li>
+			<li>Use color coding that communicates the appropriate user conventions</li>
+		</ul>
 	</div>
 	
 	<script>
@@ -145,6 +257,18 @@ Template Name: PORTFOLIO
 	
 </section>
 
+
+<script>
+  $(window).load(function() {
+    $(".p-shopwellslider").twentytwenty();
+  });
+</script>
+
+<script>
+  $(window).load(function() {
+    $(".p-showcaseslider").twentytwenty();
+  });
+</script>
 
 
 

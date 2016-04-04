@@ -375,46 +375,6 @@ h3.orange-title:before {
 
 
 
-// SHOPWELL
-
-.shopwell .hero-image {
-  width: 100%;
-  height: 550px;
-  background: url(../img/shopwell-hero-image.jpg) no-repeat center center;
-  background-size: cover;
-  border-top: 10px solid #d54a32;
-}
-
-.shopwell .p-research-image {
-	background: url(../img/ShopWellAnalyzed_002.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-.shopwell .p-research2-image {
-	background: url(../img/ShopWellAnalyzed_004.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-
-// CLOUDFINDER
-
-.cloudfinder .hero-image {
-  width: 100%;
-  height: 550px;
-  background: url(../img/cloudfinder_cover.jpg) no-repeat center center;
-  background-size: cover;
-  border-top: 10px solid #d54a32;
-}
-
-.cloudfinder .p-research-image {
-	background: url(../img/cloudfinder_research1.jpg) no-repeat center center;
-	background-size: cover;
-}
-
-.cloudfinder .p-research2-image {
-	background: url(../img/cloudfinder_research2.jpg) no-repeat center center;
-	background-size: cover;
-}
 
 
 
@@ -500,6 +460,10 @@ section.p-cs-block {
 	padding: 40px calc(50% - 500px) 40px calc(50% - 500px);
 }
 
+.p-cs-bfaf {
+	overflow: hidden;
+}
+
 .p-cs-research h2,
 .p-cs-bfaf h2 {
 	font-size: 36px;
@@ -507,6 +471,59 @@ section.p-cs-block {
 	color: #f15922;
 	font-weight: 400;
 	margin-bottom: 40px;
+}
+
+.p-cs-bfaf span {
+	color: #b4b4b4;
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+}
+
+.p-cs-method-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.p-cs-method-container .p-cs-method-half {
+	width: calc(50% - 40px);
+	padding: 0 20px 0 0;
+	float: left;
+	margin-right: 0;
+}
+
+.p-cs-method-container .p-cs-method-half:nth-child(2) {
+	float: right;
+}
+
+.p-cs-method-container .p-cs-method-half img {
+	width: 100%;
+	height: auto;
+	border-radius: 2px;
+}
+
+.p-cs-method-half h2 {
+	color: #6c7779;
+	font-size: 28px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	position: relative;
+}
+
+.p-cs-method-half h2:before {
+	content: '';
+	background: url(../img/portfolio/triangle.png) no-repeat center center;
+	background-size: cover;
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	top: -26px;
+	left: 20px;
+}
+
+.p-cs-method-half p {
+	margin-top: 5px;
 }
 
 .p-cs-method {
@@ -522,41 +539,131 @@ section.p-cs-block {
 	color: #6c7779;
 	font-size: 28px;
 	margin-bottom: 0;
+	position: relative;
+}
+
+.p-cs-method h2:before {
+	content: '';
+	background: url(../img/portfolio/triangle.png) no-repeat center center;
+	background-size: cover;
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	top: 12px;
+	left: 444px;
+	z-index: 9999;
+	transform: rotate(270deg);
 }
 
 .p-cs-method img {
 	display: block;
 	float: left;
-	width: 250px;
+	width: 460px;
 	height: auto;
 	margin-right: 30px;
 	border-radius: 2px;
 }
 
+.p-showcaseslider {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.p-showcase-container {
+	width: 640px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.p-showcase-container .twentytwenty-wrapper:nth-child(2) .p-shopwellslider {
+	float: right;
+}
+
 .p-cs-improvements {
-	padding: 20px calc(50% - 500px) 20px calc(50% - 500px);
+	padding: 40px calc(50% - 500px) 40px calc(50% - 500px);
 	background: url(../img/test-bg2.png) no-repeat center center;
 	background-size: cover;
 	position: relative;
-	height: 260px;
 	background: rgba(58,168,76,100);
 }
-/*
 
-.p-cs-improvements:after {
-	background-image: url(../img/pattern.png);
-	position: absolute;
-	display: block;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 300px;
-	background: rgba(58,168,76,.85);
-	content: '';
+.p-cs-improvements h2 {
+	color: #FFF;
+	font-size: 36px;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-shadow: none;
 }
-*/
+
+.p-cs-improvements li {
+	font-size: 20px;
+	list-style: none;
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	color: #FFF;
+}
+
+.p-cs-improvements li:before {
+	content: '';
+	width: 25px;
+	height: 25px;
+	left: -35px;
+	position: absolute;
+	bottom: -2px;
+	background: url(../img/ns-bug-list.png) no-repeat center center;
+	background-size: contain;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// SHOPWELL
+
+.shopwell .p-cs-hero {
+	background: url(../img/test-bg2.png) no-repeat center center;
+	background-size: cover;
+}
+
+.p-shopwellslider {
+	width: 283px;
+	float: left;
+}
+
+
+
+
+// CLOUDFINDER
+
+.cloudfinder .p-cs-hero {
+	background: url(../img/portfolio/cloudfinder-cover.png) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+
+// BREAKTROUGH
+
+.breaktrough .p-cs-hero {
+	background: url(../img/portfolio/breakthrough-cover.png) no-repeat center center;
+	background-size: cover;
+}
 
 
 
