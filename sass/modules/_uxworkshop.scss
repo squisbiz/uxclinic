@@ -2,6 +2,13 @@
 
 	footer {
 		position: relative;
+
+		.logo {
+			background: url(http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ns-logo.png) no-repeat;
+			height: 56px;
+			width: 189px;
+			background-size: cover;
+		}
 	}
 
 	.footer-padding-div {
