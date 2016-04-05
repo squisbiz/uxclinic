@@ -1,5 +1,5 @@
 <?php
-
+setcookie("pathcookie", '', time()+600, "/", "ux.nearsoft.com");
 //only send if hosted in production site
 if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
 
@@ -21,7 +21,10 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
         died('We are sorry, there appears to be a problem with the form you submitted.');
     }
 
-    $email = $_POST['email'];         // required
+    $name = $_POST['name']; // required
+    $email = $_POST['email']; // required
+    $telephone = $_POST['telephone']; // not required
+    $path = $_POST['path']; // not required
 
 
 

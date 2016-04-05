@@ -1,11 +1,11 @@
 <?php
-
+setcookie("pathcookie", '', time()+600, "/", "ux.nearsoft.com");
 //only send if hosted in production site
 if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "avega@nearsoft.com";
-    $email_subject = "I want to see your portfolio";
+    $email_to = "svazquez@nearsoft.com";
+    $email_subject = "Portfolio Request";
 
 
     function died($error) {
@@ -17,13 +17,13 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     }
 
     // check if name and email are received
-    if(!isset($_POST['name']) ||
-        !isset($_POST['email'])) {
+    if(!isset($_POST['email'])) {
         died('We are sorry, there appears to be a problem with the form you submitted.');
     }
 
     $name = $_POST['name'];           // required
     $email = $_POST['email'];         // required
+    $path = $_POST['path']; // not required
 
 
 
@@ -46,6 +46,9 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
 
     $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email)."\n";
+    $email_message .= "\n\nPath:\n".$path."\n";
+    $email_message .= "\nSent from:\n".$_SERVER['HTTP_REFERER']."\n";
+
 
 
     // create email
@@ -56,7 +59,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
     @mail($email_to, $email_subject, $email_message, $headers);
 
     // redirect to thank you page
-    header( 'Location: http://ux.nearsoft.com/thank-you-request/' ) ;?>
+    header( 'Location: http://ux.nearsoft.com/contact-thank-you/' ) ;?>
 <?php
 }
 ?>

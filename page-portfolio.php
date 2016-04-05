@@ -342,16 +342,17 @@ Template Name: PORTFOLIO
 	
 	<div class="signupform">
 		
-		<form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-contact.php" method="post">
+		<form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-sandra-portfolio.php" method="post">
 
       <p class="error"></p>
-      <input type="text" id="site" name="site" placeholder="Name">
+      <input type="text" id="name" name="name" placeholder="Name">
       <input type="text" id="email" name="email" placeholder="Email:"></input>
       
       <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
       <input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit">
     </form>
 	</div>
+</section>
 </section>
 
 

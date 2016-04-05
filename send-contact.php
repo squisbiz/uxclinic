@@ -1,11 +1,11 @@
 <?php
-
+setcookie("pathcookie", '', time()+600, "/", "ux.nearsoft.com");
 //only send if hosted in production site
 if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "avega@nearsoft.com";
-    $email_subject = "Contact request from ";
+    $email_subject = "Contact request from p";
 
 
     function died($error) {
@@ -21,7 +21,9 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
         died('We are sorry, there appears to be a problem with the form you submitted.');
     }
 
+    $name = $_POST['name'];           // required
     $email = $_POST['email'];         // required
+    $path = $_POST['path']; // not required
 
 
 
@@ -42,7 +44,10 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
       return str_replace($bad,"",$string);
     }
 
+    $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email)."\n";
+    $email_message .= "\n\nPath:\n".$path."\n";
+    $email_message .= "\nSent from:\n".$_SERVER['HTTP_REFERER']."\n";
 
 
 
