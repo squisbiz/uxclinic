@@ -5,7 +5,7 @@ if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "avega@nearsoft.com";
-    $email_subject = "Contact request from p";
+    $email_subject = "Contact request from ";
 
 
     function died($error) {
