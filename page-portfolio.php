@@ -127,10 +127,18 @@ Template Name: PORTFOLIO
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before1.png" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_after1.png" alt="Skedio android app after ux research improvements"/>
 	    </div>
-    
+	    
 	    <div class="p-shopwellslider">
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before2.png" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_after2.png" alt="Skedio android app after ux research improvements"/>
+	    </div>
+	    
+	    <div class="p-cs-item-caption">
+		    <h3>ShopWell Menu</h3>
+	    </div>
+	    
+	    <div class="p-cs-item-caption">
+		    <h3>ShopWell homescreen</h3>
 	    </div>
 		</div>
 	</div>
@@ -139,7 +147,7 @@ Template Name: PORTFOLIO
 		<h2>Our UX Improvement:</h2>
 		<ul>
 			<li>Personalized content for users</li>
-			<li>Social valida on</li>
+			<li>Social validation</li>
 		</ul>
 	</div>
 	
@@ -184,7 +192,7 @@ Template Name: PORTFOLIO
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-cloudfinder-before.png" alt="Skedio android app before ux research"/>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-cloudfinder-after.png" alt="Skedio android app after ux research improvements"/>
     </div>
-    <span>Cloudfinder desktop app before and after conducting User Research</span>
+    <h3>Cloudfinder desktop app before and after conducting User Research</h3>
 	</div>
 	
 	<div class="p-cs-improvements">
@@ -230,14 +238,23 @@ Template Name: PORTFOLIO
 			<div class="p-shopwellslider">
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-before1.png" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-after-1.jpg" alt="Skedio android app after ux research improvements"/>
-	      <span>holis</span>
+	      <h3>holis</h3>
 	    </div>
     
 	    <div class="p-shopwellslider">
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-before2.jpg" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-after-2.png" alt="Skedio android app after ux research improvements"/>
-	      <span>holis</span>
+	      <h3>holis</h3>
 	    </div>
+	    
+	    <div class="p-cs-item-caption">
+		    <h3>Breakthrough sign up screen</h3>
+	    </div>
+	    
+	    <div class="p-cs-item-caption">
+		    <h3>Breakthrough home screen</h3>
+	    </div>
+	    
 		</div>
 	</div>
 	
@@ -249,11 +266,60 @@ Template Name: PORTFOLIO
 		</ul>
 	</div>
 	
-	<script>
-	  $(window).load(function() {
-	    $(".p-shopwellslider").twentytwenty();
-	  });
-	</script>
+</section>
+
+<section class="anchor p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>Anchor</h2>
+			<div class="p-test-desc">
+			Anchor allows the mobile worker to securely access and share files wherever they go, on any device. Access can happen from laptops, tablets and phones, as employee content and corporate data is synced on the fly. Team Shares streamline file changes, ensuring that teams have real-time access to the most recent file versions.
+			</div>
+		</div>
+		<div class="p-test-challenge">
+			<h3>Challenge:</h3>
+			Redesign the old-looking interface into a more modern, intuitive and human-centered experience.
+		</div>
+	</div>
+	
+	<div class="p-cs-research">
+		<h2>Research Process</h2>
+		<div class="p-cs-method-container">
+		<div class="p-cs-method-half">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_002.jpg" />
+			<h2>Interviews + Usability Testing</h2>
+			<p>We validated our initial assumptions by conducting a series of interviews and Usability Testings.</p>
+		</div>
+	
+		<div class="p-cs-method-half">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_004.jpg" />
+			<h2>Information Architecture + Workflows</h2>
+			<p>Based on our research findings we created a series of lo-fi wireframes to exemplify the ideal layout and workflow.</p>
+		</div>
+	</div>
+	</div>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-showcaseslider">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-anchor-before.png" alt="Skedio android app before ux research"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-anchor-after.png" alt="Skedio android app after ux research improvements"/>
+    </div>
+    <h3>Anchor desktop app before and after conducting User Research</h3>
+	</div>
+	
+	<div class="p-cs-improvements">
+		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>Full collaboration through Anchor’s Permissions Model</li>
+			<li>Consolidation of accounts into Subscribers</li>
+			<li>Dissolve the friction between Shared Folders & Team Shares</li>
+			<li>Focus on Revisions Management</li>
+			<li>Creation of Recycle Bin for easy restore</li>
+			<li>Search-based file management system</li>
+		</ul>
+	</div>
 	
 </section>
 
@@ -270,7 +336,23 @@ Template Name: PORTFOLIO
   });
 </script>
 
+<section class="p-register">
+	<h2>Did you like what you saw?</h2>
+	<h3>Leave us your info for full portfolio</h3>
+	
+	<div class="signupform">
+		
+		<form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send-sandra-portfolio.php" method="post">
 
+      <p class="error"></p>
+      <input type="text" id="site" name="site" placeholder="Name">
+      <input type="text" id="email" name="email" placeholder="Email:"></input>
+      
+      <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
+      <input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit">
+    </form>
+	</div>
+</section>
 
 
 

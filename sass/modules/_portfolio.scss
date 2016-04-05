@@ -4,6 +4,7 @@
   background: #e0e0e0;
   margin-top: 125px;
   padding-bottom: 260px;
+  padding-bottom: 234px;
   height: 100%;
 }
 
@@ -473,12 +474,13 @@ section.p-cs-block {
 	margin-bottom: 40px;
 }
 
-.p-cs-bfaf span {
+.p-cs-bfaf h3 {
 	color: #b4b4b4;
 	text-align: center;
 	width: 100%;
 	display: block;
 	margin-top: 20px;
+	font-weight: 300;
 }
 
 .p-cs-method-container {
@@ -573,9 +575,18 @@ section.p-cs-block {
 	width: 640px;
 	margin: 0 auto;
 	overflow: hidden;
+	padding-bottom: 30px;
 }
 
-.p-showcase-container .twentytwenty-wrapper:nth-child(2) .p-shopwellslider {
+.p-shopwellslider,
+.p-cs-item-caption {
+	width: 283px;
+	float: left;
+	text-align: center;
+}
+
+.p-showcase-container .twentytwenty-wrapper:nth-child(2) .p-shopwellslider,
+.p-showcase-container .p-cs-item-caption:last-child {
 	float: right;
 }
 
@@ -616,6 +627,64 @@ section.p-cs-block {
 	background-size: contain;
 }
 
+.p-register {
+	padding: 40px calc(50% - 500px) 40px calc(50% - 500px);
+	background: #f15922;
+	background: url(http://ux.nearsoft.com/wp/wp-content/uploads/2015/06/Screen-Shot-2016-01-18-at-11.14.53-AM.png) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 0;
+}
+
+.p-register h2 {
+	color: #FFF;
+	font-size: 36px;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-shadow: none;
+	margin-top: 0;
+}
+
+.p-register h3 {
+	color: #FFF;
+	font-size: 28px;
+	margin-bottom: 0;
+	font-weight: 300;
+	text-shadow: none;
+	margin-top: 10px;
+}
+
+.p-register .signupform {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.p-register .signupform input[type='text'] {
+	width: calc(37% - 30px);
+	float: left;
+	margin-right: 3%;
+	border: 0;
+	border-radius: 2px;
+	padding: 12px 15px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #a5a5a5;
+}
+
+.p-register .signupform input[type='button'] {
+	width: calc(20% - 30px);
+	padding: 12px 15px;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	float: left;
+	background: #0ac10a;
+	border: 0;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
 
 
 
@@ -641,12 +710,6 @@ section.p-cs-block {
 	background-size: cover;
 }
 
-.p-shopwellslider {
-	width: 283px;
-	float: left;
-}
-
-
 
 
 // CLOUDFINDER
@@ -663,6 +726,15 @@ section.p-cs-block {
 
 .breaktrough .p-cs-hero {
 	background: url(../img/portfolio/breakthrough-cover.png) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+// ANCHOR
+
+.anchor .p-cs-hero {
+	background: url(../img/portfolio/anchor-cover.png) no-repeat center center;
 	background-size: cover;
 }
 
