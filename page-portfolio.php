@@ -342,7 +342,7 @@ Template Name: PORTFOLIO
 	
 	<div class="signupform">
 		
-		<form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send-contact.php" method="post">
+		<form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-contact.php" method="post">
 
       <p class="error"></p>
       <input type="text" id="site" name="site" placeholder="Name">
