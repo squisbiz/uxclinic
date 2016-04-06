@@ -739,12 +739,229 @@ section.p-cs-block {
 }
 
 
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+	.p-about,
+	.p-uxteam,
+	.p-ux-process,
+	.p-cs-hero,
+	.p-cs-research,
+	.p-cs-bfaf,
+	.p-cs-improvements {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	.p-uxteam .ux-team-member {
+		width: calc(33.33% - 33px);
+	}
+	
+	.p-uxteam .ux-team-member img {
+		width: 180px;
+		height: 180px;
+	}
+	
+	.ns-logo-party {
+		width: 180px;
+		height: 180px;
+	}
+	
+	.p-cs-hero {
+		min-height: 500px;
+	}
+	
+	.p-test-challenge {
+		margin-right: 0;
+	}
+	
+	.p-test-desc {
+		font-size: 26px;
+	}
+	
+	.p-cs-block h2 {
+		font-size: 48px;
+	}
+	
+	.p-cs-method-half h2 {
+		font-size: 28px;
+	}
+}
 
 
+@media (max-width: 700px) {
+	.p-hero h1 {
+		font-size: 32px;
+	}
+	
+	.p-uxteam .ux-team-member {
+		width: calc(50% - 33px);
+	}
+	
+	.p-uxteam .ux-team-member:nth-child(even) {
+		margin-right: 0;
+	}
+	
+	.p-uxteam .ux-team-member:nth-child(odd) {
+		margin-right: 33px;
+	}
+	
+	.p-uxteam .ux-team-member:nth-child(5) {
+		display: none;
+	}
+	
+	.p-uxteam .ux-team-member:nth-child(6),
+	.p-uxteam .ux-team-member:nth-child(8) {
+		margin-right: 33px;
+	}
+	
+	.p-uxteam .ux-team-member:nth-child(7),
+	.p-uxteam .ux-team-member:nth-child(9) {
+		margin-right: 0;
+	}
+
+	.ns-logo-party {
+		display: none;
+	}
+	
+	.cloudfinder .p-cs-hero,
+	.anchor .p-cs-hero {
+		height: 600px;
+	}
+	
+	.p-test-desc {
+		width: 100%;
+	}
+	
+	.p-showcase-container,
+	.p-showcaseslider {
+		width: 100%;
+	}
+	
+	.p-shopwellslider,
+	.p-cs-item-caption {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	
+	.p-showcase-container .twentytwenty-wrapper:nth-child(2) .p-shopwellslider {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.p-showcase-container .p-cs-item-caption {
+		display: none;
+	}
+	
+	.p-ux-process h2,
+	.p-cs-research h2,
+	.p-cs-bfaf h2,
+	.p-cs-improvements h2 {
+		font-size: 32px;
+	}
+}
 
 
+@media (max-width: 600px) {
+	.p-test-desc {
+		font-size: 26px;
+	}
+	
+	.p-cs-block h2 {
+		font-size: 48px;
+	}
+	
+	.p-cs-method-half h2 {
+		font-size: 24px;
+	}
+}
 
 
+@media (max-width: 520px) {
+	.p-uxteam .ux-team-member {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	
+	.p-about,
+	.p-uxteam,
+	.p-ux-process,
+	.p-cs-hero,
+	.p-cs-research,
+	.p-cs-bfaf,
+	.p-cs-improvements {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.p-test-challenge {
+		width: calc(100% - 100px);
+		padding: 20px;
+		position: absolute;
+		bottom: 20px;
+		left: 30px;
+		text-align: left;
+	}
+	
+	.cloudfinder .p-cs-hero,
+	.anchor .p-cs-hero {
+		height: 700px;
+	}
+	
+	.p-cs-method-container .p-cs-method-half {
+		width: 100%;
+		margin-bottom: 50px;
+		padding: 0;
+	}
+	
+	.p-ux-process h2,
+	.p-cs-research h2,
+	.p-cs-bfaf h2,
+	.p-cs-improvements h2 {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 450px) {
+	
+	.p-about,
+	.p-uxteam,
+	.p-ux-process,
+	.p-cs-hero,
+	.p-cs-research,
+	.p-cs-bfaf,
+	.p-cs-improvements {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.p-test-challenge {
+		width: calc(100% - 100px);
+		padding: 20px;
+		position: absolute;
+		bottom: 20px;
+		left: 30px;
+		text-align: left;
+	}
+	
+	.anchor .p-cs-hero {
+		height: 700px;
+	}
+	
+	.p-ux-process h2,
+	.p-cs-research h2,
+	.p-cs-bfaf h2,
+	.p-cs-improvements h2 {
+		font-size: 32px;
+	}
+}
 
 
 
