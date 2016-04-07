@@ -155,8 +155,8 @@ Template Name: LANDING PAGE WORKSHOP
 <section class="e-can uxcontent">
   <h2>¿Por qué asistir al Taller?</h2>
 <ul>
-<li>Crearas una experiencia de usuario positiva, que te ayudara a mantener activo el crecimiento y lealtad de tus clientes.</li>
-<li>Análizaras tu compañía y aprenderás a detectar los puntos claves de tus procesos y cómo éstos afectan la experiencia tus clientes.</li>
+<li>Crearás una experiencia de usuario positiva, que te ayudará a mantener activo el crecimiento y lealtad de tus clientes.</li>
+<li>Analizarás tu compañía y aprenderás a detectar los puntos claves de tus procesos y como estos afectan la experiencia tus clientes.</li>
 <li>Tendrás las herramientas necesarias para diseñar nuevos procesos enfocados en alcanzar tus objetivos de negocio y mejorar la experiencia de usuario.
 </li>
 </ul>
@@ -182,7 +182,7 @@ Template Name: LANDING PAGE WORKSHOP
       <div class="content-container">
         <h3>Diana Arvayo</h3>
         <h4>UX Researcher</h4>
-        <p>Diana is an expert designing research-based experiences and solutions, bringing to life what users expect and service providers need.</p>
+        <p>Diana es experta diseñando experiencias y soluciones basadas en investigación, atendiendo tanto las necesidades del usuario como los objetivos de negocio.</p>
         <div class="social-box">
           <a href="https://mx.linkedin.com/in/darvayo/en" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="http://twitter.com/dianonina" target="_blank"><div class="social-link twitter"></div></a>
@@ -197,7 +197,7 @@ Template Name: LANDING PAGE WORKSHOP
       <div class="content-container">
         <h3>Miguel Medina</h3>
         <h4>UX/UI Designer</h4>
-        <p>Miguel has over five years of experience in the web industry. His goal is to create beautifully functional interfaces to tend to his users' needs.</p>
+        <p>Miguel tiene más de 5 años de experiencia construyendo sitios web. Su objetivo es crear interfaces funcionales y atractivas, atendiendo a las necesidades de los usuarios.</p>
         <div class="social-box">
           <a href="https://www.linkedin.com/in/miguel-angel-medina-fontes-9b818a4a" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="http://twitter.com/MiigueelMediina" target="_blank"><div class="social-link twitter"></div></a>
@@ -212,7 +212,7 @@ Template Name: LANDING PAGE WORKSHOP
       <div class="content-container">
         <h3>Denisse Gutiérrez</h3>
         <h4>UX Researcher</h4>
-        <p>Denisse has a human centered design approach to products. She thrives to understand how users interact with products to create a positive experience.</p>
+        <p>Denisse se enfoca en el diseño centrado en el usuario para planear y lanzar productos de software con una experiencia agradable y positiva.</p>
         <div class="social-box">
           <a href="https://www.linkedin.com/in/neniza" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="http://twitter.com/neniza_" target="_blank"><div class="social-link twitter"></div></a>

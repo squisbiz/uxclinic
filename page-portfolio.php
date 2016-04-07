@@ -324,6 +324,106 @@ Template Name: PORTFOLIO
 	
 </section>
 
+<section class="cogia p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>Cogia Intelligence</h2>
+			<div class="p-test-desc">
+			Cogia Intelligence is a web and social media monitoring system.
+			</div>
+		</div>
+		<div class="p-test-challenge">
+			<h3>Challenge:</h3>
+			Discover how to improve the informa on structure in the Cogia Intelligence App.
+		</div>
+	</div>
+	
+	<div class="p-cs-research">
+		<h2>Research Process</h2>
+		
+		<div class="p-cs-method">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/cogiaaffinity2.jpg" />
+			<h2>Elito Method</h2>
+			<p>We used the Elito Method to categorize user research observations and define main insights that can improve the Cogia experience.</p>
+		</div>
+	</div>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-showcaseslider">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/cogia_before.png" alt="Skedio android app before ux research"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/cogia_after.png" alt="Skedio android app after ux research improvements"/>
+    </div>
+    <h3>Cogia Intelligence desktop app before and after conducting User Research</h3>
+	</div>
+	
+	<div class="p-cs-improvements">
+		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>Workspaces to distill data from top-down (general to specific)</li>
+			<li>Default Dashboards and Widgets</li>
+			<li>Feedback from the system</li>
+		</ul>
+	</div>
+	
+</section>
+
+<section class="aeries p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>Aeries</h2>
+			<div class="p-test-desc">
+			Aeries is a student data management system so ware that grants complete and immediate access to educational information.
+			</div>
+		</div>
+		<div class="p-test-challenge">
+			<h3>Challenge:</h3>
+			Undercover how parents would make sense of the information available in the system.
+		</div>
+	</div>
+	
+	<div class="p-cs-research">
+		<h2>Research Process</h2>
+		
+		<div class="p-cs-method">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/cardsorting1.png" />
+			<h2>Card Sorting</h2>
+			<p>We used card sorting to guide users to generate a category tree and analyze how they arranged and interpret the system’s information.</p>
+		</div>
+	</div>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-showcaseslider">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/aeries_before.png" alt="Skedio android app before ux research"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/aeries_after.png" alt="Skedio android app after ux research improvements"/>
+    </div>
+    <h3>Aeries desktop app before and after conducting User Research</h3>
+	</div>
+	
+	<div class="p-cs-improvements">
+		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>The final implementa on phase was done in HTML and CSS for liquid responsive design for desktop and mobile devices.</li>
+		</ul>
+	</div>
+	
+</section>
+
+<section class="aeries p-cs-block">
+	<h2>MatchClick</h2>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-singleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_matchlick.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>From branding to implementation.</h3>
+	</div>
+	
+</section>
 
 <script>
   $(window).load(function() {
