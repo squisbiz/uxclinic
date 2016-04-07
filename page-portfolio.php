@@ -20,7 +20,8 @@ Template Name: PORTFOLIO
   <p>We talk directly with your users and discover how they interact with your product or service. conduct personalized UX methodologies and activities to understand your user's wants and needs.</p>
   <p>We gather insights and translate them into visual solutions.</p>
   <p>We work hand in hand with your development team to make the implementation process seamless to ultimately enhance the entire user experience.</p>
-  <div class="hero-image"></div>
+<!--   <div class="hero-image"></div> -->
+  <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ns-ux-team.jpg" />
 </section>
 
 <section class="p-uxteam">
@@ -353,7 +354,7 @@ Template Name: PORTFOLIO
     </form>
 	</div>
 </section>
-</section>
+
 
 
 

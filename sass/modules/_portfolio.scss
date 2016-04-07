@@ -90,6 +90,15 @@ section.p-cs {
   margin-top: 40px;
 }
 
+.p-about img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  border-top: 10px solid #d54a32;
+  margin-top: 40px;
+  display: block;
+}
+
 .p-about h2 {
     font-size: 42px;
     font-weight: 400;
@@ -622,7 +631,7 @@ section.p-cs-block {
 	height: 25px;
 	left: -35px;
 	position: absolute;
-	bottom: -2px;
+	top: 0px;
 	background: url(../img/ns-bug-list.png) no-repeat center center;
 	background-size: contain;
 }
@@ -861,6 +870,45 @@ section.p-cs-block {
 	.p-cs-bfaf h2,
 	.p-cs-improvements h2 {
 		font-size: 32px;
+	}
+	
+	.p-cs-method-half h2,
+	.p-cs-method h2 {
+		font-size: 24px!important;
+	}
+	
+	.p-cs-method-half h2,
+	.p-cs-method h2 {
+		font-size: 24px!important;
+	}
+	
+	.p-cs-method img {
+		float: none;
+		margin-bottom: 12px;
+	}
+	
+	.p-cs-method h2:before {
+		content: '';
+    background: url(../img/portfolio/triangle.png) no-repeat center center;
+    background-size: cover;
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: -24px;
+    left: 20px;
+    transform: rotate(0deg);
+	}
+	
+	.p-cs-method p {
+		margin-top: 0;
+	}
+	
+	.p-cs-research {
+		padding-bottom: 0;
+	}
+	
+	.p-cs-bfaf {
+		padding-top: 0;
 	}
 }
 
