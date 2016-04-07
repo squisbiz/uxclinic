@@ -182,6 +182,10 @@ h3.orange-title:before {
 	display: block;
 }
 
+.p-uxteam .ux-team-member a:hover {
+	text-decoration: underline;
+}
+
 .p-uxteam .ux-team-member h4 {
 	margin-top: 4px;
 	color: #8c9c9f;
@@ -694,9 +698,21 @@ section.p-cs-block {
 	font-weight: 400;
 }
 
+.singleproject h2 {
+	font-size: 42px;
+  font-weight: 400;
+  color: #f15922;
+  margin-top: 30px;
+}
 
+.p-singleimage {
+	width: 100%;
+}
 
-
+.p-singleimage img {
+	width: 100%;
+	display: block;
+}
 
 
 
@@ -751,6 +767,42 @@ section.p-cs-block {
 	background: url(../img/portfolio/cogia-cover.png) no-repeat center center;
 	background-size: cover;
 }
+
+
+// AERIES
+
+.aeries .p-cs-hero {
+	background: url(../img/portfolio/aeries-cover.png) no-repeat center center;
+	background-size: cover;
+}
+
+.not-p .p-uxteam {
+  padding: 50px calc(50% - 500px) 50px calc(50% - 500px);
+  background: #FFF;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -878,7 +930,8 @@ section.p-cs-block {
 	.p-ux-process h2,
 	.p-cs-research h2,
 	.p-cs-bfaf h2,
-	.p-cs-improvements h2 {
+	.p-cs-improvements h2,
+	.singleproject h2 {
 		font-size: 32px;
 	}
 	

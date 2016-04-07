@@ -24,61 +24,7 @@ Template Name: PORTFOLIO
   <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ns-ux-team.jpg" />
 </section>
 
-<section class="p-uxteam">
-	<h2>UX Team</h2>
-	<div class="team-container">
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-researcher-diana-arvayo.png" />
-			<a href="#">Diana Arvayo</a>
-			<h4>UX Researcher</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-researcher-misael.png" />
-			<a href="#">Misael León</a>
-			<h4>UX Researcher</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-researcher-denisse.png" />
-			<a href="#">Denisse Gutierrez</a>
-			<h4>UX Researcher</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-content-creator-jorge.png" />
-			<a href="#">Jorge Symonds</a>
-			<h4>Content Creator</h4>
-		</div>
-		<div class="ux-team-member">
-			<div class="ns-logo-party"></div>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-business-developer-sandra.png" />
-			<a href="#">Sandra Vazquez</a>
-			<h4>Business Developer</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ui-designer-arturo.png" />
-			<a href="#">Arturo Ruiz</a>
-			<h4>UI - Front End Designer</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ui-designer-axel.png" />
-			<a href="#">Axel Valdez</a>
-			<h4>UI - Front End Designer</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ui-designer-miguel.png" />
-			<a href="#">Miguel Medina</a>
-			<h4>UX - UI Designer</h4>
-		</div>
-	</div>
-</section>
+<?php include 'inc-experts.php'; ?>
 
 <section class="p-ux-process">
 	<h2>Nearsoft's UX Process</h2>
@@ -412,17 +358,24 @@ Template Name: PORTFOLIO
 	
 </section>
 
-<section class="aeries p-cs-block">
-	<h2>MatchClick</h2>
-	
-	<div class="p-cs-bfaf">
-		<h2>Before & After</h2>
+<section class="p-cs-block">
+	<div class="p-cs-bfaf singleproject">
+		<h2>Matchclick</h2>
 		<div class="p-singleimage">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_matchlick.jpg" alt="Skedio android app before ux research"/>
     </div>
     <h3>From branding to implementation.</h3>
 	</div>
-	
+</section>
+
+<section class="p-cs-block">
+	<div class="p-cs-bfaf singleproject">
+		<h2>SalesCaddy</h2>
+		<div class="p-singleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_salescaddy.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>New User Interface by UX Team.</h3>
+	</div>
 </section>
 
 <script>
