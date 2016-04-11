@@ -389,7 +389,7 @@ Template Name: PORTFOLIO
 
 <section class="p-cs-block">
 	<div class="p-cs-bfaf singleproject">
-		<h2>SalesCaddy</h2>
+		<h2>Incroud</h2>
 		<div class="p-doubleimage">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_mobileINCrowd1.jpg" alt="Skedio android app before ux research"/>
       
@@ -410,24 +410,6 @@ Template Name: PORTFOLIO
     $(".p-showcaseslider").twentytwenty();
   });
 </script>
-
-<section class="p-register">
-	<h2>Did you like what you saw?</h2>
-	<h3>Leave us your info for full portfolio</h3>
-	
-	<div class="signupform">
-		
-		<form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-sandra-portfolio.php" method="post">
-
-      <p class="error"></p>
-      <input type="text" id="name" name="name" placeholder="Name">
-      <input type="text" id="email" name="email" placeholder="Email:"></input>
-      
-      <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
-      <input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit">
-    </form>
-	</div>
-</section>
 
 
 
