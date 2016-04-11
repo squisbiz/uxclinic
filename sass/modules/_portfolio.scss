@@ -714,6 +714,26 @@ section.p-cs-block {
 	display: block;
 }
 
+.p-doubleimage {
+	overflow: hidden;
+	width: 100%;
+}
+
+.p-doubleimage img {
+	float: left;
+	width: 44%;
+	height: auto;
+	margin-left: 30px;
+}
+
+.p-doubleimage img:last-child {
+	float: right;
+	height: auto;
+	margin-right: 30px;
+}
+
+
+
 
 
 
@@ -812,6 +832,12 @@ section.p-cs-block {
 
 // RESPONSIVE
 
+@media (max-width: 1180px) {
+	.p-register {
+		padding-bottom: 60px;
+	}	
+}	
+
 @media (max-width: 1024px) {
 	.p-about,
 	.p-uxteam,
@@ -819,7 +845,8 @@ section.p-cs-block {
 	.p-cs-hero,
 	.p-cs-research,
 	.p-cs-bfaf,
-	.p-cs-improvements {
+	.p-cs-improvements,
+	.p-register {
 		padding-left: 50px;
 		padding-right: 50px;
 	}
@@ -858,6 +885,55 @@ section.p-cs-block {
 		font-size: 28px;
 	}
 }
+
+
+
+@media (max-width: 865px) {
+	.p-doubleimage {
+		overflow: hidden;
+		width: 100%;
+	}
+	
+	.p-doubleimage img {
+		float: none;
+		width: 70%;
+		height: auto;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 40px;
+	}
+	
+	.p-doubleimage img:last-child {
+		float: none;
+		margin: 0 auto;
+	}
+
+}
+
+
+
+@media (max-width: 789px) {
+	.p-register {
+		padding-bottom: 120px;
+	}
+}	
+
+
+
+@media (max-width: 732px) {
+	.p-register {
+		padding-bottom: 360px;
+	}
+}	
+
+
+@media (max-width: 722px) {
+	.porfolio-main {
+		margin-top: 100px;
+	}
+}	
+	
+	
 
 
 @media (max-width: 700px) {
@@ -973,6 +1049,20 @@ section.p-cs-block {
 	.p-cs-bfaf {
 		padding-top: 0;
 	}
+	
+	.p-register .signupform input[type='text'] {
+		width: calc(100% - 30px);
+		margin: 10px 0 20px 0;
+	}
+	
+	.p-register .signupform input[type='button'] {
+		width: 100%;
+	}
+	
+	.p-register .signupform {
+		margin-top: 0;
+	}
+	
 }
 
 
@@ -987,6 +1077,10 @@ section.p-cs-block {
 	
 	.p-cs-method-half h2 {
 		font-size: 24px;
+	}
+	
+	.p-doubleimage img {
+		width: 90%;
 	}
 }
 
@@ -1037,6 +1131,10 @@ section.p-cs-block {
 	.p-cs-bfaf h2,
 	.p-cs-improvements h2 {
 		font-size: 32px;
+	}
+	
+	.p-doubleimage img {
+		width: 100%;
 	}
 }
 

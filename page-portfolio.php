@@ -256,6 +256,15 @@ Template Name: PORTFOLIO
     <h3>Anchor desktop app before and after conducting User Research</h3>
 	</div>
 	
+	<div class="p-cs-bfaf singleproject">
+		<div class="p-doubleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/anchor_after4.jpg" alt="Skedio android app before ux research"/>
+      
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/anchor_after5.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>Mobile UI</h3>
+	</div>
+	
 	<div class="p-cs-improvements">
 		<h2>Our UX Improvement:</h2>
 		<ul>
@@ -373,6 +382,18 @@ Template Name: PORTFOLIO
 		<h2>SalesCaddy</h2>
 		<div class="p-singleimage">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_salescaddy.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>New User Interface by UX Team.</h3>
+	</div>
+</section>
+
+<section class="p-cs-block">
+	<div class="p-cs-bfaf singleproject">
+		<h2>SalesCaddy</h2>
+		<div class="p-doubleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_mobileINCrowd1.jpg" alt="Skedio android app before ux research"/>
+      
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_mobileINCrowd2.jpg" alt="Skedio android app before ux research"/>
     </div>
     <h3>New User Interface by UX Team.</h3>
 	</div>
