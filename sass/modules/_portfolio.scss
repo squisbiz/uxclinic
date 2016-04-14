@@ -580,22 +580,38 @@ section.p-cs-block {
 }
 
 .p-showcaseslider {
-	width: 600px;
+	//width: 600px;
+	width: 100%;
 	margin: 0 auto;
 }
 
+.p-showcaseslider img {
+	width: 100%;
+}
+
 .p-showcase-container {
-	width: 640px;
+	//width: 640px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 30px;
 }
 
-.p-shopwellslider,
-.p-cs-item-caption {
-	width: 283px;
+.p-shopwellslider {
 	float: left;
-	text-align: center;
+  width: 44%;
+  height: auto;
+  text-align: center;
+}
+
+.p-shopwellslider img {
+	width: 100%;
+}
+
+.p-cs-item-caption {
+	float: left;
+  width: 44%;
+  margin-top: 20px;
 }
 
 .p-showcase-container .twentytwenty-wrapper:nth-child(2) .p-shopwellslider,
