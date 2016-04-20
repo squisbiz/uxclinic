@@ -20,11 +20,10 @@
 	<title>
 		<?php
 		global $page, $paged;
-		wp_title( '|', true, 'right' );
-		bloginfo( 'name' );
+		wp_title( ' ', true, 'right' );
 		$site_description = get_bloginfo( 'description', 'display' );
 		if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
+		echo " UX Team by Nearsoft | $site_description";
 		?>
 	</title>
 
@@ -81,23 +80,6 @@
 </head>
 
 <body <?php body_class(); ?> id="body">
-  
-<!--
-<div class="social-share">
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=317016168398979";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-  <div class="fb-share-button facebook-share-button" data-href="https://ux.nearsoft.com" data-layout="icon"></div>
-  <a class="buttons twitter-share-button" href="https://twitter.com/intent/tweet?text=We%20help%20software%20companies%20accelerate%20their%20business%20by%20powering%20up%20their%20user%20experience http://ux.nearsoft.com" target="_blank"></a>
-</div>
--->
-
   
 <div class="wrapper">
 	<header>

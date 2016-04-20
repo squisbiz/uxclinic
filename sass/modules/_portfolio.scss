@@ -39,7 +39,8 @@
 .p-about,
 .p-uxteam,
 .p-ux-process,
-section.p-cs {
+section.p-cs,
+.p-thankyou {
   padding: 50px calc(50% - 500px) 50px calc(50% - 500px);
   background: #FFF;
   margin-bottom: 30px;
@@ -748,6 +749,42 @@ section.p-cs-block {
 	margin-right: 30px;
 }
 
+// THANK YOU 
+
+.p-thankyou img {
+	width: 100%;
+	display: block;
+	border-top: 10px solid #d54a32;
+}
+
+.thankyou-msg {
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.thankyou-msg .bug {
+	width: 70px;
+	height: 70px;
+	background: url(../img/ns-logo-unanimated.png) no-repeat center center;
+	background-size: contain;
+	float: left;
+}
+
+.thankyou-msg h2 {
+	font-size: 40px;
+	color: #444;
+	text-shadow: none;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.thankyou-msg a {
+	color: #f15922;
+	font-weight: 600;
+	font-size: 20px;
+}
 
 
 

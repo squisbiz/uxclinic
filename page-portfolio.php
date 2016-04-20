@@ -20,8 +20,6 @@ Template Name: PORTFOLIO
   <p>We talk directly with your users and discover how they interact with your product or service. We conduct personalized UX methodologies and activities to understand your user's wants and needs.</p>
   <p>We gather insights and translate them into visual solutions.</p>
   <p>We work hand in hand with your development team to make the implementation process seamless to ultimately enhance the entire user experience.</p>
-<!--   <div class="hero-image"></div> -->
-  <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ns-ux-team.jpg" />
 </section>
 
 <?php include 'inc-experts.php'; ?>
@@ -394,6 +392,15 @@ Template Name: PORTFOLIO
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_mobileINCrowd2.jpg" alt="Skedio android app before ux research"/>
     </div>
     <h3>New User Interface by UX Team.</h3>
+	</div>
+</section>
+
+<section class="p-cs-block p-thankyou">
+	<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ns-ux-team.jpg" />
+	<div class="thankyou-msg">
+		<dir  class="bug"></dir>
+		<h2>Thank You!</h2>
+		<a href="mailto:svazquez@nearsoft.com">svazquez@nearsoft.com</a>
 	</div>
 </section>
 
