@@ -39,7 +39,8 @@
 .p-about,
 .p-uxteam,
 .p-ux-process,
-section.p-cs {
+section.p-cs,
+.p-thankyou {
   padding: 50px calc(50% - 500px) 50px calc(50% - 500px);
   background: #FFF;
   margin-bottom: 30px;
@@ -180,6 +181,10 @@ h3.orange-title:before {
 	font-size: 30px;
 	margin-top: 10px;
 	display: block;
+}
+
+.p-uxteam .ux-team-member a:hover {
+	text-decoration: underline;
 }
 
 .p-uxteam .ux-team-member h4 {
@@ -576,22 +581,38 @@ section.p-cs-block {
 }
 
 .p-showcaseslider {
-	width: 600px;
+	//width: 600px;
+	width: 100%;
 	margin: 0 auto;
 }
 
+.p-showcaseslider img {
+	width: 100%;
+}
+
 .p-showcase-container {
-	width: 640px;
+	//width: 640px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 30px;
 }
 
-.p-shopwellslider,
-.p-cs-item-caption {
-	width: 283px;
+.p-shopwellslider {
 	float: left;
-	text-align: center;
+  width: 44%;
+  height: auto;
+  text-align: center;
+}
+
+.p-shopwellslider img {
+	width: 100%;
+}
+
+.p-cs-item-caption {
+	float: left;
+  width: 44%;
+  margin-top: 20px;
 }
 
 .p-showcase-container .twentytwenty-wrapper:nth-child(2) .p-shopwellslider,
@@ -694,8 +715,76 @@ section.p-cs-block {
 	font-weight: 400;
 }
 
+.singleproject h2 {
+	font-size: 42px;
+  font-weight: 400;
+  color: #f15922;
+  margin-top: 30px;
+}
 
+.p-singleimage {
+	width: 100%;
+}
 
+.p-singleimage img {
+	width: 100%;
+	display: block;
+}
+
+.p-doubleimage {
+	overflow: hidden;
+	width: 100%;
+}
+
+.p-doubleimage img {
+	float: left;
+	width: 44%;
+	height: auto;
+	margin-left: 30px;
+}
+
+.p-doubleimage img:last-child {
+	float: right;
+	height: auto;
+	margin-right: 30px;
+}
+
+// THANK YOU 
+
+.p-thankyou img {
+	width: 100%;
+	display: block;
+	border-top: 10px solid #d54a32;
+}
+
+.thankyou-msg {
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.thankyou-msg .bug {
+	width: 70px;
+	height: 70px;
+	background: url(../img/ns-logo-unanimated.png) no-repeat center center;
+	background-size: contain;
+	float: left;
+}
+
+.thankyou-msg h2 {
+	font-size: 40px;
+	color: #444;
+	text-shadow: none;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.thankyou-msg a {
+	color: #f15922;
+	font-weight: 600;
+	font-size: 20px;
+}
 
 
 
@@ -720,14 +809,12 @@ section.p-cs-block {
 }
 
 
-
 // CLOUDFINDER
 
 .cloudfinder .p-cs-hero {
 	background: url(../img/portfolio/cloudfinder-cover.png) no-repeat center center;
 	background-size: cover;
 }
-
 
 
 
@@ -739,7 +826,6 @@ section.p-cs-block {
 }
 
 
-
 // ANCHOR
 
 .anchor .p-cs-hero {
@@ -748,7 +834,62 @@ section.p-cs-block {
 }
 
 
+// COGIA INTELLIGENCE
+
+.cogia .p-cs-hero {
+	background: url(../img/portfolio/cogia-cover.png) no-repeat center center;
+	background-size: cover;
+}
+
+
+// AERIES
+
+.aeries .p-cs-hero {
+	background: url(../img/portfolio/aeries-cover.png) no-repeat center center;
+	background-size: cover;
+}
+
+.not-p .p-uxteam {
+  padding: 50px calc(50% - 500px) 50px calc(50% - 500px);
+  background: #FFF;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // RESPONSIVE
+
+@media (max-width: 1180px) {
+	.p-register {
+		padding-bottom: 60px;
+	}	
+}	
 
 @media (max-width: 1024px) {
 	.p-about,
@@ -757,7 +898,8 @@ section.p-cs-block {
 	.p-cs-hero,
 	.p-cs-research,
 	.p-cs-bfaf,
-	.p-cs-improvements {
+	.p-cs-improvements,
+	.p-register {
 		padding-left: 50px;
 		padding-right: 50px;
 	}
@@ -796,6 +938,55 @@ section.p-cs-block {
 		font-size: 28px;
 	}
 }
+
+
+
+@media (max-width: 865px) {
+	.p-doubleimage {
+		overflow: hidden;
+		width: 100%;
+	}
+	
+	.p-doubleimage img {
+		float: none;
+		width: 70%;
+		height: auto;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 40px;
+	}
+	
+	.p-doubleimage img:last-child {
+		float: none;
+		margin: 0 auto;
+	}
+
+}
+
+
+
+@media (max-width: 789px) {
+	.p-register {
+		padding-bottom: 120px;
+	}
+}	
+
+
+
+@media (max-width: 732px) {
+	.p-register {
+		padding-bottom: 360px;
+	}
+}	
+
+
+@media (max-width: 722px) {
+	.porfolio-main {
+		margin-top: 100px;
+	}
+}	
+	
+	
 
 
 @media (max-width: 700px) {
@@ -868,7 +1059,8 @@ section.p-cs-block {
 	.p-ux-process h2,
 	.p-cs-research h2,
 	.p-cs-bfaf h2,
-	.p-cs-improvements h2 {
+	.p-cs-improvements h2,
+	.singleproject h2 {
 		font-size: 32px;
 	}
 	
@@ -910,6 +1102,20 @@ section.p-cs-block {
 	.p-cs-bfaf {
 		padding-top: 0;
 	}
+	
+	.p-register .signupform input[type='text'] {
+		width: calc(100% - 30px);
+		margin: 10px 0 20px 0;
+	}
+	
+	.p-register .signupform input[type='button'] {
+		width: 100%;
+	}
+	
+	.p-register .signupform {
+		margin-top: 0;
+	}
+	
 }
 
 
@@ -924,6 +1130,10 @@ section.p-cs-block {
 	
 	.p-cs-method-half h2 {
 		font-size: 24px;
+	}
+	
+	.p-doubleimage img {
+		width: 90%;
 	}
 }
 
@@ -974,6 +1184,10 @@ section.p-cs-block {
 	.p-cs-bfaf h2,
 	.p-cs-improvements h2 {
 		font-size: 32px;
+	}
+	
+	.p-doubleimage img {
+		width: 100%;
 	}
 }
 

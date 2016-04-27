@@ -1,6 +1,6 @@
 <section class="submit">
   <a name="myAnchor" id="myAnchor"></a>
-  <h2><?php the_field('home_submit_title'); ?></h2>
+  <h2>Want to Know More. Contact Us.</h2>
   <p style="margin-bottom: 0;">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sandra-img.png"> Talk to Sandra at<strong> (408) 890-2115</strong>
   </p>
@@ -14,9 +14,6 @@
       <div><input type="text" id="telephone" class="contactform-email" name="telephone" placeholder="Phone [xxx-xxx-xxxx]:"></div>
       <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
       <div class="center"><input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit"></div>
-
-
-
 
     </form>
   </div>

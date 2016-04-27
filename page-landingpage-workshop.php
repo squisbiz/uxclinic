@@ -197,7 +197,7 @@ Template Name: LANDING PAGE WORKSHOP
       <div class="content-container">
         <h3>Miguel Medina</h3>
         <h4>UX/UI Designer</h4>
-        <p>Miguel has over five years of experience in the web industry. His goal is to create beautifully functional interfaces to tend to his users' needs.</p>
+        <p>Miguel tiene más de 5 años de experiencia construyendo sitios web. Su objetivo es crear interfaces funcionales y atractivas, atendiendo a las necesidades de los usuarios.</p>
         <div class="social-box">
           <a href="https://www.linkedin.com/in/miguel-angel-medina-fontes-9b818a4a" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="http://twitter.com/MiigueelMediina" target="_blank"><div class="social-link twitter"></div></a>

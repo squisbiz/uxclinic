@@ -26,7 +26,9 @@ Template Name: ABOUT
   </section>
 </div>
 
-<?php include 'inc-experts.php'; ?>
+<div class="not-p">
+	<?php include 'inc-experts.php'; ?>
+</div>
 
 <div class="submit-about">
   <?php include 'inc-submit.php'; ?>

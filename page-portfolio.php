@@ -17,68 +17,12 @@ Template Name: PORTFOLIO
   <h2>About Us</h2>
   <h3>We help software companies accelerate their business by powering up their user experience.</h3>
   <h3 class="orange-title">How we do it</h3>
-  <p>We talk directly with your users and discover how they interact with your product or service. conduct personalized UX methodologies and activities to understand your user's wants and needs.</p>
+  <p>We talk directly with your users and discover how they interact with your product or service. We conduct personalized UX methodologies and activities to understand your user's wants and needs.</p>
   <p>We gather insights and translate them into visual solutions.</p>
   <p>We work hand in hand with your development team to make the implementation process seamless to ultimately enhance the entire user experience.</p>
-<!--   <div class="hero-image"></div> -->
-  <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ns-ux-team.jpg" />
 </section>
 
-<section class="p-uxteam">
-	<h2>UX Team</h2>
-	<div class="team-container">
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-researcher-diana-arvayo.png" />
-			<a href="#">Diana Arvayo</a>
-			<h4>UX Researcher</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-researcher-misael.png" />
-			<a href="#">Misael León</a>
-			<h4>UX Researcher</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-researcher-denisse.png" />
-			<a href="#">Denisse Gutierrez</a>
-			<h4>UX Researcher</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-content-creator-jorge.png" />
-			<a href="#">Jorge Symonds</a>
-			<h4>Content Creator</h4>
-		</div>
-		<div class="ux-team-member">
-			<div class="ns-logo-party"></div>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ux-business-developer-sandra.png" />
-			<a href="#">Sandra Vazquez</a>
-			<h4>Business Developer</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ui-designer-arturo.png" />
-			<a href="#">Arturo Ruiz</a>
-			<h4>UI - Front End Designer</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ui-designer-axel.png" />
-			<a href="#">Axel Valdez</a>
-			<h4>UI - Front End Designer</h4>
-		</div>
-		
-		<div class="ux-team-member">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ui-designer-miguel.png" />
-			<a href="#">Miguel Medina</a>
-			<h4>UX - UI Designer</h4>
-		</div>
-	</div>
-</section>
+<?php include 'inc-experts.php'; ?>
 
 <section class="p-ux-process">
 	<h2>Nearsoft's UX Process</h2>
@@ -125,12 +69,12 @@ Template Name: PORTFOLIO
 		<h2>Before & After</h2>
 		<div class="p-showcase-container">
 			<div class="p-shopwellslider">
-	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before1.png" alt="Skedio android app before ux research"/>
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before1.jpg" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_after1.png" alt="Skedio android app after ux research improvements"/>
 	    </div>
 	    
 	    <div class="p-shopwellslider">
-	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before2.png" alt="Skedio android app before ux research"/>
+	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_before2.jpg" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/shopwell_after2.png" alt="Skedio android app after ux research improvements"/>
 	    </div>
 	    
@@ -191,7 +135,7 @@ Template Name: PORTFOLIO
 		<h2>Before & After</h2>
 		<div class="p-showcaseslider">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-cloudfinder-before.png" alt="Skedio android app before ux research"/>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/p-cloudfinder-after.png" alt="Skedio android app after ux research improvements"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/cloudfinder_after.jpg" alt="Skedio android app after ux research improvements"/>
     </div>
     <h3>Cloudfinder desktop app before and after conducting User Research</h3>
 	</div>
@@ -239,13 +183,11 @@ Template Name: PORTFOLIO
 			<div class="p-shopwellslider">
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-before1.png" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-after-1.jpg" alt="Skedio android app after ux research improvements"/>
-	      <h3>holis</h3>
 	    </div>
     
 	    <div class="p-shopwellslider">
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-before2.jpg" alt="Skedio android app before ux research"/>
 	      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/breakthrough-after-2.png" alt="Skedio android app after ux research improvements"/>
-	      <h3>holis</h3>
 	    </div>
 	    
 	    <div class="p-cs-item-caption">
@@ -310,6 +252,15 @@ Template Name: PORTFOLIO
     <h3>Anchor desktop app before and after conducting User Research</h3>
 	</div>
 	
+	<div class="p-cs-bfaf singleproject">
+		<div class="p-doubleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/anchor_after4.jpg" alt="Skedio android app before ux research"/>
+      
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/anchor_after5.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>Mobile UI</h3>
+	</div>
+	
 	<div class="p-cs-improvements">
 		<h2>Our UX Improvement:</h2>
 		<ul>
@@ -324,6 +275,134 @@ Template Name: PORTFOLIO
 	
 </section>
 
+<section class="cogia p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>Cogia Intelligence</h2>
+			<div class="p-test-desc">
+			Cogia Intelligence is a web and social media monitoring system.
+			</div>
+		</div>
+		<div class="p-test-challenge">
+			<h3>Challenge:</h3>
+			Discover how to improve the informa on structure in the Cogia Intelligence App.
+		</div>
+	</div>
+	
+	<div class="p-cs-research">
+		<h2>Research Process</h2>
+		
+		<div class="p-cs-method">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/cogiaaffinity2.jpg" />
+			<h2>Elito Method</h2>
+			<p>We used the Elito Method to categorize user research observations and define main insights that can improve the Cogia experience.</p>
+		</div>
+	</div>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-showcaseslider">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/cogia_before.png" alt="Skedio android app before ux research"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/cogia_after.png" alt="Skedio android app after ux research improvements"/>
+    </div>
+    <h3>Cogia Intelligence desktop app before and after conducting User Research</h3>
+	</div>
+	
+	<div class="p-cs-improvements">
+		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>Workspaces to distill data from top-down (general to specific)</li>
+			<li>Default Dashboards and Widgets</li>
+			<li>Feedback from the system</li>
+		</ul>
+	</div>
+	
+</section>
+
+<section class="aeries p-cs-block">
+	<div class="p-cs-hero">
+		<div class="p-test-hero-bg"></div>
+		<div class="p-test-hero-content">
+			<h2>Aeries</h2>
+			<div class="p-test-desc">
+			Aeries is a student data management system so ware that grants complete and immediate access to educational information.
+			</div>
+		</div>
+		<div class="p-test-challenge">
+			<h3>Challenge:</h3>
+			Undercover how parents would make sense of the information available in the system.
+		</div>
+	</div>
+	
+	<div class="p-cs-research">
+		<h2>Research Process</h2>
+		
+		<div class="p-cs-method">
+			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/cardsorting1.png" />
+			<h2>Card Sorting</h2>
+			<p>We used card sorting to guide users to generate a category tree and analyze how they arranged and interpret the system’s information.</p>
+		</div>
+	</div>
+	
+	<div class="p-cs-bfaf">
+		<h2>Before & After</h2>
+		<div class="p-showcaseslider">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/aeries_before.png" alt="Skedio android app before ux research"/>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/aeries_after.png" alt="Skedio android app after ux research improvements"/>
+    </div>
+    <h3>Aeries desktop app before and after conducting User Research</h3>
+	</div>
+	
+	<div class="p-cs-improvements">
+		<h2>Our UX Improvement:</h2>
+		<ul>
+			<li>The final implementa on phase was done in HTML and CSS for liquid responsive design for desktop and mobile devices.</li>
+		</ul>
+	</div>
+	
+</section>
+
+<section class="p-cs-block">
+	<div class="p-cs-bfaf singleproject">
+		<h2>Matchclick</h2>
+		<div class="p-singleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_matchlick.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>From branding to implementation.</h3>
+	</div>
+</section>
+
+<section class="p-cs-block">
+	<div class="p-cs-bfaf singleproject">
+		<h2>SalesCaddy</h2>
+		<div class="p-singleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_salescaddy.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>New User Interface by UX Team.</h3>
+	</div>
+</section>
+
+<section class="p-cs-block">
+	<div class="p-cs-bfaf singleproject">
+		<h2>Incroud</h2>
+		<div class="p-doubleimage">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_mobileINCrowd1.jpg" alt="Skedio android app before ux research"/>
+      
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/ui_mobileINCrowd2.jpg" alt="Skedio android app before ux research"/>
+    </div>
+    <h3>New User Interface by UX Team.</h3>
+	</div>
+</section>
+
+<section class="p-cs-block p-thankyou">
+	<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ns-ux-team.jpg" />
+	<div class="thankyou-msg">
+		<dir  class="bug"></dir>
+		<h2>Thank You!</h2>
+		<a href="mailto:svazquez@nearsoft.com">svazquez@nearsoft.com</a>
+	</div>
+</section>
 
 <script>
   $(window).load(function() {
@@ -336,24 +415,6 @@ Template Name: PORTFOLIO
     $(".p-showcaseslider").twentytwenty();
   });
 </script>
-
-<section class="p-register">
-	<h2>Did you like what you saw?</h2>
-	<h3>Leave us your info for full portfolio</h3>
-	
-	<div class="signupform">
-		
-		<form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-sandra-portfolio.php" method="post">
-
-      <p class="error"></p>
-      <input type="text" id="name" name="name" placeholder="Name">
-      <input type="text" id="email" name="email" placeholder="Email:"></input>
-      
-      <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
-      <input type="button" value="Let's Talk" onclick="requestSubmit()" class="contactform-submit">
-    </form>
-	</div>
-</section>
 
 
 
