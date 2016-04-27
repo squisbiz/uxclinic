@@ -22,13 +22,13 @@ Template Name: LANDING PAGE WORKSHOP
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-	
+
 	<meta property="og:url"                content="http://ux.nearsoft.com/workshop/" />
 	<meta property="og:type"               content="website" />
 	<meta property="og:title"              content="Mapea tus servicios, haz felices a tus clientes" />
 	<meta property="og:description"        content="Descubre oportunidades para empatar tu modelo de negocios con la experiencia de tus usuarios." />
 	<meta property="og:image"              content="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/img/uxteam-share.png" />
-	
+
 
 	<title>
 		<?php
@@ -56,14 +56,14 @@ Template Name: LANDING PAGE WORKSHOP
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.colorbox-min.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bxslider/jquery.bxslider.js"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/jquery.bxslider.css" />
-	
+
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.event.move.js"></script>
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.twentytwenty.js"></script>
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/twentytwenty.css" />
-  
+
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal.css">
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal-default-theme.css">
-  	
+
 
 	<?php wp_head() ?>
 
@@ -93,7 +93,7 @@ Template Name: LANDING PAGE WORKSHOP
 </head>
 
 <body <?php body_class(); ?> id="body">
-  
+
 <div class="social-share">
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -108,7 +108,7 @@ Template Name: LANDING PAGE WORKSHOP
   <a class="buttons twitter-share-button" href="https://twitter.com/intent/tweet?text=We%20help%20software%20companies%20accelerate%20their%20business%20by%20powering%20up%20their%20user%20experience http://ux.nearsoft.com" target="_blank"></a>
 </div>
 
-  
+
 <div class="wrapper">
 	<header>
   <a href="<?php echo home_url(); ?>">
@@ -129,13 +129,13 @@ Template Name: LANDING PAGE WORKSHOP
     </ul>
   </nav>
 	</header>
-	
-<!-- header ends here -->	
-	
-	
-	
-	
-	
+
+<!-- header ends here -->
+
+
+
+
+
 
 <section class="e-hero uxworkshop">
   <div class="uxworkshop-label">taller de UX</div>
@@ -155,8 +155,8 @@ Template Name: LANDING PAGE WORKSHOP
 <section class="e-can uxcontent">
   <h2>¿Por qué asistir al Taller?</h2>
 <ul>
-<li>Crearas una experiencia de usuario positiva, que te ayudara a mantener activo el crecimiento y lealtad de tus clientes.</li>
-<li>Análizaras tu compañía y aprenderás a detectar los puntos claves de tus procesos y cómo éstos afectan la experiencia tus clientes.</li>
+<li>Crearás una experiencia de usuario positiva, que te ayudará a mantener activo el crecimiento y lealtad de tus clientes.</li>
+<li>Analizarás tu compañía y aprenderás a detectar los puntos claves de tus procesos y como éstos afectan la experiencia tus clientes.</li>
 <li>Tendrás las herramientas necesarias para diseñar nuevos procesos enfocados en alcanzar tus objetivos de negocio y mejorar la experiencia de usuario.
 </li>
 </ul>
@@ -182,7 +182,7 @@ Template Name: LANDING PAGE WORKSHOP
       <div class="content-container">
         <h3>Diana Arvayo</h3>
         <h4>UX Researcher</h4>
-        <p>Diana is an expert designing research-based experiences and solutions, bringing to life what users expect and service providers need.</p>
+        <p>Diana es experta diseñando experiencias y soluciones basadas en investigación, atendiendo tanto las necesidades del usuario como los objetivos de negocio.</p>
         <div class="social-box">
           <a href="https://mx.linkedin.com/in/darvayo/en" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="http://twitter.com/dianonina" target="_blank"><div class="social-link twitter"></div></a>
@@ -212,7 +212,7 @@ Template Name: LANDING PAGE WORKSHOP
       <div class="content-container">
         <h3>Denisse Gutiérrez</h3>
         <h4>UX Researcher</h4>
-        <p>Denisse has a human centered design approach to products. She thrives to understand how users interact with products to create a positive experience.</p>
+        <p>Denisse se enfoca en el diseño centrado en el usuario para planear y lanzar productos de software con una experiencia agradable y positiva.</p>
         <div class="social-box">
           <a href="https://www.linkedin.com/in/neniza" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="http://twitter.com/neniza_" target="_blank"><div class="social-link twitter"></div></a>
