@@ -140,7 +140,10 @@ Template Name: LANDING PAGE WORKSHOP
 <section class="e-hero uxworkshop">
   <div class="uxworkshop-label">taller de UX</div>
   <h1>Mapea tus Servicios, Haz felices a tus Clientes<span>Descubre oportunidades para empatar tu modelo de negocios con la experiencia de tus usuarios.</span></h1>
-  <a href="https://mapea-tus-servicios.boletia.com/" class="boleto-submit">Comprar Boleto</a>
+  <!-- <a href="https://mapea-tus-servicios.boletia.com/" class="boleto-submit">Comprar Boleto</a> -->
+  <div class="soldout">
+<img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/04/sold-out-1.png">
+  </div>
   <div class="date"><span>Fecha:</span>Jueves 28 de Abril  -  6 pm a 9 pm  <span>Lugar:</span> Nearsoft  CDMX</div>
 </section>
 <section class="catapulta">
