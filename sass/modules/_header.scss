@@ -4,7 +4,7 @@ header {
   right: 0;
   left: 0;
   overflow: hidden;
-  padding: 0 calc(54% - 625px);
+  padding: 0 calc(50% - 500px);
   padding-top: 35px;
   height: 75px;
   background-color: #fff;
@@ -18,7 +18,7 @@ header .logo {
   height: 55px;
   background: url(../img/ux-clinic-design-logo.png) no-repeat;
   background-size: cover;
-  margin: 0 0 0 28px;
+  margin: 0 0 0 0px;
 }
 
 .home {
@@ -184,8 +184,4 @@ nav {
     display: block;
     margin-right: 30px;
   }
-}
-
-.divdeprueba {
-    display: block;
 }
