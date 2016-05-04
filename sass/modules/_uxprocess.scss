@@ -171,12 +171,32 @@
 
 .onlytitle {
 	padding: 30px calc(50% - 500px) 30px calc(50% - 500px);
+	position: relative;
+}
+
+.onlytitle:after {
+	content: '';
+	width: 30px;
+	height: 18px;
+	background: url(../img/portfolio/triangle.png) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	bottom: -14px;
+	z-index: 9;
+	transform: rotate(180deg);
 }
 
 .onlytitle h2 {
 	color: #6b6b6b;
   font-size: 34px;
   font-weight: 400;
+}
+
+.onlytitle h2 span {
+	color: #f37a29;
+  font-size: 34px;
+  font-weight: 400;
+  font-style: italic;
 }
 
 

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: LANDING PAGE WORKSHOP SANDRA
+Template Name: WORKSHOP SANDRA
 */
 ?>
 
@@ -22,13 +22,13 @@ Template Name: LANDING PAGE WORKSHOP SANDRA
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-	
+
 	<meta property="og:url"                content="http://ux.nearsoft.com/workshop/" />
 	<meta property="og:type"               content="website" />
 	<meta property="og:title"              content="Mapea tus servicios, haz felices a tus clientes" />
 	<meta property="og:description"        content="Descubre oportunidades para empatar tu modelo de negocios con la experiencia de tus usuarios." />
 	<meta property="og:image"              content="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/img/uxteam-share.png" />
-	
+
 
 	<title>
 		<?php
@@ -56,14 +56,14 @@ Template Name: LANDING PAGE WORKSHOP SANDRA
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.colorbox-min.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/bxslider/jquery.bxslider.js"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/jquery.bxslider.css" />
-	
+
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.event.move.js"></script>
   <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.twentytwenty.js"></script>
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/twentytwenty.css" />
-  
+
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal.css">
   <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal-default-theme.css">
-  	
+
 
 	<?php wp_head() ?>
 
@@ -93,22 +93,8 @@ Template Name: LANDING PAGE WORKSHOP SANDRA
 </head>
 
 <body <?php body_class(); ?> id="body">
-  
-<div class="social-share">
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=317016168398979";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
-  <div class="fb-share-button facebook-share-button" data-href="https://ux.nearsoft.com" data-layout="icon"></div>
-  <a class="buttons twitter-share-button" href="https://twitter.com/intent/tweet?text=We%20help%20software%20companies%20accelerate%20their%20business%20by%20powering%20up%20their%20user%20experience http://ux.nearsoft.com" target="_blank"></a>
-</div>
 
-  
 <div class="wrapper">
 	<header>
   <a href="<?php echo home_url(); ?>">
@@ -129,46 +115,49 @@ Template Name: LANDING PAGE WORKSHOP SANDRA
     </ul>
   </nav>
 	</header>
-	
-<!-- header ends here -->	
 
-	
-	
-	
+<!-- header ends here -->
+
+
+
+
+
 
 <section class="e-hero uxworkshop">
-  <div class="uxworkshop-label">taller de UX</div>
-  <h1>Mapea tus Servicios, Haz felices a tus Clientes<span>Descubre oportunidades para empatar tu modelo de negocios con la experiencia de tus usuarios.</span></h1>
-  <a href="https://mapea-tus-servicios.boletia.com/" class="boleto-submit">Comprar Boleto</a>
-  <div class="date"><span>Fecha:</span>Jueves 28 de Abril  -  6 pm a 9 pm  <span>Lugar:</span> Nearsoft  CDMX</div>
+  <div class="uxworkshop-label">UX WORKSHOP</div>
+  <h1>Powerful UX Techniques to Build Desirable Products<span>We'll share our expertise and insights gained from our findings with clients that have helped build more effective products through UX research.</span></h1>
+  <a href="https://www.eventbrite.com/e/powerful-ux-techniques-to-build-desirable-products-tickets-25007730796" class="boleto-submit">Buy Tickets</a>
+<!--
+  <div class="soldout">
+<img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/04/sold-out-1.png">
+  </div>
+-->
+  <div class="date"><span>Date:</span>Thursday, May 12  -  6:30 PM to 7:30 PM (PDT)  <span>Place:</span> Nomad-A-What - 639 Clay St, San Francisco , California</div>
 </section>
 <section class="catapulta">
-  <h1>En colaboración con:</h1>
+  <h1>In collaboration with:</h1>
   <div class="logos">
-<!--     <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ns-logo.png"> -->
-    <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/ebc-logo.png">
-    <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/03/catapulta-logo.png">
+    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/logo-nomad.png">
   </div>
 </section>
 
 <section class="e-can uxcontent">
   <h2>¿Por qué asistir al Taller?</h2>
 <ul>
-<li>Crearás una experiencia de usuario positiva, que te ayudará a mantener activo el crecimiento y lealtad de tus clientes.</li>
-<li>Analizarás tu compañía y aprenderás a detectar los puntos claves de tus procesos y como estos afectan la experiencia tus clientes.</li>
-<li>Tendrás las herramientas necesarias para diseñar nuevos procesos enfocados en alcanzar tus objetivos de negocio y mejorar la experiencia de usuario.
-</li>
+	<li>You'll create a positive user experience, that will help you maintain an active growth and loyalty of your clients.</li>
+	<li>You'll analyse your company and learn to detect the key points of your processes and how these affect your clients experience.</li>
+	<li>You'll have the right tools to design new processes focused on reaching your business goals and improve your user experience.</li>
 </ul>
 </section>
 
 <section class="e-can uxcontent">
   <h2>Objetivos del programa</h2>
 <ul>
-<li>A hacer visibles los puntos de interacción de tus clientes con tu producto.</li>
-<li>Detectar oportunidades de mejora en tu proceso.</li>
-<li>Hacer <i>brainstorming</i> en equipo e iterar antes de implementar cambios.</li>
-<li>Interpretar resultados de investigación con argumentos de diseño.</li>
-<li>Alinear tus objetivos de negocio con la experiencia de tus usuarios.</li>
+<li>Making the interaction points of your clients with your product visible.</li>
+<li>Detect improvement opportunities on your process.</li>
+<li>Make brainstorming in teams and iterate before implementing changes.</li>
+<li>Interpret results of your research with design arguments.</li>
+<li>Align business objectives with your users experience.</li>
 </ul>
 </section>
 
@@ -176,33 +165,19 @@ Template Name: LANDING PAGE WORKSHOP SANDRA
   <h2>Instructores</h2>
 <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-designer-diana.jpg" />
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-business-developer-sandra.png" />
     </div>
       <div class="content-container">
-        <h3>Diana Arvayo</h3>
-        <h4>UX Researcher</h4>
-        <p>Diana es experta diseñando experiencias y soluciones basadas en investigación, atendiendo tanto las necesidades del usuario como los objetivos de negocio.</p>
+        <h3>Sandra Vazquez</h3>
+        <h4>Business Developer</h4>
+        <p>Sandra is a business developer, her main strength is company growth with a focus on product development.</p>
         <div class="social-box">
-          <a href="https://mx.linkedin.com/in/darvayo/en" target="_blank"><div class="social-link linkedin"></div></a>
-          <a href="http://twitter.com/dianonina" target="_blank"><div class="social-link twitter"></div></a>
+          <a href="https://www.linkedin.com/in/sandradanielav" target="_blank"><div class="social-link linkedin"></div></a>
+          <a href="https://twitter.com/sandra_daniela" target="_blank"><div class="social-link twitter"></div></a>
         </div>
       </div>
   </div>
 
-  <div class="ux-expert-card">
-    <div class="ux-expert-card-picture">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ui-designer-miguel.jpg" />
-    </div>
-      <div class="content-container">
-        <h3>Miguel Medina</h3>
-        <h4>UX/UI Designer</h4>
-        <p>Miguel tiene más de 5 años de experiencia construyendo sitios web. Su objetivo es crear interfaces funcionales y atractivas, atendiendo a las necesidades de los usuarios.</p>
-        <div class="social-box">
-          <a href="https://www.linkedin.com/in/miguel-angel-medina-fontes-9b818a4a" target="_blank"><div class="social-link linkedin"></div></a>
-          <a href="http://twitter.com/MiigueelMediina" target="_blank"><div class="social-link twitter"></div></a>
-        </div>
-      </div>
-  </div>
 
    <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
@@ -211,7 +186,8 @@ Template Name: LANDING PAGE WORKSHOP SANDRA
       <div class="content-container">
         <h3>Denisse Gutiérrez</h3>
         <h4>UX Researcher</h4>
-        <p>Denisse se enfoca en el diseño centrado en el usuario para planear y lanzar productos de software con una experiencia agradable y positiva.</p>
+        <p>Denisse is a User Experience researcher with over 10 years of experience in software technology and advertising industries.
+She make a product or service more lovable with human centered design.</p>
         <div class="social-box">
           <a href="https://www.linkedin.com/in/neniza" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="http://twitter.com/neniza_" target="_blank"><div class="social-link twitter"></div></a>

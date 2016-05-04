@@ -62,8 +62,7 @@ Template Name: PORTFOLIO REQUEST
 </section>
 
 <section class="onlytitle">
-<h2>We have done</h2>
-	
+	<h2>We have <span>Increased User Retention</span></h2>
 </section>
 
 <section class="shopwell p-cs-block">
@@ -132,6 +131,9 @@ Template Name: PORTFOLIO REQUEST
 	
 </section>
 
+<section class="onlytitle">
+	<h2>We have <span>Discovered how to improve information structure</span></h2>
+</section>
 
 <section class="cogia p-cs-block">
 	<div class="p-cs-hero">
@@ -178,6 +180,21 @@ Template Name: PORTFOLIO REQUEST
 	
 </section>
 
+
+<div class="ux-p-hero">
+	<span>Request our portfolio</span>
+	
+	<div class="request-form">
+      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send.php" method="post">
+        <p class="error"></p>
+        <input type="text" class="name" id="name" name="name" placeholder="Name">
+        <input type="text" class="email" id="email" name="email" placeholder="E-mail">
+        <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
+        <input type="button" value="Request" class="button" onclick="requestSubmit()"><a href="#" class="close"><i class="icon-remove"></i></a>
+        <input type="hidden" id="company" name="company" value="nearsoft">
+      </form>
+  </div>
+</div>
 
 
 
