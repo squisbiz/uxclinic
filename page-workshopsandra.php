@@ -144,7 +144,7 @@ Template Name: WORKSHOP SANDRA
 <section class="e-can uxcontent">
   <h2>Why attend the talk?</h2>
   
-  <p>Are you building a startup and want to improve users' conversion and/or retention?<br>
+  <p>Are you building a startup and want to improve users' conversion and/or retention?<br><br>
 Join members of Nearsoft's UX Team to learn about the most common UX mistakes companies make that lead to poor service for their end customers.  We'll share our expertise and insights gained from our findings with clients that have helped build more effective products through UX research.</p>
 
 
