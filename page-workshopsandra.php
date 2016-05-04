@@ -126,13 +126,13 @@ Template Name: WORKSHOP SANDRA
 <section class="e-hero uxworkshop">
   <div class="uxworkshop-label">UX WORKSHOP</div>
   <h1>Powerful UX Techniques to Build Desirable Products<span>We'll share our expertise and insights gained from our findings with clients that have helped build more effective products through UX research.</span></h1>
-  <a href="https://www.eventbrite.com/e/powerful-ux-techniques-to-build-desirable-products-tickets-25007730796" class="boleto-submit">Buy Tickets</a>
+  <a href="https://www.eventbrite.com/e/powerful-ux-techniques-to-build-desirable-products-tickets-25007730796" class="boleto-submit">Save your spot!</a>
 <!--
   <div class="soldout">
 <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/04/sold-out-1.png">
   </div>
 -->
-  <div class="date"><span>Date:</span>Thursday, May 12  -  6:30 PM to 7:30 PM (PDT)  <span>Place:</span> Nomad-A-What - 639 Clay St, San Francisco , California</div>
+  <div class="date"><span>Date:</span>Thursday, May 12  -  6:30 PM to 7:30 PM  <span>Place:</span> Nomad-A-What - 639 Clay St, San Francisco , California</div>
 </section>
 <section class="catapulta">
   <h1>In collaboration with:</h1>
@@ -143,12 +143,20 @@ Template Name: WORKSHOP SANDRA
 
 <section class="e-can uxcontent">
   <h2>Why attend the workshop?</h2>
+  
+  <p>Are you building a startup and want to improve users' conversion and/or retention?<br>
+Join members of Nearsoft's UX Team to learn about the most common UX mistakes companies make that lead to poor service for their end customers.  We'll share our expertise and insights gained from our findings with clients that have helped build more effective products through UX research.</p>
+
+
+<!--
 <ul>
 	<li>You'll create a positive user experience, that will help you maintain an active growth and loyalty of your clients.</li>
 	<li>You'll analyse your company and learn to detect the key points of your processes and how these affect your clients experience.</li>
 	<li>You'll have the right tools to design new processes focused on reaching your business goals and improve your user experience.</li>
 </ul>
+-->
 </section>
+<!--
 
 <section class="e-can uxcontent">
   <h2>Program Objectives</h2>
@@ -160,6 +168,7 @@ Template Name: WORKSHOP SANDRA
 <li>Align business objectives with your users experience.</li>
 </ul>
 </section>
+-->
 
 <section class=" e-can experts">
   <h2>Instructors</h2>

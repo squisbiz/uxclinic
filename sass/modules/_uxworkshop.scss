@@ -386,6 +386,7 @@
 		padding: 10px 20px;
 		position: relative;
 		margin-left: -200px;
+		visibility: hidden;
 
 		 &:after {
 			content: 'By: Nearsoft’s UX Team';
@@ -416,6 +417,7 @@
 			margin: 0 auto;
 			line-height: 27px;
 			margin-top: 20px;
+			visibility: hidden;
 		}
 	}
 
@@ -427,11 +429,20 @@
   section.uxcontent {
 
 	border-bottom: 1px solid #e4e4e4;
+	
+	p {
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+    margin: 25px auto;
+    color: #686868;
+	}
 
   	ul {
-	list-style-type: none;
-	margin: 0;
-    padding: 0;
+			list-style-type: none;
+			margin: 0;
+	    padding: 0;
 
   		li {
 
@@ -461,6 +472,7 @@
 	}
 
 	p {
+/*
 		font-size: 18px !important;
 		line-height: 30px;
 		text-align: justify;
@@ -468,6 +480,15 @@
 		margin: 0 auto;
 		font-family: 'PT Sans', sans-serif;
 		color: #747474;
+*/
+		position: relative;
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+    margin: 25px auto;
+    color: #686868;
+    line-height: 30px;
+		
   	}
   }
 

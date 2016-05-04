@@ -181,6 +181,7 @@ Template Name: PORTFOLIO REQUEST
 </section>
 
 
+<!--
 <div class="ux-p-hero">
 	<span>Request our portfolio</span>
 	
@@ -195,6 +196,19 @@ Template Name: PORTFOLIO REQUEST
       </form>
   </div>
 </div>
+-->
+
+<script>
+  $(window).load(function() {
+    $(".p-shopwellslider").twentytwenty();
+  });
+</script>
+
+<script>
+  $(window).load(function() {
+    $(".p-showcaseslider").twentytwenty();
+  });
+</script>
 
 
 
