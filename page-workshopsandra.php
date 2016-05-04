@@ -142,7 +142,7 @@ Template Name: WORKSHOP SANDRA
 </section>
 
 <section class="e-can uxcontent">
-  <h2>¿Por qué asistir al Taller?</h2>
+  <h2>Why attend the workshop?</h2>
 <ul>
 	<li>You'll create a positive user experience, that will help you maintain an active growth and loyalty of your clients.</li>
 	<li>You'll analyse your company and learn to detect the key points of your processes and how these affect your clients experience.</li>
@@ -151,7 +151,7 @@ Template Name: WORKSHOP SANDRA
 </section>
 
 <section class="e-can uxcontent">
-  <h2>Objetivos del programa</h2>
+  <h2>Program Objectives</h2>
 <ul>
 <li>Making the interaction points of your clients with your product visible.</li>
 <li>Detect improvement opportunities on your process.</li>
@@ -162,7 +162,7 @@ Template Name: WORKSHOP SANDRA
 </section>
 
 <section class=" e-can experts">
-  <h2>Instructores</h2>
+  <h2>Instructors</h2>
 <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-business-developer-sandra.png" />
