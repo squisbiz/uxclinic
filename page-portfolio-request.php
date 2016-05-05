@@ -62,7 +62,7 @@ Template Name: PORTFOLIO REQUEST
 </section>
 
 <section class="onlytitle">
-	<h2>We have <span>Increased User Retention</span></h2>
+	<h2>We have helped companies like</h2>
 </section>
 
 <section class="shopwell p-cs-block">
@@ -80,6 +80,7 @@ Template Name: PORTFOLIO REQUEST
 		</div>
 	</div>
 	
+<!--
 	<div class="p-cs-research">
 		<h2>Research Process</h2>
 		
@@ -97,6 +98,7 @@ Template Name: PORTFOLIO REQUEST
 			</div>
 		</div>
 	</div>
+-->
 	
 	<div class="p-cs-bfaf">
 		<h2>Before & After</h2>
@@ -121,6 +123,7 @@ Template Name: PORTFOLIO REQUEST
 		</div>
 	</div>
 	
+<!--
 	<div class="p-cs-improvements">
 		<h2>Our UX Improvement:</h2>
 		<ul>
@@ -128,12 +131,15 @@ Template Name: PORTFOLIO REQUEST
 			<li>Social validation</li>
 		</ul>
 	</div>
+-->
 	
 </section>
 
+<!--
 <section class="onlytitle">
 	<h2>We have <span>Discovered how to improve information structure</span></h2>
 </section>
+-->
 
 <section class="cogia p-cs-block">
 	<div class="p-cs-hero">
@@ -146,11 +152,12 @@ Template Name: PORTFOLIO REQUEST
 		</div>
 		<div class="p-test-challenge">
 			<h3>Challenge:</h3>
-			Discover how to improve the informa on structure in the Cogia Intelligence App.
+			Discover how to improve the information structure in the Cogia Intelligence App.
 		</div>
 	</div>
 	
-	<div class="p-cs-research">
+	<!--
+<div class="p-cs-research">
 		<h2>Research Process</h2>
 		
 		<div class="p-cs-method">
@@ -159,6 +166,7 @@ Template Name: PORTFOLIO REQUEST
 			<p>We used the Elito Method to categorize user research observations and define main insights that can improve the Cogia experience.</p>
 		</div>
 	</div>
+-->
 	
 	<div class="p-cs-bfaf">
 		<h2>Before & After</h2>
@@ -169,6 +177,7 @@ Template Name: PORTFOLIO REQUEST
     <h3>Cogia Intelligence desktop app before and after conducting User Research</h3>
 	</div>
 	
+<!--
 	<div class="p-cs-improvements">
 		<h2>Our UX Improvement:</h2>
 		<ul>
@@ -177,6 +186,7 @@ Template Name: PORTFOLIO REQUEST
 			<li>Feedback from the system</li>
 		</ul>
 	</div>
+-->
 	
 </section>
 
@@ -211,6 +221,25 @@ Template Name: PORTFOLIO REQUEST
 </script>
 
 
+
+
+
+<div class="ux-p-hero ux-p-hero-request">
+	<h3>See how we have helped this and other companies</h3>
+	<span>Request our portfolio</span>
+	
+	<div class="request-form">
+      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send.php" method="post">
+        <p class="error"></p>
+        <input type="text" class="name" id="name" name="name" placeholder="Name">
+        <input type="text" class="email" id="email" name="email" placeholder="E-mail">
+        <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
+        <input type="button" value="Request" class="button" onclick="requestSubmit()"><a href="#" class="close"><i class="icon-remove"></i></a>
+        <input type="hidden" id="company" name="company" value="nearsoft">
+      </form>
+  </div>
+	
+</div>
 
 
 
