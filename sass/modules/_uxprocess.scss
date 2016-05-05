@@ -200,6 +200,72 @@
 }
 
 
+@media (max-width: 1024px) {
+	.ux-p-hero {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.timelinebar {
+		display: none;
+	}
+	
+	.ux-p-process-single .process {
+		width: calc(100% - 185px);
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.onlytitle,
+	.ux-p-process {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+
+@media (max-width: 700px) {
+	.ux-p-hero h1 {
+		width: 100%;
+	}
+	
+	.p-shopwellslider {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.request-form input[type='text'],
+	.request-form input[type='button'] {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	
+	.ux-p-hero h1 {
+		font-size: 48px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.icon-button {
+		width: 45px;
+		height: 45px;
+		margin-top: 15px;
+	}
+	
+	.ux-p-process-single .process {
+		width: calc(100% - 160px);
+		margin-left: 25px;
+	}
+	
+}
+
+
+
 
 
 
