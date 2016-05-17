@@ -23,7 +23,7 @@ Template Name: PORTFOLIO REQUEST
 </div>
 
 <section class="ux-p-process">
-	<h2>Our UX Process</h2>
+	<h2>Our User Experience Process</h2>
 	
 	<div class="timelinebar"></div>
 	
