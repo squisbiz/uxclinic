@@ -23,7 +23,7 @@
 		wp_title( ' ', true, 'right' );
 		$site_description = get_bloginfo( 'description', 'display' );
 		if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " UX Team by Nearsoft | $site_description";
+		echo " $site_description";
 		?>
 	</title>
 
