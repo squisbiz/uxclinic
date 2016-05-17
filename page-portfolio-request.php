@@ -47,7 +47,7 @@ Template Name: PORTFOLIO REQUEST
 		<div class="icon-button button-03"></div>
 		<div class="process">
 			<h2>Outcome</h2>
-			<p>We deliver US interface design that include UI high fidelity mockups as well as a styleguide ready to implement for you development team. Also, all of our work and findings are (plasmados) at report and presented to at a presentation.</p>
+			<p>We deliver UX interface design that include UI high fidelity mockups as well as a styleguide ready to implement for you development team. Also, all of our work and findings are (plasmados) at report and presented to at a presentation.</p>
 		</div>
 	</div>
 	
