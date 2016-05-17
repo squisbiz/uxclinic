@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Thank you portfolio
+Template Name: Thank you portfolio request
 */
 ?>
 <?php get_header(); ?>
