@@ -979,6 +979,15 @@ section.p-cs-block {
 	.p-register {
 		padding-bottom: 360px;
 	}
+	
+	.ux-p-hero-request {
+		padding-bottom: 360px!important;
+	}
+	
+	.request-form input[type='button'] {
+		width: calc(33% - 36px)!important;
+	}
+	
 }	
 
 
@@ -1102,7 +1111,7 @@ section.p-cs-block {
 	}
 	
 	.p-cs-bfaf {
-		padding-top: 0;
+		padding-top: 30px;
 	}
 	
 	.p-register .signupform input[type='text'] {
@@ -1136,6 +1145,10 @@ section.p-cs-block {
 	
 	.p-doubleimage img {
 		width: 90%;
+	}
+	
+	.request-form input[type='button'] {
+		width: 100%!important;
 	}
 }
 

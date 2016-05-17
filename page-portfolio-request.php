@@ -6,11 +6,11 @@ Template Name: PORTFOLIO REQUEST
 <?php get_header(); ?>
 
 <div class="ux-p-hero">
-	<h1>Would you like to know how we have helped several software companies?</h1>
+	<h1>You built it, now lets improve that UX to ramp up your sales</h1>
 	<span>Request our portfolio</span>
 	
 	<div class="request-form">
-      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send.php" method="post">
+      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-req.php" method="post">
         <p class="error"></p>
         <input type="text" class="name" id="name" name="name" placeholder="Name">
         <input type="text" class="email" id="email" name="email" placeholder="E-mail">
@@ -80,26 +80,6 @@ Template Name: PORTFOLIO REQUEST
 		</div>
 	</div>
 	
-<!--
-	<div class="p-cs-research">
-		<h2>Research Process</h2>
-		
-		<div class="p-cs-method-container">
-			<div class="p-cs-method-half">
-				<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_002.jpg" />
-				<h2>Remote Moderated Research</h2>
-				<p>We conducted a Remote Moderated Research asking users a set of questions regarding how they feel and interact with the app.</p>
-			</div>
-		
-			<div class="p-cs-method-half">
-				<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/ShopWellAnalyzed_004.jpg" />
-				<h2>Card Sorting</h2>
-				<p>And also, we did an activity called Card Sorting where users choose what features are most valuable for them.</p>
-			</div>
-		</div>
-	</div>
--->
-	
 	<div class="p-cs-bfaf">
 		<h2>Before & After</h2>
 		<div class="p-showcase-container">
@@ -123,23 +103,8 @@ Template Name: PORTFOLIO REQUEST
 		</div>
 	</div>
 	
-<!--
-	<div class="p-cs-improvements">
-		<h2>Our UX Improvement:</h2>
-		<ul>
-			<li>Personalized content for users</li>
-			<li>Social validation</li>
-		</ul>
-	</div>
--->
-	
 </section>
 
-<!--
-<section class="onlytitle">
-	<h2>We have <span>Discovered how to improve information structure</span></h2>
-</section>
--->
 
 <section class="cogia p-cs-block">
 	<div class="p-cs-hero">
@@ -156,18 +121,6 @@ Template Name: PORTFOLIO REQUEST
 		</div>
 	</div>
 	
-	<!--
-<div class="p-cs-research">
-		<h2>Research Process</h2>
-		
-		<div class="p-cs-method">
-			<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio/cogiaaffinity2.jpg" />
-			<h2>Elito Method</h2>
-			<p>We used the Elito Method to categorize user research observations and define main insights that can improve the Cogia experience.</p>
-		</div>
-	</div>
--->
-	
 	<div class="p-cs-bfaf">
 		<h2>Before & After</h2>
 		<div class="p-showcaseslider">
@@ -177,36 +130,8 @@ Template Name: PORTFOLIO REQUEST
     <h3>Cogia Intelligence desktop app before and after conducting User Research</h3>
 	</div>
 	
-<!--
-	<div class="p-cs-improvements">
-		<h2>Our UX Improvement:</h2>
-		<ul>
-			<li>Workspaces to distill data from top-down (general to specific)</li>
-			<li>Default Dashboards and Widgets</li>
-			<li>Feedback from the system</li>
-		</ul>
-	</div>
--->
-	
 </section>
 
-
-<!--
-<div class="ux-p-hero">
-	<span>Request our portfolio</span>
-	
-	<div class="request-form">
-      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send.php" method="post">
-        <p class="error"></p>
-        <input type="text" class="name" id="name" name="name" placeholder="Name">
-        <input type="text" class="email" id="email" name="email" placeholder="E-mail">
-        <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
-        <input type="button" value="Request" class="button" onclick="requestSubmit()"><a href="#" class="close"><i class="icon-remove"></i></a>
-        <input type="hidden" id="company" name="company" value="nearsoft">
-      </form>
-  </div>
-</div>
--->
 
 <script>
   $(window).load(function() {
@@ -229,7 +154,7 @@ Template Name: PORTFOLIO REQUEST
 	<span>Request our portfolio</span>
 	
 	<div class="request-form">
-      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send.php" method="post">
+      <form id="contactrequest" action="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/send-req.php" method="post">
         <p class="error"></p>
         <input type="text" class="name" id="name" name="name" placeholder="Name">
         <input type="text" class="email" id="email" name="email" placeholder="E-mail">
