@@ -3,10 +3,11 @@
 Template Name: PORTFOLIO REQUEST
 */
 ?>
+
 <?php get_header(); ?>
 
 <div class="ux-p-hero">
-	<h1>You built it, now lets improve that UX to ramp up your sales</h1>
+	<h1>You built it, now let's improve that UX to ramp up your sales</h1>
 	<span>Request our portfolio</span>
 	
 	<div class="request-form">
@@ -31,7 +32,7 @@ Template Name: PORTFOLIO REQUEST
 		<div class="icon-button button-01"></div>
 		<div class="process">
 			<h2>Planning</h2>
-			<p>We start by analyzing your product and defining with you the main issue to focus on. Since each product is unique we take this time to deeply understand your needs and select the research method that best suits your product.</p>
+			<p>We analyze your product and define with you the main are we'll focus on. Since each product is unique we take this time to deeply understand your needs. We then select the UX approach that best suits your product.</p>
 		</div>
 	</div>
 	
@@ -39,7 +40,7 @@ Template Name: PORTFOLIO REQUEST
 		<div class="icon-button button-02"></div>
 		<div class="process">
 			<h2>Research</h2>
-			<p>We conduct 1-on-1 feedback session learn what your product is telling your users. We look for insights on how your customer interact with you application. We analyze this information to propose UX solution.</p>
+			<p>We conduct 1-on-1 feedback sessions with your users to discover how they interact with your product. We analyze this information to generate UX improvements.</p>
 		</div>
 	</div>
 	
@@ -47,7 +48,7 @@ Template Name: PORTFOLIO REQUEST
 		<div class="icon-button button-03"></div>
 		<div class="process">
 			<h2>Outcome</h2>
-			<p>We deliver UX interface design that include UI high fidelity mockups as well as a styleguide ready to implement for you development team. Also, all of our work and findings are (plasmados) at report and presented to at a presentation.</p>
+			<p>We deliver detailed documentation of your improvements, including UI High Fidelity Mockups, Styleguide, and Library of assets ready for implementation.</p>
 		</div>
 	</div>
 	
@@ -55,14 +56,14 @@ Template Name: PORTFOLIO REQUEST
 		<div class="icon-button button-04"></div>
 		<div class="process">
 			<h2>Follow Up</h2>
-			<p>If you need extra help to implement the new design we work hand by hand with your development team.</p>
+			<p>If you need it, we will work hand by hand with your development team to implement the new designs enhancements.</p>
 		</div>
 	</div>
 	
 </section>
 
 <section class="onlytitle">
-	<h2>We have helped companies like</h2>
+	<h2>We have helped companies like...</h2>
 </section>
 
 <section class="shopwell p-cs-block">
@@ -71,7 +72,7 @@ Template Name: PORTFOLIO REQUEST
 		<div class="p-test-hero-content">
 			<h2>ShopWell</h2>
 			<div class="p-test-desc">
-			ShopWell is a free website and iPhone/Android app that scores foods on how well they meet your unique needs.
+			A free website and iPhone / Android app that scores foods depending how well they meet people's unique needs.
 			</div>
 		</div>
 		<div class="p-test-challenge">
@@ -98,7 +99,7 @@ Template Name: PORTFOLIO REQUEST
 	    </div>
 	    
 	    <div class="p-cs-item-caption">
-		    <h3>ShopWell homescreen</h3>
+		    <h3>ShopWell Homescreen</h3>
 	    </div>
 		</div>
 	</div>
@@ -112,12 +113,12 @@ Template Name: PORTFOLIO REQUEST
 		<div class="p-test-hero-content">
 			<h2>Cogia Intelligence</h2>
 			<div class="p-test-desc">
-			Cogia Intelligence is a web and social media monitoring system.
+			A web-based app to monitor websites and social media trends.
 			</div>
 		</div>
 		<div class="p-test-challenge">
 			<h3>Challenge:</h3>
-			Discover how to improve the information structure in the Cogia Intelligence App.
+			Reestructure information and layout according to users' expectations.
 		</div>
 	</div>
 	
@@ -127,7 +128,7 @@ Template Name: PORTFOLIO REQUEST
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/cogia_before.png" alt="Skedio android app before ux research"/>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/cogia_after.png" alt="Skedio android app after ux research improvements"/>
     </div>
-    <h3>Cogia Intelligence desktop app before and after conducting User Research</h3>
+    <h3>Cogia Intelligence before and after our UX improvements</h3>
 	</div>
 	
 </section>
@@ -150,7 +151,7 @@ Template Name: PORTFOLIO REQUEST
 
 
 <div class="ux-p-hero ux-p-hero-request">
-	<h3>See how we have helped this and other companies</h3>
+	<h3>See how we have helped these and other companies</h3>
 	<span>Request our portfolio</span>
 	
 	<div class="request-form">

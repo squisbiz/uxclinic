@@ -26,6 +26,7 @@
 	top: -10px;
 	left: 0;
 }
+/*
 
 .ux-p-hero span {
 	padding: 15px 20px;
@@ -36,6 +37,30 @@
 	background: #333;
 	display: inline-block;
 	word-spacing: 4px;
+}
+*/
+
+.ux-p-hero span {
+	padding: 15px 20px;
+	font-weight: 600;
+	color: #FFF;
+	font-size: 20px;
+	text-transform: uppercase;
+// 	background: #333;
+	display: inline-block;
+	word-spacing: 4px;
+	position: relative;
+	padding-left: 0;
+}
+
+.ux-p-hero span:before {
+	position: absolute;
+	content: '';
+	width: 170px;
+	height: 7px;
+	background: #FFF;
+	bottom: -10px;
+	left: 0;
 }
 
 .ux-p-process {
