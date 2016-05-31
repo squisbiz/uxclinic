@@ -2039,6 +2039,16 @@ div.wpcf7-validation-errors,
   width: auto;
 }
 
+.error-404 div h1,
+.confirm-thank div h1 {
+  font-size: 40px;
+  color: #5f6a6f;
+  font-weight: 700;
+  margin: 35px 0 0 0;
+  position: relative;
+  width: auto;
+}
+
 .error-404 div h1:before {
   content: '';
   width: 71px;

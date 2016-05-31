@@ -5,7 +5,7 @@ Template Name: Thank you webinar
 ?>
 <?php get_header(); ?>
 
-  <section class="thankyou-page">
+  <section class="thankyou-page confirm-thank">
   <div>
      <h1>Your spot has been saved!</h1>
      <p>Add this event to your calendar</p>
