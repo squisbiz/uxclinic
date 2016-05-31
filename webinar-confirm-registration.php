@@ -7,8 +7,8 @@ Template Name: Thank you webinar
 
   <section class="thankyou-page">
   <div>
-     <h1>Thanks!</h1>
-     <p>Don't miss the online webinar, add the event to your calendar to be reminded when the time comes.</p>
+     <h1>Your spot has been saved!</h1>
+     <p>Add this event to your calendar</p>
      <a class="button" href="https://plus.google.com/events/c2ioch1ljpogj96enga3ufiqdq4">Add to Calendar</a>
   </div>
   </section>
