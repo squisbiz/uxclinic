@@ -48,9 +48,6 @@ Template Name: WEBINAR
 	<!-- Colorbox, to display a zoomed view of the images -->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorbox.css">
 
-
-
-<!-- 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.js"></script> -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/uxclinic.js"></script>
 	<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.colorbox-min.js"></script>
@@ -89,6 +86,9 @@ Template Name: WEBINAR
 				$(".gallery").colorbox({rel:'Gallery'});
 			});
 		</script>
+		
+		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal.css">
+		<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/remodal-default-theme.css">
 
 </head>
 
@@ -120,32 +120,23 @@ Template Name: WEBINAR
 
 
 
-
-
-
 <section class="e-hero uxworkshop">
   <div class="uxworkshop-label">UX WORKSHOP</div>
   <h1>Impact Your Business Growth Integrating Analytics and UX<span>We'll share our expertise and insights gained from our findings with clients that have helped build more effective products through UX research.</span></h1>
-  <a href="https://www.eventbrite.com/e/powerful-ux-techniques-to-build-desirable-products-tickets-25007730796" class="boleto-submit">Save your spot!</a>
+  <a href="#int-des" class="boleto-submit">Save your spot!</a>
 <!--
   <div class="soldout">
 <img src="http://ux.nearsoft.com/wp/wp-content/uploads/2016/04/sold-out-1.png">
   </div>
 -->
-  <div class="date"><span>Date:</span>Thursday, May 12  -  6:30 PM to 7:30 PM  <span>Place:</span> Nomad-A-What - 639 Clay St, San Francisco , California</div>
-</section>
-<section class="catapulta">
-  <h1>In collaboration with:</h1>
-  <div class="logos">
-    <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/logo-nomad.png">
-  </div>
+  <div class="date"><span>Date:</span>Wednesday,  June 29 - 11:00 AM to 12:00 PM<span>Online Webinar<!-- :</span> Nomad-A-What - 639 Clay St, San Francisco , California --></div>
 </section>
 
+
 <section class="e-can uxcontent">
-  <h2>Why attend the talk?</h2>
+  <h2>Are You Building a Software Product?</h2>
   
-  <p>Are you building a startup and want to improve users' conversion and/or retention?<br><br>
-Join members of Nearsoft's UX Team to learn about the most common UX mistakes companies make that lead to poor service for their end customers.  We'll share our expertise and insights gained from our findings with clients that have helped build more effective products through UX research.</p>
+  <p>In this webinar you will learn how to integrate information from google analytics with UX practices. This way you can learn more from your users and how they interact with your product. This will help you make data driven-decisions when developing your product</p>
 
 
 <!--
@@ -157,7 +148,6 @@ Join members of Nearsoft's UX Team to learn about the most common UX mistakes co
 -->
 </section>
 <!--
-
 <section class="e-can uxcontent">
   <h2>Program Objectives</h2>
 <ul>
@@ -177,9 +167,9 @@ Join members of Nearsoft's UX Team to learn about the most common UX mistakes co
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-business-developer-sandra.png" />
     </div>
       <div class="content-container">
-        <h3>Sandra Vazquez</h3>
-        <h4>Business Developer</h4>
-        <p>Sandra is a business developer, her main strength is company growth with a focus on product development.</p>
+        <h3>Miguel Medina</h3>
+        <h4>UX/UI Designer</h4>
+        <p>Miguel has over five years of experience in the Web Industry. His goal is to create beautiful and functional interfaces that account for users' needs.</p>
         <div class="social-box">
           <a href="https://www.linkedin.com/in/sandradanielav" target="_blank"><div class="social-link linkedin"></div></a>
           <a href="https://twitter.com/sandra_daniela" target="_blank"><div class="social-link twitter"></div></a>
@@ -187,26 +177,78 @@ Join members of Nearsoft's UX Team to learn about the most common UX mistakes co
       </div>
   </div>
 
-
-   <div class="ux-expert-card">
-    <div class="ux-expert-card-picture">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-researcher-denisse.jpg" />
-    </div>
-      <div class="content-container">
-        <h3>Denisse Gutiérrez</h3>
-        <h4>UX Researcher</h4>
-        <p>Denisse is a User Experience researcher with over 10 years of experience in software technology and advertising industries.
-She make a product or service more lovable with human centered design.</p>
-        <div class="social-box">
-          <a href="https://www.linkedin.com/in/neniza" target="_blank"><div class="social-link linkedin"></div></a>
-          <a href="http://twitter.com/neniza_" target="_blank"><div class="social-link twitter"></div></a>
-        </div>
+ <div class="ux-expert-card">
+  <div class="ux-expert-card-picture">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-researcher-denisse.jpg" />
+  </div>
+    <div class="content-container">
+      <h3>Denisse Gutiérrez</h3>
+      <h4>UX Researcher</h4>
+      <p>Denisse is a User Experience Researcher with over ten years of experience in the Software and Advertising Industries. <br>She makes products and services more lovable through Human-Centered Design.</p>
+      <div class="social-box">
+        <a href="https://www.linkedin.com/in/neniza" target="_blank"><div class="social-link linkedin"></div></a>
+        <a href="http://twitter.com/neniza_" target="_blank"><div class="social-link twitter"></div></a>
       </div>
+    </div>
   </div>
 
 </section>
 
 <div class="footer-padding-div"></div>
+
+<div class="remodal" data-remodal-id="int-des" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+  <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+  
+  <h2>Join our UX Team next Jun 29th, to learn how to integrate analytics with UX.</h2>
+  
+  <form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send-webinar.php" method="post">
+
+      <p class="error"></p>
+      <div><input type="text" id="site" class="contactform-name" name="site" placeholder="Name"></div>
+      <div><input type="text" id="email" class="contactform-description" name="email" placeholder="Email:"></input></div>
+      <input type="hidden" name="path" id="path" value="<?php echo $_COOKIE['pathcookie']; ?>">
+      <div class="center"><input type="button" value="Register" onclick="requestSubmit()" class="contactform-submit"></div>
+    </form>
+</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.min.js"><\/script>')</script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/remodal.js"></script>
+
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/remodal.js"></script>
+
+<!-- Events -->
+<script>
+  $(document).on('opening', '.remodal', function () {
+    console.log('opening');
+  });
+
+  $(document).on('opened', '.remodal', function () {
+    console.log('opened');
+  });
+
+  $(document).on('closing', '.remodal', function (e) {
+    console.log('closing' + (e.reason ? ', reason: ' + e.reason : ''));
+  });
+
+  $(document).on('closed', '.remodal', function (e) {
+    console.log('closed' + (e.reason ? ', reason: ' + e.reason : ''));
+  });
+
+  $(document).on('confirmation', '.remodal', function () {
+    console.log('confirmation');
+  });
+
+  $(document).on('cancellation', '.remodal', function () {
+    console.log('cancellation');
+  });
+  
+  $('[data-remodal-id=modal2]').remodal({
+    modifier: 'with-red-theme'
+  });
+</script>
 
 
 
