@@ -23,10 +23,10 @@ Template Name: WEBINAR
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
-	<meta property="og:url"                content="http://ux.nearsoft.com/workshop/" />
+	<meta property="og:url"                content="http://ux.nearsoft.com/impact-your-business-growth-integrating-analytics-and-ux/" />
 	<meta property="og:type"               content="website" />
-	<meta property="og:title"              content="Mapea tus servicios, haz felices a tus clientes" />
-	<meta property="og:description"        content="Descubre oportunidades para empatar tu modelo de negocios con la experiencia de tus usuarios." />
+	<meta property="og:title"              content="Impact your business growth integrating analytics and ux" />
+	<meta property="og:description"        content="In this webinar you will learn how to integrate information from google analytics with UX practices." />
 	<meta property="og:image"              content="http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/img/uxteam-share.png" />
 
 
