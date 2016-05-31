@@ -164,15 +164,15 @@ Template Name: WEBINAR
   <h2>Instructors</h2>
 <div class="ux-expert-card">
     <div class="ux-expert-card-picture">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ux-business-developer-sandra.png" />
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ui-designer-miguel.png" />
     </div>
       <div class="content-container">
         <h3>Miguel Medina</h3>
         <h4>UX/UI Designer</h4>
         <p>Miguel has over five years of experience in the Web Industry. His goal is to create beautiful and functional interfaces that account for users' needs.</p>
         <div class="social-box">
-          <a href="https://www.linkedin.com/in/sandradanielav" target="_blank"><div class="social-link linkedin"></div></a>
-          <a href="https://twitter.com/sandra_daniela" target="_blank"><div class="social-link twitter"></div></a>
+          <a href="https://www.linkedin.com/in/miguel-angel-medina-fontes-9b818a4a" target="_blank"><div class="social-link linkedin"></div></a>
+          <a href="https://twitter.com/MiigueelMediina" target="_blank"><div class="social-link twitter"></div></a>
         </div>
       </div>
   </div>
@@ -199,10 +199,12 @@ Template Name: WEBINAR
 <div class="remodal" data-remodal-id="int-des" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
   <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
   
+  <div class="minilogo"></div>
+  
   <h2>Join our UX Team next Jun 29th, to learn how to integrate analytics with UX.</h2>
   
   <form id="contactrequest" action="<?php echo get_stylesheet_directory_uri(); ?>/send-webinar.php" method="post">
-
+			
       <p class="error"></p>
       <div><input type="text" id="site" class="contactform-name" name="site" placeholder="Name"></div>
       <div><input type="text" id="email" class="contactform-description" name="email" placeholder="Email:"></input></div>

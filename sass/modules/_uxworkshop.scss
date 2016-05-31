@@ -864,6 +864,21 @@
 
 }
 
+.remodal-wrapper h2 {
+	color: #6f6f6f;
+	font-weight: 400;
+	font-size: 34px;
+}
+
+.minilogo {
+	width: 180px;
+	height: 62px;
+	background-image: url(http://ux.nearsoft.com/wp/wp-content/themes/uxclinic/img/ux-clinic-design-logo.png) !important;
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+}
+
 @media (max-width: 1056px) {
 .page-template-page-webinar {
 	.e-showcase, .e-hero, .e-can {
