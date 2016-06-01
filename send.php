@@ -4,7 +4,7 @@ setcookie("pathcookie", '', time()+600, "/", "ux.nearsoft.com");
 if(isset($_POST['email']) && $_SERVER['HTTP_HOST'] == "ux.nearsoft.com") {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "svazquez@nearsoft.com";
+    $email_to = "avega@nearsoft.com";
     $email_subject = "Contact request from ";
 
 
