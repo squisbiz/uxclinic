@@ -78,7 +78,11 @@ src="https://www.facebook.com/tr?id=538049813071125&ev=PageView&noscript=1"
 </head>
 
 <body <?php body_class(); ?> id="body">
-  
+
+<div class="webinarpromo">
+	Dont miss our webinar on how to integrate analytics and UX <a class="subs-btn" href="http://ux.nearsoft.com/impact-your-business-growth-integrating-analytics-and-ux/">Register!</a>
+</div>
+
 <div class="wrapper">
 	<header>
   <a href="<?php echo home_url(); ?>">
