@@ -73,7 +73,6 @@ src="https://www.facebook.com/tr?id=538049813071125&ev=PageView&noscript=1"
 				$(".gallery").colorbox({rel:'Gallery'});
 			});
 		</script>
-		
 
 </head>
 
